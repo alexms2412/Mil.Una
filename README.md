@@ -6,7 +6,7 @@
 
 # Mapa Mental
 
-<p align="center"><img src="https://www.queesunmapamental.com/img/mind-map-example-empathy.png"></p>
+<p align="center"><img src="https://github.com/alexms2412/Mil.Una/blob/main/media/images/Mapa%20Mental.jpeg"></p>
 
 
 # Autores
