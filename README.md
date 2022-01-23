@@ -2,7 +2,7 @@
 
 # Autores
 
-  - Alejandro 
-  - Marc
+  - Alejandro Moreno
+  - Marc García
   - Juan Carlos
-  - Pepe
+  - Pepe López
