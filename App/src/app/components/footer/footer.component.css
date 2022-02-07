@@ -5,3 +5,19 @@ h5 {
 span {
     color: white;
 }
+
+.imitacionIcon {
+    border-radius: 250px;
+    background-color: aliceblue;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+}
+
+.fab {
+    color: white;
+}
+
+.mapa {
+    border-radius: 250px;
+}
