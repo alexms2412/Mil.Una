@@ -13,7 +13,7 @@
   - Alejandro Moreno
   - Marc García
   - Juan Carlos
-  - Pepe López</p>
+  - Pepe López </p>
 
 <p align="right">
  <img src="https://github.com/alexms2412/Mil.Una/blob/main/media/images/logo.jpeg" width="60"
