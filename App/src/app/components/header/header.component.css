@@ -2,6 +2,10 @@
     color: #D13240;
 }
 
+a{
+    color: #D13240;
+}
+
 .txtcolor:hover{
     font-weight: bold;
 }
