@@ -16,22 +16,23 @@
       <ul class="navbar-nav mb-2 mb-lg-0">
 
         <li class="nav-item">
-          <a class="nav-link" href="#">
+          <a class="nav-link" [routerLink]="['/calendario']">
             <span class="txtcolor">Calendario</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">
+            <a class="nav-link" [routerLink]="['/eventos']">
             <span class="txtcolor">Eventos</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">
+            <a class="nav-link" [routerLink]="['/galeria']">
+
             <span class="txtcolor">Galeria</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">
+            <a class="nav-link" [routerLink]="['/trabajo']">
             <span class="txtcolor">Trabajo</span>
           </a>
         </li>
@@ -41,8 +42,8 @@
             <span class="txtcolor">Acceso</span>
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#"><span class="txtcolor">Login</span></a></li>
-            <li><a class="dropdown-item" href="#"><span class="txtcolor">Register</span></a></li>
+            <li><a class="dropdown-item" [routerLink]="['/login']"><span class="txtcolor">Login</span></a></li>
+            <li><a class="dropdown-item" [routerLink]="['/register']"><span class="txtcolor">Register</span></a></li>
           </ul>
         </li>
       </ul>
