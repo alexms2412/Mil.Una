@@ -2,6 +2,11 @@ img{
     width: 400px;
     height: 200px;
 }
+.jumbotron{
+    background-image: url("https://store-images.s-microsoft.com/image/apps.51232.14176082463109974.f84fc39e-bc64-44f3-9851-edbbe1a9d810.d3b66324-8c44-4ac1-8df3-fc47485eb9f0?mode=scale&q=90&h=1080&w=1920");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .fas{
     font-size: 30px;
     color: black;
