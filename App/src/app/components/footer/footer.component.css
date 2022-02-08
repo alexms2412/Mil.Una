@@ -1,9 +1,15 @@
 h5 {
     color: white;
+    margin-bottom: 40px;
 }
 
 span {
     color: white;
+}
+
+.mapa {
+    border-radius: 22px;
+    margin-top: 10px;
 }
 
 .imitacionIcon {
@@ -18,6 +24,21 @@ span {
     color: white;
 }
 
-.mapa {
-    border-radius: 250px;
+#form-group {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    margin-top: 10px;
+}
+
+hr {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    hr {
+        display: flex;
+    }
 }
