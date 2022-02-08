@@ -2,3 +2,13 @@ img{
     width: 400px;
     height: 200px;
 }
+.fas{
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    }
+.fas:hover{
+    transform: scale(1.05);
+    transition: .2s;
+    color: rgb(221, 1, 1);
+}
