@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 .txtcolor{
     color: #D13240;
 }
 
 a{
     color: #D13240;
+    font-family: 'Dancing Script', cursive;
+
 }
 
 .txtcolor:hover{
