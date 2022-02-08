@@ -1,6 +1,9 @@
-h5 {
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&display=swap');
+h2 {
     color: white;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
 }
 
 span {
