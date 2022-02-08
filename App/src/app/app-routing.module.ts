@@ -9,6 +9,8 @@ import { GaleriaComponent } from './components/vista/galeria/galeria.component';
 import { LandingPageComponent } from './components/vista/landing-page/landing-page.component';
 import { AdminComponent } from './components/vista/admin/admin.component';
 
+
+
 const routes: Routes = [
   { path : 'calendario', component:CalendarioComponent },
   { path : 'eventos', component:EventosComponent },
@@ -21,11 +23,11 @@ const routes: Routes = [
   { path: '', redirectTo: '/landing', pathMatch: 'full' }
 ];
 
+
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 
 })
-
 
 export class AppRoutingModule {}
