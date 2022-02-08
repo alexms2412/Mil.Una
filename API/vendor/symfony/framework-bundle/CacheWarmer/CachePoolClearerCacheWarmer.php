@@ -26,7 +26,7 @@ use Symfony\Component\HttpKernel\CacheWarmer\CacheWarmerInterface;
 final class CachePoolClearerCacheWarmer implements CacheWarmerInterface
 {
     private $poolClearer;
-    private array $pools;
+    private $pools;
 
     /**
      * @param string[] $pools

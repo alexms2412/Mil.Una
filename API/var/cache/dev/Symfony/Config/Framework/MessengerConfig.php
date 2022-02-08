@@ -30,7 +30,7 @@ class MessengerConfig
      * @param ParamConfigurator|bool $value
      * @return $this
      */
-    public function enabled($value): static
+    public function enabled($value): self
     {
         $this->enabled = $value;
     
@@ -78,7 +78,7 @@ class MessengerConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function failureTransport($value): static
+    public function failureTransport($value): self
     {
         $this->failureTransport = $value;
     
@@ -87,11 +87,11 @@ class MessengerConfig
     
     /**
      * Reset container services after each message.
-     * @default true
+     * @default null
      * @param ParamConfigurator|bool $value
      * @return $this
      */
-    public function resetOnMessage($value): static
+    public function resetOnMessage($value): self
     {
         $this->resetOnMessage = $value;
     
@@ -103,7 +103,7 @@ class MessengerConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function defaultBus($value): static
+    public function defaultBus($value): self
     {
         $this->defaultBus = $value;
     

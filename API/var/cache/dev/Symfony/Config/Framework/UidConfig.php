@@ -24,7 +24,7 @@ class UidConfig
      * @param ParamConfigurator|bool $value
      * @return $this
      */
-    public function enabled($value): static
+    public function enabled($value): self
     {
         $this->enabled = $value;
     
@@ -36,7 +36,7 @@ class UidConfig
      * @param ParamConfigurator|6|4|1 $value
      * @return $this
      */
-    public function defaultUuidVersion($value): static
+    public function defaultUuidVersion($value): self
     {
         $this->defaultUuidVersion = $value;
     
@@ -48,7 +48,7 @@ class UidConfig
      * @param ParamConfigurator|5|3 $value
      * @return $this
      */
-    public function nameBasedUuidVersion($value): static
+    public function nameBasedUuidVersion($value): self
     {
         $this->nameBasedUuidVersion = $value;
     
@@ -60,7 +60,7 @@ class UidConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function nameBasedUuidNamespace($value): static
+    public function nameBasedUuidNamespace($value): self
     {
         $this->nameBasedUuidNamespace = $value;
     
@@ -72,7 +72,7 @@ class UidConfig
      * @param ParamConfigurator|6|1 $value
      * @return $this
      */
-    public function timeBasedUuidVersion($value): static
+    public function timeBasedUuidVersion($value): self
     {
         $this->timeBasedUuidVersion = $value;
     
@@ -84,7 +84,7 @@ class UidConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function timeBasedUuidNode($value): static
+    public function timeBasedUuidNode($value): self
     {
         $this->timeBasedUuidNode = $value;
     

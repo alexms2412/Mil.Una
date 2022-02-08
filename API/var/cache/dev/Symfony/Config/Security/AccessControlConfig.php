@@ -26,7 +26,7 @@ class AccessControlConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function requiresChannel($value): static
+    public function requiresChannel($value): self
     {
         $this->requiresChannel = $value;
     
@@ -40,7 +40,7 @@ class AccessControlConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function path($value): static
+    public function path($value): self
     {
         $this->path = $value;
     
@@ -52,7 +52,7 @@ class AccessControlConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function host($value): static
+    public function host($value): self
     {
         $this->host = $value;
     
@@ -64,7 +64,7 @@ class AccessControlConfig
      * @param ParamConfigurator|int $value
      * @return $this
      */
-    public function port($value): static
+    public function port($value): self
     {
         $this->port = $value;
     
@@ -72,11 +72,10 @@ class AccessControlConfig
     }
     
     /**
-     * @param ParamConfigurator|list<ParamConfigurator|mixed> $value
-     *
+     * @param ParamConfigurator|list<mixed|ParamConfigurator> $value
      * @return $this
      */
-    public function ips(ParamConfigurator|array $value): static
+    public function ips($value): self
     {
         $this->ips = $value;
     
@@ -84,11 +83,10 @@ class AccessControlConfig
     }
     
     /**
-     * @param ParamConfigurator|list<ParamConfigurator|mixed> $value
-     *
+     * @param ParamConfigurator|list<mixed|ParamConfigurator> $value
      * @return $this
      */
-    public function methods(ParamConfigurator|array $value): static
+    public function methods($value): self
     {
         $this->methods = $value;
     
@@ -100,7 +98,7 @@ class AccessControlConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function allowIf($value): static
+    public function allowIf($value): self
     {
         $this->allowIf = $value;
     
@@ -108,11 +106,10 @@ class AccessControlConfig
     }
     
     /**
-     * @param ParamConfigurator|list<ParamConfigurator|mixed> $value
-     *
+     * @param ParamConfigurator|list<mixed|ParamConfigurator> $value
      * @return $this
      */
-    public function roles(ParamConfigurator|array $value): static
+    public function roles($value): self
     {
         $this->roles = $value;
     

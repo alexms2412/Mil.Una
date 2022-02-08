@@ -20,7 +20,7 @@ use Symfony\Contracts\EventDispatcher\Event;
 final class MessageEvent extends Event
 {
     private $message;
-    private bool $queued;
+    private $queued;
 
     public function __construct(MessageInterface $message, bool $queued = false)
     {

@@ -20,7 +20,7 @@ class SecurityConfig
      * @param ParamConfigurator|bool $value
      * @return $this
      */
-    public function annotations($value): static
+    public function annotations($value): self
     {
         $this->annotations = $value;
     
@@ -32,7 +32,7 @@ class SecurityConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function expressionLanguage($value): static
+    public function expressionLanguage($value): self
     {
         $this->expressionLanguage = $value;
     

@@ -17,10 +17,9 @@ class HeaderConfig
     /**
      * @default null
      * @param ParamConfigurator|mixed $value
-     *
      * @return $this
      */
-    public function value(mixed $value): static
+    public function value($value): self
     {
         $this->value = $value;
     

@@ -24,7 +24,7 @@ class DebugConfig implements \Symfony\Component\Config\Builder\ConfigBuilderInte
      * @param ParamConfigurator|int $value
      * @return $this
      */
-    public function maxItems($value): static
+    public function maxItems($value): self
     {
         $this->maxItems = $value;
     
@@ -37,7 +37,7 @@ class DebugConfig implements \Symfony\Component\Config\Builder\ConfigBuilderInte
      * @param ParamConfigurator|int $value
      * @return $this
      */
-    public function minDepth($value): static
+    public function minDepth($value): self
     {
         $this->minDepth = $value;
     
@@ -50,7 +50,7 @@ class DebugConfig implements \Symfony\Component\Config\Builder\ConfigBuilderInte
      * @param ParamConfigurator|int $value
      * @return $this
      */
-    public function maxStringLength($value): static
+    public function maxStringLength($value): self
     {
         $this->maxStringLength = $value;
     
@@ -64,7 +64,7 @@ class DebugConfig implements \Symfony\Component\Config\Builder\ConfigBuilderInte
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function dumpDestination($value): static
+    public function dumpDestination($value): self
     {
         $this->dumpDestination = $value;
     
@@ -78,7 +78,7 @@ class DebugConfig implements \Symfony\Component\Config\Builder\ConfigBuilderInte
      * @param ParamConfigurator|'dark'|'light' $value
      * @return $this
      */
-    public function theme($value): static
+    public function theme($value): self
     {
         $this->theme = $value;
     

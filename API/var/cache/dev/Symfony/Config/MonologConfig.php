@@ -22,7 +22,7 @@ class MonologConfig implements \Symfony\Component\Config\Builder\ConfigBuilderIn
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function useMicroseconds($value): static
+    public function useMicroseconds($value): self
     {
         $this->useMicroseconds = $value;
     
@@ -30,11 +30,10 @@ class MonologConfig implements \Symfony\Component\Config\Builder\ConfigBuilderIn
     }
     
     /**
-     * @param ParamConfigurator|list<ParamConfigurator|mixed> $value
-     *
+     * @param ParamConfigurator|list<mixed|ParamConfigurator> $value
      * @return $this
      */
-    public function channels(ParamConfigurator|array $value): static
+    public function channels($value): self
     {
         $this->channels = $value;
     

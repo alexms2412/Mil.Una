@@ -18,11 +18,11 @@ class FormConfig
     private $legacyErrorMessages;
     
     /**
-     * @default true
+     * @default false
      * @param ParamConfigurator|bool $value
      * @return $this
      */
-    public function enabled($value): static
+    public function enabled($value): self
     {
         $this->enabled = $value;
     
@@ -41,11 +41,11 @@ class FormConfig
     }
     
     /**
-     * @default null
+     * @default true
      * @param ParamConfigurator|bool $value
      * @return $this
      */
-    public function legacyErrorMessages($value): static
+    public function legacyErrorMessages($value): self
     {
         $this->legacyErrorMessages = $value;
     

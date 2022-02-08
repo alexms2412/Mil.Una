@@ -20,11 +20,11 @@ class PropertyAccessConfig
     private $throwExceptionOnInvalidPropertyPath;
     
     /**
-     * @default true
+     * @default false
      * @param ParamConfigurator|bool $value
      * @return $this
      */
-    public function enabled($value): static
+    public function enabled($value): self
     {
         $this->enabled = $value;
     
@@ -36,7 +36,7 @@ class PropertyAccessConfig
      * @param ParamConfigurator|bool $value
      * @return $this
      */
-    public function magicCall($value): static
+    public function magicCall($value): self
     {
         $this->magicCall = $value;
     
@@ -48,7 +48,7 @@ class PropertyAccessConfig
      * @param ParamConfigurator|bool $value
      * @return $this
      */
-    public function magicGet($value): static
+    public function magicGet($value): self
     {
         $this->magicGet = $value;
     
@@ -60,7 +60,7 @@ class PropertyAccessConfig
      * @param ParamConfigurator|bool $value
      * @return $this
      */
-    public function magicSet($value): static
+    public function magicSet($value): self
     {
         $this->magicSet = $value;
     
@@ -72,7 +72,7 @@ class PropertyAccessConfig
      * @param ParamConfigurator|bool $value
      * @return $this
      */
-    public function throwExceptionOnInvalidIndex($value): static
+    public function throwExceptionOnInvalidIndex($value): self
     {
         $this->throwExceptionOnInvalidIndex = $value;
     
@@ -84,7 +84,7 @@ class PropertyAccessConfig
      * @param ParamConfigurator|bool $value
      * @return $this
      */
-    public function throwExceptionOnInvalidPropertyPath($value): static
+    public function throwExceptionOnInvalidPropertyPath($value): self
     {
         $this->throwExceptionOnInvalidPropertyPath = $value;
     

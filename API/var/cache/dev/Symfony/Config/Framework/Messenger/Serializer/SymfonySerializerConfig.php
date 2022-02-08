@@ -21,7 +21,7 @@ class SymfonySerializerConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function format($value): static
+    public function format($value): self
     {
         $this->format = $value;
     
@@ -29,9 +29,10 @@ class SymfonySerializerConfig
     }
     
     /**
+     * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function context(string $name, mixed $value): static
+    public function context(string $name, $value): self
     {
         $this->context[$name] = $value;
     

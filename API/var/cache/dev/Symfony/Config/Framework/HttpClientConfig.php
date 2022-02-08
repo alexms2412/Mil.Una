@@ -21,11 +21,11 @@ class HttpClientConfig
     private $scopedClients;
     
     /**
-     * @default true
+     * @default false
      * @param ParamConfigurator|bool $value
      * @return $this
      */
-    public function enabled($value): static
+    public function enabled($value): self
     {
         $this->enabled = $value;
     
@@ -38,7 +38,7 @@ class HttpClientConfig
      * @param ParamConfigurator|int $value
      * @return $this
      */
-    public function maxHostConnections($value): static
+    public function maxHostConnections($value): self
     {
         $this->maxHostConnections = $value;
     
@@ -62,7 +62,7 @@ class HttpClientConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function mockResponseFactory($value): static
+    public function mockResponseFactory($value): self
     {
         $this->mockResponseFactory = $value;
     

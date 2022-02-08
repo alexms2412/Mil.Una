@@ -26,9 +26,9 @@ use Symfony\Component\HttpKernel\KernelInterface;
 class TemplateIterator implements \IteratorAggregate
 {
     private $kernel;
-    private \Traversable $templates;
-    private array $paths;
-    private ?string $defaultPath;
+    private $templates;
+    private $paths;
+    private $defaultPath;
 
     /**
      * @param array       $paths       Additional Twig paths to warm
@@ -43,7 +43,7 @@ class TemplateIterator implements \IteratorAggregate
 
     public function getIterator(): \Traversable
     {
-        if (isset($this->templates)) {
+        if (null !== $this->templates) {
             return $this->templates;
         }
 

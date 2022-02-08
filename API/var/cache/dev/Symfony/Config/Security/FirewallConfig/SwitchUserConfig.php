@@ -21,7 +21,7 @@ class SwitchUserConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function provider($value): static
+    public function provider($value): self
     {
         $this->provider = $value;
     
@@ -33,7 +33,7 @@ class SwitchUserConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function parameter($value): static
+    public function parameter($value): self
     {
         $this->parameter = $value;
     
@@ -45,7 +45,7 @@ class SwitchUserConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function role($value): static
+    public function role($value): self
     {
         $this->role = $value;
     

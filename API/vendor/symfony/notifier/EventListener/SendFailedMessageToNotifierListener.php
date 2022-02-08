@@ -47,7 +47,7 @@ class SendFailedMessageToNotifierListener implements EventSubscriberInterface
         $this->notifier->send($notification, ...$this->notifier->getAdminRecipients());
     }
 
-    public static function getSubscribedEvents(): array
+    public static function getSubscribedEvents()
     {
         return [
             WorkerMessageFailedEvent::class => 'onMessageFailed',

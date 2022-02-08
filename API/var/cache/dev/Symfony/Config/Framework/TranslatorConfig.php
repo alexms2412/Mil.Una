@@ -21,15 +21,16 @@ class TranslatorConfig
     private $cacheDir;
     private $defaultPath;
     private $paths;
+    private $enabledLocales;
     private $pseudoLocalization;
     private $providers;
     
     /**
-     * @default true
+     * @default false
      * @param ParamConfigurator|bool $value
      * @return $this
      */
-    public function enabled($value): static
+    public function enabled($value): self
     {
         $this->enabled = $value;
     
@@ -37,11 +38,10 @@ class TranslatorConfig
     }
     
     /**
-     * @param ParamConfigurator|list<ParamConfigurator|mixed> $value
-     *
+     * @param ParamConfigurator|list<mixed|ParamConfigurator> $value
      * @return $this
      */
-    public function fallbacks(ParamConfigurator|array $value): static
+    public function fallbacks($value): self
     {
         $this->fallbacks = $value;
     
@@ -53,7 +53,7 @@ class TranslatorConfig
      * @param ParamConfigurator|bool $value
      * @return $this
      */
-    public function logging($value): static
+    public function logging($value): self
     {
         $this->logging = $value;
     
@@ -65,7 +65,7 @@ class TranslatorConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function formatter($value): static
+    public function formatter($value): self
     {
         $this->formatter = $value;
     
@@ -77,7 +77,7 @@ class TranslatorConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function cacheDir($value): static
+    public function cacheDir($value): self
     {
         $this->cacheDir = $value;
     
@@ -90,7 +90,7 @@ class TranslatorConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function defaultPath($value): static
+    public function defaultPath($value): self
     {
         $this->defaultPath = $value;
     
@@ -98,13 +98,23 @@ class TranslatorConfig
     }
     
     /**
-     * @param ParamConfigurator|list<ParamConfigurator|mixed> $value
-     *
+     * @param ParamConfigurator|list<mixed|ParamConfigurator> $value
      * @return $this
      */
-    public function paths(ParamConfigurator|array $value): static
+    public function paths($value): self
     {
         $this->paths = $value;
+    
+        return $this;
+    }
+    
+    /**
+     * @param ParamConfigurator|list<mixed|ParamConfigurator> $value
+     * @return $this
+     */
+    public function enabledLocales($value): self
+    {
+        $this->enabledLocales = $value;
     
         return $this;
     }
@@ -170,6 +180,11 @@ class TranslatorConfig
             unset($value['paths']);
         }
     
+        if (isset($value['enabled_locales'])) {
+            $this->enabledLocales = $value['enabled_locales'];
+            unset($value['enabled_locales']);
+        }
+    
         if (isset($value['pseudo_localization'])) {
             $this->pseudoLocalization = new \Symfony\Config\Framework\Translator\PseudoLocalizationConfig($value['pseudo_localization']);
             unset($value['pseudo_localization']);
@@ -208,6 +223,9 @@ class TranslatorConfig
         }
         if (null !== $this->paths) {
             $output['paths'] = $this->paths;
+        }
+        if (null !== $this->enabledLocales) {
+            $output['enabled_locales'] = $this->enabledLocales;
         }
         if (null !== $this->pseudoLocalization) {
             $output['pseudo_localization'] = $this->pseudoLocalization->toArray();

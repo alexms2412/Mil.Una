@@ -22,7 +22,7 @@ class SerializerConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function defaultSerializer($value): static
+    public function defaultSerializer($value): self
     {
         $this->defaultSerializer = $value;
     

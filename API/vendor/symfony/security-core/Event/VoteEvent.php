@@ -24,11 +24,11 @@ use Symfony\Contracts\EventDispatcher\Event;
 final class VoteEvent extends Event
 {
     private $voter;
-    private mixed $subject;
-    private array $attributes;
-    private int $vote;
+    private $subject;
+    private $attributes;
+    private $vote;
 
-    public function __construct(VoterInterface $voter, mixed $subject, array $attributes, int $vote)
+    public function __construct(VoterInterface $voter, $subject, array $attributes, int $vote)
     {
         $this->voter = $voter;
         $this->subject = $subject;
@@ -41,7 +41,7 @@ final class VoteEvent extends Event
         return $this->voter;
     }
 
-    public function getSubject(): mixed
+    public function getSubject()
     {
         return $this->subject;
     }

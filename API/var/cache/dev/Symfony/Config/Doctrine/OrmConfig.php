@@ -25,7 +25,7 @@ class OrmConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function defaultEntityManager($value): static
+    public function defaultEntityManager($value): self
     {
         $this->defaultEntityManager = $value;
     
@@ -38,7 +38,7 @@ class OrmConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function autoGenerateProxyClasses($value): static
+    public function autoGenerateProxyClasses($value): self
     {
         $this->autoGenerateProxyClasses = $value;
     
@@ -50,7 +50,7 @@ class OrmConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function proxyDir($value): static
+    public function proxyDir($value): self
     {
         $this->proxyDir = $value;
     
@@ -62,7 +62,7 @@ class OrmConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function proxyNamespace($value): static
+    public function proxyNamespace($value): self
     {
         $this->proxyNamespace = $value;
     
@@ -82,9 +82,10 @@ class OrmConfig
     }
     
     /**
+     * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function resolveTargetEntity(string $interface, mixed $value): static
+    public function resolveTargetEntity(string $interface, $value): self
     {
         $this->resolveTargetEntities[$interface] = $value;
     

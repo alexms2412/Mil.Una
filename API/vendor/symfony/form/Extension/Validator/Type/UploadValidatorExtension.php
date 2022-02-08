@@ -24,7 +24,7 @@ use Symfony\Contracts\Translation\TranslatorInterface;
 class UploadValidatorExtension extends AbstractTypeExtension
 {
     private $translator;
-    private ?string $translationDomain;
+    private $translationDomain;
 
     public function __construct(TranslatorInterface $translator, string $translationDomain = null)
     {

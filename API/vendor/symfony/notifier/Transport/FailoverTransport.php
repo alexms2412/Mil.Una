@@ -20,7 +20,7 @@ use Symfony\Component\Notifier\Message\MessageInterface;
  */
 class FailoverTransport extends RoundRobinTransport
 {
-    private $currentTransport = null;
+    private $currentTransport;
 
     protected function getNextTransport(MessageInterface $message): ?TransportInterface
     {

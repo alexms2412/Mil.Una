@@ -27,7 +27,7 @@ class RetryFailedConfig
      * @param ParamConfigurator|bool $value
      * @return $this
      */
-    public function enabled($value): static
+    public function enabled($value): self
     {
         $this->enabled = $value;
     
@@ -40,7 +40,7 @@ class RetryFailedConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function retryStrategy($value): static
+    public function retryStrategy($value): self
     {
         $this->retryStrategy = $value;
     
@@ -64,7 +64,7 @@ class RetryFailedConfig
      * @param ParamConfigurator|int $value
      * @return $this
      */
-    public function maxRetries($value): static
+    public function maxRetries($value): self
     {
         $this->maxRetries = $value;
     
@@ -77,7 +77,7 @@ class RetryFailedConfig
      * @param ParamConfigurator|int $value
      * @return $this
      */
-    public function delay($value): static
+    public function delay($value): self
     {
         $this->delay = $value;
     
@@ -90,7 +90,7 @@ class RetryFailedConfig
      * @param ParamConfigurator|float $value
      * @return $this
      */
-    public function multiplier($value): static
+    public function multiplier($value): self
     {
         $this->multiplier = $value;
     
@@ -103,7 +103,7 @@ class RetryFailedConfig
      * @param ParamConfigurator|int $value
      * @return $this
      */
-    public function maxDelay($value): static
+    public function maxDelay($value): self
     {
         $this->maxDelay = $value;
     
@@ -116,7 +116,7 @@ class RetryFailedConfig
      * @param ParamConfigurator|float $value
      * @return $this
      */
-    public function jitter($value): static
+    public function jitter($value): self
     {
         $this->jitter = $value;
     

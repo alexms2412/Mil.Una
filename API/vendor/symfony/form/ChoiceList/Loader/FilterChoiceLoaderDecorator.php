@@ -19,12 +19,12 @@ namespace Symfony\Component\Form\ChoiceList\Loader;
 class FilterChoiceLoaderDecorator extends AbstractChoiceLoader
 {
     private $decoratedLoader;
-    private \Closure $filter;
+    private $filter;
 
     public function __construct(ChoiceLoaderInterface $loader, callable $filter)
     {
         $this->decoratedLoader = $loader;
-        $this->filter = $filter instanceof \Closure ? $filter : \Closure::fromCallable($filter);
+        $this->filter = $filter;
     }
 
     protected function loadChoices(): iterable

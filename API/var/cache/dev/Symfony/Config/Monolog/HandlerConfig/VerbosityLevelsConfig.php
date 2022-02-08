@@ -23,7 +23,7 @@ class VerbosityLevelsConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function vERBOSITYQUIET($value): static
+    public function vERBOSITYQUIET($value): self
     {
         $this->vERBOSITYQUIET = $value;
     
@@ -35,7 +35,7 @@ class VerbosityLevelsConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function vERBOSITYNORMAL($value): static
+    public function vERBOSITYNORMAL($value): self
     {
         $this->vERBOSITYNORMAL = $value;
     
@@ -47,7 +47,7 @@ class VerbosityLevelsConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function vERBOSITYVERBOSE($value): static
+    public function vERBOSITYVERBOSE($value): self
     {
         $this->vERBOSITYVERBOSE = $value;
     
@@ -59,7 +59,7 @@ class VerbosityLevelsConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function vERBOSITYVERYVERBOSE($value): static
+    public function vERBOSITYVERYVERBOSE($value): self
     {
         $this->vERBOSITYVERYVERBOSE = $value;
     
@@ -71,7 +71,7 @@ class VerbosityLevelsConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function vERBOSITYDEBUG($value): static
+    public function vERBOSITYDEBUG($value): self
     {
         $this->vERBOSITYDEBUG = $value;
     

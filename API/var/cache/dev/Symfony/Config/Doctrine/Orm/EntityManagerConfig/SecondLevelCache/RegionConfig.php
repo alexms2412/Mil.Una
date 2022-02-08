@@ -37,7 +37,7 @@ class RegionConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function lockPath($value): static
+    public function lockPath($value): self
     {
         $this->lockPath = $value;
     
@@ -49,7 +49,7 @@ class RegionConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function lockLifetime($value): static
+    public function lockLifetime($value): self
     {
         $this->lockLifetime = $value;
     
@@ -61,7 +61,7 @@ class RegionConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function type($value): static
+    public function type($value): self
     {
         $this->type = $value;
     
@@ -73,7 +73,7 @@ class RegionConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function lifetime($value): static
+    public function lifetime($value): self
     {
         $this->lifetime = $value;
     
@@ -85,7 +85,7 @@ class RegionConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function service($value): static
+    public function service($value): self
     {
         $this->service = $value;
     
@@ -97,7 +97,7 @@ class RegionConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function name($value): static
+    public function name($value): self
     {
         $this->name = $value;
     

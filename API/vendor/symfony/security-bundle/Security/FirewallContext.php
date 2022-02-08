@@ -22,7 +22,7 @@ use Symfony\Component\Security\Http\Firewall\LogoutListener;
  */
 class FirewallContext
 {
-    private iterable $listeners;
+    private $listeners;
     private $exceptionListener;
     private $logoutListener;
     private $config;

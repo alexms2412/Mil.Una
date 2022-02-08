@@ -22,7 +22,7 @@ class EntityConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function class($value): static
+    public function class($value): self
     {
         $this->class = $value;
     
@@ -34,7 +34,7 @@ class EntityConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function property($value): static
+    public function property($value): self
     {
         $this->property = $value;
     
@@ -46,7 +46,7 @@ class EntityConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function managerName($value): static
+    public function managerName($value): self
     {
         $this->managerName = $value;
     

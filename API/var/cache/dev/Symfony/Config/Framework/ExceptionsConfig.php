@@ -21,7 +21,7 @@ class ExceptionsConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function logLevel($value): static
+    public function logLevel($value): self
     {
         $this->logLevel = $value;
     
@@ -34,7 +34,7 @@ class ExceptionsConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function statusCode($value): static
+    public function statusCode($value): self
     {
         $this->statusCode = $value;
     

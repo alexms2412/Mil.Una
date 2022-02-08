@@ -27,12 +27,12 @@ class ChoiceToValueTransformer implements DataTransformerInterface
         $this->choiceList = $choiceList;
     }
 
-    public function transform(mixed $choice): mixed
+    public function transform($choice)
     {
         return (string) current($this->choiceList->getValuesForChoices([$choice]));
     }
 
-    public function reverseTransform(mixed $value): mixed
+    public function reverseTransform($value)
     {
         if (null !== $value && !\is_string($value)) {
             throw new TransformationFailedException('Expected a string or null.');

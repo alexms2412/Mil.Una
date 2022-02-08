@@ -20,7 +20,7 @@ class TypeConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function class($value): static
+    public function class($value): self
     {
         $this->class = $value;
     
@@ -33,7 +33,7 @@ class TypeConfig
      * @deprecated The doctrine-bundle type commenting features were removed; the corresponding config parameter was deprecated in 2.0 and will be dropped in 3.0.
      * @return $this
      */
-    public function commented($value): static
+    public function commented($value): self
     {
         $this->commented = $value;
     

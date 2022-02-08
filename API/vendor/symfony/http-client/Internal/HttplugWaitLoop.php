@@ -31,7 +31,7 @@ use Symfony\Contracts\HttpClient\ResponseInterface;
 final class HttplugWaitLoop
 {
     private $client;
-    private ?\SplObjectStorage $promisePool;
+    private $promisePool;
     private $responseFactory;
     private $streamFactory;
 

@@ -24,7 +24,11 @@ use Symfony\Component\HttpKernel\Event\ResponseEvent;
  */
 class ChromePhpHandler extends BaseChromePhpHandler
 {
-    private array $headers = [];
+    private $headers = [];
+
+    /**
+     * @var Response
+     */
     private $response;
 
     /**
@@ -59,7 +63,7 @@ class ChromePhpHandler extends BaseChromePhpHandler
             return;
         }
 
-        if (isset($this->response)) {
+        if ($this->response) {
             $this->response->headers->set($header, $content);
         } else {
             $this->headers[$header] = $content;

@@ -19,7 +19,7 @@ class RouterConfig
      * @param ParamConfigurator|bool $value
      * @return $this
      */
-    public function annotations($value): static
+    public function annotations($value): self
     {
         $this->annotations = $value;
     

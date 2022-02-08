@@ -173,7 +173,11 @@ class GithubApi
 
     private function requestGitHubApi(string $path)
     {
-        $contents = $this->downloader->get($path)->getBody();
+        if ($this->downloader instanceof HttpDownloader) {
+            $contents = $this->downloader->get($path)->getBody();
+        } else {
+            $contents = $this->downloader->getContents('api.github.com', $path, false);
+        }
 
         return json_decode($contents, true);
     }

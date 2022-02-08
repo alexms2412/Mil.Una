@@ -21,7 +21,7 @@ class X509Config
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function provider($value): static
+    public function provider($value): self
     {
         $this->provider = $value;
     
@@ -33,7 +33,7 @@ class X509Config
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function user($value): static
+    public function user($value): self
     {
         $this->user = $value;
     
@@ -45,7 +45,7 @@ class X509Config
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function credentials($value): static
+    public function credentials($value): self
     {
         $this->credentials = $value;
     

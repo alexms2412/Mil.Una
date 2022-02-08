@@ -21,11 +21,11 @@ class NotifierConfig
     private $adminRecipients;
     
     /**
-     * @default true
+     * @default false
      * @param ParamConfigurator|bool $value
      * @return $this
      */
-    public function enabled($value): static
+    public function enabled($value): self
     {
         $this->enabled = $value;
     
@@ -33,9 +33,10 @@ class NotifierConfig
     }
     
     /**
+     * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function chatterTransport(string $name, mixed $value): static
+    public function chatterTransport(string $name, $value): self
     {
         $this->chatterTransports[$name] = $value;
     
@@ -43,9 +44,10 @@ class NotifierConfig
     }
     
     /**
+     * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function texterTransport(string $name, mixed $value): static
+    public function texterTransport(string $name, $value): self
     {
         $this->texterTransports[$name] = $value;
     
@@ -57,7 +59,7 @@ class NotifierConfig
      * @param ParamConfigurator|bool $value
      * @return $this
      */
-    public function notificationOnFailedMessages($value): static
+    public function notificationOnFailedMessages($value): self
     {
         $this->notificationOnFailedMessages = $value;
     
@@ -65,9 +67,10 @@ class NotifierConfig
     }
     
     /**
+     * @param ParamConfigurator|array $value
      * @return $this
      */
-    public function channelPolicy(string $name, ParamConfigurator|array $value): static
+    public function channelPolicy(string $name, $value): self
     {
         $this->channelPolicy[$name] = $value;
     

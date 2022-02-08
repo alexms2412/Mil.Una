@@ -28,7 +28,10 @@ class RelativePath extends PropertyPath
         $this->root = $root;
     }
 
-    public function getRoot(): FormInterface
+    /**
+     * @return FormInterface
+     */
+    public function getRoot()
     {
         return $this->root;
     }

@@ -20,7 +20,7 @@ class LockConfig
      * @param ParamConfigurator|bool $value
      * @return $this
      */
-    public function enabled($value): static
+    public function enabled($value): self
     {
         $this->enabled = $value;
     
@@ -28,9 +28,10 @@ class LockConfig
     }
     
     /**
+     * @param ParamConfigurator|array $value
      * @return $this
      */
-    public function resource(string $name, ParamConfigurator|array $value): static
+    public function resource(string $name, $value): self
     {
         $this->resources[$name] = $value;
     

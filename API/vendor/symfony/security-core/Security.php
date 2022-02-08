@@ -41,13 +41,23 @@ class Security implements AuthorizationCheckerInterface
             return null;
         }
 
-        return $token->getUser();
+        $user = $token->getUser();
+
+        // @deprecated since Symfony 5.4, $user will always be a UserInterface instance
+        if (!$user instanceof UserInterface) {
+            return null;
+        }
+
+        return $user;
     }
 
     /**
      * Checks if the attributes are granted against the current authentication token and optionally supplied subject.
+     *
+     * @param mixed $attributes
+     * @param mixed $subject
      */
-    public function isGranted(mixed $attributes, mixed $subject = null): bool
+    public function isGranted($attributes, $subject = null): bool
     {
         return $this->container->get('security.authorization_checker')
             ->isGranted($attributes, $subject);

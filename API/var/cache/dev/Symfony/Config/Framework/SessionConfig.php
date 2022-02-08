@@ -13,6 +13,7 @@ use Symfony\Component\Config\Definition\Exception\InvalidConfigurationException;
 class SessionConfig 
 {
     private $enabled;
+    private $storageId;
     private $storageFactoryId;
     private $handlerId;
     private $name;
@@ -36,7 +37,7 @@ class SessionConfig
      * @param ParamConfigurator|bool $value
      * @return $this
      */
-    public function enabled($value): static
+    public function enabled($value): self
     {
         $this->enabled = $value;
     
@@ -44,11 +45,23 @@ class SessionConfig
     }
     
     /**
-     * @default 'session.storage.factory.native'
+     * @default 'session.storage.native'
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function storageFactoryId($value): static
+    public function storageId($value): self
+    {
+        $this->storageId = $value;
+    
+        return $this;
+    }
+    
+    /**
+     * @default null
+     * @param ParamConfigurator|mixed $value
+     * @return $this
+     */
+    public function storageFactoryId($value): self
     {
         $this->storageFactoryId = $value;
     
@@ -60,7 +73,7 @@ class SessionConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function handlerId($value): static
+    public function handlerId($value): self
     {
         $this->handlerId = $value;
     
@@ -72,7 +85,7 @@ class SessionConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function name($value): static
+    public function name($value): self
     {
         $this->name = $value;
     
@@ -84,7 +97,7 @@ class SessionConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function cookieLifetime($value): static
+    public function cookieLifetime($value): self
     {
         $this->cookieLifetime = $value;
     
@@ -96,7 +109,7 @@ class SessionConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function cookiePath($value): static
+    public function cookiePath($value): self
     {
         $this->cookiePath = $value;
     
@@ -108,7 +121,7 @@ class SessionConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function cookieDomain($value): static
+    public function cookieDomain($value): self
     {
         $this->cookieDomain = $value;
     
@@ -120,7 +133,7 @@ class SessionConfig
      * @param ParamConfigurator|true|false|'auto' $value
      * @return $this
      */
-    public function cookieSecure($value): static
+    public function cookieSecure($value): self
     {
         $this->cookieSecure = $value;
     
@@ -132,7 +145,7 @@ class SessionConfig
      * @param ParamConfigurator|bool $value
      * @return $this
      */
-    public function cookieHttponly($value): static
+    public function cookieHttponly($value): self
     {
         $this->cookieHttponly = $value;
     
@@ -144,7 +157,7 @@ class SessionConfig
      * @param ParamConfigurator|NULL|'lax'|'strict'|'none' $value
      * @return $this
      */
-    public function cookieSamesite($value): static
+    public function cookieSamesite($value): self
     {
         $this->cookieSamesite = $value;
     
@@ -156,7 +169,7 @@ class SessionConfig
      * @param ParamConfigurator|bool $value
      * @return $this
      */
-    public function useCookies($value): static
+    public function useCookies($value): self
     {
         $this->useCookies = $value;
     
@@ -168,7 +181,7 @@ class SessionConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function gcDivisor($value): static
+    public function gcDivisor($value): self
     {
         $this->gcDivisor = $value;
     
@@ -180,7 +193,7 @@ class SessionConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function gcProbability($value): static
+    public function gcProbability($value): self
     {
         $this->gcProbability = $value;
     
@@ -192,7 +205,7 @@ class SessionConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function gcMaxlifetime($value): static
+    public function gcMaxlifetime($value): self
     {
         $this->gcMaxlifetime = $value;
     
@@ -204,7 +217,7 @@ class SessionConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function savePath($value): static
+    public function savePath($value): self
     {
         $this->savePath = $value;
     
@@ -217,7 +230,7 @@ class SessionConfig
      * @param ParamConfigurator|int $value
      * @return $this
      */
-    public function metadataUpdateThreshold($value): static
+    public function metadataUpdateThreshold($value): self
     {
         $this->metadataUpdateThreshold = $value;
     
@@ -229,7 +242,7 @@ class SessionConfig
      * @param ParamConfigurator|int $value
      * @return $this
      */
-    public function sidLength($value): static
+    public function sidLength($value): self
     {
         $this->sidLength = $value;
     
@@ -241,7 +254,7 @@ class SessionConfig
      * @param ParamConfigurator|int $value
      * @return $this
      */
-    public function sidBitsPerCharacter($value): static
+    public function sidBitsPerCharacter($value): self
     {
         $this->sidBitsPerCharacter = $value;
     
@@ -254,6 +267,11 @@ class SessionConfig
         if (isset($value['enabled'])) {
             $this->enabled = $value['enabled'];
             unset($value['enabled']);
+        }
+    
+        if (isset($value['storage_id'])) {
+            $this->storageId = $value['storage_id'];
+            unset($value['storage_id']);
         }
     
         if (isset($value['storage_factory_id'])) {
@@ -351,6 +369,9 @@ class SessionConfig
         $output = [];
         if (null !== $this->enabled) {
             $output['enabled'] = $this->enabled;
+        }
+        if (null !== $this->storageId) {
+            $output['storage_id'] = $this->storageId;
         }
         if (null !== $this->storageFactoryId) {
             $output['storage_factory_id'] = $this->storageFactoryId;

@@ -22,11 +22,11 @@ class MailerConfig
     private $headers;
     
     /**
-     * @default true
+     * @default false
      * @param ParamConfigurator|bool $value
      * @return $this
      */
-    public function enabled($value): static
+    public function enabled($value): self
     {
         $this->enabled = $value;
     
@@ -39,7 +39,7 @@ class MailerConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function messageBus($value): static
+    public function messageBus($value): self
     {
         $this->messageBus = $value;
     
@@ -51,7 +51,7 @@ class MailerConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function dsn($value): static
+    public function dsn($value): self
     {
         $this->dsn = $value;
     
@@ -59,9 +59,10 @@ class MailerConfig
     }
     
     /**
+     * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function transport(string $name, mixed $value): static
+    public function transport(string $name, $value): self
     {
         $this->transports[$name] = $value;
     

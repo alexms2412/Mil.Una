@@ -41,14 +41,9 @@ class ConsoleFormatter implements FormatterInterface
         Logger::EMERGENCY => 'fg=white;bg=red',
     ];
 
-    private array $options;
+    private $options;
     private $cloner;
-
-    /**
-     * @var resource|null
-     */
     private $outputBuffer;
-
     private $dumper;
 
     /**
@@ -88,8 +83,10 @@ class ConsoleFormatter implements FormatterInterface
 
     /**
      * {@inheritdoc}
+     *
+     * @return mixed
      */
-    public function formatBatch(array $records): mixed
+    public function formatBatch(array $records)
     {
         foreach ($records as $key => $record) {
             $records[$key] = $this->format($record);
@@ -100,8 +97,10 @@ class ConsoleFormatter implements FormatterInterface
 
     /**
      * {@inheritdoc}
+     *
+     * @return mixed
      */
-    public function format(array $record): mixed
+    public function format(array $record)
     {
         $record = $this->replacePlaceHolder($record);
 
@@ -146,7 +145,7 @@ class ConsoleFormatter implements FormatterInterface
     /**
      * @internal
      */
-    public function castObject(mixed $v, array $a, Stub $s, bool $isNested): array
+    public function castObject($v, array $a, Stub $s, bool $isNested): array
     {
         if ($this->options['multiline']) {
             return $a;
@@ -183,9 +182,9 @@ class ConsoleFormatter implements FormatterInterface
         return $record;
     }
 
-    private function dumpData(mixed $data, bool $colors = null): string
+    private function dumpData($data, bool $colors = null): string
     {
-        if (!isset($this->dumper)) {
+        if (null === $this->dumper) {
             return '';
         }
 

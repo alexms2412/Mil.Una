@@ -15,11 +15,10 @@ class RoutingConfig
     private $senders;
     
     /**
-     * @param ParamConfigurator|list<ParamConfigurator|mixed> $value
-     *
+     * @param ParamConfigurator|list<mixed|ParamConfigurator> $value
      * @return $this
      */
-    public function senders(ParamConfigurator|array $value): static
+    public function senders($value): self
     {
         $this->senders = $value;
     

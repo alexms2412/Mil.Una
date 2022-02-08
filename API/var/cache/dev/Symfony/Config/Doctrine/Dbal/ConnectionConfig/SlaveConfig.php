@@ -49,7 +49,7 @@ class SlaveConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function url($value): static
+    public function url($value): self
     {
         $this->url = $value;
     
@@ -61,7 +61,7 @@ class SlaveConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function dbname($value): static
+    public function dbname($value): self
     {
         $this->dbname = $value;
     
@@ -74,7 +74,7 @@ class SlaveConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function host($value): static
+    public function host($value): self
     {
         $this->host = $value;
     
@@ -87,7 +87,7 @@ class SlaveConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function port($value): static
+    public function port($value): self
     {
         $this->port = $value;
     
@@ -100,7 +100,7 @@ class SlaveConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function user($value): static
+    public function user($value): self
     {
         $this->user = $value;
     
@@ -113,7 +113,7 @@ class SlaveConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function password($value): static
+    public function password($value): self
     {
         $this->password = $value;
     
@@ -126,7 +126,7 @@ class SlaveConfig
      * @deprecated The "doctrine.dbal.override_url" configuration key is deprecated.
      * @return $this
      */
-    public function overrideUrl($value): static
+    public function overrideUrl($value): self
     {
         $this->overrideUrl = $value;
     
@@ -138,7 +138,7 @@ class SlaveConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function dbnameSuffix($value): static
+    public function dbnameSuffix($value): self
     {
         $this->dbnameSuffix = $value;
     
@@ -150,7 +150,7 @@ class SlaveConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function applicationName($value): static
+    public function applicationName($value): self
     {
         $this->applicationName = $value;
     
@@ -162,7 +162,7 @@ class SlaveConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function charset($value): static
+    public function charset($value): self
     {
         $this->charset = $value;
     
@@ -174,7 +174,7 @@ class SlaveConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function path($value): static
+    public function path($value): self
     {
         $this->path = $value;
     
@@ -186,7 +186,7 @@ class SlaveConfig
      * @param ParamConfigurator|bool $value
      * @return $this
      */
-    public function memory($value): static
+    public function memory($value): self
     {
         $this->memory = $value;
     
@@ -199,7 +199,7 @@ class SlaveConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function unixSocket($value): static
+    public function unixSocket($value): self
     {
         $this->unixSocket = $value;
     
@@ -212,7 +212,7 @@ class SlaveConfig
      * @param ParamConfigurator|bool $value
      * @return $this
      */
-    public function persistent($value): static
+    public function persistent($value): self
     {
         $this->persistent = $value;
     
@@ -225,7 +225,7 @@ class SlaveConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function protocol($value): static
+    public function protocol($value): self
     {
         $this->protocol = $value;
     
@@ -238,7 +238,7 @@ class SlaveConfig
      * @param ParamConfigurator|bool $value
      * @return $this
      */
-    public function service($value): static
+    public function service($value): self
     {
         $this->service = $value;
     
@@ -251,7 +251,7 @@ class SlaveConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function servicename($value): static
+    public function servicename($value): self
     {
         $this->servicename = $value;
     
@@ -264,7 +264,7 @@ class SlaveConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function sessionMode($value): static
+    public function sessionMode($value): self
     {
         $this->sessionMode = $value;
     
@@ -277,7 +277,7 @@ class SlaveConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function server($value): static
+    public function server($value): self
     {
         $this->server = $value;
     
@@ -290,7 +290,7 @@ class SlaveConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function defaultDbname($value): static
+    public function defaultDbname($value): self
     {
         $this->defaultDbname = $value;
     
@@ -303,7 +303,7 @@ class SlaveConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function sslmode($value): static
+    public function sslmode($value): self
     {
         $this->sslmode = $value;
     
@@ -316,7 +316,7 @@ class SlaveConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function sslrootcert($value): static
+    public function sslrootcert($value): self
     {
         $this->sslrootcert = $value;
     
@@ -329,7 +329,7 @@ class SlaveConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function sslcert($value): static
+    public function sslcert($value): self
     {
         $this->sslcert = $value;
     
@@ -342,7 +342,7 @@ class SlaveConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function sslkey($value): static
+    public function sslkey($value): self
     {
         $this->sslkey = $value;
     
@@ -355,7 +355,7 @@ class SlaveConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function sslcrl($value): static
+    public function sslcrl($value): self
     {
         $this->sslcrl = $value;
     
@@ -368,7 +368,7 @@ class SlaveConfig
      * @param ParamConfigurator|bool $value
      * @return $this
      */
-    public function pooled($value): static
+    public function pooled($value): self
     {
         $this->pooled = $value;
     
@@ -381,7 +381,7 @@ class SlaveConfig
      * @param ParamConfigurator|bool $value
      * @return $this
      */
-    public function multipleActiveResultSets($value): static
+    public function multipleActiveResultSets($value): self
     {
         $this->multipleActiveResultSets = $value;
     
@@ -394,7 +394,7 @@ class SlaveConfig
      * @param ParamConfigurator|bool $value
      * @return $this
      */
-    public function useSavepoints($value): static
+    public function useSavepoints($value): self
     {
         $this->useSavepoints = $value;
     
@@ -407,7 +407,7 @@ class SlaveConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function instancename($value): static
+    public function instancename($value): self
     {
         $this->instancename = $value;
     
@@ -420,7 +420,7 @@ class SlaveConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function connectstring($value): static
+    public function connectstring($value): self
     {
         $this->connectstring = $value;
     

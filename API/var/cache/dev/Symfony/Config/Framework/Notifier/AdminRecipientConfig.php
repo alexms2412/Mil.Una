@@ -20,7 +20,7 @@ class AdminRecipientConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function email($value): static
+    public function email($value): self
     {
         $this->email = $value;
     
@@ -31,7 +31,7 @@ class AdminRecipientConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function phone($value): static
+    public function phone($value): self
     {
         $this->phone = $value;
     

@@ -21,7 +21,7 @@ class DateConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function format($value): static
+    public function format($value): self
     {
         $this->format = $value;
     
@@ -33,7 +33,7 @@ class DateConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function intervalFormat($value): static
+    public function intervalFormat($value): self
     {
         $this->intervalFormat = $value;
     
@@ -46,7 +46,7 @@ class DateConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function timezone($value): static
+    public function timezone($value): self
     {
         $this->timezone = $value;
     

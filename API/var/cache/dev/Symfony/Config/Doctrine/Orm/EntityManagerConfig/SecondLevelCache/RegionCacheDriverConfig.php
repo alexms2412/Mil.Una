@@ -21,7 +21,7 @@ class RegionCacheDriverConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function type($value): static
+    public function type($value): self
     {
         $this->type = $value;
     
@@ -33,7 +33,7 @@ class RegionCacheDriverConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function id($value): static
+    public function id($value): self
     {
         $this->id = $value;
     
@@ -45,7 +45,7 @@ class RegionCacheDriverConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function pool($value): static
+    public function pool($value): self
     {
         $this->pool = $value;
     

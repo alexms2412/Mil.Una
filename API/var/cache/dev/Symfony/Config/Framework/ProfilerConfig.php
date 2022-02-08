@@ -17,6 +17,7 @@ class ProfilerConfig
     private $collectParameter;
     private $onlyExceptions;
     private $onlyMainRequests;
+    private $onlyMasterRequests;
     private $dsn;
     
     /**
@@ -24,7 +25,7 @@ class ProfilerConfig
      * @param ParamConfigurator|bool $value
      * @return $this
      */
-    public function enabled($value): static
+    public function enabled($value): self
     {
         $this->enabled = $value;
     
@@ -36,7 +37,7 @@ class ProfilerConfig
      * @param ParamConfigurator|bool $value
      * @return $this
      */
-    public function collect($value): static
+    public function collect($value): self
     {
         $this->collect = $value;
     
@@ -49,7 +50,7 @@ class ProfilerConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function collectParameter($value): static
+    public function collectParameter($value): self
     {
         $this->collectParameter = $value;
     
@@ -61,7 +62,7 @@ class ProfilerConfig
      * @param ParamConfigurator|bool $value
      * @return $this
      */
-    public function onlyExceptions($value): static
+    public function onlyExceptions($value): self
     {
         $this->onlyExceptions = $value;
     
@@ -73,9 +74,22 @@ class ProfilerConfig
      * @param ParamConfigurator|bool $value
      * @return $this
      */
-    public function onlyMainRequests($value): static
+    public function onlyMainRequests($value): self
     {
         $this->onlyMainRequests = $value;
+    
+        return $this;
+    }
+    
+    /**
+     * @default false
+     * @param ParamConfigurator|bool $value
+     * @deprecated Option "only_master_requests" at "profiler" is deprecated, use "only_main_requests" instead.
+     * @return $this
+     */
+    public function onlyMasterRequests($value): self
+    {
+        $this->onlyMasterRequests = $value;
     
         return $this;
     }
@@ -85,7 +99,7 @@ class ProfilerConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function dsn($value): static
+    public function dsn($value): self
     {
         $this->dsn = $value;
     
@@ -120,6 +134,11 @@ class ProfilerConfig
             unset($value['only_main_requests']);
         }
     
+        if (isset($value['only_master_requests'])) {
+            $this->onlyMasterRequests = $value['only_master_requests'];
+            unset($value['only_master_requests']);
+        }
+    
         if (isset($value['dsn'])) {
             $this->dsn = $value['dsn'];
             unset($value['dsn']);
@@ -147,6 +166,9 @@ class ProfilerConfig
         }
         if (null !== $this->onlyMainRequests) {
             $output['only_main_requests'] = $this->onlyMainRequests;
+        }
+        if (null !== $this->onlyMasterRequests) {
+            $output['only_master_requests'] = $this->onlyMasterRequests;
         }
         if (null !== $this->dsn) {
             $output['dsn'] = $this->dsn;

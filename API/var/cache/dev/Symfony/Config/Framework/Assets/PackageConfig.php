@@ -26,7 +26,7 @@ class PackageConfig
      * @param ParamConfigurator|bool $value
      * @return $this
      */
-    public function strictMode($value): static
+    public function strictMode($value): self
     {
         $this->strictMode = $value;
     
@@ -38,7 +38,7 @@ class PackageConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function versionStrategy($value): static
+    public function versionStrategy($value): self
     {
         $this->versionStrategy = $value;
     
@@ -50,7 +50,7 @@ class PackageConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function version($value): static
+    public function version($value): self
     {
         $this->version = $value;
     
@@ -62,7 +62,7 @@ class PackageConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function versionFormat($value): static
+    public function versionFormat($value): self
     {
         $this->versionFormat = $value;
     
@@ -74,7 +74,7 @@ class PackageConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function jsonManifestPath($value): static
+    public function jsonManifestPath($value): self
     {
         $this->jsonManifestPath = $value;
     
@@ -85,7 +85,7 @@ class PackageConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function basePath($value): static
+    public function basePath($value): self
     {
         $this->basePath = $value;
     
@@ -93,11 +93,10 @@ class PackageConfig
     }
     
     /**
-     * @param ParamConfigurator|list<ParamConfigurator|mixed> $value
-     *
+     * @param ParamConfigurator|list<mixed|ParamConfigurator> $value
      * @return $this
      */
-    public function baseUrls(ParamConfigurator|array $value): static
+    public function baseUrls($value): self
     {
         $this->baseUrls = $value;
     

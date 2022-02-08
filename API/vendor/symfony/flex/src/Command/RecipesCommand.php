@@ -13,7 +13,6 @@ namespace Symfony\Flex\Command;
 
 use Composer\Command\BaseCommand;
 use Composer\Downloader\TransportException;
-use Composer\Util\HttpDownloader;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
@@ -31,10 +30,10 @@ class RecipesCommand extends BaseCommand
     /** @var \Symfony\Flex\Flex */
     private $flex;
 
-    private Lock $symfonyLock;
-    private GithubApi $githubApi;
+    private $symfonyLock;
+    private $githubApi;
 
-    public function __construct(/* cannot be type-hinted */ $flex, Lock $symfonyLock, HttpDownloader $downloader)
+    public function __construct(/* cannot be type-hinted */ $flex, Lock $symfonyLock, $downloader)
     {
         $this->flex = $flex;
         $this->symfonyLock = $symfonyLock;
@@ -103,6 +102,7 @@ class RecipesCommand extends BaseCommand
 
         $write = [];
         $hasOutdatedRecipes = false;
+        /** @var Recipe $recipe */
         foreach ($recipes as $name => $recipe) {
             $lockRef = $this->symfonyLock->get($name)['recipe']['ref'] ?? null;
 

@@ -19,8 +19,8 @@ use Psr\Cache\CacheItemPoolInterface;
 class CacheTokenVerifier implements TokenVerifierInterface
 {
     private $cache;
-    private int $outdatedTokenTtl;
-    private string $cacheKeyPrefix;
+    private $outdatedTokenTtl;
+    private $cacheKeyPrefix;
 
     /**
      * @param int $outdatedTokenTtl How long the outdated token should still be considered valid. Defaults

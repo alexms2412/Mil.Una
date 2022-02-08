@@ -19,7 +19,7 @@ use Psr\Cache\CacheItemPoolInterface;
 final class ExpiredSignatureStorage
 {
     private $cache;
-    private int $lifetime;
+    private $lifetime;
 
     public function __construct(CacheItemPoolInterface $cache, int $lifetime)
     {

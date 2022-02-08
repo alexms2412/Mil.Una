@@ -15,11 +15,10 @@ class ChainConfig
     private $providers;
     
     /**
-     * @param ParamConfigurator|list<ParamConfigurator|mixed> $value
-     *
+     * @param ParamConfigurator|list<mixed|ParamConfigurator> $value
      * @return $this
      */
-    public function providers(ParamConfigurator|array $value): static
+    public function providers($value): self
     {
         $this->providers = $value;
     

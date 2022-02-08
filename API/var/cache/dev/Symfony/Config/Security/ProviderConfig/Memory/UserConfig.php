@@ -20,7 +20,7 @@ class UserConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function password($value): static
+    public function password($value): self
     {
         $this->password = $value;
     
@@ -28,11 +28,10 @@ class UserConfig
     }
     
     /**
-     * @param ParamConfigurator|list<ParamConfigurator|mixed> $value
-     *
+     * @param ParamConfigurator|list<mixed|ParamConfigurator> $value
      * @return $this
      */
-    public function roles(ParamConfigurator|array $value): static
+    public function roles($value): self
     {
         $this->roles = $value;
     

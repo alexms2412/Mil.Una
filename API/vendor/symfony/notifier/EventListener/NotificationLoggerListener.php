@@ -46,7 +46,7 @@ class NotificationLoggerListener implements EventSubscriberInterface, ResetInter
         return $this->events;
     }
 
-    public static function getSubscribedEvents(): array
+    public static function getSubscribedEvents()
     {
         return [
             MessageEvent::class => ['onNotification', -255],

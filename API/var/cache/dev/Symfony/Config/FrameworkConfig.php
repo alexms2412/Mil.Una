@@ -91,7 +91,7 @@ class FrameworkConfig implements \Symfony\Component\Config\Builder\ConfigBuilder
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function secret($value): static
+    public function secret($value): self
     {
         $this->secret = $value;
     
@@ -104,7 +104,7 @@ class FrameworkConfig implements \Symfony\Component\Config\Builder\ConfigBuilder
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function httpMethodOverride($value): static
+    public function httpMethodOverride($value): self
     {
         $this->httpMethodOverride = $value;
     
@@ -116,7 +116,7 @@ class FrameworkConfig implements \Symfony\Component\Config\Builder\ConfigBuilder
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function ide($value): static
+    public function ide($value): self
     {
         $this->ide = $value;
     
@@ -128,7 +128,7 @@ class FrameworkConfig implements \Symfony\Component\Config\Builder\ConfigBuilder
      * @param ParamConfigurator|bool $value
      * @return $this
      */
-    public function test($value): static
+    public function test($value): self
     {
         $this->test = $value;
     
@@ -140,7 +140,7 @@ class FrameworkConfig implements \Symfony\Component\Config\Builder\ConfigBuilder
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function defaultLocale($value): static
+    public function defaultLocale($value): self
     {
         $this->defaultLocale = $value;
     
@@ -153,7 +153,7 @@ class FrameworkConfig implements \Symfony\Component\Config\Builder\ConfigBuilder
      * @param ParamConfigurator|bool $value
      * @return $this
      */
-    public function setLocaleFromAcceptLanguage($value): static
+    public function setLocaleFromAcceptLanguage($value): self
     {
         $this->setLocaleFromAcceptLanguage = $value;
     
@@ -166,7 +166,7 @@ class FrameworkConfig implements \Symfony\Component\Config\Builder\ConfigBuilder
      * @param ParamConfigurator|bool $value
      * @return $this
      */
-    public function setContentLanguageFromLocale($value): static
+    public function setContentLanguageFromLocale($value): self
     {
         $this->setContentLanguageFromLocale = $value;
     
@@ -174,11 +174,10 @@ class FrameworkConfig implements \Symfony\Component\Config\Builder\ConfigBuilder
     }
     
     /**
-     * @param ParamConfigurator|list<ParamConfigurator|mixed> $value
-     *
+     * @param ParamConfigurator|list<mixed|ParamConfigurator> $value
      * @return $this
      */
-    public function enabledLocales(ParamConfigurator|array $value): static
+    public function enabledLocales($value): self
     {
         $this->enabledLocales = $value;
     
@@ -186,11 +185,10 @@ class FrameworkConfig implements \Symfony\Component\Config\Builder\ConfigBuilder
     }
     
     /**
-     * @param ParamConfigurator|list<ParamConfigurator|mixed> $value
-     *
+     * @param ParamConfigurator|list<mixed|ParamConfigurator> $value
      * @return $this
      */
-    public function trustedHosts(ParamConfigurator|array $value): static
+    public function trustedHosts($value): self
     {
         $this->trustedHosts = $value;
     
@@ -202,7 +200,7 @@ class FrameworkConfig implements \Symfony\Component\Config\Builder\ConfigBuilder
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function trustedProxies($value): static
+    public function trustedProxies($value): self
     {
         $this->trustedProxies = $value;
     
@@ -210,11 +208,10 @@ class FrameworkConfig implements \Symfony\Component\Config\Builder\ConfigBuilder
     }
     
     /**
-     * @param ParamConfigurator|list<ParamConfigurator|mixed> $value
-     *
+     * @param ParamConfigurator|list<mixed|ParamConfigurator> $value
      * @return $this
      */
-    public function trustedHeaders(ParamConfigurator|array $value): static
+    public function trustedHeaders($value): self
     {
         $this->trustedHeaders = $value;
     
@@ -226,7 +223,7 @@ class FrameworkConfig implements \Symfony\Component\Config\Builder\ConfigBuilder
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function errorController($value): static
+    public function errorController($value): self
     {
         $this->errorController = $value;
     
@@ -497,7 +494,7 @@ class FrameworkConfig implements \Symfony\Component\Config\Builder\ConfigBuilder
      * @param ParamConfigurator|bool $value
      * @return $this
      */
-    public function disallowSearchEngineIndex($value): static
+    public function disallowSearchEngineIndex($value): self
     {
         $this->disallowSearchEngineIndex = $value;
     

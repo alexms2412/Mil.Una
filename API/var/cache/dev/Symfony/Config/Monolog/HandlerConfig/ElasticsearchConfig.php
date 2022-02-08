@@ -24,7 +24,7 @@ class ElasticsearchConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function id($value): static
+    public function id($value): self
     {
         $this->id = $value;
     
@@ -36,7 +36,7 @@ class ElasticsearchConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function host($value): static
+    public function host($value): self
     {
         $this->host = $value;
     
@@ -48,7 +48,7 @@ class ElasticsearchConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function port($value): static
+    public function port($value): self
     {
         $this->port = $value;
     
@@ -60,7 +60,7 @@ class ElasticsearchConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function transport($value): static
+    public function transport($value): self
     {
         $this->transport = $value;
     
@@ -72,7 +72,7 @@ class ElasticsearchConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function user($value): static
+    public function user($value): self
     {
         $this->user = $value;
     
@@ -84,7 +84,7 @@ class ElasticsearchConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function password($value): static
+    public function password($value): self
     {
         $this->password = $value;
     

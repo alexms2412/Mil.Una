@@ -43,7 +43,7 @@ class WorkflowsConfig
      * @param ParamConfigurator|'workflow'|'state_machine' $value
      * @return $this
      */
-    public function type($value): static
+    public function type($value): self
     {
         $this->type = $value;
     
@@ -62,11 +62,10 @@ class WorkflowsConfig
     }
     
     /**
-     * @param ParamConfigurator|list<ParamConfigurator|mixed> $value
-     *
+     * @param ParamConfigurator|list<mixed|ParamConfigurator> $value
      * @return $this
      */
-    public function supports(ParamConfigurator|array $value): static
+    public function supports($value): self
     {
         $this->supports = $value;
     
@@ -78,7 +77,7 @@ class WorkflowsConfig
      * @param ParamConfigurator|mixed $value
      * @return $this
      */
-    public function supportStrategy($value): static
+    public function supportStrategy($value): self
     {
         $this->supportStrategy = $value;
     
@@ -86,11 +85,10 @@ class WorkflowsConfig
     }
     
     /**
-     * @param ParamConfigurator|list<ParamConfigurator|mixed> $value
-     *
+     * @param ParamConfigurator|list<mixed|ParamConfigurator> $value
      * @return $this
      */
-    public function initialMarking(ParamConfigurator|array $value): static
+    public function initialMarking($value): self
     {
         $this->initialMarking = $value;
     
@@ -103,10 +101,9 @@ class WorkflowsConfig
      * @example workflow.transition
      * @default null
      * @param ParamConfigurator|mixed $value
-     *
      * @return $this
      */
-    public function eventsToDispatch(mixed $value = NULL): static
+    public function eventsToDispatch($value = NULL): self
     {
         $this->eventsToDispatch = $value;
     
@@ -124,11 +121,10 @@ class WorkflowsConfig
     }
     
     /**
-     * @param ParamConfigurator|list<ParamConfigurator|mixed> $value
-     *
+     * @param ParamConfigurator|list<mixed|ParamConfigurator> $value
      * @return $this
      */
-    public function metadata(ParamConfigurator|array $value): static
+    public function metadata($value): self
     {
         $this->metadata = $value;
     
