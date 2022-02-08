@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&display=swap');
+.imagenInicio {
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+}
+
+.divSombreado {
+    box-shadow: 6px 20px 10px rgba(88, 86, 86, 0.781);
+    height: 90px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: -50px;
+    position: relative;
+    background-color: white;
+    border-radius: 12px;
+}
+
+h2 {
+    text-align: center;
+    color: #D13240;
+    padding-top: 10px;
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+}
