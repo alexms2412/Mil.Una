@@ -12,6 +12,9 @@ import { OfertasTrabajoComponent } from './components/vista/ofertas-trabajo/ofer
 import { LoginComponent } from './components/vista/login/login.component';
 import { RegisterComponent } from './components/vista/register/register.component';
 import { AdminComponent } from './components/vista/admin/admin.component';
+import { GaleriaComponent } from './components/vista/galeria/galeria.component';
+
+
 
 @NgModule({
   declarations: [
@@ -24,7 +27,8 @@ import { AdminComponent } from './components/vista/admin/admin.component';
     OfertasTrabajoComponent,
     LoginComponent,
     RegisterComponent,
-    AdminComponent
+    AdminComponent,
+    GaleriaComponent
   ],
   imports: [
     BrowserModule,
