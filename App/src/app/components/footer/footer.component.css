@@ -6,6 +6,12 @@ h2 {
     font-family: 'Dancing Script', cursive;
 }
 
+footer {
+    position: absolute;
+    width: 100%;
+    color: white;
+}
+
 span {
     color: white;
 }
