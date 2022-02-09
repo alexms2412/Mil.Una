@@ -17,3 +17,7 @@ img{
     transition: .2s;
     color: rgb(221, 1, 1);
 }
+
+.example-tab-icon {
+    margin-right: 8px;
+  }
