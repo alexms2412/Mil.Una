@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-galeria',
   templateUrl: './galeria.component.html',
@@ -7,6 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GaleriaComponent implements OnInit {
 
+  activeTab:string= 'fotos'; 
+  onTabClick(tab:any){
+  this.activeTab = tab;
+}
   constructor() { }
 
   ngOnInit(): void {
