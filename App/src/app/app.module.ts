@@ -13,6 +13,8 @@ import { LoginComponent } from './components/vista/login/login.component';
 import { RegisterComponent } from './components/vista/register/register.component';
 import { AdminComponent } from './components/vista/admin/admin.component';
 import { GaleriaComponent } from './components/vista/galeria/galeria.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSliderModule } from '@angular/material/slider';
 
 
 
@@ -28,11 +30,13 @@ import { GaleriaComponent } from './components/vista/galeria/galeria.component';
     LoginComponent,
     RegisterComponent,
     AdminComponent,
-    GaleriaComponent
+    GaleriaComponent,
+    MatSliderModule,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
