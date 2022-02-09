@@ -14,7 +14,6 @@ import { RegisterComponent } from './components/vista/register/register.componen
 import { AdminComponent } from './components/vista/admin/admin.component';
 import { GaleriaComponent } from './components/vista/galeria/galeria.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatSliderModule } from '@angular/material/slider';
 
 
 
@@ -31,7 +30,6 @@ import { MatSliderModule } from '@angular/material/slider';
     RegisterComponent,
     AdminComponent,
     GaleriaComponent,
-    MatSliderModule,
   ],
   imports: [
     BrowserModule,

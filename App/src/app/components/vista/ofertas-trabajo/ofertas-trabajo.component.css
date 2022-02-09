@@ -29,3 +29,12 @@ p {
 a {
     padding-left: 15px;
 }
+
+
+/* Otra idea de ofertas de trabajo */
+.oferta {
+    margin-top: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 40px;
+}
