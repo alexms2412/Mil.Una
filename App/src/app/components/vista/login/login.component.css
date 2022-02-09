@@ -303,7 +303,9 @@ span {
     overflow: hidden;
 }
 
-.scroll {
-    overflow-x: scroll;
-    overflow-y: hidden;
+.divImg {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    position: absolute;
 }
