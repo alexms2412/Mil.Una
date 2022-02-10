@@ -1,0 +1,37 @@
+img{
+    width: 300px;
+    height: 300px;
+    border: black solid 1px;
+}
+.carousel-item img{
+    width: auto;
+    height: auto;
+
+
+}
+
+.jumbotron{
+    background-image: url("https://store-images.s-microsoft.com/image/apps.51232.14176082463109974.f84fc39e-bc64-44f3-9851-edbbe1a9d810.d3b66324-8c44-4ac1-8df3-fc47485eb9f0?mode=scale&q=90&h=1080&w=1920");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fas{
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    }
+.fas:hover{
+    transform: scale(1.05);
+    transition: .2s;
+    color: rgb(221, 1, 1);
+}
+
+.example-tab-icon {
+    margin-right: 8px;
+  }
+.fotos{
+    transition: 0.2s
+}
+#carouselExampleControls{
+    margin-bottom: 20px;
+}
