@@ -54,6 +54,7 @@
     font-family: 'Dancing Script', cursive;
 }
 
+
 .titulo2 {
     text-align: left;
     padding-top: 10px;
@@ -75,14 +76,19 @@
     margin-top: 50px;
 }
 
+
 hr {
     width: 60px;
     margin-left: 30%;
     height: 1px;
 }
 
+.containerh2{
+    margin-left: 30%;
+    
+}
+
 .textoDefinicion {
-    margin-right: 20%;
     text-align: justify;
     margin-top: 15px;
 }
