@@ -24,17 +24,6 @@
     font-family: 'Dancing Script', cursive;
 }
 
-.titulo2 {
-    text-align: justify;
-    padding-top: 10px;
-    font-size: 40px;
-    font-family: 'Raleway', sans-serif;
-    margin-left: 30%;
-}
-
-#primerRow {
-    margin-top: 50px;
-}
 
 hr {
     width: 60px;
@@ -42,8 +31,12 @@ hr {
     height: 1px;
 }
 
+.containerh2{
+    margin-left: 30%;
+    
+}
+
 .textoDefinicion {
-    margin-right: 20%;
     text-align: justify;
     margin-top: 15px;
 }
