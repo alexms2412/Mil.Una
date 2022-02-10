@@ -16,6 +16,36 @@
     border-radius: 12px;
 }
 
+.sombreadoImagen {
+    box-shadow: 6px 20px 10px #7c767648;
+    height: 450px;
+    width: 450px;
+    background-color: white;
+    border-radius: 12px;
+    margin-left: 30%;
+    position: absolute;
+    z-index: 2;
+}
+
+.segundoRow {
+    margin-top: 80px;
+}
+
+.sombreadoParalelo {
+    border: solid black 2px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 700px;
+    float: right;
+    background-color: #7c767648;
+}
+
+.textoSegundadefinicion {
+    padding: 90px;
+}
+
 .titulo {
     text-align: center;
     color: #D13240;
