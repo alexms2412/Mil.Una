@@ -28,7 +28,7 @@
 
     <div class="col-md-6 col-sm-12">
         <h2 class="titulo2">En lucha permanente <br> por las mujeres</h2>
-        <hr size="5px" color="#D13240" />
+        <hr size="5px" />
 
 
     </div>
@@ -73,7 +73,7 @@
 
 <br>
 
-<div class="estadisticas">
+<div class="estadisticas" (mouseenter)='animacionNumerica()'>
 
     <div>
 
@@ -83,7 +83,7 @@
 
                 <i class="fa fa-bar-chart iconosCenter" aria-hidden="true"></i>
 
-                <h3 class="datoNumerico">40 </h3>
+                <h3 class="datoNumerico">{{InsercionesLaborales}} </h3>
 
                 <h5 class="textoDatos">Inserciones laborales <br> desde 2017. </h5>
 
@@ -127,11 +127,12 @@
 
 </div>
 
-<div class="row " style="margin-top: 20px; ">
+<div class="row " style="margin-top: 20px; margin-bottom: 30px; ">
 
     <div class=" col-lg-3 col-md-6 col-sm-12  ">
 
         <h2 class="titulo3 ">Algunos de nuestros clientes: </h2>
+        <hr size="5px" class="hrCorporativo" />
 
     </div>
 
@@ -176,12 +177,13 @@
     <div class=" col-lg-3 col-md-6 col-sm-12  ">
 
         <h2 class="titulo3 clase2">Con el apoyo de: </h2>
+        <hr size="5px" class="hrCorporativo" />
 
 
 
     </div>
 
-    <div class=" col-lg-3 col-md-4 col-sm-12 cetrarCarousel segundoCaousel ">
+    <div class=" col-lg-3 col-md-4 col-sm-12 cetrarCarousel  ">
 
 
         <div id="carouselExampleControls" class="carousel slide carouselAlineacion " data-ride="carousel">
