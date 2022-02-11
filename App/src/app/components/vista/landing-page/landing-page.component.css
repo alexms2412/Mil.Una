@@ -71,7 +71,7 @@
     padding-top: 25px;
     font-size: 30px;
     font-family: 'Raleway', sans-serif;
-    margin-left: 20%;
+    margin-left: 22%;
     margin-right: 16%;
 }
 
@@ -107,7 +107,7 @@ li {
 .estadisticas {
     background-color: #D13240;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 70px;
 }
 
 .imagenesCorporativas {
@@ -139,6 +139,14 @@ li {
     left: 57%;
     font-size: 50px;
     width: 10px;
+}
+
+.carouselAlineacion {
+    width: 300px;
+}
+
+.cetrarCarousel {
+    margin-left: -30px;
 }
 
 @media screen and (max-width: 1318px) {
@@ -193,6 +201,9 @@ li {
         font-size: 50px;
         width: 10px;
     }
+    .titulo3 {
+        margin-top: 20px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -221,6 +232,9 @@ li {
         left: 50%;
         font-size: 50px;
         width: 10px;
+    }
+    .cetrarCarousel {
+        margin-left: 0px;
     }
 }
 
@@ -272,5 +286,13 @@ li {
         width: 250px;
         margin: auto;
         height: 1px;
+    }
+    .carouselAlineacion {
+        margin-top: 40px;
+        margin: 0 auto;
+    }
+    .titulo3 {
+        margin-top: 40px;
+        text-align: center;
     }
 }
