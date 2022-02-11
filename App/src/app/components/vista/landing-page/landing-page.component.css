@@ -83,6 +83,15 @@ hr {
     width: 60px;
     margin-left: 30%;
     height: 1px;
+    color: #D13240;
+}
+
+.hrCorporativo {
+    width: 80px;
+    margin-left: 23%;
+    height: 1px;
+    color: #D13240;
+    margin-bottom: 10px;
 }
 
 .textoDefinicion {
@@ -286,6 +295,14 @@ li {
         width: 250px;
         margin: auto;
         height: 1px;
+    }
+    .hrCorporativo {
+        width: 340px;
+        margin-left: 3%;
+        margin: auto;
+        height: 1px;
+        color: #D13240;
+        margin-bottom: 30px;
     }
     .carouselAlineacion {
         margin-top: 40px;
