@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,6 +15,7 @@ import { RegisterComponent } from './components/vista/register/register.componen
 import { AdminComponent } from './components/vista/admin/admin.component';
 import { GaleriaComponent } from './components/vista/galeria/galeria.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { OfertasTrabajoService } from './services/ofertas-trabajo.service';
 
 
 
@@ -34,9 +36,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [
+    OfertasTrabajoService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
