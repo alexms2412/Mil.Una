@@ -1,35 +1,18 @@
 <h3>Ofertas de trabajo</h3>
-
+<div *ngFor="let oferta of ofertas">
 <div class="bordes">
 
-    <h5>Nombre de empleo</h5>
+    <h5>{{oferta.nombre}}</h5>
 
-    <p>Relleno con descripcion de las ofertas de trabajo etc relleno relleno relleno relleno relleno relleno relleno relleno relleno Relleno con descripcion de las ofertas de trabajo etc relleno relleno relleno relleno relleno relleno relleno relleno relleno
-        Relleno con descripcion de las ofertas de trabajo etc relleno relleno relleno relleno relleno relleno relleno relleno relleno Relleno con descripcion de las ofertas de trabajo etc relleno relleno relleno relleno relleno relleno relleno relleno
-        relleno Relleno con descripcion de las ofertas de trabajo etc relleno relleno relleno relleno relleno relleno relleno relleno relleno Relleno con descripcion de las ofertas de trabajo etc relleno relleno relleno relleno relleno relleno relleno
-        relleno relleno</p>
+    <p>{{oferta.descripcion}}</p>
 
     <div class="contacto">
-        <a href="tel:600123456" class="text-dark"> <span><i class="fas fa-phone me-3"></i> Contacto: 600123456 </span></a>
+        <a href="tel:600123456" class="text-dark"> <span><i class="fas fa-phone me-3"></i> Contacto: {{oferta.telefonoEmpleo}} </span></a>
     </div>
 </div>
-
-<div class="bordes">
-
-    <h5>Nombre de empleo</h5>
-
-    <p>Relleno con descripcion de las ofertas de trabajo etc relleno relleno relleno relleno relleno relleno relleno relleno relleno Relleno con descripcion de las ofertas de trabajo etc relleno relleno relleno relleno relleno relleno relleno relleno relleno
-        Relleno con descripcion de las ofertas de trabajo etc relleno relleno relleno relleno relleno relleno relleno relleno relleno Relleno con descripcion de las ofertas de trabajo etc relleno relleno relleno relleno relleno relleno relleno relleno
-        relleno Relleno con descripcion de las ofertas de trabajo etc relleno relleno relleno relleno relleno relleno relleno relleno relleno Relleno con descripcion de las ofertas de trabajo etc relleno relleno relleno relleno relleno relleno relleno
-        relleno relleno</p>
-
-    <div class="contacto">
-        <a href="tel:600123456" class="text-dark"> <span><i class="fas fa-phone me-3"></i> Contacto: 600123456 </span></a>
-    </div>
-
-
 </div>
 
+<!--<pre>{{ofertas | json}}</pre>-->
 
 
 <!-- Otra idea distinta para las empresas 
