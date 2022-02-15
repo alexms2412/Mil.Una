@@ -13,6 +13,46 @@ export class LandingPageComponent implements OnInit {
   }
 
 
+  controlAudio = "audio";
+
+  ocultarVolumen = ""
+
+  ocultarX = "ocultarX"
+
+  auxiliar = 0;
+
+ocultar(){
+
+if(this.auxiliar == 0){
+
+  this.controlAudio = " "
+
+  this.ocultarVolumen = "ocultarVolumen"
+
+  this.ocultarX = ""
+
+  this.auxiliar = 1;
+
+}else{
+
+  this.controlAudio = "audio"
+
+  this.ocultarVolumen = ""
+
+  this.auxiliar = 0;
+
+  this.ocultarX = "ocultarX"
+
+
+
+}
+
+  
+
+
+}
+
+
   aux = 41;
   InsercionesLaborales = 0;
 
