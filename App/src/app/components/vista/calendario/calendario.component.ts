@@ -5,11 +5,13 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './calendario.component.html',
   styleUrls: ['./calendario.component.css']
 })
-export class CalendarioComponent implements OnInit {
+export class CalendarioComponent{
 
   constructor() { }
 
   ngOnInit(): void {
   }
+
+
 
 }
