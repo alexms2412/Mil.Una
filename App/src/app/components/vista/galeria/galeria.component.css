@@ -1,23 +1,8 @@
-<<<<<<< HEAD
 img{
     width: 300px;
     height: 250px;
 }
 
-=======
-
-
-.tab-pane .slide img {
-    width: auto;
-    height: auto;
-    padding-right: 60px;
-}
-
-img{
-    width: 300px;
-    height: 250px;   
-}
->>>>>>> 19ca28e04b90acb01b1544997949f518e4599b40
 
 .jumbotron{
     background-image: url("https://store-images.s-microsoft.com/image/apps.51232.14176082463109974.f84fc39e-bc64-44f3-9851-edbbe1a9d810.d3b66324-8c44-4ac1-8df3-fc47485eb9f0?mode=scale&q=90&h=1080&w=1920");
@@ -41,17 +26,10 @@ img{
 .fotos{
     transition: 0.2s
 }
-<<<<<<< HEAD
-=======
-#carouselExampleControls{
-    margin-bottom: 20px;
-}
->>>>>>> 19ca28e04b90acb01b1544997949f518e4599b40
 #myTabContent{
     justify-content: center;
     padding-left: 60px;
 }
-<<<<<<< HEAD
 .item{
     transition: .2s ease-in-out;
 }
@@ -59,14 +37,4 @@ img{
     filter: brightness(80%);
     transform: scale(1.05);
     transition: .2s;
-=======
-
-
-@media screen and (max-width: 400px) {
-    .tab-pane .slide{
-        width: auto;
-        height: auto;
-    }
-  
->>>>>>> 19ca28e04b90acb01b1544997949f518e4599b40
 }
