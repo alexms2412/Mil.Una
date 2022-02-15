@@ -1,55 +1,36 @@
 <h3>Ofertas de trabajo</h3>
-
+<div *ngFor="let oferta of ofertas">
 <div class="bordes">
 
-    <h5>Nombre de empleo</h5>
+    <h5>{{oferta.nombre}}</h5>
 
-    <p>Relleno con descripcion de las ofertas de trabajo etc relleno relleno relleno relleno relleno relleno relleno relleno relleno Relleno con descripcion de las ofertas de trabajo etc relleno relleno relleno relleno relleno relleno relleno relleno relleno
-        Relleno con descripcion de las ofertas de trabajo etc relleno relleno relleno relleno relleno relleno relleno relleno relleno Relleno con descripcion de las ofertas de trabajo etc relleno relleno relleno relleno relleno relleno relleno relleno
-        relleno Relleno con descripcion de las ofertas de trabajo etc relleno relleno relleno relleno relleno relleno relleno relleno relleno Relleno con descripcion de las ofertas de trabajo etc relleno relleno relleno relleno relleno relleno relleno
-        relleno relleno</p>
+    <p>{{oferta.descripcion}}</p>
 
     <div class="contacto">
-        <a href="tel:600123456" class="text-dark"> <span><i class="fas fa-phone me-3"></i> Contacto: 600123456 </span></a>
+        <a href="tel:600123456" class="text-dark"> <span><i class="fas fa-phone me-3"></i> Contacto: {{oferta.telefonoEmpleo}} </span></a>
     </div>
 </div>
-
-<div class="bordes">
-
-    <h5>Nombre de empleo</h5>
-
-    <p>Relleno con descripcion de las ofertas de trabajo etc relleno relleno relleno relleno relleno relleno relleno relleno relleno Relleno con descripcion de las ofertas de trabajo etc relleno relleno relleno relleno relleno relleno relleno relleno relleno
-        Relleno con descripcion de las ofertas de trabajo etc relleno relleno relleno relleno relleno relleno relleno relleno relleno Relleno con descripcion de las ofertas de trabajo etc relleno relleno relleno relleno relleno relleno relleno relleno
-        relleno Relleno con descripcion de las ofertas de trabajo etc relleno relleno relleno relleno relleno relleno relleno relleno relleno Relleno con descripcion de las ofertas de trabajo etc relleno relleno relleno relleno relleno relleno relleno
-        relleno relleno</p>
-
-    <div class="contacto">
-        <a href="tel:600123456" class="text-dark"> <span><i class="fas fa-phone me-3"></i> Contacto: 600123456 </span></a>
-    </div>
-
-
 </div>
 
+<!--<pre>{{ofertas | json}}</pre>-->
 
 
-<!-- Otra idea distinta para las empresas 
 <div class="oferta">
 
     <div class="card" style="max-width: 100%;">
-        <div class="row g-0" >
-          <div class="col-md-4">
-            <img src="./assets/header-logo.png" class="img-fluid rounded-start" style="max-width: 60%; max-height: 60%; margin-left: 15%" alt="...">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="./assets/header-logo.png" class="img-fluid rounded-start" style="max-width: 60%; max-height: 60%; margin-left: 15%" alt="...">
             </div>
-          </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
         </div>
-      </div>
+    </div>
 
 
 </div>
--->
