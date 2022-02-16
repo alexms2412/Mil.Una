@@ -25,6 +25,7 @@
     margin-left: -9%;
     position: absolute;
     z-index: 2;
+    background-size: cover;
 }
 
 .segundoRow {
@@ -71,7 +72,7 @@
     padding-top: 25px;
     font-size: 30px;
     font-family: 'Raleway', sans-serif;
-    margin-left: 20%;
+    margin-left: 22%;
     margin-right: 16%;
 }
 
@@ -83,6 +84,15 @@ hr {
     width: 60px;
     margin-left: 30%;
     height: 1px;
+    color: #D13240;
+}
+
+.hrCorporativo {
+    width: 80px;
+    margin-left: 23%;
+    height: 1px;
+    color: #D13240;
+    margin-bottom: 10px;
 }
 
 .textoDefinicion {
@@ -97,7 +107,7 @@ hr {
 }
 
 span {
-    color: #D13240;
+    color: #e0417e;
 }
 
 li {
@@ -105,9 +115,9 @@ li {
 }
 
 .estadisticas {
-    background-color: #D13240;
+    background-color: rgb(248, 207, 115);
     width: 100%;
-    margin-top: 30px;
+    margin-top: 70px;
 }
 
 .imagenesCorporativas {
@@ -139,6 +149,14 @@ li {
     left: 57%;
     font-size: 50px;
     width: 10px;
+}
+
+.carouselAlineacion {
+    width: 300px;
+}
+
+.cetrarCarousel {
+    margin-left: -30px;
 }
 
 @media screen and (max-width: 1318px) {
@@ -193,6 +211,9 @@ li {
         font-size: 50px;
         width: 10px;
     }
+    .titulo3 {
+        margin-top: 20px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -221,6 +242,9 @@ li {
         left: 50%;
         font-size: 50px;
         width: 10px;
+    }
+    .cetrarCarousel {
+        margin-left: 0px;
     }
 }
 
@@ -252,6 +276,7 @@ li {
         padding: 1rem;
         text-align: center;
         width: 90%;
+        background-size: cover;
     }
 }
 
@@ -273,4 +298,85 @@ li {
         margin: auto;
         height: 1px;
     }
+    .hrCorporativo {
+        width: 340px;
+        margin-left: 3%;
+        margin: auto;
+        height: 1px;
+        color: #D13240;
+        margin-bottom: 30px;
+    }
+    .carouselAlineacion {
+        margin-top: 40px;
+        margin: 0 auto;
+    }
+    .titulo3 {
+        margin-top: 40px;
+        text-align: center;
+    }
+}
+
+.btn-flotante {
+    font-size: 16px;
+    /* Cambiar el tamaño de la tipografia */
+    text-transform: uppercase;
+    /* Texto en mayusculas */
+    font-weight: bold;
+    /* Fuente en negrita o bold */
+    color: #ffffff;
+    /* Color del texto */
+    border-radius: 5px;
+    /* Borde del boton */
+    letter-spacing: 2px;
+    /* Espacio entre letras */
+    background-color: #E91E63;
+    /* Color de fondo */
+    padding: 18px 30px;
+    /* Relleno del boton */
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    transition: all 300ms ease 0ms;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+    cursor: pointer;
+}
+
+.btn-flotante:hover {
+    background-color: #2c2fa5;
+    /* Color de fondo al pasar el cursor */
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-7px);
+}
+
+@media only screen and (max-width: 600px) {
+    .btn-flotante {
+        font-size: 14px;
+        padding: 12px 20px;
+        bottom: 20px;
+        right: 20px;
+    }
+}
+
+.audio {
+    display: none;
+}
+
+.ocultarVolumen {
+    display: none;
+}
+
+.ocultarX {
+    display: none;
+}
+
+.poscionX {
+    margin-top: 18px;
+    position: absolute;
+    margin-left: -10px;
+    font-size: 24px;
+}
+
+.poscionAudio {
+    margin-left: 20px;
 }

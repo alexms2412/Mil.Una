@@ -28,7 +28,7 @@
 
     <div class="col-md-6 col-sm-12">
         <h2 class="titulo2">En lucha permanente <br> por las mujeres</h2>
-        <hr size="5px" color="#D13240" />
+        <hr size="5px" />
 
 
     </div>
@@ -49,7 +49,7 @@
 
         <div class="col-lg-12 col-md-12 col-sm-12">
 
-            <div class="centrarImagen"> <img class="sombreadoImagen rounded" src="https://www.hola.com/imagenes/estar-bien/20210706192625/personalidad-adultos-altas-capacidades-psicologia/0-974-472/altas-capacidades-m.jpg?filter=w500" alt="Imagen por describir">
+            <div class="centrarImagen"> <img class="sombreadoImagen rounded" src="./assets/landingFoto2.png" alt="Imagen por describir">
             </div>
 
         </div>
@@ -83,7 +83,7 @@
 
                 <i class="fa fa-bar-chart iconosCenter" aria-hidden="true"></i>
 
-                <h3 class="datoNumerico">40 </h3>
+                <h3 class="datoNumerico">{{projectCount}} </h3>
 
                 <h5 class="textoDatos">Inserciones laborales <br> desde 2017. </h5>
 
@@ -93,7 +93,7 @@
 
                 <i class='fas fa-chart-line iconosCenter'></i>
 
-                <h3 class="datoNumerico">70 </h3>
+                <h3 class="datoNumerico">{{projectCount2}} </h3>
 
                 <h5 class="textoDatos"> Media de mujeres <br> atendidas cada curso.</h5>
 
@@ -103,7 +103,7 @@
 
                 <i class="fa fa-pie-chart iconosCenter" aria-hidden="true"></i>
 
-                <h3 class="datoNumerico">25 </h3>
+                <h3 class="datoNumerico">{{projectCount3}} </h3>
 
                 <h5 class="textoDatos">Mujeres con empleo <br> estable. </h5>
 
@@ -112,7 +112,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12 ">
 
                 <i class="fa fa-plus-square-o iconosCenter" aria-hidden="true"></i>
-                <h3 class="datoNumerico">2500 </h3>
+                <h3 class="datoNumerico">{{projectCount4}} </h3>
 
                 <h5 class="textoDatos"> Numero mascarillas cosidas <br> en nuestro taller.</h5>
 
@@ -127,18 +127,18 @@
 
 </div>
 
-<div class="row " style="margin-top: 20px; margin-bottom: 20px; ">
+<div class="row " style="margin-top: 20px; margin-bottom: 30px; ">
 
-    <div class="col-md-3 col-sm-12  ">
+    <div class=" col-lg-3 col-md-6 col-sm-12  ">
 
         <h2 class="titulo3 ">Algunos de nuestros clientes: </h2>
+        <hr size="5px" class="hrCorporativo" />
 
     </div>
 
-    <div class="col-md-2 col-sm-2 ">
+    <div class=" col-lg-3 col-md-4 col-sm-12 cetrarCarousel ">
 
-
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleControls" class="carousel slide carouselAlineacion" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block w-100 imagenesCorporativas" src="./assets/LogoDomusBaebia.jpg" alt="Third slide">
@@ -172,18 +172,21 @@
     </div>
 
 
+    <br>
+
+    <div class=" col-lg-3 col-md-6 col-sm-12  ">
+
+        <h2 class="titulo3 clase2">Con el apoyo de: </h2>
+        <hr size="5px" class="hrCorporativo" />
 
 
-    <div class="col-md-3 col-sm-12  ">
-
-        <h2 class="titulo3 ">Con el apoyo de: </h2>
 
     </div>
 
-    <div class="col-md-2 col-sm-2 ">
+    <div class=" col-lg-3 col-md-4 col-sm-12 cetrarCarousel  ">
 
 
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleControls" class="carousel slide carouselAlineacion " data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block w-100 imagenesCorporativas" src="./assets/AyuntamientoSagunto.JPG" alt="Third slide">
@@ -208,3 +211,22 @@
     </div>
 
 </div>
+
+<div class="btn-flotante">
+
+    <span><i class="fas fa-volume-up" [ngClass]="ocultarVolumen" style="color: white; " (click)="ocultar()" ></i> </span>
+
+    <span><i class="fa fa-remove poscionX" [ngClass]="ocultarX" style="color: white; " (click)="ocultar()" ></i> </span>
+
+    <audio controls class="poscionAudio" [ngClass]="controlAudio">
+    <source src="./assets/AudioLanding.mp3" type="audio/mp3">
+        
+</audio>
+
+
+</div>
+
+
+
+
+<br>
