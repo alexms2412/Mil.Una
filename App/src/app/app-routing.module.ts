@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { CalendarioComponent } from './components/vista/calendario/calendario.component';
+import { QuehacemosComponent } from './components/vista/quehacemos/quehacemos.component';
 import { EventosComponent } from './components/vista/eventos/eventos.component';
 import { OfertasTrabajoComponent } from './components/vista/ofertas-trabajo/ofertas-trabajo.component';
 import { LoginComponent } from './components/vista/login/login.component';
@@ -12,7 +12,7 @@ import { AdminComponent } from './components/vista/admin/admin.component';
 
 
 const routes: Routes = [
-  { path : 'calendario', component:CalendarioComponent },
+  { path : 'quehacemos', component:QuehacemosComponent },
   { path : 'eventos', component:EventosComponent },
   { path : 'galeria', component:GaleriaComponent },
   { path : 'trabajo', component:OfertasTrabajoComponent },
