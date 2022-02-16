@@ -16,17 +16,8 @@ import { AdminComponent } from './components/vista/admin/admin.component';
 import { GaleriaComponent } from './components/vista/galeria/galeria.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { OfertasTrabajoService } from './services/ofertas-trabajo.service';
-import { FullCalendarModule } from '@fullcalendar/angular';
-import dayGridPlugin from '@fullcalendar/daygrid';
-import interactionPlugin from '@fullcalendar/interaction';
 
 
-
-
-FullCalendarModule.registerPlugins([
-  dayGridPlugin, 
-  interactionPlugin,
-])
 
 @NgModule({
   declarations: [
@@ -47,7 +38,7 @@ FullCalendarModule.registerPlugins([
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    FullCalendarModule
+
   ],
   providers: [
     OfertasTrabajoService
