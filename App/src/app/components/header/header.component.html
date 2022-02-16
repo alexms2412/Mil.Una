@@ -14,7 +14,97 @@
 
     <div class="collapse navbar-collapse justify-content-center" id="navbar">
       <ul class="navbar-nav mb-2 mb-lg-0">
+        <div class="wrapper">
+          <div class="icon">
+            <li class="nav-item">
+              <a class="nav-link" [routerLink]="['/quehacemos']">
+                <div class="row">
+                  <div class="col-md-3 d-block d-sm-none d-sm-block d-md-none d-md-block d-lg-none">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2838/2838779.png" width="25" height="25">
+                  </div>
+                  <div class="col-md-3">
+                    <span class="txtcolor">Actividades</span>
+                  </div>
+                </div>
+              </a>
+              <div class="tooltip d-none d-xl-block d-lg-block d-xl-none">
+                <img src="https://cdn-icons-png.flaticon.com/512/2838/2838779.png" alt="Calendario" width="30"
+                  height="30">
+              </div>
+            </li>
+          </div>
+        </div>
+        <div class="wrapper">
+          <div class="icon">
+            <li class="nav-item">
+              <a class="nav-link" [routerLink]="['/eventos']">
+                <div class="row">
+                  <div class=" col-md-3 d-block d-sm-none d-sm-block d-md-none d-md-block d-lg-none">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2413/2413035.png" width="25" height="25">
+                  </div>
+                  <div class="col-md-3">
+                    <span class="txtcolor">Eventos</span>
+                  </div>
+                </div>
+              </a>
+              <div class="tooltip d-none d-xl-block d-lg-block d-xl-none">
+                <img src="https://cdn-icons-png.flaticon.com/512/2413/2413035.png" alt="Calendario" width="30"
+                  height="30">
+              </div>
+            </li>
+          </div>
+        </div>
+        
 
+        <div class="wrapper">
+          <div class="icon">
+            <li class="nav-item">
+              <a class="nav-link" [routerLink]="['/galeria']">
+                <div class="row">
+                  <div class=" col-md-3 d-block d-sm-none d-sm-block d-md-none d-md-block d-lg-none">
+                    <img src="https://cdn-icons-png.flaticon.com/512/833/833281.png" width="25" height="25">
+                  </div>
+                  <div class="col-md-4">
+                    <span class="txtcolor">Galeria</span>
+                  </div>
+                </div>
+              </a>
+              <div class="tooltip d-none d-xl-block d-lg-block d-xl-none">
+                <img src="https://cdn-icons-png.flaticon.com/512/833/833281.png" alt="Calendario" width="30"
+                  height="30">
+            </div>
+
+            </li>
+          </div>
+        </div>
+
+
+
+        <div class="wrapper">
+          <div class="icon">
+            <li class="nav-item">
+              <a class="nav-link" [routerLink]="['/trabajo']">
+                <div class="row">
+                  <div class=" col-md-3 d-block d-sm-none d-sm-block d-md-none d-md-block d-lg-none">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1063/1063376.png" width="25" height="25">
+                  </div>
+                  <div class="col-md-3">
+                    <span class="txtcolor">Trabajo</span>
+                  </div>
+                </div>
+              </a>
+              <div class="tooltip d-none d-xl-block d-lg-block d-xl-none">
+                <img src="https://cdn-icons-png.flaticon.com/512/1063/1063376.png" alt="Calendario" width="30"
+                  height="30">
+              </div>
+            </li>
+          </div>
+        </div>
+
+
+
+<<<<<<< HEAD
+=======
         <li class="nav-item">
           <a class="nav-link" [routerLink]="['/calendario']">
             <span class="txtcolor">Sobre Nosotros</span>
@@ -27,15 +117,8 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" [routerLink]="['/galeria']">
+>>>>>>> f5c59be48849ab23d4cc820cec896a42f1d2b135
 
-            <span class="txtcolor">Galeria</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" [routerLink]="['/trabajo']">
-            <span class="txtcolor">Trabajo</span>
-          </a>
-        </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
             data-bs-toggle="dropdown" aria-expanded="false">
@@ -52,41 +135,40 @@
           </a>
         </li>
         <li class="nav-item d-block d-sm-none d-sm-block d-md-none d-md-block d-lg-none">
-          <div class="dropdown" >
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
+          <div class="dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
               <img src="./assets/header-idiomas.png" alt="Icono Traducción" width="40" height="40">
             </a>
             <div class="dropdown-menu dropdown-menu-right">
-              <li class="idioma" style="text-align: center;"><img src="./assets/header-traduccioncastellano.png" alt="Traduccón a valenciano"
-                  width="40" height="40"></li>
-              <li class="idioma" style="text-align: center; margin-top: 2%;"><img src="./assets/header-traduccionvalenciano.png"
-                  alt="Traduccón a castellano" width="40" height="40"></li>
-              <li class="idioma" style="text-align: center; margin-top: 2%;"><img src="./assets/header-traduccioningles.png"
-                  alt="Traduccón a ingles" width="40" height="40"></li>
-            </div>
-          </div>
-        </li>
-      </ul>
-    </div>
-
-
-    <div class="dropleft d-none d-xl-block d-lg-block d-xl-none" style="transition-duration: 3s, 5s;">
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
-        aria-expanded="false">
-        <img src="./assets/header-idiomas.png" alt="Icono Traducción" width="40" height="40">
-      </a>
-      <div class="dropdown-menu dropdown-menu-right">
-        <li class="idioma" style="text-align: center;"><img src="./assets/header-traduccioncastellano.png" alt="Traduccón a valenciano"
-            width="40" height="40"></li>
-        <li class="idioma" style="text-align: center; margin-top: 2%;"><img src="./assets/header-traduccionvalenciano.png"
-            alt="Traduccón a castellano" width="40" height="40"></li>
+        <li class="idioma" style="text-align: center;"><img src="./assets/header-traduccioncastellano.png"
+            alt="Traduccón a valenciano" width="40" height="40"></li>
+        <li class="idioma" style="text-align: center; margin-top: 2%;"><img
+            src="./assets/header-traduccionvalenciano.png" alt="Traduccón a castellano" width="40" height="40"></li>
         <li class="idioma" style="text-align: center; margin-top: 2%;"><img src="./assets/header-traduccioningles.png"
             alt="Traduccón a ingles" width="40" height="40"></li>
-      </div>
     </div>
+  </div>
+  </li>
+  </ul>
+  </div>
 
-    
+  <div class="dropleft d-none d-xl-block d-lg-block d-xl-none" style="transition-duration: 3s, 5s;">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+      aria-expanded="false">
+      <img src="./assets/header-idiomas.png" alt="Icono Traducción" width="40" height="40">
+    </a>
+    <div class="dropdown-menu dropdown-menu-right">
+      <li class="idioma" style="text-align: center;"><img src="./assets/header-traduccioncastellano.png"
+          alt="Traduccón a valenciano" width="40" height="40"></li>
+      <li class="idioma" style="text-align: center; margin-top: 2%;"><img src="./assets/header-traduccionvalenciano.png"
+          alt="Traduccón a castellano" width="40" height="40"></li>
+      <li class="idioma" style="text-align: center; margin-top: 2%;"><img src="./assets/header-traduccioningles.png"
+          alt="Traduccón a ingles" width="40" height="40"></li>
+    </div>
+  </div>
+
+
 
   </div>
 

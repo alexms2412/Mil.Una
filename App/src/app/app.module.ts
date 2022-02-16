@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { LandingPageComponent } from './components/vista/landing-page/landing-page.component';
-import { CalendarioComponent } from './components/vista/calendario/calendario.component';
+import { QuehacemosComponent } from './components/vista/quehacemos/quehacemos.component';
 import { EventosComponent } from './components/vista/eventos/eventos.component';
 import { OfertasTrabajoComponent } from './components/vista/ofertas-trabajo/ofertas-trabajo.component';
 import { LoginComponent } from './components/vista/login/login.component';
@@ -16,17 +16,9 @@ import { AdminComponent } from './components/vista/admin/admin.component';
 import { GaleriaComponent } from './components/vista/galeria/galeria.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { OfertasTrabajoService } from './services/ofertas-trabajo.service';
-import { FullCalendarModule } from '@fullcalendar/angular';
-import dayGridPlugin from '@fullcalendar/daygrid';
-import interactionPlugin from '@fullcalendar/interaction';
+import { LoadingScreenComponent } from './components/loading-screen/loading-screen.component';
 
 
-
-
-FullCalendarModule.registerPlugins([
-  dayGridPlugin, 
-  interactionPlugin,
-])
 
 @NgModule({
   declarations: [
@@ -34,20 +26,21 @@ FullCalendarModule.registerPlugins([
     HeaderComponent,
     FooterComponent,
     LandingPageComponent,
-    CalendarioComponent,
+    QuehacemosComponent,
     EventosComponent,
     OfertasTrabajoComponent,
     LoginComponent,
     RegisterComponent,
     AdminComponent,
     GaleriaComponent,
+    LoadingScreenComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    FullCalendarModule
+    
   ],
   providers: [
     OfertasTrabajoService
