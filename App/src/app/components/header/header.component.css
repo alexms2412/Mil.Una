@@ -13,7 +13,7 @@
 }
 
 a {
-    color: #D13240;
+    color: rgb(178, 217, 232);
     font-family: 'Dancing Script', cursive;
 }
 
@@ -26,27 +26,23 @@ span {
 }
 
 .line {
-    background-color: #D13240;
+    background-color: rgb(178, 217, 232);
+    ;
 }
 
-.idioma:hover{
+.idioma:hover {
     opacity: 0.5;
 }
 
+li {
+    list-style: none;
+}
 
-li{list-style:none;}
-
-
-
-
-
-
-
-.wrapper{
+.wrapper {
     display: inline-flex;
-  }
-  
-  .wrapper .icon .tooltip{
+}
+
+.wrapper .icon .tooltip {
     position: absolute;
     top: 0;
     z-index: 1;
@@ -59,15 +55,15 @@ li{list-style:none;}
     border-radius: 25px;
     opacity: 0;
     transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
-  .wrapper .icon:hover .tooltip{
+}
+
+.wrapper .icon:hover .tooltip {
     top: 75px;
     opacity: 1;
     margin-left: 15px;
-  }
+}
 
-
-  .icon .tooltip:before{
+.icon .tooltip:before {
     position: absolute;
     height: 15px;
     width: 15px;
@@ -76,9 +72,4 @@ li{list-style:none;}
     bottom: 40px;
     transform: translateX(-50%) rotate(45deg);
     transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
-
-  
- 
-  
-  
+}
