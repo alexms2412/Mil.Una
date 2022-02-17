@@ -15,4 +15,6 @@ export class OfertasTrabajoComponent implements OnInit {
     this.OfertasTrabajoService.getAllOfertasTrabajo().subscribe(data =>console.log(data));
   }
 
+
+
 }

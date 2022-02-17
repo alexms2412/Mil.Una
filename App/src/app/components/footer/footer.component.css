@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 h2 {
-    color: white;
+    color: black;
     margin-bottom: 30px;
     font-size: 40px;
     font-family: 'Dancing Script', cursive;
@@ -9,11 +9,11 @@ h2 {
 footer {
     position: absolute;
     width: 100%;
-    color: white;
+    color: black;
 }
 
 span {
-    color: white;
+    color: black;
 }
 
 .mapa {
@@ -30,7 +30,7 @@ span {
 }
 
 .fab {
-    color: white;
+    color: black;
 }
 
 #form-group {

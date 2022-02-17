@@ -18,6 +18,7 @@ import { OfertasTrabajoService } from './services/ofertas-trabajo.service';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,7 +36,12 @@ import { OfertasTrabajoService } from './services/ofertas-trabajo.service';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+<<<<<<< HEAD
     HttpClientModule,
+=======
+    HttpClientModule
+
+>>>>>>> 2b4222f8bcb3f21d739221ec7d3eb70682baffb8
 
   ],
   providers: [
