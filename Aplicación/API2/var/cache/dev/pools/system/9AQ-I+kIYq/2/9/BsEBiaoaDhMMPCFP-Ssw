@@ -1,0 +1,33 @@
+<?php //App%255CEntity%255CSolicita%2524empleoSolicitud
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ManyToOne'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ManyToOne')),
+        clone ($p['Doctrine\\ORM\\Mapping\\JoinColumn'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\JoinColumn')),
+    ],
+    null,
+    [
+        'stdClass' => [
+            'targetEntity' => [
+                'App\\Entity\\Empleo',
+            ],
+            'inversedBy' => [
+                'solicitas',
+            ],
+            'name' => [
+                1 => 'empleoSolicitud',
+            ],
+            'referencedColumnName' => [
+                1 => 'idEmpleo',
+            ],
+            'nullable' => [
+                1 => false,
+            ],
+        ],
+    ],
+    [
+        $o[0],
+        $o[1],
+    ],
+    []
+); }];
