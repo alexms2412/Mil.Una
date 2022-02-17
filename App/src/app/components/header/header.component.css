@@ -13,7 +13,7 @@
 }
 
 a {
-    color: #D13240;
+    color: rgb(146, 202, 223);
     font-family: 'Dancing Script', cursive;
 }
 
@@ -26,7 +26,7 @@ span {
 }
 
 .line {
-    background-color: #D13240;
+    background-color: rgb(146, 202, 223);
 }
 
 .idioma:hover{
