@@ -11,14 +11,14 @@ import { AdminComponent } from './components/vista/admin/admin.component';
 
 
 const routes: Routes = [
-  { path : 'eventos', component:EventosComponent },
-  { path : 'galeria', component:GaleriaComponent },
-  { path : 'trabajo', component:OfertasTrabajoComponent },
+  { path : 'eventos', component:EventosComponent,	data: { animationState: 'Three' } },
+  { path : 'galeria', component:GaleriaComponent,data: { animationState: 'Four' } },
+  { path : 'trabajo', component:OfertasTrabajoComponent,data: { animationState: 'Five' } },
   { path : 'login', component:LoginComponent },
   { path : 'register', component:RegisterComponent },
   { path : 'admin', component:AdminComponent },
-  { path : 'landing', component:LandingPageComponent },
-  { path: '', redirectTo: '/landing', pathMatch: 'full' }
+  { path : 'landing', component:LandingPageComponent,data: { animationState: 'One' } },
+  { path: '**', redirectTo: '/landing', pathMatch: 'full' }
 ];
 
 
