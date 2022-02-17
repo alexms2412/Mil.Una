@@ -7,7 +7,6 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { LandingPageComponent } from './components/vista/landing-page/landing-page.component';
-import { QuehacemosComponent } from './components/vista/quehacemos/quehacemos.component';
 import { EventosComponent } from './components/vista/eventos/eventos.component';
 import { OfertasTrabajoComponent } from './components/vista/ofertas-trabajo/ofertas-trabajo.component';
 import { LoginComponent } from './components/vista/login/login.component';
@@ -27,7 +26,6 @@ import { LoadingScreenComponent } from './components/loading-screen/loading-scre
     HeaderComponent,
     FooterComponent,
     LandingPageComponent,
-    QuehacemosComponent,
     EventosComponent,
     OfertasTrabajoComponent,
     LoginComponent,
