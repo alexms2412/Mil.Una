@@ -1,0 +1,39 @@
+
+
+{% block title %}Empleo index{% endblock %}
+
+{% block body %}
+    <h1>Empleo index</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>IdEmpleo</th>
+                <th>NombreEmpleo</th>
+                <th>EmpresaEmpleo</th>
+                <th>EnlaceEmpleo</th>
+                <th>actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for empleo in empleos %}
+            <tr>
+                <td>{{ empleo.id }}</td>
+                <td>{{ empleo.nombreEmpleo }}</td>
+                <td>{{ empleo.empresaEmpleo }}</td>
+                <td>{{ empleo.enlaceEmpleo }}</td>
+                <td>
+                    <a href="{{ path('empleo_show', {'idEmpleo': empleo.id}) }}">show</a>
+                    <a href="{{ path('empleo_edit', {'idEmpleo': empleo.id}) }}">edit</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="5">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ path('empleo_new') }}">Create new</a>
+{% endblock %}
