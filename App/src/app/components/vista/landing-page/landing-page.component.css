@@ -5,6 +5,14 @@
     height: 600px;
 }
 
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+li {
+    font-family: 'Raleway', sans-serif;
+}
+
 .divSombreado {
     box-shadow: 6px 20px 10px #7c767648;
     height: 90px;
@@ -49,11 +57,12 @@
 
 .textoSegundadefinicion {
     padding: 50px;
+    margin-left: 40px;
 }
 
 .titulo {
     text-align: center;
-    color: #D13240;
+    color: rgb(56, 56, 56);
     padding-top: 10px;
     font-size: 50px;
     font-family: 'Dancing Script', cursive;
@@ -76,11 +85,17 @@
     margin-right: 16%;
 }
 
+.titulo4 {
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+
 #primerRow {
     margin-top: 50px;
 }
 
-hr {
+.primerHr {
     width: 60px;
     margin-left: 30%;
     height: 1px;
@@ -107,7 +122,7 @@ hr {
 }
 
 span {
-    color: #e0417e;
+    color: black;
 }
 
 li {
@@ -115,9 +130,10 @@ li {
 }
 
 .estadisticas {
-    background-color: rgb(248, 207, 115);
+    background-color: rgb(178, 217, 232);
     width: 100%;
     margin-top: 70px;
+    box-shadow: 30px 30px 30px #b3acac48;
 }
 
 .imagenesCorporativas {
@@ -126,14 +142,14 @@ li {
 
 .iconosCenter {
     font-size: 66px;
-    color: white;
+    color: black;
     margin-left: 32%;
     margin-top: 50px;
     margin-bottom: 0px;
 }
 
 .textoDatos {
-    color: white;
+    color: black;
     font-family: 'Raleway', sans-serif;
     position: relative;
     top: -22%;
@@ -142,7 +158,7 @@ li {
 }
 
 .datoNumerico {
-    color: white;
+    color: black;
     font-family: 'Raleway', sans-serif;
     position: relative;
     top: -27%;
@@ -272,10 +288,9 @@ li {
         margin-left: 0px;
     }
     .centrarImagen {
-        margin: 1rem;
-        padding: 1rem;
+        margin: 0rem;
+        padding: 0rem;
         text-align: center;
-        width: 90%;
         background-size: cover;
     }
 }
@@ -293,7 +308,7 @@ li {
         text-align: center;
         padding: 15px;
     }
-    hr {
+    .primerHr {
         width: 250px;
         margin: auto;
         height: 1px;
@@ -329,7 +344,7 @@ li {
     /* Borde del boton */
     letter-spacing: 2px;
     /* Espacio entre letras */
-    background-color: #E91E63;
+    background-color: rgb(202, 69, 62);
     /* Color de fondo */
     padding: 18px 30px;
     /* Relleno del boton */
@@ -343,7 +358,7 @@ li {
 }
 
 .btn-flotante:hover {
-    background-color: #2c2fa5;
+    background-color: rgb(0, 140, 174);
     /* Color de fondo al pasar el cursor */
     box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
     transform: translateY(-7px);
@@ -380,3 +395,16 @@ li {
 .poscionAudio {
     margin-left: 20px;
 }
+
+.queHacemos {
+    background-color: white;
+    height: 500px;
+    box-shadow: 10px 10px 10px #dfd8d848;
+    border-radius: 12px;
+}
+
+.bloque3contenido {
+    margin-top: 30px;
+}
+
+.imagen2contenido {}
