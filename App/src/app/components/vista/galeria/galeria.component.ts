@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ContenidoService } from 'src/app/services/contenido.service';
 
 
 @Component({
@@ -7,14 +8,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./galeria.component.css']
 })
 export class GaleriaComponent implements OnInit {
+  contenido:any = [];
 
-  activeTab:string= 'fotos'; 
+  activeTab:string= 'fotos';
   onTabClick(tab:any){
   this.activeTab = tab;
 }
-  constructor() { }
+  constructor(private ContenidoService: ContenidoService) { }
 
   ngOnInit(): void {
+    this.ContenidoService.getAllContenido().subscribe(response => this.contenido = response);
   }
 
 }
