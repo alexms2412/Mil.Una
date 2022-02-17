@@ -11,15 +11,10 @@ import { AdminComponent } from './components/vista/admin/admin.component';
 
 
 const routes: Routes = [
-<<<<<<< HEAD
-  { path : 'eventos', component:EventosComponent,	data: { animationState: 'Three' } },
-  { path : 'galeria', component:GaleriaComponent,data: { animationState: 'Four' } },
-  { path : 'trabajo', component:OfertasTrabajoComponent,data: { animationState: 'Five' } },
-=======
-  { path : 'eventos', component:EventosComponent },
-  { path : 'galeria', component:GaleriaComponent },
-  { path : 'trabajo', component:OfertasTrabajoComponent },
->>>>>>> 2b4222f8bcb3f21d739221ec7d3eb70682baffb8
+
+  { path : 'eventos', component:EventosComponent,	data: { animationState: 'Two' } },
+  { path : 'galeria', component:GaleriaComponent,data: { animationState: 'Three' } },
+  { path : 'trabajo', component:OfertasTrabajoComponent,data: { animationState: 'Four' } },
   { path : 'login', component:LoginComponent },
   { path : 'register', component:RegisterComponent },
   { path : 'admin', component:AdminComponent },

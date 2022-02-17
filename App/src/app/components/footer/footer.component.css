@@ -32,6 +32,10 @@ span {
 .fab {
     color: black;
 }
+.fab:hover{
+    transform: scale(1.15);
+    transition: .2s;
+}
 
 #form-group {
     display: flex;
