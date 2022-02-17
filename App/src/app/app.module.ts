@@ -15,7 +15,6 @@ import { AdminComponent } from './components/vista/admin/admin.component';
 import { GaleriaComponent } from './components/vista/galeria/galeria.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { OfertasTrabajoService } from './services/ofertas-trabajo.service';
-import { LoadingScreenComponent } from './components/loading-screen/loading-screen.component';
 
 
 
@@ -32,14 +31,12 @@ import { LoadingScreenComponent } from './components/loading-screen/loading-scre
     RegisterComponent,
     AdminComponent,
     GaleriaComponent,
-    LoadingScreenComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    HttpClientModule
-
+    HttpClientModule,
 
   ],
   providers: [

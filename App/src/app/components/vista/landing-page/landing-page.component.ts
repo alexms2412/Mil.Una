@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { window } from 'rxjs';
+import * as AOS from 'aos';
 
 @Component({
   selector: 'app-landing-page',
@@ -13,10 +13,9 @@ export class LandingPageComponent implements OnInit {
 
 
 ngOnInit(): void {
-
-  
+  AOS.init();
   }
-
+  
 
 projectCount: number = 0; //70
 
