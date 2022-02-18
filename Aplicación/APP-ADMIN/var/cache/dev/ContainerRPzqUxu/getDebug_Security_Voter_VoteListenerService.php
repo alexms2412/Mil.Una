@@ -1,7 +1,27 @@
 <?php
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD:Aplicación/APP-ADMIN/var/cache/dev/Container24eWKRp/getDebug_Security_Voter_VoteListenerService.php
+namespace Container24eWKRp;
+=======
+<<<<<<< HEAD:Aplicación/APP-ADMIN/var/cache/dev/Container2x9EUrJ/getDebug_Security_Voter_VoteListenerService.php
+namespace Container2x9EUrJ;
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
+=======
+<<<<<<<< HEAD:Aplicación/APP-ADMIN/var/cache/dev/Container1VyNrWM/getDebug_Security_Voter_VoteListenerService.php
+namespace Container1VyNrWM;
+========
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
 namespace ContainerRPzqUxu;
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405:Aplicación/APP-ADMIN/var/cache/dev/ContainerRPzqUxu/getDebug_Security_Voter_VoteListenerService.php
 
+>>>>>>>> main:Aplicación/APP-ADMIN/var/cache/dev/ContainerRPzqUxu/getDebug_Security_Voter_VoteListenerService.php
 
 use Symfony\Component\DependencyInjection\Argument\RewindableGenerator;
 use Symfony\Component\DependencyInjection\Exception\RuntimeException;

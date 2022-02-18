@@ -854,6 +854,6 @@ span {
 
 </head>
 {% block layout %}
-{% endblock %}", "base.html", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/API/templates/base.html");
+{% endblock %}", "base.html", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/templates/base.html");
     }
 }
