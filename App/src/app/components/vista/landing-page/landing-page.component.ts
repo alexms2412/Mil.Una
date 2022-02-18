@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { window } from 'rxjs';
+
+
 
 @Component({
   selector: 'app-landing-page',
@@ -17,70 +18,93 @@ ngOnInit(): void {
   
   }
 
+  projectCount: number = 0;
+  projectCountStop: any;
+  projectCount2: number = 0;
+  projectCountStop2: any;
+  projectCount3: number = 0; //25
+  projectCountStop3: any;
+  projectCount4: number = 2200; //2500
+  projectCountStop4: any;
 
-projectCount: number = 0; //70
-
-projectCountStop: any = setInterval(()=>{
-
-  this.projectCount++;
-
-  if(this.projectCount == 70){
-
-    clearInterval(this.projectCountStop);
-
-  }
+  Scroll(){
 
 
-},15);
+    var top = window.pageYOffset || document.documentElement.scrollTop;
+  
+  
+    console.log(top)
 
 
-projectCount2: number = 0; //40
+    if(top > 1090){
 
-projectCountStop2: any = setInterval(()=>{
 
-  this.projectCount2++;
+      setInterval(()=>{
 
-  if(this.projectCount2 == 40){
+        if(this.projectCount !== 40){
+          this.projectCount++;
+        
+          
+        }else{
+          clearInterval(this.projectCountStop);
+       
+        }
+      
+      
+      },45);
 
+
+    setInterval(()=>{
+
+  if(this.projectCount2 !== 70){
+    this.projectCount2++;
+  
+    
+  }else{
     clearInterval(this.projectCountStop2);
-
+ 
   }
 
 
 },35);
 
 
-  projectCount3: number = 0; //25
+setInterval(()=>{
 
-  projectCountStop3: any = setInterval(()=>{
-
+  if(this.projectCount3 !== 25){
     this.projectCount3++;
-
-    if(this.projectCount3 == 25){
-
-      clearInterval(this.projectCountStop3);
-
-    }
-
-
-  },35);
-
-
-  projectCount4: number = 2200; //2500
-
-  projectCountStop4: any = setInterval(()=>{
-
-    this.projectCount4++;
+  
+    
+  }else{
+    clearInterval(this.projectCountStop3);
  
+  }
 
 
-    if(this.projectCount4 == 2500){
+},45);
 
-      clearInterval(this.projectCountStop4);
+
+setInterval(()=>{
+
+  if(this.projectCount4 !== 2500){
+    this.projectCount4++;
+  
+    
+  }else{
+    clearInterval(this.projectCountStop4);
+ 
+  }
+
+
+},1);
+
+
+
 
     }
 
-  },1);
+  
+  }
 
 
   controlAudio = "audio";
