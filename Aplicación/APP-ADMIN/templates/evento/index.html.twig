@@ -1,8 +1,8 @@
 {% extends "layout.html" %}
-
-
-
 {% block content %}
+
+<div class="container">
+<div class="row">
 <ul class="nav nav-tabs" id="myTab" role="tablist">
         <li class="nav-item" role="presentation">
           <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
@@ -92,11 +92,11 @@
     <table class="table">
         <thead>
             <tr>
-                <th>IdEmpleo</th>
-                <th>NombreEmpleo</th>
-                <th>EmpresaEmpleo</th>
-                <th>EnlaceEmpleo</th>
-                <th>actions</th>
+                <th scope="col">IdEmpleo</th>
+                <th scope="col">NombreEmpleo</th>
+                <th scope="col">EmpresaEmpleo</th>
+                <th scope="col">EnlaceEmpleo</th>
+                <th scope="col">actions</th>
             </tr>
         </thead>
         <tbody>
@@ -122,4 +122,6 @@
     <a href="{{ path('empleo_new') }}">Create new</a>
         </div>
       </div>  
+      </div>
+      </div>
 {% endblock %}
