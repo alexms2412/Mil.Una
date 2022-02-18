@@ -1,11 +1,18 @@
 <?php
 
+<<<<<<< HEAD
 <<<<<<< HEAD:Aplicación/APP-ADMIN/var/cache/dev/Container24eWKRp/getDebug_Security_Voter_Security_Access_ExpressionVoterService.php
 namespace Container24eWKRp;
 =======
+=======
+<<<<<<<< HEAD:Aplicación/APP-ADMIN/var/cache/dev/Container1VyNrWM/getDebug_Security_Voter_Security_Access_ExpressionVoterService.php
+namespace Container1VyNrWM;
+========
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
 namespace ContainerRPzqUxu;
 >>>>>>> c3c3798b07e811dc68b12039783577c1443ac405:Aplicación/APP-ADMIN/var/cache/dev/ContainerRPzqUxu/getDebug_Security_Voter_Security_Access_ExpressionVoterService.php
 
+>>>>>>>> main:Aplicación/APP-ADMIN/var/cache/dev/ContainerRPzqUxu/getDebug_Security_Voter_Security_Access_ExpressionVoterService.php
 
 use Symfony\Component\DependencyInjection\Argument\RewindableGenerator;
 use Symfony\Component\DependencyInjection\Exception\RuntimeException;

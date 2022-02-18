@@ -111,6 +111,6 @@ class __TwigTemplate_c9a5ccd218b8d50574b5db91b847497fa2be32c601c26c748aba80de2c6
 
     <a href=\"{{ path('evento_index') }}\">back to list</a>
 {% endblock %}
-", "contenido/new.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/API/templates/contenido/new.html.twig");
+", "contenido/new.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/templates/contenido/new.html.twig");
     }
 }

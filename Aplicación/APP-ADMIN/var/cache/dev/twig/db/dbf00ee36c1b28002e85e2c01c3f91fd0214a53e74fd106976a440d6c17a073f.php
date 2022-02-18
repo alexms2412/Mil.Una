@@ -219,6 +219,6 @@ class __TwigTemplate_a17c46441a053f9a62d23dc2f5172c0ec36218591397ffdeeb1b9fb399a
 
     <a href=\"{{ path('contenido_new') }}\">Create new</a>
 {% endblock %}
-", "contenido/index.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/API/templates/contenido/index.html.twig");
+", "contenido/index.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/templates/contenido/index.html.twig");
     }
 }
