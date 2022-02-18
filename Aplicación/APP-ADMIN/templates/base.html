@@ -24,9 +24,9 @@
     <!------ Include the above in your HEAD tag ---------->
 
     <style>
-    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 h2 {
-    color: white;
+    color: black;
     margin-bottom: 30px;
     font-size: 40px;
     font-family: 'Dancing Script', cursive;
@@ -35,11 +35,11 @@ h2 {
 footer {
     position: absolute;
     width: 100%;
-    color: white;
+    color: black;
 }
 
-span {
-    color: white;
+li a span {
+    color: black;
 }
 
 .mapa {
@@ -56,7 +56,14 @@ span {
 }
 
 .fab {
-    color: white;
+    color: black;
+}
+.fas{
+    margin: 0;
+}
+.fab:hover{
+    transform: scale(1.15);
+    transition: .2s;
 }
 
 #form-group {
@@ -64,8 +71,12 @@ span {
     align-items: center;
 }
 
-li {
-    margin-top: 10px;
+li a{
+    color: black;
+    font-size: 12px;
+}
+li{
+    margin-top:10px;
 }
 
 hr {
@@ -77,23 +88,14 @@ hr {
         display: flex;
     }
 }
-    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&display=swap');
-.txtcolor {
-    color: #D13240;
-    margin-bottom: 30px;
-    font-size: 30px;
-    font-family: 'Dancing Script', cursive;
-    padding-right: 20px;
-}
 
 .logo {
-    margin-left: 10px;
     margin-top: 5px;
 }
 
 a {
     color: #D13240;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Raleway', sans-serif;
 }
 
 .txtcolor:hover {
@@ -114,6 +116,10 @@ span {
 
     .titulo-categoria{
     color: black;
+}
+.text-dark span{
+    color: black;
+    font-family: 'Raleway', sans-serif;
 }
 
 
@@ -378,6 +384,15 @@ input[type=text]:placeholder {
 
 span {
     color: #D13240;
+}
+
+.btn-danger{
+    background-color: rgb(146, 202, 223);
+    border: rgb(146, 202, 223);
+}
+
+.btn-danger:hover{
+    background-color: rgb(131, 218, 221);
 }
 
 
