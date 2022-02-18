@@ -1,10 +1,6 @@
 <?php
 
-<<<<<<< HEAD:Aplicación/APP-ADMIN/var/cache/dev/Container24eWKRp/getApiEventoControllerService.php
 namespace Container24eWKRp;
-=======
-namespace ContainerRPzqUxu;
->>>>>>> c3c3798b07e811dc68b12039783577c1443ac405:Aplicación/APP-ADMIN/var/cache/dev/ContainerRPzqUxu/getApiEventoControllerService.php
 
 
 use Symfony\Component\DependencyInjection\Argument\RewindableGenerator;
@@ -27,7 +23,7 @@ class getApiEventoControllerService extends App_KernelDevDebugContainer
 
         $container->services['App\\Controller\\ApiEventoController'] = $instance = new \App\Controller\ApiEventoController(($container->privates['App\\Repository\\EventoRepository'] ?? $container->load('getEventoRepositoryService')));
 
-        $instance->setContainer(($container->privates['.service_locator.mx0UMmY'] ?? $container->load('get_ServiceLocator_Mx0UMmYService'))->withContext('App\\Controller\\ApiEventoController', $container));
+        $instance->setContainer(($container->privates['.service_locator.GNc8e5B'] ?? $container->load('get_ServiceLocator_GNc8e5BService'))->withContext('App\\Controller\\ApiEventoController', $container));
 
         return $instance;
     }

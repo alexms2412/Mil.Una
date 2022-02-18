@@ -1,10 +1,6 @@
 <?php
 
-<<<<<<< HEAD:Aplicación/APP-ADMIN/var/cache/dev/Container24eWKRp/getDebug_Security_Voter_Security_Access_ExpressionVoterService.php
 namespace Container24eWKRp;
-=======
-namespace ContainerRPzqUxu;
->>>>>>> c3c3798b07e811dc68b12039783577c1443ac405:Aplicación/APP-ADMIN/var/cache/dev/ContainerRPzqUxu/getDebug_Security_Voter_Security_Access_ExpressionVoterService.php
 
 
 use Symfony\Component\DependencyInjection\Argument\RewindableGenerator;

@@ -1,10 +1,6 @@
 <?php
 
-<<<<<<< HEAD:Aplicación/APP-ADMIN/var/cache/dev/Container24eWKRp/getMaker_AutoCommand_MakeFormService.php
 namespace Container24eWKRp;
-=======
-namespace ContainerRPzqUxu;
->>>>>>> c3c3798b07e811dc68b12039783577c1443ac405:Aplicación/APP-ADMIN/var/cache/dev/ContainerRPzqUxu/getMaker_AutoCommand_MakeFormService.php
 
 
 use Symfony\Component\DependencyInjection\Argument\RewindableGenerator;

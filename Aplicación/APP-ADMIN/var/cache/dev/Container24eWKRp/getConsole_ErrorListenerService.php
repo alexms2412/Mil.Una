@@ -1,10 +1,6 @@
 <?php
 
-<<<<<<< HEAD:Aplicación/APP-ADMIN/var/cache/dev/Container24eWKRp/getConsole_ErrorListenerService.php
 namespace Container24eWKRp;
-=======
-namespace ContainerRPzqUxu;
->>>>>>> c3c3798b07e811dc68b12039783577c1443ac405:Aplicación/APP-ADMIN/var/cache/dev/ContainerRPzqUxu/getConsole_ErrorListenerService.php
 
 
 use Symfony\Component\DependencyInjection\Argument\RewindableGenerator;

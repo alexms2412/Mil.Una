@@ -1,10 +1,6 @@
 <?php
 
-<<<<<<< HEAD:Aplicación/APP-ADMIN/var/cache/dev/Container24eWKRp/getApiUsuarioControllerService.php
 namespace Container24eWKRp;
-=======
-namespace ContainerRPzqUxu;
->>>>>>> c3c3798b07e811dc68b12039783577c1443ac405:Aplicación/APP-ADMIN/var/cache/dev/ContainerRPzqUxu/getApiUsuarioControllerService.php
 
 
 use Symfony\Component\DependencyInjection\Argument\RewindableGenerator;
@@ -27,7 +23,7 @@ class getApiUsuarioControllerService extends App_KernelDevDebugContainer
 
         $container->services['App\\Controller\\ApiUsuarioController'] = $instance = new \App\Controller\ApiUsuarioController(($container->privates['App\\Repository\\UsuarioRepository'] ?? $container->load('getUsuarioRepositoryService')));
 
-        $instance->setContainer(($container->privates['.service_locator.mx0UMmY'] ?? $container->load('get_ServiceLocator_Mx0UMmYService'))->withContext('App\\Controller\\ApiUsuarioController', $container));
+        $instance->setContainer(($container->privates['.service_locator.GNc8e5B'] ?? $container->load('get_ServiceLocator_GNc8e5BService'))->withContext('App\\Controller\\ApiUsuarioController', $container));
 
         return $instance;
     }

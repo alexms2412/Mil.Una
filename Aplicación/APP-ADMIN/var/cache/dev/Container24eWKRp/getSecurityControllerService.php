@@ -1,10 +1,6 @@
 <?php
 
-<<<<<<< HEAD:Aplicación/APP-ADMIN/var/cache/dev/Container24eWKRp/getSecurityControllerService.php
 namespace Container24eWKRp;
-=======
-namespace ContainerRPzqUxu;
->>>>>>> c3c3798b07e811dc68b12039783577c1443ac405:Aplicación/APP-ADMIN/var/cache/dev/ContainerRPzqUxu/getSecurityControllerService.php
 
 
 use Symfony\Component\DependencyInjection\Argument\RewindableGenerator;
@@ -27,7 +23,7 @@ class getSecurityControllerService extends App_KernelDevDebugContainer
 
         $container->services['App\\Controller\\SecurityController'] = $instance = new \App\Controller\SecurityController();
 
-        $instance->setContainer(($container->privates['.service_locator.mx0UMmY'] ?? $container->load('get_ServiceLocator_Mx0UMmYService'))->withContext('App\\Controller\\SecurityController', $container));
+        $instance->setContainer(($container->privates['.service_locator.GNc8e5B'] ?? $container->load('get_ServiceLocator_GNc8e5BService'))->withContext('App\\Controller\\SecurityController', $container));
 
         return $instance;
     }

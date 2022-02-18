@@ -3816,3 +3816,13 @@ bd3eb9,::1,GET,http://localhost:8001/assets/header-traduccioningles.png,16451764
 bad7be,::1,GET,http://localhost:8001/,1645176912,,200
 ddb47b,::1,GET,http://localhost:8001/,1645177434,,200
 3b215e,::1,GET,http://localhost:8001/,1645177575,,200
+a2d0d0,127.0.0.1,GET,http://127.0.0.1:8000/,1645181197,,200
+58984a,127.0.0.1,GET,http://127.0.0.1:8000/assets/header-logo.png,1645181201,f3e6c9,404
+f3e6c9,127.0.0.1,GET,http://127.0.0.1:8000/assets/header-logo.png,1645181201,,404
+8ec655,127.0.0.1,GET,http://127.0.0.1:8000/evento/new,1645181250,,200
+1eb24c,127.0.0.1,GET,http://127.0.0.1:8000/evento/new,1645181251,,200
+eb06d8,::1,GET,http://localhost:8000/admin,1645181443,b044df,404
+b044df,::1,GET,http://localhost:8000/admin,1645181443,,404
+2add54,::1,GET,http://localhost:8000/,1645181449,,200
+e34589,::1,GET,http://localhost:8000/assets/header-logo.png,1645181450,2b2cbc,404
+2b2cbc,::1,GET,http://localhost:8000/assets/header-logo.png,1645181450,,404

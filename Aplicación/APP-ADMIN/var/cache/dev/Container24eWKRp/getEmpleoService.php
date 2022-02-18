@@ -1,10 +1,6 @@
 <?php
 
-<<<<<<< HEAD:Aplicación/APP-ADMIN/var/cache/dev/Container24eWKRp/getEmpleoService.php
 namespace Container24eWKRp;
-=======
-namespace ContainerRPzqUxu;
->>>>>>> c3c3798b07e811dc68b12039783577c1443ac405:Aplicación/APP-ADMIN/var/cache/dev/ContainerRPzqUxu/getEmpleoService.php
 
 
 use Symfony\Component\DependencyInjection\Argument\RewindableGenerator;
@@ -16,12 +12,12 @@ use Symfony\Component\DependencyInjection\Exception\RuntimeException;
 class getEmpleoService extends App_KernelDevDebugContainer
 {
     /**
-     * Gets the private '.errored..service_locator.2VPHbV7.App\Entity\Empleo' shared service.
+     * Gets the private '.errored..service_locator.MNG5ObC.App\Entity\Empleo' shared service.
      *
      * @return \App\Entity\Empleo
      */
     public static function do($container, $lazyLoad = true)
     {
-        $container->throw('Cannot autowire service ".service_locator.2VPHbV7": it references class "App\\Entity\\Empleo" but no such service exists.');
+        $container->throw('Cannot autowire service ".service_locator.MNG5ObC": it references class "App\\Entity\\Empleo" but no such service exists.');
     }
 }

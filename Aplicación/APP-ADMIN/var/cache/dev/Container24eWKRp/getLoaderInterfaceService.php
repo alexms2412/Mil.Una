@@ -1,10 +1,6 @@
 <?php
 
-<<<<<<< HEAD:Aplicación/APP-ADMIN/var/cache/dev/Container24eWKRp/getLoaderInterfaceService.php
 namespace Container24eWKRp;
-=======
-namespace ContainerRPzqUxu;
->>>>>>> c3c3798b07e811dc68b12039783577c1443ac405:Aplicación/APP-ADMIN/var/cache/dev/ContainerRPzqUxu/getLoaderInterfaceService.php
 
 
 use Symfony\Component\DependencyInjection\Argument\RewindableGenerator;
@@ -16,12 +12,12 @@ use Symfony\Component\DependencyInjection\Exception\RuntimeException;
 class getLoaderInterfaceService extends App_KernelDevDebugContainer
 {
     /**
-     * Gets the private '.errored..service_locator.xUrKPVU.Symfony\Component\Config\Loader\LoaderInterface' shared service.
+     * Gets the private '.errored..service_locator.KfbR3DY.Symfony\Component\Config\Loader\LoaderInterface' shared service.
      *
      * @return \Symfony\Component\Config\Loader\LoaderInterface
      */
     public static function do($container, $lazyLoad = true)
     {
-        $container->throw('Cannot autowire service ".service_locator.xUrKPVU": it references interface "Symfony\\Component\\Config\\Loader\\LoaderInterface" but no such service exists. You should maybe alias this interface to one of these existing services: "routing.loader.xml", "routing.loader.yml", "routing.loader.php", "routing.loader.glob", "routing.loader.directory", "routing.loader.container", "routing.loader", "routing.loader.annotation", "routing.loader.annotation.directory", "routing.loader.annotation.file".');
+        $container->throw('Cannot autowire service ".service_locator.KfbR3DY": it references interface "Symfony\\Component\\Config\\Loader\\LoaderInterface" but no such service exists. You should maybe alias this interface to one of these existing services: "routing.loader.xml", "routing.loader.yml", "routing.loader.php", "routing.loader.glob", "routing.loader.directory", "routing.loader.container", "routing.loader", "routing.loader.annotation", "routing.loader.annotation.directory", "routing.loader.annotation.file".');
     }
 }

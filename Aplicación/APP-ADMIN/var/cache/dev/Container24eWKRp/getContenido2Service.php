@@ -1,10 +1,6 @@
 <?php
 
-<<<<<<< HEAD:Aplicación/APP-ADMIN/var/cache/dev/Container24eWKRp/getContenido2Service.php
 namespace Container24eWKRp;
-=======
-namespace ContainerRPzqUxu;
->>>>>>> c3c3798b07e811dc68b12039783577c1443ac405:Aplicación/APP-ADMIN/var/cache/dev/ContainerRPzqUxu/getContenido2Service.php
 
 
 use Symfony\Component\DependencyInjection\Argument\RewindableGenerator;
@@ -16,12 +12,12 @@ use Symfony\Component\DependencyInjection\Exception\RuntimeException;
 class getContenido2Service extends App_KernelDevDebugContainer
 {
     /**
-     * Gets the private '.errored..service_locator.DQnconH.App\Entity\Contenido' shared service.
+     * Gets the private '.errored..service_locator.q9WzDsK.App\Entity\Contenido' shared service.
      *
      * @return \App\Entity\Contenido
      */
     public static function do($container, $lazyLoad = true)
     {
-        $container->throw('Cannot autowire service ".service_locator.DQnconH": it references class "App\\Entity\\Contenido" but no such service exists.');
+        $container->throw('Cannot autowire service ".service_locator.q9WzDsK": it references class "App\\Entity\\Contenido" but no such service exists.');
     }
 }

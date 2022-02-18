@@ -1,10 +1,6 @@
 <?php
 
-<<<<<<< HEAD:Aplicación/APP-ADMIN/var/cache/dev/Container24eWKRp/get_Messenger_HandlerDescriptor_XZowc_TService.php
 namespace Container24eWKRp;
-=======
-namespace ContainerRPzqUxu;
->>>>>>> c3c3798b07e811dc68b12039783577c1443ac405:Aplicación/APP-ADMIN/var/cache/dev/ContainerRPzqUxu/get_Messenger_HandlerDescriptor_XZowc_TService.php
 
 
 use Symfony\Component\DependencyInjection\Argument\RewindableGenerator;

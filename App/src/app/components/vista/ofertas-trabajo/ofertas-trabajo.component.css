@@ -1,8 +1,37 @@
 .card {
-    border: 3px solid brown;
-    border-radius: 22px;
     margin-top: 20px;
     margin-right: 10%;
     margin-left: 10%;
     margin-bottom: 40px;
+    box-shadow: 6px 20px 10px #7c767648;
+}
+
+h5 {
+    position: absolute;
+    margin-top: 9px;
+    margin-left: 30px;
+}
+
+h6 {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 11px
+}
+
+button {
+    float: right;
+}
+
+hr {
+    opacity: 100;
+    margin-top: 70PX;
+    size: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    button {
+        float: unset;
+        margin-top: 60PX;
+        margin-left: 88px;
+    }
 }
