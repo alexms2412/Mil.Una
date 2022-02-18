@@ -1,55 +1,48 @@
-<div class="d-none d-xl-block d-lg-block d-xl-none">
-<div class="fondo">
-  <img class="imagenInicio" src="./assets/landing-background-1.png" alt=""></div>
-</div>
+<div (window:scroll)="Scroll()">
+  <div class="d-none d-xl-block d-lg-block d-xl-none">
+    <div class="fondo">
+      <img class="imagenInicio" src="./assets/landing-background-1.png" alt=""></div>
+  </div>
 
 
-<div class="nav-item d-block d-sm-none d-sm-block d-md-none d-md-block d-lg-none">
+  <div class="nav-item d-block d-sm-none d-sm-block d-md-none d-md-block d-lg-none">
 
-<div class="fondo">
+    <div class="fondo">
 
-  <img class="imagenInicio" src="./assets/landing-background-2.png" alt="Responsive image">
+      <img class="imagenInicio" src="./assets/landing-background-2.png" alt="Responsive image">
 
-</div>
-</div>
-
-
+    </div>
+  </div>
 
 
-
-
-
-
-
-
-
-
-<div class="divSombreado">
+  <div class="divSombreado">
+    <a class="text-dark home"> <span><i class="fas fa-home"></i> </span> </a>
     <h2 class="titulo">mil.una</h2>
 
     <div class="iconosInicio">
 
-        <ul class="list-unstyled">
-            <li>
-                <a href="tel:+34648661161" class="text-dark"> <span><i class="fas fa-phone me-3"></i> </span> </a>
-            </li>
+      <ul class="list-unstyled">
+        <li>
+          <a href="tel:+34648661161" class="text-dark"> <span><i class="fas fa-phone me-3"></i> </span> </a>
+        </li>
 
-            <li>
-                <a href="mailto:miluna.sagunt@gmail.com" class="text-dark"> <span><i class="fas fa-envelope me-3"></i> </span> </a>
-            </li>
+        <li>
+          <a href="mailto:miluna.sagunt@gmail.com" class="text-dark"> <span><i class="fas fa-envelope me-3"></i> </span>
+          </a>
+        </li>
 
-        </ul>
+      </ul>
 
     </div>
 
-</div>
+  </div>
 
-<br>
-<br>
+  <br>
+  <br>
 
-<div class="container-fluid">
+  <div class="container-fluid">
     <div class="row">
-      <div  data-aos="fade-right" class="col col-xl-6 col-lg-6 col-md-5 col-sm-12 col-12">
+      <div class="col col-xl-6 col-lg-6 col-md-5 col-sm-12 col-12">
         <h2 class="titulo2">En lucha permanente <br> por las mujeres</h2>
         <hr size="5px" class="primerHr" />
       </div>
@@ -58,7 +51,8 @@
           Apostamos por la formación y el empoderamiento de las mujeres que viven situaciones de vulnerabilidad y
           desigualdad social y que buscan una segunda oportunidad
           formativa y un acceso al empleo digno. A través de la confianza, la creatividad y las relaciones grupales,
-          trabajamos nuevas maneras de vernos en el empleo, la familia, el entorno y así que las participantes tengan más
+          trabajamos nuevas maneras de vernos en el empleo, la familia, el entorno y así que las participantes tengan
+          más
           oportunidades de elegir.
         </p>
       </div>
@@ -66,141 +60,112 @@
   </div>
 
 
-<br>
+  <br>
 
-<div data-aos="fade-up"  class="container">
-
+  <div data-aos="fade-up" class="container">
     <div class="row segundoRow">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <div class="centrarImagen"> <img class="sombreadoImagen rounded" src="./assets/landing-foto-1.png"
+            alt="Imagen por describir">
+        </div>
+      </div>
 
-        <div class="col-lg-12 col-md-12 col-sm-12">
+      <div class="col-lg-12 col-md-12 col-sm-12 sombreadoParalelo">
+        <div class="divDeDiv">
+          <p class="textoSegundadefinicion">Nuestra fórmula de trabajo es la formación prelaboral, constatamos que a
+            través de un modelo de aprendizaje basado en la formación mediante el trabajo en talleres prelaborales y
+            realizando un acompañamiento personal, se pueden ofrecer
+            los instrumentos necesarios para desarrollar y adquirir unas condiciones de empleabilidad que permitan la
+            inclusión laboral y social. <br> Contamos con un taller productivo de costura que responde a la necesidad de
+            ofrecer un espacio
+            de trabajo protegido para mujeres que por sus condiciones actuales, no pueden incorporarse al empleo
+            ordinario. A la vez, a través de nuestra marca realizamos un trabajo de sensibilización y visibilización con
+            diferentes entidades
+            y particulares que compran nuestros productos Mil.Una contribuyendo así a crear relaciones comerciales más
+            justas y sostenibles.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-            <div class="centrarImagen"> <img class="sombreadoImagen rounded" src="./assets/landing-foto-1.png" alt="Imagen por describir">
-            </div>
+  <br>
 
+  <div class="estadisticas">
+
+      <div data-aos="fade-up" class=" m-0 row jutify-content-center ">
+        <div class=" col-lg-3 col-md-6 col-sm-12 ">
+          <i class="fa fa-bar-chart iconosCenter" aria-hidden="true"></i>
+          <h3 class="datoNumerico">{{projectCount}} </h3>
+          <h5 class="textoDatos">Inserciones laborales <br> desde 2017. </h5>
         </div>
 
-        <div class="col-lg-12 col-md-12 col-sm-12 sombreadoParalelo">
-
-            <div class="divDeDiv">
-
-                <p class="textoSegundadefinicion">Nuestra fórmula de trabajo es la formación prelaboral, constatamos que a través de un modelo de aprendizaje basado en la formación mediante el trabajo en talleres prelaborales y realizando un acompañamiento personal, se pueden ofrecer
-                    los instrumentos necesarios para desarrollar y adquirir unas condiciones de empleabilidad que permitan la inclusión laboral y social. <br> Contamos con un taller productivo de costura que responde a la necesidad de ofrecer un espacio
-                    de trabajo protegido para mujeres que por sus condiciones actuales, no pueden incorporarse al empleo ordinario. A la vez, a través de nuestra marca realizamos un trabajo de sensibilización y visibilización con diferentes entidades
-                    y particulares que compran nuestros productos Mil.Una contribuyendo así a crear relaciones comerciales más justas y sostenibles.</p>
-
-            </div>
-
+        <div class="col-lg-3 col-md-6 col-sm-12 ">
+          <i class='fas fa-chart-line iconosCenter'></i>
+          <h3 class="datoNumerico">{{projectCount2}} </h3>
+          <h5 class="textoDatos"> Media de mujeres <br> atendidas cada curso.</h5>
         </div>
 
+        <div class="col-lg-3 col-md-6 col-sm-12 ">
+
+          <i class="fa fa-pie-chart iconosCenter" aria-hidden="true"></i>
+          <h3 class="datoNumerico">{{projectCount3}} </h3>
+          <h5 class="textoDatos">Mujeres con empleo <br> estable. </h5>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 ">
+
+          <i class="fa fa-plus-square-o iconosCenter" aria-hidden="true"></i>
+          <h3 class="datoNumerico">{{projectCount4}} </h3>
+          <h5 class="textoDatos"> Numero mascarillas cosidas <br> en nuestro taller.</h5>
+
+        </div>
+      </div>
     </div>
 
-</div>
+  <br>
+  <br>
+  <br>
 
-<br>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-12 col-sm-12 ">
 
-<div class="estadisticas">
+        <div class="bloque3contenido">
 
-    <div>
+          <h5 class="titulo4">Las actividades que ofrecemos son:</h5>
 
-        <div class=" m-0 row jutify-content-center ">
+          <br>
 
-            <div data-aos="fade-right"  class=" col-lg-3 col-md-6 col-sm-12 ">
+          <p class=""><b>-Empleo: </b> Formación y acompañamiento durante la búsqueda.
+          </p>
 
-                <i class="fa fa-bar-chart iconosCenter" aria-hidden="true"></i>
+          <p><b>-Mediación laboral:</b></p>
 
-                <h3 class="datoNumerico">{{projectCount}} </h3>
-
-                <h5 class="textoDatos">Inserciones laborales <br> desde 2017. </h5>
-
-            </div>
-
-            <div data-aos="fade-up"  class="col-lg-3 col-md-6 col-sm-12 ">
-
-                <i class='fas fa-chart-line iconosCenter'></i>
-
-                <h3 class="datoNumerico">{{projectCount2}} </h3>
-
-                <h5 class="textoDatos"> Media de mujeres <br> atendidas cada curso.</h5>
-
-            </div>
-
-            <div data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-12 ">
-
-                <i class="fa fa-pie-chart iconosCenter" aria-hidden="true"></i>
-
-                <h3 class="datoNumerico">{{projectCount3}} </h3>
-
-                <h5 class="textoDatos">Mujeres con empleo <br> estable. </h5>
-
-            </div>
-
-            <div data-aos="fade-left" class="col-lg-3 col-md-6 col-sm-12 ">
-
-                <i class="fa fa-plus-square-o iconosCenter" aria-hidden="true"></i>
-                <h3 class="datoNumerico">{{projectCount4}} </h3>
-
-                <h5 class="textoDatos"> Numero mascarillas cosidas <br> en nuestro taller.</h5>
-
-            </div>
-
+          <ol type=”A”>
+            <li>Espacios grupales de reflexión y empoderamiento.</li>
+            <li>Tertulias literarias</li>
+            <li>Aprendizaje para la elaboración artesanal de productos textiles</li>
+            <li>Espacio seguro y feminista </li>
+            <li>Sostenibilidad social y medioambiental a través de la venta de productos </li>
+          </ol>
         </div>
+      </div>
 
-
+      <div class="col-lg-6 col-md-12 col-sm-12 imagen2contenido">
+        <img src="./assets/landing-foto-2.png" class="rounded " alt="...">
+      </div>
     </div>
-
-
-
-</div>
-
-<br>
-<br>
-
-
+  </div>
+  <div class="queHacemos  d-none d-xl-block d-lg-block d-xl-none">
     <br>
+  </div>
 
-    <div class="container">
-
-
-        <div class="row">
-
-
-            <div data-aos="fade-up"  class="col-lg-6 col-md-12 col-sm-12 ">
-
-                <div class="bloque3contenido">
-
-                    <h5 class="titulo4">Las actividades que ofrecemos son:</h5>
-
-                    <br>
-
-                    <p class=""><b>-Empleo: </b> Formación y acompañamiento durante la búsqueda.
-                    </p>
-
-                    <p><b>-Mediación laboral:</b></p>
-
-                    <ol type=”A”>
-                        <li>Espacios grupales de reflexión y empoderamiento.</li>
-                        <li>Tertulias literarias</li>
-                        <li>Aprendizaje para la elaboración artesanal de productos textiles</li>
-                        <li>Espacio seguro y feminista </li>
-                        <li>Sostenibilidad social y medioambiental a través de la venta de productos </li>
-                    </ol>
+  <br>
+  <br>
 
 
-                </div>
+  <div class="container-fluid">
 
-
-
-            </div>
-
-
-            </div>
-        </div>
-
-
-<br>
-<br>
-
-<div data-aos="fade-up" class="container-fluid">
     <div class="row">
       <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
         <h2 class="titulo3 clase2">Algunos de nuestros clientes:</h2>
@@ -210,21 +175,26 @@
         <div id="carouselExampleControls" class="carousel slide carouselAlineacion" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img class="d-block w-100 imagenesCorporativas" src="./assets/landing-carrusel-1-1.jpg" alt="Logo" longdesc="Aula didactica de cultura clasica Saguntina Dombus Baebia">
+              <img class="d-block w-100 imagenesCorporativas" src="./assets/landing-carrusel-1-1.jpg" alt="Logo"
+                longdesc="Aula didactica de cultura clasica Saguntina Dombus Baebia">
 
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100 imagenesCorporativas" src="./assets/landing-carrusel-1-2.png " alt="Logo" longdesc="Guarderia ninios">
+              <img class="d-block w-100 imagenesCorporativas" src="./assets/landing-carrusel-1-2.png " alt="Logo"
+                longdesc="Guarderia ninios">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100 imagenesCorporativas" src="./assets/landing-carrusel-1-3.png " alt="Logo" longdesc="Cosmetica natural Maminat">
+              <img class="d-block w-100 imagenesCorporativas" src="./assets/landing-carrusel-1-3.png " alt="Logo"
+                longdesc="Cosmetica natural Maminat">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100 imagenesCorporativas" src="./assets/landing-carrusel-1-4.png " alt="Logo"longdesc="Cistella Responsable">
+              <img class="d-block w-100 imagenesCorporativas" src="./assets/landing-carrusel-1-4.png " alt="Logo"
+                longdesc="Cistella Responsable">
 
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100 imagenesCorporativas" src="./assets/landing-carrusel-1-5.png " alt="Logo" longdesc="Aula didactica de cultura clasica Saguntina Dombus Baebia">
+              <img class="d-block w-100 imagenesCorporativas" src="./assets/landing-carrusel-1-5.png " alt="Logo"
+                longdesc="Aula didactica de cultura clasica Saguntina Dombus Baebia">
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -239,17 +209,19 @@
       </div>
       <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
         <h2 class="titulo3 clase2">Con el apoyo de: </h2>
-      <hr size="5px" class="hrCorporativo" />
+        <hr size="5px" class="hrCorporativo" />
       </div>
       <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
         <div id="carouselExampleControls" class="carousel slide carouselAlineacion " data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img class="d-block w-100 imagenesCorporativas" src="./assets/landing-carrusel-2-1.JPG" alt="Logo" longdesc="Ajuntament de Sagunt">
+              <img class="d-block w-100 imagenesCorporativas" src="./assets/landing-carrusel-2-1.JPG" alt="Logo"
+                longdesc="Ajuntament de Sagunt">
 
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100 imagenesCorporativas" src="./assets/landing-carrusel-2-2.JPG" alt="Logo" longdesc="Generalitat Valenciana">
+              <img class="d-block w-100 imagenesCorporativas" src="./assets/landing-carrusel-2-2.JPG" alt="Logo"
+                longdesc="Generalitat Valenciana">
             </div>
 
           </div>
@@ -291,3 +263,5 @@
   </div>
 
   <br>
+
+</div>
