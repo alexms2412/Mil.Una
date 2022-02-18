@@ -644,6 +644,6 @@ class __TwigTemplate_ccb3da5e28e77589233baa2618b38245db79c681c8516d075611f3aa1c5
         </div>
     {% endfor %}
 {% endblock %}
-", "@WebProfiler/Collector/notifier.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/API/vendor/symfony/web-profiler-bundle/Resources/views/Collector/notifier.html.twig");
+", "@WebProfiler/Collector/notifier.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/vendor/symfony/web-profiler-bundle/Resources/views/Collector/notifier.html.twig");
     }
 }

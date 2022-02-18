@@ -1349,6 +1349,6 @@ class __TwigTemplate_618cca9501698f6d86810b1d0e4bad13191d11f624c1fc5ae22a045714d
         <span>{{ route|default(controller) }}</span>
     {%- endif %}
 {% endmacro %}
-", "@WebProfiler/Collector/request.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/API/vendor/symfony/web-profiler-bundle/Resources/views/Collector/request.html.twig");
+", "@WebProfiler/Collector/request.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/vendor/symfony/web-profiler-bundle/Resources/views/Collector/request.html.twig");
     }
 }

@@ -149,6 +149,6 @@ class __TwigTemplate_c01b83d0b20010bec1ff0bf60433db2bbf781e7353c38b277a52ea5d116
 
     {{ include('@WebProfiler/Profiler/toolbar_item.html.twig', { link: profiler_url }) }}
 {% endblock %}
-", "@WebProfiler/Profiler/cancel.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/API/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/cancel.html.twig");
+", "@WebProfiler/Profiler/cancel.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/cancel.html.twig");
     }
 }

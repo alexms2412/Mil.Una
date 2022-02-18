@@ -413,6 +413,6 @@ class __TwigTemplate_0deeafdd795c9a5821e095a222cbb0bba4dd98fdca83817a6b902436e24
         </div>
     {% endfor %}
 {% endblock %}
-", "@Debug/Profiler/dump.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/API/vendor/symfony/debug-bundle/Resources/views/Profiler/dump.html.twig");
+", "@Debug/Profiler/dump.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/vendor/symfony/debug-bundle/Resources/views/Profiler/dump.html.twig");
     }
 }

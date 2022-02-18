@@ -619,6 +619,6 @@ class __TwigTemplate_cb61e7c649577f1e3ffd14b0bab2867e7770265f7cdd743effbac7035f7
 
 
 </body>
-{% endblock %}", "layout.html", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/API/templates/layout.html");
+{% endblock %}", "layout.html", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/templates/layout.html");
     }
 }

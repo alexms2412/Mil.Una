@@ -79,6 +79,6 @@ class __TwigTemplate_416b13ee401035ffe7801b1d0513fdf9a4af844461c4fdd168980a0b0c0
     <input type=\"hidden\" name=\"_token\" value=\"{{ csrf_token('delete' ~ contenido.id) }}\">
     <button class=\"btn\">Delete</button>
 </form>
-", "contenido/_delete_form.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/API/templates/contenido/_delete_form.html.twig");
+", "contenido/_delete_form.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/templates/contenido/_delete_form.html.twig");
     }
 }
