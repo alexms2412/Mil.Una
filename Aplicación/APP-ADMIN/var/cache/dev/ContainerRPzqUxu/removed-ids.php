@@ -1,12 +1,21 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:Aplicación/APP-ADMIN/var/cache/dev/Container24eWKRp/removed-ids.php
 namespace Container24eWKRp;
 
 return [
     '.1_ServiceLocator~WIm3iEG' => true,
     '.1_ServiceLocator~yD7wkKg' => true,
+=======
+<<<<<<< HEAD:Aplicación/APP-ADMIN/var/cache/dev/Container2x9EUrJ/removed-ids.php
+namespace Container2x9EUrJ;
+
+return [
+    '.1_ServiceLocator~Nu8vCMM' => true,
+    '.1_ServiceLocator~Z3aZC2b' => true,
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
 =======
 =======
 <<<<<<<< HEAD:Aplicación/APP-ADMIN/var/cache/dev/Container1VyNrWM/removed-ids.php
@@ -16,7 +25,11 @@ return [
     '.1_ServiceLocator~PjZr7.X' => true,
     '.1_ServiceLocator~apCHLkB' => true,
 ========
+<<<<<<< HEAD
 >>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
 namespace ContainerRPzqUxu;
 
 return [
@@ -26,7 +39,11 @@ return [
 >>>>>>> c3c3798b07e811dc68b12039783577c1443ac405:Aplicación/APP-ADMIN/var/cache/dev/ContainerRPzqUxu/removed-ids.php
 =======
 >>>>>>>> main:Aplicación/APP-ADMIN/var/cache/dev/ContainerRPzqUxu/removed-ids.php
+<<<<<<< HEAD
 >>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
     '.abstract.instanceof.App\\Controller\\ApiContenidoController' => true,
     '.abstract.instanceof.App\\Controller\\ApiEmpleoController' => true,
     '.abstract.instanceof.App\\Controller\\ApiEventoController' => true,

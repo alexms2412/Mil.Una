@@ -4013,6 +4013,7 @@ bad7be,::1,GET,http://localhost:8001/,1645176912,,200
 ddb47b,::1,GET,http://localhost:8001/,1645177434,,200
 3b215e,::1,GET,http://localhost:8001/,1645177575,,200
 <<<<<<< HEAD
+<<<<<<< HEAD
 a2d0d0,127.0.0.1,GET,http://127.0.0.1:8000/,1645181197,,200
 58984a,127.0.0.1,GET,http://127.0.0.1:8000/assets/header-logo.png,1645181201,f3e6c9,404
 f3e6c9,127.0.0.1,GET,http://127.0.0.1:8000/assets/header-logo.png,1645181201,,404
@@ -4036,3 +4037,33 @@ b0abf1,::1,POST,http://localhost:8000/contenido/new,1645187029,,303
 6f957b,::1,GET,http://localhost:8000/landing,1645187056,f6fee6,404
 f6fee6,::1,GET,http://localhost:8000/landing,1645187056,,404
 b08c55,::1,GET,http://localhost:8000/evento/,1645187090,,200
+=======
+ce1a90,::1,GET,https://localhost:8000/,1645181486,,200
+2cc6be,::1,GET,https://localhost:8000/assets/header-logo.png,1645181492,0117aa,404
+0117aa,::1,GET,https://localhost:8000/assets/header-logo.png,1645181492,,404
+35c251,::1,GET,https://localhost:8000/assets/header-logo.png,1645181492,6588c9,404
+6588c9,::1,GET,https://localhost:8000/assets/header-logo.png,1645181493,,404
+3e4b5a,::1,GET,https://localhost:8000/landing,1645181528,b8a305,404
+b8a305,::1,GET,https://localhost:8000/landing,1645181528,,404
+f599de,::1,GET,https://localhost:4200/api/empleo/obtenerTodos,1645181738,,200
+c0df51,::1,GET,https://localhost:4200/api/contenido/obtenerTodos,1645181740,,200
+a9f392,::1,GET,https://localhost:4200/api/empleo/obtenerTodos,1645182175,,200
+feb119,::1,GET,https://localhost:4200/api/empleo/obtenerTodos,1645182211,,200
+158213,::1,GET,https://localhost:4200/api/empleo/obtenerTodos,1645182219,,200
+ce0e6a,::1,GET,https://localhost:4200/api/contenido/obtenerTodos,1645185481,,200
+86423e,::1,GET,https://localhost:4200/api/contenido/obtenerTodos,1645185965,,200
+87715d,::1,GET,https://localhost:4200/api/empleo/obtenerTodos,1645185966,,200
+37638a,::1,GET,https://localhost:4200/api/contenido/obtenerTodos,1645186180,,200
+d18b33,::1,GET,https://localhost:4200/api/empleo/obtenerTodos,1645186181,,200
+bb5c81,::1,GET,https://localhost:4200/api/contenido/obtenerTodos,1645186217,,200
+36eafd,::1,GET,https://localhost:4200/api/empleo/obtenerTodos,1645186218,,200
+f8540c,::1,GET,https://localhost:4200/api/contenido/obtenerTodos,1645186220,,200
+d0f982,::1,GET,https://localhost:4200/api/contenido/obtenerTodos,1645186227,,200
+=======
+>>>>>>> main
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+745ef1,::1,GET,https://localhost:4200/api/contenido/obtenerTodos,1645186351,,200
+031244,::1,GET,https://localhost:4200/api/contenido/obtenerTodos,1645186355,,200
+75cb0e,::1,GET,https://localhost:4200/api/contenido/obtenerTodos,1645186362,,200
+2ea1b8,::1,GET,https://localhost:4200/api/empleo/obtenerTodos,1645186363,,200
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
