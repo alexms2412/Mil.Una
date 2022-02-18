@@ -446,6 +446,6 @@ class __TwigTemplate_9613f4b589e74c7cccf574eed391fe252a912b2e30907e69b0489e0fedc
         </div>
       </div>  
 {% endblock %}
-", "evento/index.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/API/templates/evento/index.html.twig");
+", "evento/index.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/templates/evento/index.html.twig");
     }
 }

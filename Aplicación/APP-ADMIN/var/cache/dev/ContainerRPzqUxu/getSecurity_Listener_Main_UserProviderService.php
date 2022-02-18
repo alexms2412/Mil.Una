@@ -1,11 +1,18 @@
 <?php
 
+<<<<<<< HEAD
 <<<<<<< HEAD:Aplicación/APP-ADMIN/var/cache/dev/Container2x9EUrJ/getSecurity_Listener_Main_UserProviderService.php
 namespace Container2x9EUrJ;
 =======
+=======
+<<<<<<<< HEAD:Aplicación/APP-ADMIN/var/cache/dev/Container1VyNrWM/getSecurity_Listener_Main_UserProviderService.php
+namespace Container1VyNrWM;
+========
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
 namespace ContainerRPzqUxu;
 >>>>>>> c3c3798b07e811dc68b12039783577c1443ac405:Aplicación/APP-ADMIN/var/cache/dev/ContainerRPzqUxu/getSecurity_Listener_Main_UserProviderService.php
 
+>>>>>>>> main:Aplicación/APP-ADMIN/var/cache/dev/ContainerRPzqUxu/getSecurity_Listener_Main_UserProviderService.php
 
 use Symfony\Component\DependencyInjection\Argument\RewindableGenerator;
 use Symfony\Component\DependencyInjection\Exception\RuntimeException;

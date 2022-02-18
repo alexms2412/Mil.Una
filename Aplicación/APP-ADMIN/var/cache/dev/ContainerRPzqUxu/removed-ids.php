@@ -1,5 +1,6 @@
 <?php
 
+<<<<<<< HEAD
 <<<<<<< HEAD:Aplicación/APP-ADMIN/var/cache/dev/Container2x9EUrJ/removed-ids.php
 namespace Container2x9EUrJ;
 
@@ -7,12 +8,25 @@ return [
     '.1_ServiceLocator~Nu8vCMM' => true,
     '.1_ServiceLocator~Z3aZC2b' => true,
 =======
+=======
+<<<<<<<< HEAD:Aplicación/APP-ADMIN/var/cache/dev/Container1VyNrWM/removed-ids.php
+namespace Container1VyNrWM;
+
+return [
+    '.1_ServiceLocator~PjZr7.X' => true,
+    '.1_ServiceLocator~apCHLkB' => true,
+========
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
 namespace ContainerRPzqUxu;
 
 return [
     '.1_ServiceLocator~kSekMZk' => true,
     '.1_ServiceLocator~nvXMbrg' => true,
+<<<<<<< HEAD
 >>>>>>> c3c3798b07e811dc68b12039783577c1443ac405:Aplicación/APP-ADMIN/var/cache/dev/ContainerRPzqUxu/removed-ids.php
+=======
+>>>>>>>> main:Aplicación/APP-ADMIN/var/cache/dev/ContainerRPzqUxu/removed-ids.php
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
     '.abstract.instanceof.App\\Controller\\ApiContenidoController' => true,
     '.abstract.instanceof.App\\Controller\\ApiEmpleoController' => true,
     '.abstract.instanceof.App\\Controller\\ApiEventoController' => true,
@@ -144,11 +158,47 @@ return [
     '.security.command.user_password_encoder.lazy' => true,
     '.security.command.user_password_hash.lazy' => true,
     '.security.request_matcher.Iy.T22O' => true,
+<<<<<<<< HEAD:Aplicación/APP-ADMIN/var/cache/dev/Container1VyNrWM/removed-ids.php
+    '.service_locator..57cKV7' => true,
+========
+>>>>>>>> main:Aplicación/APP-ADMIN/var/cache/dev/ContainerRPzqUxu/removed-ids.php
     '.service_locator.0GV1BZZ' => true,
     '.service_locator.0ZswI8C' => true,
     '.service_locator.0ghLsew' => true,
     '.service_locator.19_mNxd' => true,
     '.service_locator.1kmbKC8' => true,
+<<<<<<<< HEAD:Aplicación/APP-ADMIN/var/cache/dev/Container1VyNrWM/removed-ids.php
+    '.service_locator.33rwRGP' => true,
+    '.service_locator.491LSII' => true,
+    '.service_locator.491LSII.router.default' => true,
+    '.service_locator.5cAhUFF' => true,
+    '.service_locator.80edgLI' => true,
+    '.service_locator.98u.qvw' => true,
+    '.service_locator.9YCWxeJ' => true,
+    '.service_locator.9oK60oW' => true,
+    '.service_locator.BzcGnja' => true,
+    '.service_locator.Er0_7SX' => true,
+    '.service_locator.FudmbnZ' => true,
+    '.service_locator.GNc8e5B' => true,
+    '.service_locator.GNc8e5B.App\\Controller\\ApiContenidoController' => true,
+    '.service_locator.GNc8e5B.App\\Controller\\ApiEmpleoController' => true,
+    '.service_locator.GNc8e5B.App\\Controller\\ApiEventoController' => true,
+    '.service_locator.GNc8e5B.App\\Controller\\ApiUsuarioController' => true,
+    '.service_locator.GNc8e5B.App\\Controller\\ContenidoController' => true,
+    '.service_locator.GNc8e5B.App\\Controller\\EmpleoController' => true,
+    '.service_locator.GNc8e5B.App\\Controller\\EventoController' => true,
+    '.service_locator.GNc8e5B.App\\Controller\\MainController' => true,
+    '.service_locator.GNc8e5B.App\\Controller\\RegistrationController' => true,
+    '.service_locator.GNc8e5B.App\\Controller\\SecurityController' => true,
+    '.service_locator.GPhDY4d' => true,
+    '.service_locator.GVyCdgr' => true,
+    '.service_locator.HIXq1dW' => true,
+    '.service_locator.HLwzKIm' => true,
+    '.service_locator.HLwzKIm.router.cache_warmer' => true,
+    '.service_locator.J4b.DPX' => true,
+    '.service_locator.J4b.DPX.translation.warmer' => true,
+    '.service_locator.JBAFp66' => true,
+========
     '.service_locator.2VPHbV7' => true,
     '.service_locator.3Cvgw4E' => true,
     '.service_locator.3OYTKdS' => true,
@@ -166,6 +216,7 @@ return [
     '.service_locator.Hjz3HR0' => true,
     '.service_locator.I.Fg2WZ' => true,
     '.service_locator.J0i9nl8' => true,
+>>>>>>>> main:Aplicación/APP-ADMIN/var/cache/dev/ContainerRPzqUxu/removed-ids.php
     '.service_locator.KLVvNIq' => true,
     '.service_locator.KRZd_DG' => true,
     '.service_locator.Kr.dDlB' => true,
@@ -175,6 +226,17 @@ return [
     '.service_locator.NUKe30Y' => true,
     '.service_locator.NUKe30Y.router.default' => true,
     '.service_locator.O24_MAy' => true,
+<<<<<<<< HEAD:Aplicación/APP-ADMIN/var/cache/dev/Container1VyNrWM/removed-ids.php
+    '.service_locator.PQK0.4p' => true,
+    '.service_locator.PQK0.4p.sensio_framework_extra.view.listener' => true,
+    '.service_locator.QdfI8T6' => true,
+    '.service_locator.R3wYcPt' => true,
+    '.service_locator.SRtF.2R' => true,
+    '.service_locator.TNEocTu' => true,
+    '.service_locator.UDgw6Ol' => true,
+    '.service_locator.W9y3dzm' => true,
+    '.service_locator.Wd_D6Iy' => true,
+========
     '.service_locator.OlaUaSd' => true,
     '.service_locator.S4cuAZB' => true,
     '.service_locator.SOWg_70' => true,
@@ -184,6 +246,7 @@ return [
     '.service_locator.UkE3SaZ' => true,
     '.service_locator.UupoQDH' => true,
     '.service_locator.WvUEHQt' => true,
+>>>>>>>> main:Aplicación/APP-ADMIN/var/cache/dev/ContainerRPzqUxu/removed-ids.php
     '.service_locator.XDGmiR3' => true,
     '.service_locator.XWmhzGa' => true,
     '.service_locator.XXv1IfR' => true,
@@ -200,11 +263,28 @@ return [
     '.service_locator.bInR.ll' => true,
     '.service_locator.bRdave9' => true,
     '.service_locator.c7f47p7' => true,
+<<<<<<<< HEAD:Aplicación/APP-ADMIN/var/cache/dev/Container1VyNrWM/removed-ids.php
+    '.service_locator.dw8O4oN' => true,
+    '.service_locator.eumQLsO' => true,
+    '.service_locator.fZA09ac' => true,
+========
+>>>>>>>> main:Aplicación/APP-ADMIN/var/cache/dev/ContainerRPzqUxu/removed-ids.php
     '.service_locator.gSv9zYw' => true,
     '.service_locator.h8Jkkd2' => true,
+<<<<<<<< HEAD:Aplicación/APP-ADMIN/var/cache/dev/Container1VyNrWM/removed-ids.php
+    '.service_locator.iqTlsWm' => true,
+    '.service_locator.jNH.lQB' => true,
+    '.service_locator.jjfoa6_' => true,
+    '.service_locator.jlGDFda' => true,
+    '.service_locator.jlyTfzM' => true,
+    '.service_locator.kODoftA' => true,
+    '.service_locator.kXCVHeG' => true,
+    '.service_locator.l2QwsaZ' => true,
+========
     '.service_locator.hLVgocm' => true,
     '.service_locator.js4BXPv' => true,
     '.service_locator.keEqB9B' => true,
+>>>>>>>> main:Aplicación/APP-ADMIN/var/cache/dev/ContainerRPzqUxu/removed-ids.php
     '.service_locator.lLv4pWF' => true,
     '.service_locator.mx0UMmY' => true,
     '.service_locator.mx0UMmY.App\\Controller\\ApiContenidoController' => true,
@@ -231,10 +311,14 @@ return [
     '.service_locator.v.Wwsjy' => true,
     '.service_locator.v.Wwsjy.twig.template_cache_warmer' => true,
     '.service_locator.wKF4yn1' => true,
+<<<<<<<< HEAD:Aplicación/APP-ADMIN/var/cache/dev/Container1VyNrWM/removed-ids.php
+    '.service_locator.wYeQ7eP' => true,
+========
     '.service_locator.wSgjnB6' => true,
     '.service_locator.wSgjnB6.translation.warmer' => true,
     '.service_locator.xUrKPVU' => true,
     '.service_locator.yNLyDxR' => true,
+>>>>>>>> main:Aplicación/APP-ADMIN/var/cache/dev/ContainerRPzqUxu/removed-ids.php
     '.service_locator.yY.p4P7' => true,
     '.service_locator.yyc4oZ5' => true,
     '.service_locator.zFcJjKU' => true,
