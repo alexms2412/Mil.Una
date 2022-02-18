@@ -4041,3 +4041,9 @@ d0f982,::1,GET,https://localhost:4200/api/contenido/obtenerTodos,1645186227,,200
 031244,::1,GET,https://localhost:4200/api/contenido/obtenerTodos,1645186355,,200
 75cb0e,::1,GET,https://localhost:4200/api/contenido/obtenerTodos,1645186362,,200
 2ea1b8,::1,GET,https://localhost:4200/api/empleo/obtenerTodos,1645186363,,200
+a2d338,::1,GET,https://localhost:4200/api/contenido/obtenerTodos,1645186988,,200
+de5b3a,::1,GET,https://localhost:4200/api/contenido/obtenerTodos,1645187047,,200
+322df5,::1,GET,https://localhost:4200/api/contenido/obtenerTodos,1645187049,,200
+1aa47b,::1,GET,https://localhost:4200/api/empleo/obtenerTodos,1645187051,,200
+89e182,::1,GET,https://localhost:4200/api/contenido/obtenerTodos,1645187086,,200
+db096b,::1,GET,https://localhost:4200/api/empleo/obtenerTodos,1645187087,,200
