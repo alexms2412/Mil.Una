@@ -172,6 +172,6 @@ class __TwigTemplate_f3ea4a0e1cb568a2648f7e77886b2f338004c5f115647a814a96873e8d8
 
     {{ include('contenido/_delete_form.html.twig') }}
 {% endblock %}
-", "contenido/show.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/API/templates/contenido/show.html.twig");
+", "contenido/show.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/templates/contenido/show.html.twig");
     }
 }
