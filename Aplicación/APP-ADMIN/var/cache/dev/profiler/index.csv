@@ -3833,3 +3833,7 @@ ce0e6a,::1,GET,https://localhost:4200/api/contenido/obtenerTodos,1645185481,,200
 87715d,::1,GET,https://localhost:4200/api/empleo/obtenerTodos,1645185966,,200
 37638a,::1,GET,https://localhost:4200/api/contenido/obtenerTodos,1645186180,,200
 d18b33,::1,GET,https://localhost:4200/api/empleo/obtenerTodos,1645186181,,200
+bb5c81,::1,GET,https://localhost:4200/api/contenido/obtenerTodos,1645186217,,200
+36eafd,::1,GET,https://localhost:4200/api/empleo/obtenerTodos,1645186218,,200
+f8540c,::1,GET,https://localhost:4200/api/contenido/obtenerTodos,1645186220,,200
+d0f982,::1,GET,https://localhost:4200/api/contenido/obtenerTodos,1645186227,,200
