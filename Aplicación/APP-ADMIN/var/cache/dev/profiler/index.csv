@@ -4013,6 +4013,31 @@ bad7be,::1,GET,http://localhost:8001/,1645176912,,200
 ddb47b,::1,GET,http://localhost:8001/,1645177434,,200
 3b215e,::1,GET,http://localhost:8001/,1645177575,,200
 <<<<<<< HEAD
+<<<<<<< HEAD
+a2d0d0,127.0.0.1,GET,http://127.0.0.1:8000/,1645181197,,200
+58984a,127.0.0.1,GET,http://127.0.0.1:8000/assets/header-logo.png,1645181201,f3e6c9,404
+f3e6c9,127.0.0.1,GET,http://127.0.0.1:8000/assets/header-logo.png,1645181201,,404
+8ec655,127.0.0.1,GET,http://127.0.0.1:8000/evento/new,1645181250,,200
+1eb24c,127.0.0.1,GET,http://127.0.0.1:8000/evento/new,1645181251,,200
+eb06d8,::1,GET,http://localhost:8000/admin,1645181443,b044df,404
+b044df,::1,GET,http://localhost:8000/admin,1645181443,,404
+2add54,::1,GET,http://localhost:8000/,1645181449,,200
+e34589,::1,GET,http://localhost:8000/assets/header-logo.png,1645181450,2b2cbc,404
+2b2cbc,::1,GET,http://localhost:8000/assets/header-logo.png,1645181450,,404
+=======
+>>>>>>> main
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+fb4794,::1,GET,http://localhost:8000/,1645186794,,200
+ef0666,::1,GET,http://localhost:8000/contenido/new,1645187019,,200
+b0abf1,::1,POST,http://localhost:8000/contenido/new,1645187029,,303
+976db7,::1,GET,http://localhost:8000/contenido/,1645187030,,200
+0fa7bf,::1,GET,http://localhost:8000/favicon.ico,1645187030,15105c,404
+15105c,::1,GET,http://localhost:8000/favicon.ico,1645187030,,404
+98f505,::1,GET,http://localhost:8000/contenido/1,1645187033,,200
+6f957b,::1,GET,http://localhost:8000/landing,1645187056,f6fee6,404
+f6fee6,::1,GET,http://localhost:8000/landing,1645187056,,404
+b08c55,::1,GET,http://localhost:8000/evento/,1645187090,,200
+=======
 ce1a90,::1,GET,https://localhost:8000/,1645181486,,200
 2cc6be,::1,GET,https://localhost:8000/assets/header-logo.png,1645181492,0117aa,404
 0117aa,::1,GET,https://localhost:8000/assets/header-logo.png,1645181492,,404
@@ -4041,3 +4066,4 @@ d0f982,::1,GET,https://localhost:4200/api/contenido/obtenerTodos,1645186227,,200
 031244,::1,GET,https://localhost:4200/api/contenido/obtenerTodos,1645186355,,200
 75cb0e,::1,GET,https://localhost:4200/api/contenido/obtenerTodos,1645186362,,200
 2ea1b8,::1,GET,https://localhost:4200/api/empleo/obtenerTodos,1645186363,,200
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
