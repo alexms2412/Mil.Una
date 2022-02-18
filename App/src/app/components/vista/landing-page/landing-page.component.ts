@@ -11,75 +11,18 @@ export class LandingPageComponent implements OnInit {
   constructor() { }
 
 
-
-ngOnInit(): void {
-  AOS.init();
-  }
-  
-
-projectCount: number = 0; //70
-
-projectCountStop: any = setInterval(()=>{
-
-  this.projectCount++;
-
-  if(this.projectCount == 70){
-
-    clearInterval(this.projectCountStop);
-
-  }
-
-
-},15);
-
-
-projectCount2: number = 0; //40
-
-projectCountStop2: any = setInterval(()=>{
-
-  this.projectCount2++;
-
-  if(this.projectCount2 == 40){
-
-    clearInterval(this.projectCountStop2);
-
-  }
-
-
-},35);
-
-
+  projectCount: number = 0;
+  projectCountStop: any;
+  projectCount2: number = 0;
+  projectCountStop2: any;
   projectCount3: number = 0; //25
-
-  projectCountStop3: any = setInterval(()=>{
-
-    this.projectCount3++;
-
-    if(this.projectCount3 == 25){
-
-      clearInterval(this.projectCountStop3);
-
-    }
-
-
-  },35);
-
-
+  projectCountStop3: any;
   projectCount4: number = 2200; //2500
+  projectCountStop4: any;
 
-  projectCountStop4: any = setInterval(()=>{
-
-    this.projectCount4++;
- 
-
-
-    if(this.projectCount4 == 2500){
-
-      clearInterval(this.projectCountStop4);
-
-    }
-
-  },1);
+  ngOnInit(): void {
+    AOS.init();
+  }
 
 
   controlAudio = "audio";
@@ -90,30 +33,110 @@ projectCountStop2: any = setInterval(()=>{
 
   auxiliar = 0;
 
-ocultar(){
+  ocultar() {
 
-if(this.auxiliar == 0){
+    if (this.auxiliar == 0) {
 
-  this.controlAudio = " "
+      this.controlAudio = " "
 
-  this.ocultarVolumen = "ocultarVolumen"
+      this.ocultarVolumen = "ocultarVolumen"
 
-  this.ocultarX = ""
+      this.ocultarX = ""
 
-  this.auxiliar = 1;
+      this.auxiliar = 1;
 
-}else{
+    } else {
 
-  this.controlAudio = "audio"
+      this.controlAudio = "audio"
 
-  this.ocultarVolumen = ""
+      this.ocultarVolumen = ""
 
-  this.auxiliar = 0;
+      this.auxiliar = 0;
 
-  this.ocultarX = "ocultarX"
+      this.ocultarX = "ocultarX"
 
-}
+    }
 
-}
+    
+  }
 
+
+  Scroll(){
+
+
+    var top = window.pageYOffset || document.documentElement.scrollTop;
+  
+  
+    console.log(top)
+
+
+    if(top > 890){
+
+
+      setInterval(()=>{
+
+        if(this.projectCount !== 40){
+          this.projectCount++;
+        
+          
+        }else{
+          clearInterval(this.projectCountStop);
+       
+        }
+      
+      
+      },45);
+
+
+    setInterval(()=>{
+
+  if(this.projectCount2 !== 70){
+    this.projectCount2++;
+  
+    
+  }else{
+    clearInterval(this.projectCountStop2);
+ 
+  }
+
+
+},35);
+
+
+setInterval(()=>{
+
+  if(this.projectCount3 !== 25){
+    this.projectCount3++;
+  
+    
+  }else{
+    clearInterval(this.projectCountStop3);
+ 
+  }
+
+
+},45);
+
+
+setInterval(()=>{
+
+  if(this.projectCount4 !== 2500){
+    this.projectCount4++;
+  
+    
+  }else{
+    clearInterval(this.projectCountStop4);
+ 
+  }
+
+
+},1);
+
+
+
+
+    }
+
+  
+  }
 }
