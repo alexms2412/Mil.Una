@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
-
+import * as AOS from 'aos';
 
 @Component({
   selector: 'app-landing-page',
@@ -12,12 +11,6 @@ export class LandingPageComponent implements OnInit {
   constructor() { }
 
 
-
-ngOnInit(): void {
-
-  
-  }
-
   projectCount: number = 0;
   projectCountStop: any;
   projectCount2: number = 0;
@@ -26,6 +19,47 @@ ngOnInit(): void {
   projectCountStop3: any;
   projectCount4: number = 2200; //2500
   projectCountStop4: any;
+
+  ngOnInit(): void {
+    AOS.init();
+  }
+
+
+  controlAudio = "audio";
+
+  ocultarVolumen = ""
+
+  ocultarX = "ocultarX"
+
+  auxiliar = 0;
+
+  ocultar() {
+
+    if (this.auxiliar == 0) {
+
+      this.controlAudio = " "
+
+      this.ocultarVolumen = "ocultarVolumen"
+
+      this.ocultarX = ""
+
+      this.auxiliar = 1;
+
+    } else {
+
+      this.controlAudio = "audio"
+
+      this.ocultarVolumen = ""
+
+      this.auxiliar = 0;
+
+      this.ocultarX = "ocultarX"
+
+    }
+
+    
+  }
+
 
   Scroll(){
 
@@ -36,7 +70,7 @@ ngOnInit(): void {
     console.log(top)
 
 
-    if(top > 1090){
+    if(top > 890){
 
 
       setInterval(()=>{
@@ -105,40 +139,4 @@ setInterval(()=>{
 
   
   }
-
-
-  controlAudio = "audio";
-
-  ocultarVolumen = ""
-
-  ocultarX = "ocultarX"
-
-  auxiliar = 0;
-
-ocultar(){
-
-if(this.auxiliar == 0){
-
-  this.controlAudio = " "
-
-  this.ocultarVolumen = "ocultarVolumen"
-
-  this.ocultarX = ""
-
-  this.auxiliar = 1;
-
-}else{
-
-  this.controlAudio = "audio"
-
-  this.ocultarVolumen = ""
-
-  this.auxiliar = 0;
-
-  this.ocultarX = "ocultarX"
-
-}
-
-}
-
 }

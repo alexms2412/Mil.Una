@@ -1,16 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{    
+    font-family: 'Raleway', sans-serif;
+}
+
 .imagenInicio {
     width: 100%;
     background-size: cover;
     height: 600px;
-}
-
-p {
-    font-family: 'Raleway', sans-serif;
-}
-
-li {
-    font-family: 'Raleway', sans-serif;
 }
 
 .divSombreado {
@@ -38,6 +35,12 @@ li {
 
 .segundoRow {
     margin-top: 20px;
+}
+
+hr{
+    opacity: 100;
+    background-color: #ca453e;
+    height: 1px;
 }
 
 .sombreadoParalelo {
@@ -72,7 +75,6 @@ li {
     text-align: left;
     padding-top: 10px;
     font-size: 40px;
-    font-family: 'Raleway', sans-serif;
     margin-left: 30%;
 }
 
@@ -80,33 +82,21 @@ li {
     text-align: left;
     padding-top: 25px;
     font-size: 30px;
-    font-family: 'Raleway', sans-serif;
     margin-left: 22%;
     margin-right: 16%;
 }
 
-.titulo4 {
-    text-align: left;
-    font-size: 30px;
-    font-family: 'Raleway', sans-serif;
-}
-
-#primerRow {
-    margin-top: 50px;
-}
 
 .primerHr {
     width: 60px;
     margin-left: 30%;
-    height: 1px;
-    color: #D13240;
+    color: #ca453e;
 }
 
 .hrCorporativo {
     width: 80px;
     margin-left: 23%;
-    height: 1px;
-    color: #D13240;
+    color: #ca453e;
     margin-bottom: 10px;
 }
 
@@ -150,7 +140,6 @@ li {
 
 .textoDatos {
     color: black;
-    font-family: 'Raleway', sans-serif;
     position: relative;
     top: -22%;
     left: 32%;
@@ -159,7 +148,6 @@ li {
 
 .datoNumerico {
     color: black;
-    font-family: 'Raleway', sans-serif;
     position: relative;
     top: -27%;
     left: 57%;
@@ -185,7 +173,6 @@ li {
     }
     .textoDatos {
         color: white;
-        font-family: 'Raleway', sans-serif;
         position: relative;
         top: -22%;
         left: 20%;
@@ -193,7 +180,6 @@ li {
     }
     .datoNumerico {
         color: white;
-        font-family: 'Raleway', sans-serif;
         position: relative;
         top: -27%;
         left: 52%;
@@ -212,7 +198,6 @@ li {
     }
     .textoDatos {
         color: white;
-        font-family: 'Raleway', sans-serif;
         position: relative;
         top: -22%;
         left: 20%;
@@ -220,7 +205,6 @@ li {
     }
     .datoNumerico {
         color: white;
-        font-family: 'Raleway', sans-serif;
         position: relative;
         top: -27%;
         left: 42%;
@@ -244,7 +228,6 @@ li {
     }
     .textoDatos {
         color: white;
-        font-family: 'Raleway', sans-serif;
         position: relative;
         top: -22%;
         left: 30%;
@@ -252,7 +235,6 @@ li {
     }
     .datoNumerico {
         color: white;
-        font-family: 'Raleway', sans-serif;
         position: relative;
         top: -27%;
         left: 50%;
@@ -300,7 +282,6 @@ li {
         text-align: center;
         padding-top: 6px;
         font-size: 40px;
-        font-family: 'Raleway', sans-serif;
         margin-left: 0%;
     }
     .textoDefinicion {
@@ -318,7 +299,7 @@ li {
         margin-left: 3%;
         margin: auto;
         height: 1px;
-        color: #D13240;
+        color: #ca453e;
         margin-bottom: 30px;
     }
     .carouselAlineacion {
@@ -333,21 +314,13 @@ li {
 
 .btn-flotante {
     font-size: 16px;
-    /* Cambiar el tamaño de la tipografia */
     text-transform: uppercase;
-    /* Texto en mayusculas */
     font-weight: bold;
-    /* Fuente en negrita o bold */
     color: #ffffff;
-    /* Color del texto */
     border-radius: 5px;
-    /* Borde del boton */
     letter-spacing: 2px;
-    /* Espacio entre letras */
     background-color: rgb(202, 69, 62);
-    /* Color de fondo */
     padding: 18px 30px;
-    /* Relleno del boton */
     position: fixed;
     bottom: 40px;
     right: 40px;
@@ -397,14 +370,15 @@ li {
 }
 
 .queHacemos {
-    background-color: white;
-    height: 500px;
-    box-shadow: 10px 10px 10px #dfd8d848;
-    border-radius: 12px;
+
+  
+    box-shadow: 10px 10px 10px #b9b3b36b;
+ 
 }
 
-.bloque3contenido {
-    margin-top: 30px;
+.home {
+    position: absolute;
+    font-size: 28px;
+    margin-top: 25px;
+    margin-left: 39px;
 }
-
-.imagen2contenido {}

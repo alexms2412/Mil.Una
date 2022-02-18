@@ -1,0 +1,127 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="container">
+<div class="row">
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
+            role="tab" aria-controls="home" aria-selected="true">Eventos</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
+            role="tab" aria-controls="profile" aria-selected="false">Contenidos</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button"
+            role="tab" aria-controls="contact" aria-selected="false">Empleos</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <table class="table">
+        <thead>
+            <tr>
+                <th>IdEvento</th>
+                <th>TipoEvento</th>
+                <th>NombreEvento</th>
+                <th>DescripcionEvento</th>
+                <th>FechaEvento</th>
+                <th>actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for evento in eventos %}
+            <tr>
+                <td>{{ evento.id }}</td>
+                <td>{{ evento.TipoEvento }}</td>
+                <td>{{ evento.NombreEvento }}</td>
+                <td>{{ evento.DescripcionEvento }}</td>
+                <td>{{ evento.FechaEvento ? evento.FechaEvento|date('Y-m-d') : '' }}</td>
+                <td>
+                    <a href="{{ path('evento_show', {'idEvento': evento.id}) }}">show</a>
+                    <a href="{{ path('evento_edit', {'idEvento': evento.id}) }}">edit</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="6">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ path('evento_new') }}">Create new</a>
+        </div>
+        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>IdContenido</th>
+                <th>TipoContenido</th>
+                <th>DescripcionContenido</th>
+                <th>EnlaceContenido</th>
+                <th>actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for contenido in contenidos %}
+            <tr>
+                <td>{{ contenido.id }}</td>
+                <td>{{ contenido.TipoContenido }}</td>
+                <td>{{ contenido.DescripcionContenido }}</td>
+                <td><img style="width:50px" src="uploads/contenido/{{ contenido.EnlaceContenido }}"</td>
+                <td>
+                    <a href="{{ path('contenido_show', {'idContenido': contenido.id}) }}">show</a>
+                    <a href="{{ path('contenido_edit', {'idContenido': contenido.id}) }}">edit</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="5">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ path('contenido_new') }}">Create new</a>
+        </div>
+        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">IdEmpleo</th>
+                <th scope="col">NombreEmpleo</th>
+                <th scope="col">EmpresaEmpleo</th>
+                <th scope="col">EnlaceEmpleo</th>
+                <th scope="col">actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for empleo in empleos %}
+            <tr>
+                <td>{{ empleo.id }}</td>
+                <td>{{ empleo.nombreEmpleo }}</td>
+                <td>{{ empleo.empresaEmpleo }}</td>
+                <td>{{ empleo.enlaceEmpleo }}</td>
+                <td>
+                    <a href="{{ path('empleo_show', {'idEmpleo': empleo.id}) }}">show</a>
+                    <a href="{{ path('empleo_edit', {'idEmpleo': empleo.id}) }}">edit</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="5">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ path('empleo_new') }}">Create new</a>
+        </div>
+      </div>  
+      </div>
+      </div>
+{% endblock %}
