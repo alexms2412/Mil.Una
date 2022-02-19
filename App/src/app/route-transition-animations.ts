@@ -37,7 +37,7 @@ export const routeTransitionAnimations = trigger('triggerName', [
 		]),
 		query(':enter', animateChild())
 	]),
-	transition('One => Three, Two => Four, One => Four, Four => Two, Four => One', [
+	transition('One => Three, Two => Four, One => Four, Four => Two, Four => One, Three => One', [
 		style({ position: 'relative' }),
 		query(':enter, :leave', [
 			style({

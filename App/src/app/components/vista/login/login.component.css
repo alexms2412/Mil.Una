@@ -1,7 +1,7 @@
 /* BASIC */
 
 html {
-    background-color: #D13240;
+    background-color: rgb(202, 69, 62);
 }
 
 body {
@@ -73,7 +73,7 @@ h2.inactive {
 
 h2.active {
     color: #0d0d0d;
-    border-bottom: 2px solid #D13240;
+    border-bottom: 2px solid rgb(202, 69, 62);
 }
 
 
@@ -82,7 +82,7 @@ h2.active {
 input[type=button],
 input[type=submit],
 input[type=reset] {
-    background-color: #D13240;
+    background-color: rgb(202, 69, 62);
     border: none;
     color: white;
     padding: 15px 80px;
@@ -106,7 +106,7 @@ input[type=reset] {
 input[type=button]:hover,
 input[type=submit]:hover,
 input[type=reset]:hover {
-    background-color: #D13240;
+    background-color: rgb(202, 69, 62);
 }
 
 input[type=button]:active,
@@ -142,7 +142,7 @@ input[type=text] {
 
 input[type=text]:focus {
     background-color: #fff;
-    border-bottom: 2px solid #D13240;
+    border-bottom: 2px solid;
 }
 
 input[type=text]:placeholder {
@@ -271,7 +271,7 @@ input[type=text]:placeholder {
     bottom: -10px;
     width: 0;
     height: 2px;
-    background-color: #D13240;
+    background-color: rgb(202, 69, 62);
     content: "";
     transition: width 0.2s;
 }
@@ -285,7 +285,7 @@ input[type=text]:placeholder {
 }
 
 span {
-    color: #D13240;
+    color: rgb(202, 69, 62);
 }
 
 
