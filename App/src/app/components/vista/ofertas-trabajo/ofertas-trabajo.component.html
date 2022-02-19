@@ -12,49 +12,14 @@
 
 
     <!-- CARD 1 -->
-    <div class="card">
 
-        <div class="card-body">
-
-            <h5>Edicom </h5>
-
-            <h6>Programador</h6>
-
-            <button type="button" class="btn btn-outline-danger">Empresa (enlace)</button>
-
-            <hr style="margin-top: 60px;" size="10px" />
-
-            <h5>Edicom </h5>
-
-            <h6>Programador</h6>
-
-            <button type="button" class="btn btn-outline-danger">Empresa (enlace)</button>
-
-            <hr/>
-
-            <h5>Edicom </h5>
-
-            <h6>Programador</h6>
-
-            <button type="button" class="btn btn-outline-danger">Empresa (enlace)</button>
-
-            <hr style="margin-top: 70px;" size="5px" />
-
-            <h5>Edicom </h5>
-
-            <h6>Programador</h6>
-
-            <button type="button" class="btn btn-outline-danger">Empresa (enlace)</button>
-
-            <hr style="margin-top: 70px;" size="5px" />
-
-
-
-
-
-
-        </div>
+    <div class="row" *ngFor="let empleo of empleos">
+        <div data-aos="flip-left" class="card w-75">
+            <div class="card-body">
+              <h5 class="card-title">{{empleo.nombre}}</h5>
+              <p class="card-text">{{empleo.empresaEmpleo}}</p>
+              <a href="#" class="btn btn-outline-danger">{{empleo.enlaceEmpleo}}</a>
+            </div>
+          </div>
     </div>
-
-
 </div>

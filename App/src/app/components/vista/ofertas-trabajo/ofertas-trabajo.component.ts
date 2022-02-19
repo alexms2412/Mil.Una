@@ -7,13 +7,13 @@ import * as AOS from 'aos';
   styleUrls: ['./ofertas-trabajo.component.css']
 })
 export class OfertasTrabajoComponent implements OnInit {
-  
+  empleos:any = [];
 
   constructor(private OfertasTrabajoService: OfertasTrabajoService) { }
 
   ngOnInit(): void {
     AOS.init();
-    this.OfertasTrabajoService.getAllOfertasTrabajo().subscribe(data =>console.log(data));
+    this.OfertasTrabajoService.getAllOfertasTrabajo().subscribe(response => this.empleos = response);
   }
 
 
