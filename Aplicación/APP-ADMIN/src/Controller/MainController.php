@@ -13,7 +13,7 @@ class MainController extends AbstractController
      */
     public function index(): Response
     {
-        return $this->render('sesion.html', [
+        return $this->render('iniciologin.html', [
             'controller_name' => 'MainController',
         ]);
     }

@@ -441,6 +441,6 @@ class __TwigTemplate_5ca78aef10ae2c3762b9f9939723a5cb extends Template
 
 
 </body>
-{% endblock %}", "layout.html", "C:\\Users\\joloca03\\Desktop\\MilUna\\Aplicación\\APP-ADMIN\\templates\\layout.html");
+{% endblock %}", "layout.html", "C:\\Users\\Juan Carlos\\Desktop\\Mil.Una\\Aplicación\\APP-ADMIN\\templates\\layout.html");
     }
 }

@@ -453,6 +453,6 @@ class __TwigTemplate_e4f4e7d2f7967a75831a17d8910e8261 extends Template
       </div>
       </div>
 {% endblock %}
-", "evento/index.html.twig", "C:\\Users\\joloca03\\Desktop\\MilUna\\Aplicación\\APP-ADMIN\\templates\\evento\\index.html.twig");
+", "evento/index.html.twig", "C:\\Users\\Juan Carlos\\Desktop\\Mil.Una\\Aplicación\\APP-ADMIN\\templates\\evento\\index.html.twig");
     }
 }
