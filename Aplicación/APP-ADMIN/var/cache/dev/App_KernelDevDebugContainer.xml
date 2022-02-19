@@ -2,6 +2,25 @@
 <container xmlns="http://symfony.com/schema/dic/services" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://symfony.com/schema/dic/services https://symfony.com/schema/dic/services/services-1.0.xsd">
   <parameters>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <parameter key="kernel.project_dir">C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN</parameter>
+    <parameter key="kernel.environment">dev</parameter>
+    <parameter key="kernel.runtime_environment">%env(default:kernel.environment:APP_RUNTIME_ENV)%</parameter>
+    <parameter key="kernel.debug">true</parameter>
+    <parameter key="kernel.build_dir">C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev</parameter>
+    <parameter key="kernel.cache_dir">C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev</parameter>
+    <parameter key="kernel.logs_dir">C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\var\log</parameter>
+=======
+    <parameter key="kernel.project_dir">C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN</parameter>
+    <parameter key="kernel.environment">dev</parameter>
+    <parameter key="kernel.runtime_environment">%env(default:kernel.environment:APP_RUNTIME_ENV)%</parameter>
+    <parameter key="kernel.debug">true</parameter>
+    <parameter key="kernel.build_dir">C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev</parameter>
+    <parameter key="kernel.cache_dir">C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev</parameter>
+    <parameter key="kernel.logs_dir">C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\var\log</parameter>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
     <parameter key="kernel.project_dir">/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN</parameter>
     <parameter key="kernel.environment">dev</parameter>
     <parameter key="kernel.runtime_environment">%env(default:kernel.environment:APP_RUNTIME_ENV)%</parameter>
@@ -9,6 +28,11 @@
     <parameter key="kernel.build_dir">/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/var/cache/dev</parameter>
     <parameter key="kernel.cache_dir">/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/var/cache/dev</parameter>
     <parameter key="kernel.logs_dir">/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/var/log</parameter>
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
 =======
     <parameter key="kernel.project_dir">C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN</parameter>
     <parameter key="kernel.environment">dev</parameter>
@@ -17,7 +41,15 @@
     <parameter key="kernel.build_dir">C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev</parameter>
     <parameter key="kernel.cache_dir">C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev</parameter>
     <parameter key="kernel.logs_dir">C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\log</parameter>
+<<<<<<< HEAD
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
     <parameter key="kernel.bundles" type="collection">
       <parameter key="FrameworkBundle">Symfony\Bundle\FrameworkBundle\FrameworkBundle</parameter>
       <parameter key="DoctrineBundle">Doctrine\Bundle\DoctrineBundle\DoctrineBundle</parameter>
@@ -35,6 +67,101 @@
     <parameter key="kernel.bundles_metadata" type="collection">
       <parameter key="FrameworkBundle" type="collection">
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <parameter key="path">C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\framework-bundle</parameter>
+        <parameter key="namespace">Symfony\Bundle\FrameworkBundle</parameter>
+      </parameter>
+      <parameter key="DoctrineBundle" type="collection">
+        <parameter key="path">C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\doctrine\doctrine-bundle</parameter>
+        <parameter key="namespace">Doctrine\Bundle\DoctrineBundle</parameter>
+      </parameter>
+      <parameter key="DoctrineMigrationsBundle" type="collection">
+        <parameter key="path">C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\doctrine\doctrine-migrations-bundle</parameter>
+        <parameter key="namespace">Doctrine\Bundle\MigrationsBundle</parameter>
+      </parameter>
+      <parameter key="DebugBundle" type="collection">
+        <parameter key="path">C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\debug-bundle</parameter>
+        <parameter key="namespace">Symfony\Bundle\DebugBundle</parameter>
+      </parameter>
+      <parameter key="TwigBundle" type="collection">
+        <parameter key="path">C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\twig-bundle</parameter>
+        <parameter key="namespace">Symfony\Bundle\TwigBundle</parameter>
+      </parameter>
+      <parameter key="WebProfilerBundle" type="collection">
+        <parameter key="path">C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\web-profiler-bundle</parameter>
+        <parameter key="namespace">Symfony\Bundle\WebProfilerBundle</parameter>
+      </parameter>
+      <parameter key="WebpackEncoreBundle" type="collection">
+        <parameter key="path">C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\webpack-encore-bundle\src</parameter>
+        <parameter key="namespace">Symfony\WebpackEncoreBundle</parameter>
+      </parameter>
+      <parameter key="TwigExtraBundle" type="collection">
+        <parameter key="path">C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\twig\extra-bundle</parameter>
+        <parameter key="namespace">Twig\Extra\TwigExtraBundle</parameter>
+      </parameter>
+      <parameter key="SecurityBundle" type="collection">
+        <parameter key="path">C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-bundle</parameter>
+        <parameter key="namespace">Symfony\Bundle\SecurityBundle</parameter>
+      </parameter>
+      <parameter key="MonologBundle" type="collection">
+        <parameter key="path">C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\monolog-bundle</parameter>
+        <parameter key="namespace">Symfony\Bundle\MonologBundle</parameter>
+      </parameter>
+      <parameter key="MakerBundle" type="collection">
+        <parameter key="path">C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\maker-bundle\src</parameter>
+        <parameter key="namespace">Symfony\Bundle\MakerBundle</parameter>
+      </parameter>
+      <parameter key="SensioFrameworkExtraBundle" type="collection">
+        <parameter key="path">C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\sensio\framework-extra-bundle\src</parameter>
+=======
+        <parameter key="path">C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\framework-bundle</parameter>
+        <parameter key="namespace">Symfony\Bundle\FrameworkBundle</parameter>
+      </parameter>
+      <parameter key="DoctrineBundle" type="collection">
+        <parameter key="path">C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\doctrine\doctrine-bundle</parameter>
+        <parameter key="namespace">Doctrine\Bundle\DoctrineBundle</parameter>
+      </parameter>
+      <parameter key="DoctrineMigrationsBundle" type="collection">
+        <parameter key="path">C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\doctrine\doctrine-migrations-bundle</parameter>
+        <parameter key="namespace">Doctrine\Bundle\MigrationsBundle</parameter>
+      </parameter>
+      <parameter key="DebugBundle" type="collection">
+        <parameter key="path">C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\debug-bundle</parameter>
+        <parameter key="namespace">Symfony\Bundle\DebugBundle</parameter>
+      </parameter>
+      <parameter key="TwigBundle" type="collection">
+        <parameter key="path">C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\twig-bundle</parameter>
+        <parameter key="namespace">Symfony\Bundle\TwigBundle</parameter>
+      </parameter>
+      <parameter key="WebProfilerBundle" type="collection">
+        <parameter key="path">C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\web-profiler-bundle</parameter>
+        <parameter key="namespace">Symfony\Bundle\WebProfilerBundle</parameter>
+      </parameter>
+      <parameter key="WebpackEncoreBundle" type="collection">
+        <parameter key="path">C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\webpack-encore-bundle\src</parameter>
+        <parameter key="namespace">Symfony\WebpackEncoreBundle</parameter>
+      </parameter>
+      <parameter key="TwigExtraBundle" type="collection">
+        <parameter key="path">C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\twig\extra-bundle</parameter>
+        <parameter key="namespace">Twig\Extra\TwigExtraBundle</parameter>
+      </parameter>
+      <parameter key="SecurityBundle" type="collection">
+        <parameter key="path">C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-bundle</parameter>
+        <parameter key="namespace">Symfony\Bundle\SecurityBundle</parameter>
+      </parameter>
+      <parameter key="MonologBundle" type="collection">
+        <parameter key="path">C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\monolog-bundle</parameter>
+        <parameter key="namespace">Symfony\Bundle\MonologBundle</parameter>
+      </parameter>
+      <parameter key="MakerBundle" type="collection">
+        <parameter key="path">C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\maker-bundle\src</parameter>
+        <parameter key="namespace">Symfony\Bundle\MakerBundle</parameter>
+      </parameter>
+      <parameter key="SensioFrameworkExtraBundle" type="collection">
+        <parameter key="path">C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\sensio\framework-extra-bundle\src</parameter>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
         <parameter key="path">/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/vendor/symfony/framework-bundle</parameter>
         <parameter key="namespace">Symfony\Bundle\FrameworkBundle</parameter>
       </parameter>
@@ -80,6 +207,11 @@
       </parameter>
       <parameter key="SensioFrameworkExtraBundle" type="collection">
         <parameter key="path">/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/vendor/sensio/framework-extra-bundle/src</parameter>
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
 =======
         <parameter key="path">C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\vendor\symfony\framework-bundle</parameter>
         <parameter key="namespace">Symfony\Bundle\FrameworkBundle</parameter>
@@ -126,17 +258,40 @@
       </parameter>
       <parameter key="SensioFrameworkExtraBundle" type="collection">
         <parameter key="path">C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\vendor\sensio\framework-extra-bundle\src</parameter>
+<<<<<<< HEAD
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
         <parameter key="namespace">Sensio\Bundle\FrameworkExtraBundle</parameter>
       </parameter>
     </parameter>
     <parameter key="kernel.charset">UTF-8</parameter>
     <parameter key="kernel.container_class">App_KernelDevDebugContainer</parameter>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <parameter key="contenido_directory">C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN/public/uploads/contenido</parameter>
+=======
+    <parameter key="contenido_directory">C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN/public/uploads/contenido</parameter>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
+    <parameter key="contenido_directory">C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN/public/uploads/contenido</parameter>
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
     <parameter key="contenido_directory">/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/public/uploads/contenido</parameter>
 =======
     <parameter key="contenido_directory">C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN/public/uploads/contenido</parameter>
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
     <parameter key="event_dispatcher.event_aliases" type="collection">
       <parameter key="Symfony\Component\Console\Event\ConsoleCommandEvent">console.command</parameter>
       <parameter key="Symfony\Component\Console\Event\ConsoleErrorEvent">console.error</parameter>
@@ -173,14 +328,38 @@
     <parameter key="asset.request_context.secure">null</parameter>
     <parameter key="translator.logging">false</parameter>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <parameter key="translator.default_path">C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN/translations</parameter>
+    <parameter key="debug.error_handler.throw_at">-1</parameter>
+    <parameter key="debug.container.dump">C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/App_KernelDevDebugContainer.xml</parameter>
+=======
+    <parameter key="translator.default_path">C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN/translations</parameter>
+    <parameter key="debug.error_handler.throw_at">-1</parameter>
+    <parameter key="debug.container.dump">C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/App_KernelDevDebugContainer.xml</parameter>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
     <parameter key="translator.default_path">/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/translations</parameter>
     <parameter key="debug.error_handler.throw_at">-1</parameter>
     <parameter key="debug.container.dump">/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/var/cache/dev/App_KernelDevDebugContainer.xml</parameter>
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
 =======
     <parameter key="translator.default_path">C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN/translations</parameter>
     <parameter key="debug.error_handler.throw_at">-1</parameter>
     <parameter key="debug.container.dump">C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/App_KernelDevDebugContainer.xml</parameter>
+<<<<<<< HEAD
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
     <parameter key="router.request_context.host">localhost</parameter>
     <parameter key="router.request_context.scheme">http</parameter>
     <parameter key="router.request_context.base_url"></parameter>
@@ -188,12 +367,30 @@
     <parameter key="request_listener.http_port">80</parameter>
     <parameter key="request_listener.https_port">443</parameter>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <parameter key="serializer.mapping.cache.file">C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/serialization.php</parameter>
+    <parameter key="cache.prefix.seed">_C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN.App_KernelDevDebugContainer</parameter>
+=======
+    <parameter key="serializer.mapping.cache.file">C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/serialization.php</parameter>
+    <parameter key="cache.prefix.seed">_C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN.App_KernelDevDebugContainer</parameter>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
+    <parameter key="serializer.mapping.cache.file">C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/serialization.php</parameter>
+    <parameter key="cache.prefix.seed">_C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN.App_KernelDevDebugContainer</parameter>
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
     <parameter key="serializer.mapping.cache.file">/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/var/cache/dev/serialization.php</parameter>
     <parameter key="cache.prefix.seed">_/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN.App_KernelDevDebugContainer</parameter>
 =======
     <parameter key="serializer.mapping.cache.file">C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/serialization.php</parameter>
     <parameter key="cache.prefix.seed">_C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN.App_KernelDevDebugContainer</parameter>
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
     <parameter key="session.metadata.storage_key">_sf2_meta</parameter>
     <parameter key="session.storage.options" type="collection">
       <parameter key="cache_limiter" type="string">0</parameter>
@@ -203,6 +400,29 @@
       <parameter key="gc_probability">1</parameter>
     </parameter>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <parameter key="session.save_path">C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/sessions</parameter>
+    <parameter key="session.metadata.update_threshold">0</parameter>
+    <parameter key="form.type_extension.csrf.enabled">true</parameter>
+    <parameter key="form.type_extension.csrf.field_name">_token</parameter>
+    <parameter key="validator.mapping.cache.file">C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/validation.php</parameter>
+    <parameter key="validator.translation_domain">validators</parameter>
+    <parameter key="profiler_listener.only_exceptions">false</parameter>
+    <parameter key="profiler_listener.only_main_requests">false</parameter>
+    <parameter key="profiler.storage.dsn">file:C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/profiler</parameter>
+=======
+    <parameter key="session.save_path">C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/sessions</parameter>
+    <parameter key="session.metadata.update_threshold">0</parameter>
+    <parameter key="form.type_extension.csrf.enabled">true</parameter>
+    <parameter key="form.type_extension.csrf.field_name">_token</parameter>
+    <parameter key="validator.mapping.cache.file">C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/validation.php</parameter>
+    <parameter key="validator.translation_domain">validators</parameter>
+    <parameter key="profiler_listener.only_exceptions">false</parameter>
+    <parameter key="profiler_listener.only_main_requests">false</parameter>
+    <parameter key="profiler.storage.dsn">file:C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/profiler</parameter>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
     <parameter key="session.save_path">/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/var/cache/dev/sessions</parameter>
     <parameter key="session.metadata.update_threshold">0</parameter>
     <parameter key="form.type_extension.csrf.enabled">true</parameter>
@@ -212,6 +432,11 @@
     <parameter key="profiler_listener.only_exceptions">false</parameter>
     <parameter key="profiler_listener.only_main_requests">false</parameter>
     <parameter key="profiler.storage.dsn">file:/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/var/cache/dev/profiler</parameter>
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
 =======
     <parameter key="session.save_path">C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/sessions</parameter>
     <parameter key="session.metadata.update_threshold">0</parameter>
@@ -222,7 +447,15 @@
     <parameter key="profiler_listener.only_exceptions">false</parameter>
     <parameter key="profiler_listener.only_main_requests">false</parameter>
     <parameter key="profiler.storage.dsn">file:C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/profiler</parameter>
+<<<<<<< HEAD
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
     <parameter key="doctrine.dbal.logger.chain.class">Doctrine\DBAL\Logging\LoggerChain</parameter>
     <parameter key="doctrine.dbal.logger.profiling.class">Doctrine\DBAL\Logging\DebugStack</parameter>
     <parameter key="doctrine.dbal.logger.class">Symfony\Bridge\Doctrine\Logger\DbalLogger</parameter>
@@ -290,10 +523,25 @@
     <parameter key="doctrine.orm.second_level_cache.regions_configuration.class">Doctrine\ORM\Cache\RegionsConfiguration</parameter>
     <parameter key="doctrine.orm.auto_generate_proxy_classes">true</parameter>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <parameter key="doctrine.orm.proxy_dir">C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/doctrine/orm/Proxies</parameter>
+=======
+    <parameter key="doctrine.orm.proxy_dir">C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/doctrine/orm/Proxies</parameter>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
+    <parameter key="doctrine.orm.proxy_dir">C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/doctrine/orm/Proxies</parameter>
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
     <parameter key="doctrine.orm.proxy_dir">/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/var/cache/dev/doctrine/orm/Proxies</parameter>
 =======
     <parameter key="doctrine.orm.proxy_dir">C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/doctrine/orm/Proxies</parameter>
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
     <parameter key="doctrine.orm.proxy_namespace">Proxies</parameter>
     <parameter key="doctrine.migrations.preferred_em">null</parameter>
     <parameter key="doctrine.migrations.preferred_connection">null</parameter>
@@ -302,10 +550,25 @@
       <parameter>form_div_layout.html.twig</parameter>
     </parameter>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <parameter key="twig.default_path">C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN/templates</parameter>
+=======
+    <parameter key="twig.default_path">C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN/templates</parameter>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
+    <parameter key="twig.default_path">C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN/templates</parameter>
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
     <parameter key="twig.default_path">/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/templates</parameter>
 =======
     <parameter key="twig.default_path">C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN/templates</parameter>
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
     <parameter key="web_profiler.debug_toolbar.intercept_redirects">false</parameter>
     <parameter key="web_profiler.debug_toolbar.mode">2</parameter>
     <parameter key="security.role_hierarchy.roles" type="collection"/>
@@ -618,10 +881,25 @@
     </service>
     <service id="http_cache.store" class="Symfony\Component\HttpKernel\HttpCache\Store">
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/http_cache</argument>
+=======
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/http_cache</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
+      <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/http_cache</argument>
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/var/cache/dev/http_cache</argument>
 =======
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/http_cache</argument>
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
     </service>
     <service id="url_helper" class="Symfony\Component\HttpFoundation\UrlHelper">
       <argument type="service" id="request_stack"/>
@@ -632,10 +910,25 @@
       <argument type="tagged_iterator" tag="kernel.cache_warmer"/>
       <argument>true</argument>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/App_KernelDevDebugContainerDeprecations.log</argument>
+=======
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/App_KernelDevDebugContainerDeprecations.log</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
+      <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/App_KernelDevDebugContainerDeprecations.log</argument>
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/var/cache/dev/App_KernelDevDebugContainerDeprecations.log</argument>
 =======
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/App_KernelDevDebugContainerDeprecations.log</argument>
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
     </service>
     <service id="cache_clearer" class="Symfony\Component\HttpKernel\CacheClearer\ChainCacheClearer" public="true">
       <tag name="container.private" package="symfony/framework-bundle" version="5.2"/>
@@ -844,10 +1137,25 @@
       <argument>UTF-8</argument>
       <argument type="service" id="debug.file_link_formatter" on-invalid="null"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN</argument>
+=======
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
+      <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN</argument>
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN</argument>
 =======
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN</argument>
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
       <argument type="service">
         <service>
           <argument type="service" id="request_stack"/>
@@ -881,10 +1189,25 @@
       <tag name="container.no_preload"/>
       <argument type="service" id="filesystem"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN</argument>
+=======
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
+      <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN</argument>
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN</argument>
 =======
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN</argument>
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
       <call method="setName">
         <argument>assets:install</argument>
       </call>
@@ -1057,10 +1380,25 @@
       <tag name="container.no_preload"/>
       <argument>dev</argument>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN</argument>
+=======
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
+      <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN</argument>
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN</argument>
 =======
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN</argument>
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
       <call method="setName">
         <argument>debug:dotenv</argument>
       </call>
@@ -1236,6 +1574,31 @@
       <argument type="service" id="translation.reader"/>
       <argument type="service" id="translation.extractor"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN/translations</argument>
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN/templates</argument>
+      <argument type="collection">
+        <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations</argument>
+        <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations</argument>
+        <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations</argument>
+      </argument>
+      <argument type="collection">
+        <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\twig-bridge/Resources/views/Email</argument>
+        <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\twig-bridge/Resources/views/Form</argument>
+=======
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN/translations</argument>
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN/templates</argument>
+      <argument type="collection">
+        <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations</argument>
+        <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations</argument>
+        <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations</argument>
+      </argument>
+      <argument type="collection">
+        <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\twig-bridge/Resources/views/Email</argument>
+        <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\twig-bridge/Resources/views/Form</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/translations</argument>
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/templates</argument>
       <argument type="collection">
@@ -1246,6 +1609,11 @@
       <argument type="collection">
         <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/vendor/symfony/twig-bridge/Resources/views/Email</argument>
         <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/vendor/symfony/twig-bridge/Resources/views/Form</argument>
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
 =======
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN/translations</argument>
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN/templates</argument>
@@ -1257,7 +1625,15 @@
       <argument type="collection">
         <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\vendor\symfony\twig-bridge/Resources/views/Email</argument>
         <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\vendor\symfony\twig-bridge/Resources/views/Form</argument>
+<<<<<<< HEAD
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
       </argument>
       <argument type="collection"/>
       <call method="setName">
@@ -1275,6 +1651,31 @@
       <argument type="service" id="translation.extractor"/>
       <argument>en</argument>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN/translations</argument>
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN/templates</argument>
+      <argument type="collection">
+        <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations</argument>
+        <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations</argument>
+        <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations</argument>
+      </argument>
+      <argument type="collection">
+        <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\twig-bridge/Resources/views/Email</argument>
+        <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\twig-bridge/Resources/views/Form</argument>
+=======
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN/translations</argument>
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN/templates</argument>
+      <argument type="collection">
+        <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations</argument>
+        <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations</argument>
+        <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations</argument>
+      </argument>
+      <argument type="collection">
+        <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\twig-bridge/Resources/views/Email</argument>
+        <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\twig-bridge/Resources/views/Form</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/translations</argument>
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/templates</argument>
       <argument type="collection">
@@ -1285,6 +1686,11 @@
       <argument type="collection">
         <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/vendor/symfony/twig-bridge/Resources/views/Email</argument>
         <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/vendor/symfony/twig-bridge/Resources/views/Form</argument>
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
 =======
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN/translations</argument>
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN/templates</argument>
@@ -1296,7 +1702,15 @@
       <argument type="collection">
         <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\vendor\symfony\twig-bridge/Resources/views/Email</argument>
         <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\vendor\symfony\twig-bridge/Resources/views/Form</argument>
+<<<<<<< HEAD
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
       </argument>
       <argument type="collection"/>
       <call method="setName">
@@ -1531,10 +1945,25 @@
       <argument>0</argument>
       <argument>%container.build_id%</argument>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/pools/system</argument>
+=======
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/pools/system</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
+      <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/pools/system</argument>
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/var/cache/dev/pools/system</argument>
 =======
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/pools/system</argument>
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
@@ -1565,10 +1994,25 @@
       <argument></argument>
       <argument>0</argument>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/pools/app</argument>
+=======
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/pools/app</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
+      <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/pools/app</argument>
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/var/cache/dev/pools/app</argument>
 =======
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/pools/app</argument>
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
       <argument type="service" id="cache.default_marshaller" on-invalid="ignore"/>
       <call method="setLogger">
         <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
@@ -1735,10 +2179,25 @@
     </service>
     <service id="assets._version__default" class="Symfony\Component\Asset\VersionStrategy\JsonManifestVersionStrategy">
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN/public/build/manifest.json</argument>
+=======
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN/public/build/manifest.json</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
+      <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN/public/build/manifest.json</argument>
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/public/build/manifest.json</argument>
 =======
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN/public/build/manifest.json</argument>
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
       <argument type="service" id=".debug.http_client" on-invalid="null"/>
       <argument>false</argument>
     </service>
@@ -1859,6 +2318,637 @@
       </argument>
       <argument type="collection">
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <argument key="cache_dir">C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/translations</argument>
+        <argument key="debug">true</argument>
+        <argument key="resource_files" type="collection">
+          <argument key="af" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.af.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.af.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.af.xlf</argument>
+          </argument>
+          <argument key="ar" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.ar.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.ar.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.ar.xlf</argument>
+          </argument>
+          <argument key="az" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.az.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.az.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.az.xlf</argument>
+          </argument>
+          <argument key="be" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.be.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.be.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.be.xlf</argument>
+          </argument>
+          <argument key="bg" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.bg.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.bg.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.bg.xlf</argument>
+          </argument>
+          <argument key="bs" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.bs.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.bs.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.bs.xlf</argument>
+          </argument>
+          <argument key="ca" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.ca.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.ca.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.ca.xlf</argument>
+          </argument>
+          <argument key="cs" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.cs.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.cs.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.cs.xlf</argument>
+          </argument>
+          <argument key="cy" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.cy.xlf</argument>
+          </argument>
+          <argument key="da" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.da.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.da.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.da.xlf</argument>
+          </argument>
+          <argument key="de" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.de.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.de.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.de.xlf</argument>
+          </argument>
+          <argument key="el" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.el.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.el.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.el.xlf</argument>
+          </argument>
+          <argument key="en" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.en.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.en.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.en.xlf</argument>
+          </argument>
+          <argument key="es" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.es.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.es.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.es.xlf</argument>
+          </argument>
+          <argument key="et" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.et.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.et.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.et.xlf</argument>
+          </argument>
+          <argument key="eu" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.eu.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.eu.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.eu.xlf</argument>
+          </argument>
+          <argument key="fa" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.fa.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.fa.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.fa.xlf</argument>
+          </argument>
+          <argument key="fi" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.fi.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.fi.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.fi.xlf</argument>
+          </argument>
+          <argument key="fr" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.fr.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.fr.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.fr.xlf</argument>
+          </argument>
+          <argument key="gl" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.gl.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.gl.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.gl.xlf</argument>
+          </argument>
+          <argument key="he" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.he.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.he.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.he.xlf</argument>
+          </argument>
+          <argument key="hr" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.hr.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.hr.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.hr.xlf</argument>
+          </argument>
+          <argument key="hu" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.hu.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.hu.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.hu.xlf</argument>
+          </argument>
+          <argument key="hy" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.hy.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.hy.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.hy.xlf</argument>
+          </argument>
+          <argument key="id" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.id.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.id.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.id.xlf</argument>
+          </argument>
+          <argument key="it" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.it.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.it.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.it.xlf</argument>
+          </argument>
+          <argument key="ja" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.ja.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.ja.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.ja.xlf</argument>
+          </argument>
+          <argument key="lb" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.lb.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.lb.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.lb.xlf</argument>
+          </argument>
+          <argument key="lt" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.lt.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.lt.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.lt.xlf</argument>
+          </argument>
+          <argument key="lv" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.lv.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.lv.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.lv.xlf</argument>
+          </argument>
+          <argument key="mn" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.mn.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.mn.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.mn.xlf</argument>
+          </argument>
+          <argument key="my" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.my.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.my.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.my.xlf</argument>
+          </argument>
+          <argument key="nb" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.nb.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.nb.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.nb.xlf</argument>
+          </argument>
+          <argument key="nl" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.nl.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.nl.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.nl.xlf</argument>
+          </argument>
+          <argument key="nn" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.nn.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.nn.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.nn.xlf</argument>
+          </argument>
+          <argument key="no" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.no.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.no.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.no.xlf</argument>
+          </argument>
+          <argument key="pl" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.pl.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.pl.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.pl.xlf</argument>
+          </argument>
+          <argument key="pt" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.pt.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.pt.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.pt.xlf</argument>
+          </argument>
+          <argument key="pt_BR" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.pt_BR.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.pt_BR.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.pt_BR.xlf</argument>
+          </argument>
+          <argument key="ro" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.ro.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.ro.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.ro.xlf</argument>
+          </argument>
+          <argument key="ru" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.ru.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.ru.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.ru.xlf</argument>
+          </argument>
+          <argument key="sk" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.sk.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.sk.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.sk.xlf</argument>
+          </argument>
+          <argument key="sl" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.sl.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.sl.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.sl.xlf</argument>
+          </argument>
+          <argument key="sq" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.sq.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.sq.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.sq.xlf</argument>
+          </argument>
+          <argument key="sr_Cyrl" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.sr_Cyrl.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.sr_Cyrl.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.sr_Cyrl.xlf</argument>
+          </argument>
+          <argument key="sr_Latn" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.sr_Latn.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.sr_Latn.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.sr_Latn.xlf</argument>
+          </argument>
+          <argument key="sv" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.sv.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.sv.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.sv.xlf</argument>
+          </argument>
+          <argument key="th" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.th.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.th.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.th.xlf</argument>
+          </argument>
+          <argument key="tl" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.tl.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.tl.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.tl.xlf</argument>
+          </argument>
+          <argument key="tr" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.tr.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.tr.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.tr.xlf</argument>
+          </argument>
+          <argument key="uk" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.uk.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.uk.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.uk.xlf</argument>
+          </argument>
+          <argument key="uz" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.uz.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.uz.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.uz.xlf</argument>
+          </argument>
+          <argument key="vi" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.vi.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.vi.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.vi.xlf</argument>
+          </argument>
+          <argument key="zh_CN" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.zh_CN.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.zh_CN.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.zh_CN.xlf</argument>
+          </argument>
+          <argument key="zh_TW" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.zh_TW.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.zh_TW.xlf</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.zh_TW.xlf</argument>
+          </argument>
+        </argument>
+        <argument key="scanned_directories" type="collection">
+          <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations</argument>
+          <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations</argument>
+          <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations</argument>
+          <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN/translations</argument>
+          <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\framework-bundle/translations</argument>
+          <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\doctrine\doctrine-bundle/translations</argument>
+          <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\doctrine\doctrine-migrations-bundle/translations</argument>
+          <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\debug-bundle/translations</argument>
+          <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\twig-bundle/translations</argument>
+          <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\web-profiler-bundle/translations</argument>
+          <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\webpack-encore-bundle\src/translations</argument>
+          <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\twig\extra-bundle/translations</argument>
+          <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-bundle/translations</argument>
+          <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\monolog-bundle/translations</argument>
+          <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\maker-bundle\src/translations</argument>
+          <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\sensio\framework-extra-bundle\src/translations</argument>
+        </argument>
+        <argument key="cache_vary" type="collection">
+          <argument key="scanned_directories" type="collection">
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations</argument>
+            <argument>translations</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\framework-bundle/translations</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\doctrine\doctrine-bundle/translations</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\doctrine\doctrine-migrations-bundle/translations</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\debug-bundle/translations</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\twig-bundle/translations</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\web-profiler-bundle/translations</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\webpack-encore-bundle\src/translations</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\twig\extra-bundle/translations</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-bundle/translations</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\monolog-bundle/translations</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\maker-bundle\src/translations</argument>
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\sensio\framework-extra-bundle\src/translations</argument>
+=======
+        <argument key="cache_dir">C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/translations</argument>
+        <argument key="debug">true</argument>
+        <argument key="resource_files" type="collection">
+          <argument key="af" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.af.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.af.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.af.xlf</argument>
+          </argument>
+          <argument key="ar" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.ar.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.ar.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.ar.xlf</argument>
+          </argument>
+          <argument key="az" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.az.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.az.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.az.xlf</argument>
+          </argument>
+          <argument key="be" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.be.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.be.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.be.xlf</argument>
+          </argument>
+          <argument key="bg" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.bg.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.bg.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.bg.xlf</argument>
+          </argument>
+          <argument key="bs" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.bs.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.bs.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.bs.xlf</argument>
+          </argument>
+          <argument key="ca" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.ca.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.ca.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.ca.xlf</argument>
+          </argument>
+          <argument key="cs" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.cs.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.cs.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.cs.xlf</argument>
+          </argument>
+          <argument key="cy" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.cy.xlf</argument>
+          </argument>
+          <argument key="da" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.da.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.da.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.da.xlf</argument>
+          </argument>
+          <argument key="de" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.de.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.de.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.de.xlf</argument>
+          </argument>
+          <argument key="el" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.el.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.el.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.el.xlf</argument>
+          </argument>
+          <argument key="en" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.en.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.en.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.en.xlf</argument>
+          </argument>
+          <argument key="es" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.es.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.es.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.es.xlf</argument>
+          </argument>
+          <argument key="et" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.et.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.et.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.et.xlf</argument>
+          </argument>
+          <argument key="eu" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.eu.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.eu.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.eu.xlf</argument>
+          </argument>
+          <argument key="fa" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.fa.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.fa.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.fa.xlf</argument>
+          </argument>
+          <argument key="fi" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.fi.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.fi.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.fi.xlf</argument>
+          </argument>
+          <argument key="fr" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.fr.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.fr.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.fr.xlf</argument>
+          </argument>
+          <argument key="gl" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.gl.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.gl.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.gl.xlf</argument>
+          </argument>
+          <argument key="he" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.he.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.he.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.he.xlf</argument>
+          </argument>
+          <argument key="hr" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.hr.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.hr.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.hr.xlf</argument>
+          </argument>
+          <argument key="hu" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.hu.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.hu.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.hu.xlf</argument>
+          </argument>
+          <argument key="hy" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.hy.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.hy.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.hy.xlf</argument>
+          </argument>
+          <argument key="id" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.id.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.id.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.id.xlf</argument>
+          </argument>
+          <argument key="it" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.it.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.it.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.it.xlf</argument>
+          </argument>
+          <argument key="ja" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.ja.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.ja.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.ja.xlf</argument>
+          </argument>
+          <argument key="lb" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.lb.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.lb.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.lb.xlf</argument>
+          </argument>
+          <argument key="lt" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.lt.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.lt.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.lt.xlf</argument>
+          </argument>
+          <argument key="lv" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.lv.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.lv.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.lv.xlf</argument>
+          </argument>
+          <argument key="mn" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.mn.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.mn.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.mn.xlf</argument>
+          </argument>
+          <argument key="my" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.my.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.my.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.my.xlf</argument>
+          </argument>
+          <argument key="nb" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.nb.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.nb.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.nb.xlf</argument>
+          </argument>
+          <argument key="nl" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.nl.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.nl.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.nl.xlf</argument>
+          </argument>
+          <argument key="nn" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.nn.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.nn.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.nn.xlf</argument>
+          </argument>
+          <argument key="no" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.no.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.no.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.no.xlf</argument>
+          </argument>
+          <argument key="pl" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.pl.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.pl.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.pl.xlf</argument>
+          </argument>
+          <argument key="pt" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.pt.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.pt.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.pt.xlf</argument>
+          </argument>
+          <argument key="pt_BR" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.pt_BR.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.pt_BR.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.pt_BR.xlf</argument>
+          </argument>
+          <argument key="ro" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.ro.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.ro.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.ro.xlf</argument>
+          </argument>
+          <argument key="ru" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.ru.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.ru.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.ru.xlf</argument>
+          </argument>
+          <argument key="sk" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.sk.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.sk.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.sk.xlf</argument>
+          </argument>
+          <argument key="sl" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.sl.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.sl.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.sl.xlf</argument>
+          </argument>
+          <argument key="sq" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.sq.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.sq.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.sq.xlf</argument>
+          </argument>
+          <argument key="sr_Cyrl" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.sr_Cyrl.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.sr_Cyrl.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.sr_Cyrl.xlf</argument>
+          </argument>
+          <argument key="sr_Latn" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.sr_Latn.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.sr_Latn.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.sr_Latn.xlf</argument>
+          </argument>
+          <argument key="sv" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.sv.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.sv.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.sv.xlf</argument>
+          </argument>
+          <argument key="th" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.th.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.th.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.th.xlf</argument>
+          </argument>
+          <argument key="tl" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.tl.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.tl.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.tl.xlf</argument>
+          </argument>
+          <argument key="tr" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.tr.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.tr.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.tr.xlf</argument>
+          </argument>
+          <argument key="uk" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.uk.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.uk.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.uk.xlf</argument>
+          </argument>
+          <argument key="uz" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.uz.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.uz.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.uz.xlf</argument>
+          </argument>
+          <argument key="vi" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.vi.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.vi.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.vi.xlf</argument>
+          </argument>
+          <argument key="zh_CN" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.zh_CN.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.zh_CN.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.zh_CN.xlf</argument>
+          </argument>
+          <argument key="zh_TW" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations\validators.zh_TW.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations\validators.zh_TW.xlf</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations\security.zh_TW.xlf</argument>
+          </argument>
+        </argument>
+        <argument key="scanned_directories" type="collection">
+          <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations</argument>
+          <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations</argument>
+          <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations</argument>
+          <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN/translations</argument>
+          <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\framework-bundle/translations</argument>
+          <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\doctrine\doctrine-bundle/translations</argument>
+          <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\doctrine\doctrine-migrations-bundle/translations</argument>
+          <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\debug-bundle/translations</argument>
+          <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\twig-bundle/translations</argument>
+          <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\web-profiler-bundle/translations</argument>
+          <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\webpack-encore-bundle\src/translations</argument>
+          <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\twig\extra-bundle/translations</argument>
+          <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-bundle/translations</argument>
+          <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\monolog-bundle/translations</argument>
+          <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\maker-bundle\src/translations</argument>
+          <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\sensio\framework-extra-bundle\src/translations</argument>
+        </argument>
+        <argument key="cache_vary" type="collection">
+          <argument key="scanned_directories" type="collection">
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\validator/Resources/translations</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/translations</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-core/Resources/translations</argument>
+            <argument>translations</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\framework-bundle/translations</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\doctrine\doctrine-bundle/translations</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\doctrine\doctrine-migrations-bundle/translations</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\debug-bundle/translations</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\twig-bundle/translations</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\web-profiler-bundle/translations</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\webpack-encore-bundle\src/translations</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\twig\extra-bundle/translations</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-bundle/translations</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\monolog-bundle/translations</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\maker-bundle\src/translations</argument>
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\sensio\framework-extra-bundle\src/translations</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
         <argument key="cache_dir">/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/var/cache/dev/translations</argument>
         <argument key="debug">true</argument>
         <argument key="resource_files" type="collection">
@@ -2153,6 +3243,11 @@
           <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/vendor/symfony/monolog-bundle/translations</argument>
           <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/vendor/symfony/maker-bundle/src/translations</argument>
           <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/vendor/sensio/framework-extra-bundle/src/translations</argument>
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
 =======
         <argument key="cache_dir">C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/translations</argument>
         <argument key="debug">true</argument>
@@ -2468,6 +3563,7 @@
             <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\vendor\symfony\monolog-bundle/translations</argument>
             <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\vendor\symfony\maker-bundle\src/translations</argument>
             <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\vendor\sensio\framework-extra-bundle\src/translations</argument>
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
           </argument>
         </argument>
       </argument>
@@ -2701,10 +3797,25 @@
       <argument>null</argument>
       <argument type="service" id="request_stack" on-invalid="ignore"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN</argument>
+=======
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
+      <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN</argument>
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN</argument>
 =======
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN</argument>
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
       <argument type="service_closure" id="debug.file_link_formatter.url_format"/>
     </service>
     <service id="debug.stopwatch" class="Symfony\Component\Stopwatch\Stopwatch">
@@ -3366,10 +4477,25 @@
       <argument>kernel::loadRoutes</argument>
       <argument type="collection">
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <argument key="cache_dir">C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev</argument>
+=======
+        <argument key="cache_dir">C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
+        <argument key="cache_dir">C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev</argument>
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
         <argument key="cache_dir">/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/var/cache/dev</argument>
 =======
         <argument key="cache_dir">C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev</argument>
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
         <argument key="debug">true</argument>
         <argument key="generator_class">Symfony\Component\Routing\Generator\CompiledUrlGenerator</argument>
         <argument key="generator_dumper_class">Symfony\Component\Routing\Generator\Dumper\CompiledUrlGeneratorDumper</argument>
@@ -3420,10 +4546,25 @@
       <argument type="service" id="router.request_context" on-invalid="ignore"/>
       <argument type="service" id="monolog.logger.request" on-invalid="ignore"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN</argument>
+=======
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
+      <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN</argument>
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN</argument>
 =======
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN</argument>
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
       <argument>true</argument>
     </service>
     <service id="Symfony\Bundle\FrameworkBundle\Controller\RedirectController" class="Symfony\Bundle\FrameworkBundle\Controller\RedirectController" public="true">
@@ -3491,20 +4632,50 @@
       <tag name="kernel.cache_warmer"/>
       <argument type="service" id="annotations.reader"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/annotations.php</argument>
+=======
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/annotations.php</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
+      <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/annotations.php</argument>
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/var/cache/dev/annotations.php</argument>
 =======
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/annotations.php</argument>
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
       <argument>#^Symfony\\(?:Component\\HttpKernel\\|Bundle\\FrameworkBundle\\Controller\\(?!.*Controller$))#</argument>
       <argument>true</argument>
     </service>
     <service id="annotations.cache_adapter" class="Symfony\Component\Cache\Adapter\PhpArrayAdapter">
       <tag name="container.hot_path"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/annotations.php</argument>
+=======
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/annotations.php</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
+      <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/annotations.php</argument>
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/var/cache/dev/annotations.php</argument>
 =======
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/annotations.php</argument>
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
       <argument type="service" id="cache.annotations"/>
       <factory class="Symfony\Component\Cache\Adapter\PhpArrayAdapter" method="create"/>
     </service>
@@ -3523,10 +4694,25 @@
     <service id="secrets.vault" class="Symfony\Bundle\FrameworkBundle\Secrets\SodiumVault">
       <tag name="container.env_var_loader"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN/config/secrets/%env(default:kernel.environment:APP_RUNTIME_ENV)%</argument>
+=======
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN/config/secrets/%env(default:kernel.environment:APP_RUNTIME_ENV)%</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
+      <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN/config/secrets/%env(default:kernel.environment:APP_RUNTIME_ENV)%</argument>
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/config/secrets/%env(default:kernel.environment:APP_RUNTIME_ENV)%</argument>
 =======
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN/config/secrets/%env(default:kernel.environment:APP_RUNTIME_ENV)%</argument>
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
       <argument type="service" id="secrets.decryption_key" on-invalid="ignore"/>
     </service>
     <service id="secrets.decryption_key" class="Symfony\Component\String\LazyString">
@@ -3536,10 +4722,25 @@
     </service>
     <service id="secrets.local_vault" class="Symfony\Bundle\FrameworkBundle\Secrets\DotenvVault">
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN/.env.dev.local</argument>
+=======
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN/.env.dev.local</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
+      <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN/.env.dev.local</argument>
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/.env.dev.local</argument>
 =======
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN/.env.dev.local</argument>
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
     </service>
     <service id="serializer" class="Symfony\Component\Serializer\Serializer" public="true">
       <tag name="container.private" package="symfony/framework-bundle" version="5.2"/>
@@ -3654,16 +4855,42 @@
         </argument>
       </argument>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/serialization.php</argument>
+    </service>
+    <service id="serializer.mapping.cache.symfony" class="Psr\Cache\CacheItemPoolInterface">
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/serialization.php</argument>
+=======
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/serialization.php</argument>
+    </service>
+    <service id="serializer.mapping.cache.symfony" class="Psr\Cache\CacheItemPoolInterface">
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/serialization.php</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/var/cache/dev/serialization.php</argument>
     </service>
     <service id="serializer.mapping.cache.symfony" class="Psr\Cache\CacheItemPoolInterface">
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/var/cache/dev/serialization.php</argument>
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
 =======
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/serialization.php</argument>
     </service>
     <service id="serializer.mapping.cache.symfony" class="Psr\Cache\CacheItemPoolInterface">
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/serialization.php</argument>
+<<<<<<< HEAD
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
       <argument type="service" id="cache.serializer"/>
       <factory class="Symfony\Component\Cache\Adapter\PhpArrayAdapter" method="create"/>
     </service>
@@ -3801,10 +5028,25 @@
     </service>
     <service id="session.storage.factory.mock_file" class="Symfony\Component\HttpFoundation\Session\Storage\MockFileSessionStorageFactory">
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/sessions</argument>
+=======
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/sessions</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
+      <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/sessions</argument>
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/var/cache/dev/sessions</argument>
 =======
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/sessions</argument>
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
       <argument>MOCKSESSID</argument>
       <argument type="service">
         <service class="Symfony\Component\HttpFoundation\Session\Storage\MetadataBag">
@@ -3837,10 +5079,25 @@
       <argument type="service">
         <service class="Symfony\Component\HttpFoundation\Session\Storage\Handler\NativeFileSessionHandler">
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+          <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/sessions</argument>
+=======
+          <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/sessions</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
+          <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/sessions</argument>
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
           <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/var/cache/dev/sessions</argument>
 =======
           <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/sessions</argument>
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
         </service>
       </argument>
     </service>
@@ -4000,10 +5257,25 @@
       <call method="addXmlMappings">
         <argument type="collection">
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+          <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/config/validation.xml</argument>
+=======
+          <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/config/validation.xml</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
+          <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/config/validation.xml</argument>
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
           <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/vendor/symfony/form/Resources/config/validation.xml</argument>
 =======
           <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\vendor\symfony\form/Resources/config/validation.xml</argument>
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
         </argument>
       </call>
       <call method="enableAnnotationMapping">
@@ -4032,16 +5304,42 @@
       <tag name="kernel.cache_warmer"/>
       <argument type="service" id="validator.builder"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/validation.php</argument>
+    </service>
+    <service id="validator.mapping.cache.adapter" class="Symfony\Component\Cache\Adapter\PhpArrayAdapter">
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/validation.php</argument>
+=======
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/validation.php</argument>
+    </service>
+    <service id="validator.mapping.cache.adapter" class="Symfony\Component\Cache\Adapter\PhpArrayAdapter">
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/validation.php</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/var/cache/dev/validation.php</argument>
     </service>
     <service id="validator.mapping.cache.adapter" class="Symfony\Component\Cache\Adapter\PhpArrayAdapter">
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/var/cache/dev/validation.php</argument>
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
 =======
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/validation.php</argument>
     </service>
     <service id="validator.mapping.cache.adapter" class="Symfony\Component\Cache\Adapter\PhpArrayAdapter">
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/validation.php</argument>
+<<<<<<< HEAD
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
       <argument type="service" id="cache.validator"/>
       <factory class="Symfony\Component\Cache\Adapter\PhpArrayAdapter" method="create"/>
     </service>
@@ -4430,10 +5728,25 @@
     </service>
     <service id="profiler.storage" class="Symfony\Component\HttpKernel\Profiler\FileProfilerStorage">
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <argument>file:C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/profiler</argument>
+=======
+      <argument>file:C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/profiler</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
+      <argument>file:C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/profiler</argument>
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
       <argument>file:/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/var/cache/dev/profiler</argument>
 =======
       <argument>file:C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/profiler</argument>
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
     </service>
     <service id="profiler_listener" class="Symfony\Component\HttpKernel\EventListener\ProfilerListener">
       <tag name="kernel.event_subscriber"/>
@@ -4481,10 +5794,25 @@
       <tag name="data_collector" template="@WebProfiler/Collector/logger.html.twig" id="logger" priority="300"/>
       <argument type="service" id="monolog.logger.profiler" on-invalid="ignore"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/App_KernelDevDebugContainer</argument>
+=======
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/App_KernelDevDebugContainer</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
+      <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/App_KernelDevDebugContainer</argument>
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/var/cache/dev/App_KernelDevDebugContainer</argument>
 =======
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/App_KernelDevDebugContainer</argument>
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
       <argument type="service" id="request_stack" on-invalid="ignore"/>
     </service>
     <service id="data_collector.time" class="Symfony\Component\HttpKernel\DataCollector\TimeDataCollector">
@@ -4767,10 +6095,25 @@
       <argument type="tagged_iterator" tag="messenger.receiver"/>
     </service>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <service id=".1_ServiceLocator~yD7wkKg" class="Symfony\Component\DependencyInjection\ServiceLocator">
+=======
+    <service id=".1_ServiceLocator~Nu8vCMM" class="Symfony\Component\DependencyInjection\ServiceLocator">
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
+    <service id=".1_ServiceLocator~nvXMbrg" class="Symfony\Component\DependencyInjection\ServiceLocator">
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
     <service id=".1_ServiceLocator~PjZr7.X" class="Symfony\Component\DependencyInjection\ServiceLocator">
 =======
     <service id=".1_ServiceLocator~nvXMbrg" class="Symfony\Component\DependencyInjection\ServiceLocator">
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
       <argument type="collection"/>
     </service>
     <service id="doctrine.orm.proxy_cache_warmer" class="Symfony\Bridge\Doctrine\CacheWarmer\ProxyCacheWarmer">
@@ -4971,10 +6314,25 @@
       </call>
       <call method="setProxyDir">
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/doctrine/orm/Proxies</argument>
+=======
+        <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/doctrine/orm/Proxies</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
+        <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/doctrine/orm/Proxies</argument>
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
         <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/var/cache/dev/doctrine/orm/Proxies</argument>
 =======
         <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/doctrine/orm/Proxies</argument>
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
       </call>
       <call method="setProxyNamespace">
         <argument>Proxies</argument>
@@ -5005,10 +6363,25 @@
       <argument type="service" id="annotations.cached_reader"/>
       <argument type="collection">
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\src\Entity</argument>
+=======
+        <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\src\Entity</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
+        <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\src\Entity</argument>
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
         <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/src/Entity</argument>
 =======
         <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\src\Entity</argument>
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
       </argument>
     </service>
     <service id="cache.doctrine.orm.default.metadata" class="Symfony\Component\Cache\Adapter\ArrayAdapter"/>
@@ -5075,10 +6448,25 @@
       <call method="addMigrationsDirectory">
         <argument>DoctrineMigrations</argument>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN/migrations</argument>
+=======
+        <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN/migrations</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
+        <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN/migrations</argument>
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
         <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/migrations</argument>
 =======
         <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN/migrations</argument>
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
       </call>
       <call method="setAllOrNothing">
         <argument>false</argument>
@@ -5264,10 +6652,25 @@
           <service class="Symfony\Component\VarDumper\Dumper\ContextProvider\SourceContextProvider">
             <argument>UTF-8</argument>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN</argument>
+=======
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
+            <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN</argument>
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
             <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN</argument>
 =======
             <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN</argument>
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
             <argument type="service" id="debug.file_link_formatter" on-invalid="null"/>
           </service>
         </argument>
@@ -5290,10 +6693,25 @@
           <service class="Symfony\Component\VarDumper\Dumper\ContextProvider\SourceContextProvider">
             <argument>UTF-8</argument>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN</argument>
+=======
+            <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
+            <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN</argument>
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
             <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN</argument>
 =======
             <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN</argument>
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
             <argument type="service" id="debug.file_link_formatter" on-invalid="null"/>
           </service>
         </argument>
@@ -5359,10 +6777,25 @@
       <argument type="collection">
         <argument key="autoescape">name</argument>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <argument key="cache">C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/twig</argument>
+=======
+        <argument key="cache">C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/twig</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
+        <argument key="cache">C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/twig</argument>
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
         <argument key="cache">/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/var/cache/dev/twig</argument>
 =======
         <argument key="cache">C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/twig</argument>
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
         <argument key="charset">UTF-8</argument>
         <argument key="debug">true</argument>
         <argument key="strict_variables">true</argument>
@@ -5475,16 +6908,42 @@
       <argument type="service" id="kernel"/>
       <argument type="collection">
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <argument key="C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\twig-bridge/Resources/views/Email">email</argument>
+        <argument key="C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\twig-bridge/Resources/views/Form">null</argument>
+      </argument>
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN/templates</argument>
+=======
+        <argument key="C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\twig-bridge/Resources/views/Email">email</argument>
+        <argument key="C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\twig-bridge/Resources/views/Form">null</argument>
+      </argument>
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN/templates</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
         <argument key="/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/vendor/symfony/twig-bridge/Resources/views/Email">email</argument>
         <argument key="/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/vendor/symfony/twig-bridge/Resources/views/Form">null</argument>
       </argument>
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/templates</argument>
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
 =======
         <argument key="C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\vendor\symfony\twig-bridge/Resources/views/Email">email</argument>
         <argument key="C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\vendor\symfony\twig-bridge/Resources/views/Form">null</argument>
       </argument>
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN/templates</argument>
+<<<<<<< HEAD
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
     </service>
     <service id="twig.template_cache_warmer" class="Symfony\Bundle\TwigBundle\CacheWarmer\TemplateCacheWarmer">
       <tag name="kernel.cache_warmer"/>
@@ -5496,6 +6955,119 @@
       <tag name="twig.loader"/>
       <argument type="collection"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN</argument>
+      <call method="addPath">
+        <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\doctrine\doctrine-bundle/Resources/views</argument>
+        <argument>Doctrine</argument>
+      </call>
+      <call method="addPath">
+        <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\doctrine\doctrine-bundle/Resources/views</argument>
+        <argument>!Doctrine</argument>
+      </call>
+      <call method="addPath">
+        <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\doctrine\doctrine-migrations-bundle/Resources/views</argument>
+        <argument>DoctrineMigrations</argument>
+      </call>
+      <call method="addPath">
+        <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\doctrine\doctrine-migrations-bundle/Resources/views</argument>
+        <argument>!DoctrineMigrations</argument>
+      </call>
+      <call method="addPath">
+        <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\debug-bundle/Resources/views</argument>
+        <argument>Debug</argument>
+      </call>
+      <call method="addPath">
+        <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\debug-bundle/Resources/views</argument>
+        <argument>!Debug</argument>
+      </call>
+      <call method="addPath">
+        <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\web-profiler-bundle/Resources/views</argument>
+        <argument>WebProfiler</argument>
+      </call>
+      <call method="addPath">
+        <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\web-profiler-bundle/Resources/views</argument>
+        <argument>!WebProfiler</argument>
+      </call>
+      <call method="addPath">
+        <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-bundle/Resources/views</argument>
+        <argument>Security</argument>
+      </call>
+      <call method="addPath">
+        <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-bundle/Resources/views</argument>
+        <argument>!Security</argument>
+      </call>
+      <call method="addPath">
+        <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN/templates</argument>
+      </call>
+      <call method="addPath">
+        <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\twig-bridge/Resources/views/Email</argument>
+        <argument>email</argument>
+      </call>
+      <call method="addPath">
+        <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\twig-bridge/Resources/views/Email</argument>
+        <argument>!email</argument>
+      </call>
+      <call method="addPath">
+        <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\twig-bridge/Resources/views/Form</argument>
+=======
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN</argument>
+      <call method="addPath">
+        <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\doctrine\doctrine-bundle/Resources/views</argument>
+        <argument>Doctrine</argument>
+      </call>
+      <call method="addPath">
+        <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\doctrine\doctrine-bundle/Resources/views</argument>
+        <argument>!Doctrine</argument>
+      </call>
+      <call method="addPath">
+        <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\doctrine\doctrine-migrations-bundle/Resources/views</argument>
+        <argument>DoctrineMigrations</argument>
+      </call>
+      <call method="addPath">
+        <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\doctrine\doctrine-migrations-bundle/Resources/views</argument>
+        <argument>!DoctrineMigrations</argument>
+      </call>
+      <call method="addPath">
+        <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\debug-bundle/Resources/views</argument>
+        <argument>Debug</argument>
+      </call>
+      <call method="addPath">
+        <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\debug-bundle/Resources/views</argument>
+        <argument>!Debug</argument>
+      </call>
+      <call method="addPath">
+        <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\web-profiler-bundle/Resources/views</argument>
+        <argument>WebProfiler</argument>
+      </call>
+      <call method="addPath">
+        <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\web-profiler-bundle/Resources/views</argument>
+        <argument>!WebProfiler</argument>
+      </call>
+      <call method="addPath">
+        <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-bundle/Resources/views</argument>
+        <argument>Security</argument>
+      </call>
+      <call method="addPath">
+        <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\security-bundle/Resources/views</argument>
+        <argument>!Security</argument>
+      </call>
+      <call method="addPath">
+        <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN/templates</argument>
+      </call>
+      <call method="addPath">
+        <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\twig-bridge/Resources/views/Email</argument>
+        <argument>email</argument>
+      </call>
+      <call method="addPath">
+        <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\twig-bridge/Resources/views/Email</argument>
+        <argument>!email</argument>
+      </call>
+      <call method="addPath">
+        <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\vendor\symfony\twig-bridge/Resources/views/Form</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN</argument>
       <call method="addPath">
         <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/vendor/doctrine/doctrine-bundle/Resources/views</argument>
@@ -5550,6 +7122,11 @@
       </call>
       <call method="addPath">
         <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/vendor/symfony/twig-bridge/Resources/views/Form</argument>
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
 =======
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN</argument>
       <call method="addPath">
@@ -5605,7 +7182,15 @@
       </call>
       <call method="addPath">
         <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\vendor\symfony\twig-bridge/Resources/views/Form</argument>
+<<<<<<< HEAD
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
       </call>
     </service>
     <service id="twig.loader.chain" class="Twig\Loader\ChainLoader"/>
@@ -5632,10 +7217,25 @@
       <tag name="twig.extension"/>
       <argument type="service" id="debug.file_link_formatter" on-invalid="ignore"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN</argument>
+=======
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
+      <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN</argument>
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN</argument>
 =======
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN</argument>
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
       <argument>UTF-8</argument>
     </service>
     <service id="twig.extension.routing" class="Symfony\Bridge\Twig\Extension\RoutingExtension">
@@ -5721,14 +7321,38 @@
       <tag name="container.no_preload"/>
       <argument type="service" id="twig"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN</argument>
+      <argument>%kernel.bundles_metadata%</argument>
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN/templates</argument>
+=======
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN</argument>
+      <argument>%kernel.bundles_metadata%</argument>
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN/templates</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN</argument>
       <argument>%kernel.bundles_metadata%</argument>
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/templates</argument>
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
 =======
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN</argument>
       <argument>%kernel.bundles_metadata%</argument>
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN/templates</argument>
+<<<<<<< HEAD
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
       <argument type="service" id="debug.file_link_formatter" on-invalid="null"/>
       <call method="setName">
         <argument>debug:twig</argument>
@@ -5763,10 +7387,25 @@
       <argument>%data_collector.templates%</argument>
       <argument type="service" id="web_profiler.csp.handler"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN</argument>
+=======
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
+      <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN</argument>
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN</argument>
 =======
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN</argument>
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
     </service>
     <service id="web_profiler.controller.router" class="Symfony\Bundle\WebProfilerBundle\Controller\RouterController" public="true">
       <argument type="service" id="profiler" on-invalid="null"/>
@@ -5818,10 +7457,25 @@
       <argument type="service" id="data_collector.dump" on-invalid="ignore"/>
     </service>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <service id=".1_ServiceLocator~WIm3iEG" class="Symfony\Component\DependencyInjection\ServiceLocator">
+=======
+    <service id=".1_ServiceLocator~Z3aZC2b" class="Symfony\Component\DependencyInjection\ServiceLocator">
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
+    <service id=".1_ServiceLocator~kSekMZk" class="Symfony\Component\DependencyInjection\ServiceLocator">
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
     <service id=".1_ServiceLocator~apCHLkB" class="Symfony\Component\DependencyInjection\ServiceLocator">
 =======
     <service id=".1_ServiceLocator~kSekMZk" class="Symfony\Component\DependencyInjection\ServiceLocator">
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
       <tag name="container.service_locator"/>
       <argument type="collection">
         <argument key="webpack_encore.entrypoint_lookup_collection" type="service_closure" id="webpack_encore.entrypoint_lookup_collection"/>
@@ -5846,10 +7500,25 @@
     <service id="webpack_encore.twig_entry_files_extension" class="Symfony\WebpackEncoreBundle\Twig\EntryFilesTwigExtension">
       <tag name="twig.extension"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <argument type="service" id=".1_ServiceLocator~WIm3iEG"/>
+=======
+      <argument type="service" id=".1_ServiceLocator~Z3aZC2b"/>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
+      <argument type="service" id=".1_ServiceLocator~kSekMZk"/>
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
       <argument type="service" id=".1_ServiceLocator~apCHLkB"/>
 =======
       <argument type="service" id=".1_ServiceLocator~kSekMZk"/>
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
     </service>
     <service id="webpack_encore.twig_stimulus_extension" class="Symfony\WebpackEncoreBundle\Twig\StimulusTwigExtension">
       <tag name="twig.extension"/>
@@ -5858,12 +7527,34 @@
       <tag name="kernel.cache_warmer"/>
       <argument type="collection">
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <argument key="_default">C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN/public/build/entrypoints.json</argument>
+      </argument>
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/webpack_encore.cache.php</argument>
+    </service>
+    <service id="webpack_encore.cache" class="Symfony\Component\Cache\Adapter\PhpArrayAdapter">
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/webpack_encore.cache.php</argument>
+=======
+        <argument key="_default">C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN/public/build/entrypoints.json</argument>
+      </argument>
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/webpack_encore.cache.php</argument>
+    </service>
+    <service id="webpack_encore.cache" class="Symfony\Component\Cache\Adapter\PhpArrayAdapter">
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/webpack_encore.cache.php</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
         <argument key="_default">/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/public/build/entrypoints.json</argument>
       </argument>
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/var/cache/dev/webpack_encore.cache.php</argument>
     </service>
     <service id="webpack_encore.cache" class="Symfony\Component\Cache\Adapter\PhpArrayAdapter">
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/var/cache/dev/webpack_encore.cache.php</argument>
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
 =======
         <argument key="_default">C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN/public/build/entrypoints.json</argument>
       </argument>
@@ -5871,7 +7562,15 @@
     </service>
     <service id="webpack_encore.cache" class="Symfony\Component\Cache\Adapter\PhpArrayAdapter">
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/webpack_encore.cache.php</argument>
+<<<<<<< HEAD
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
       <argument type="service" id="cache.webpack_encore"/>
       <factory class="Symfony\Component\Cache\Adapter\PhpArrayAdapter" method="create"/>
     </service>
@@ -5890,10 +7589,25 @@
     <service id="webpack_encore.entrypoint_lookup[_default]" class="Symfony\WebpackEncoreBundle\Asset\EntrypointLookup">
       <tag name="kernel.reset" method="reset"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN/public/build/entrypoints.json</argument>
+=======
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN/public/build/entrypoints.json</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
+      <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN/public/build/entrypoints.json</argument>
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/public/build/entrypoints.json</argument>
 =======
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN/public/build/entrypoints.json</argument>
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
       <argument>null</argument>
       <argument>_default</argument>
       <argument>true</argument>
@@ -6747,10 +8461,25 @@
     <service id="monolog.handler.main" class="Monolog\Handler\StreamHandler">
       <tag name="kernel.reset" method="reset"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\var\log/dev.log</argument>
+=======
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\var\log/dev.log</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
+      <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\log/dev.log</argument>
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/var/log/dev.log</argument>
 =======
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\log/dev.log</argument>
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
       <argument>100</argument>
       <argument>true</argument>
       <argument>null</argument>
@@ -6773,12 +8502,30 @@
       <argument type="service" id="maker.autoloader_util"/>
       <argument type="service" id="maker.file_link_formatter"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN</argument>
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN/templates</argument>
+=======
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN</argument>
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN/templates</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
+      <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN</argument>
+      <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN/templates</argument>
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN</argument>
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/templates</argument>
 =======
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN</argument>
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN/templates</argument>
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
     </service>
     <service id="maker.autoloader_finder" class="Symfony\Bundle\MakerBundle\Util\ComposerAutoloaderFinder">
       <argument>App</argument>
@@ -6867,10 +8614,25 @@
       <argument type="service" id="maker.file_manager"/>
       <argument type="service" id="maker.doctrine_helper"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN</argument>
+=======
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
+      <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN</argument>
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN</argument>
 =======
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN</argument>
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
       <argument type="service" id="maker.generator"/>
       <argument type="service" id="maker.entity_class_generator"/>
     </service>
@@ -6943,10 +8705,25 @@
     <service id="maker.maker.make_migration" class="Symfony\Bundle\MakerBundle\Maker\MakeMigration">
       <tag name="maker.command"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN</argument>
+=======
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
+      <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN</argument>
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN</argument>
 =======
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN</argument>
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
     </service>
     <service id="sensio_framework_extra.controller.listener" class="Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener">
       <tag name="kernel.event_subscriber"/>
@@ -8890,14 +10667,38 @@
     </service>
     <service id="cache.app.recorder_inner" class="Symfony\Component\Cache\Adapter\FilesystemAdapter">
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <argument>0hX7xLDFn5</argument>
+      <argument>0</argument>
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/pools/app</argument>
+=======
+      <argument>spKEOe+myL</argument>
+      <argument>0</argument>
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/pools/app</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
       <argument>0EUJEGee1B</argument>
       <argument>0</argument>
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/var/cache/dev/pools/app</argument>
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
 =======
       <argument>bJpPs5GxPl</argument>
       <argument>0</argument>
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/pools/app</argument>
+<<<<<<< HEAD
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
       <argument type="service" id="cache.default_marshaller" on-invalid="ignore"/>
       <call method="setLogger">
         <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
@@ -8905,89 +10706,243 @@
     </service>
     <service id="cache.system.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface">
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <argument>j8mpKZAdGP</argument>
+      <argument>0</argument>
+      <argument>%container.build_id%</argument>
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/pools/system</argument>
+=======
+      <argument>MSiUfo57S8</argument>
+      <argument>0</argument>
+      <argument>%container.build_id%</argument>
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/pools/system</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
       <argument>HUvC7m25ZY</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/var/cache/dev/pools/system</argument>
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
 =======
       <argument>C9-n7Z4bbU</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/pools/system</argument>
+<<<<<<< HEAD
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
     <service id="cache.validator.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface">
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <argument>OVWFp+Z6QN</argument>
+      <argument>0</argument>
+      <argument>%container.build_id%</argument>
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/pools/system</argument>
+=======
+      <argument>aJrBlE8oNX</argument>
+      <argument>0</argument>
+      <argument>%container.build_id%</argument>
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/pools/system</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
       <argument>HPnp5Y2JIP</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/var/cache/dev/pools/system</argument>
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
 =======
       <argument>OKXGjQSamy</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/pools/system</argument>
+<<<<<<< HEAD
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
     <service id="cache.serializer.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface">
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <argument>mRN+UUV2+X</argument>
+      <argument>0</argument>
+      <argument>%container.build_id%</argument>
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/pools/system</argument>
+=======
+      <argument>drKrBeoRbb</argument>
+      <argument>0</argument>
+      <argument>%container.build_id%</argument>
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/pools/system</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
       <argument>W1GApUh8lQ</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/var/cache/dev/pools/system</argument>
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
 =======
       <argument>hEOPee2llI</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/pools/system</argument>
+<<<<<<< HEAD
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
     <service id="cache.annotations.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface">
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <argument>N2Du2xEv-S</argument>
+      <argument>0</argument>
+      <argument>%container.build_id%</argument>
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/pools/system</argument>
+=======
+      <argument>VxfznPIiiQ</argument>
+      <argument>0</argument>
+      <argument>%container.build_id%</argument>
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/pools/system</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
       <argument>koTXpl0SJo</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/var/cache/dev/pools/system</argument>
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
 =======
       <argument>K694+1rZEh</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/pools/system</argument>
+<<<<<<< HEAD
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
     <service id="cache.property_info.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface">
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <argument>axd4jXW9Jz</argument>
+      <argument>0</argument>
+      <argument>%container.build_id%</argument>
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/pools/system</argument>
+=======
+      <argument>MQ-4k30l5S</argument>
+      <argument>0</argument>
+      <argument>%container.build_id%</argument>
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/pools/system</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
       <argument>W9XM3v+TN0</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/var/cache/dev/pools/system</argument>
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
 =======
       <argument>56SUFv+hZo</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/pools/system</argument>
+<<<<<<< HEAD
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
     <service id="cache.messenger.restart_workers_signal.recorder_inner" class="Symfony\Component\Cache\Adapter\FilesystemAdapter">
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <argument>t+eQgR2+LJ</argument>
+      <argument>0</argument>
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/pools/app</argument>
+=======
+      <argument>hJMAOotZON</argument>
+      <argument>0</argument>
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/pools/app</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
       <argument>CXT38dwOla</argument>
       <argument>0</argument>
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/var/cache/dev/pools/app</argument>
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
 =======
       <argument>NlV1bWo4q0</argument>
       <argument>0</argument>
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/pools/app</argument>
+<<<<<<< HEAD
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
       <argument type="service" id="cache.default_marshaller" on-invalid="ignore"/>
       <call method="setLogger">
         <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
@@ -8995,16 +10950,42 @@
     </service>
     <service id="cache.validator_expression_language.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface">
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <argument>747zXew-cZ</argument>
+      <argument>0</argument>
+      <argument>%container.build_id%</argument>
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/pools/system</argument>
+=======
+      <argument>BEbfOxw3YN</argument>
+      <argument>0</argument>
+      <argument>%container.build_id%</argument>
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/pools/system</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
       <argument>jZlpoCB821</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/var/cache/dev/pools/system</argument>
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
 =======
       <argument>oiw-IJZSrR</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/pools/system</argument>
+<<<<<<< HEAD
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
@@ -9012,31 +10993,83 @@
     <service id="cache.doctrine.orm.default.query.recorder_inner" class="Symfony\Component\Cache\Adapter\ArrayAdapter"/>
     <service id="cache.webpack_encore.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface">
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <argument>uxEOklB1TE</argument>
+      <argument>0</argument>
+      <argument>%container.build_id%</argument>
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/pools/system</argument>
+=======
+      <argument>zPfHaOitQT</argument>
+      <argument>0</argument>
+      <argument>%container.build_id%</argument>
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/pools/system</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
       <argument>84xBTCBM6O</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/var/cache/dev/pools/system</argument>
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
 =======
       <argument>tHGuWznLj-</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/pools/system</argument>
+<<<<<<< HEAD
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
     <service id="cache.security_expression_language.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface">
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <argument>bhFZ2XnbJc</argument>
+      <argument>0</argument>
+      <argument>%container.build_id%</argument>
+      <argument>C:\Users\aleol\OneDrive\Proyectos\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/pools/system</argument>
+=======
+      <argument>4A6J4rVxqv</argument>
+      <argument>0</argument>
+      <argument>%container.build_id%</argument>
+      <argument>C:\Users\Juan Carlos\Desktop\Mil.Una\Aplicación\APP-ADMIN\var\cache\dev/pools/system</argument>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
       <argument>o+WmUP7GVT</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
       <argument>/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/var/cache/dev/pools/system</argument>
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
 =======
       <argument>QhFlJ7--Li</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
       <argument>C:\Users\joloca03\Desktop\MilUna\Aplicación\APP-ADMIN\var\cache\dev/pools/system</argument>
+<<<<<<< HEAD
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
@@ -9241,10 +11274,25 @@
     <service id=".service_locator.80edgLI" alias="messenger.receiver_locator"/>
     <service id=".service_locator.h8Jkkd2" alias="messenger.retry_strategy_locator"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <service id=".service_locator.XDGmiR3" alias=".1_ServiceLocator~WIm3iEG"/>
+=======
+    <service id=".service_locator.XDGmiR3" alias=".1_ServiceLocator~Z3aZC2b"/>
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+=======
+    <service id=".service_locator.XDGmiR3" alias=".1_ServiceLocator~kSekMZk"/>
+>>>>>>> c3c3798b07e811dc68b12039783577c1443ac405
+=======
     <service id=".service_locator.XDGmiR3" alias=".1_ServiceLocator~apCHLkB"/>
 =======
     <service id=".service_locator.XDGmiR3" alias=".1_ServiceLocator~kSekMZk"/>
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+=======
+>>>>>>> cebea07cd9427ec42e23db05512f7a6a976d3b7f
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
     <service id=".service_locator.0GV1BZZ" alias=".service_locator.gSv9zYw"/>
     <service id=".service_locator.Fmd8Gln" alias=".service_locator.keEqB9B"/>
     <service id=".service_locator.MEZbDyf" alias=".service_locator.SOWg_70"/>

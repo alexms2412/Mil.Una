@@ -12,8 +12,10 @@ h2 {
 
 footer {
     position: absolute;
+    color: black; 
+    bottom: 0;
     width: 100%;
-    color: black;
+    height: 40px;
 }
 
 span {
