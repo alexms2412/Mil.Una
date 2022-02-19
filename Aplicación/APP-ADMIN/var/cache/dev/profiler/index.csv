@@ -5623,4 +5623,8 @@ c1cd7a,127.0.0.1,GET,https://localhost:4200/api/evento/obtenerTodos,1645290409,,
 080040,127.0.0.1,GET,https://localhost:4200/api/contenido/obtenerTodos,1645290429,,200
 3237d4,127.0.0.1,GET,https://localhost:4200/api/empleo/obtenerTodos,1645290430,,200
 929726,127.0.0.1,GET,https://localhost:4200/api/evento/obtenerTodos,1645290704,,200
+<<<<<<< HEAD
+a16be2,127.0.0.1,GET,https://localhost:4200/api/evento/obtenerTodos,1645291903,,200
+=======
 >>>>>>> 95e46a9befb5c548d84fb928977a06d32c481f88
+>>>>>>> main
