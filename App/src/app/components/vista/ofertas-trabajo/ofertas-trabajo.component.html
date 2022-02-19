@@ -13,13 +13,13 @@
 
     <!-- CARD 1 -->
 
-    <div class="row">
+    <div class="row" *ngFor="let empleo of empleos">
         <div data-aos="flip-left" class="card w-75">
             <div class="card-body">
-              <h5 class="card-title">Nombre de la empresa</h5>
-              <p class="card-text">Tipo de empleo</p>
-              <a href="#" class="btn btn-outline-danger">Empresa (enlace)</a>
+              <h5 class="card-title">{{empleo.nombre}}</h5>
+              <p class="card-text">{{empleo.empresaEmpleo}}</p>
+              <a href="#" class="btn btn-outline-danger">{{empleo.enlaceEmpleo}}</a>
             </div>
           </div>
-</div>
+    </div>
 </div>
