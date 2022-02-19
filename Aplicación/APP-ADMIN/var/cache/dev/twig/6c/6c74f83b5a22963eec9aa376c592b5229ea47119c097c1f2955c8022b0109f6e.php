@@ -84,6 +84,6 @@ class __TwigTemplate_7ac95fa9aaf14be36b31d5eb6e98a0e1813a7887d68b3f7e347bbe713bc
     {{ form_widget(form) }}
     <button class=\"btn\">{{ button_label|default('Save') }}</button>
 {{ form_end(form) }}
-", "empleo/_form.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/API/templates/empleo/_form.html.twig");
+", "empleo/_form.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/templates/empleo/_form.html.twig");
     }
 }

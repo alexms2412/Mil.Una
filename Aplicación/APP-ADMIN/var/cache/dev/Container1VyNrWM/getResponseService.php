@@ -1,11 +1,6 @@
 <?php
 
-<<<<<<<< HEAD:Aplicación/APP-ADMIN/var/cache/dev/Container1VyNrWM/getResponseService.php
 namespace Container1VyNrWM;
-========
-namespace ContainerRPzqUxu;
-
->>>>>>>> main:Aplicación/APP-ADMIN/var/cache/dev/ContainerRPzqUxu/getResponseService.php
 
 use Symfony\Component\DependencyInjection\Argument\RewindableGenerator;
 use Symfony\Component\DependencyInjection\Exception\RuntimeException;
@@ -16,12 +11,12 @@ use Symfony\Component\DependencyInjection\Exception\RuntimeException;
 class getResponseService extends App_KernelDevDebugContainer
 {
     /**
-     * Gets the private '.errored..service_locator.bRdave9.Symfony\Component\HttpFoundation\Response' shared service.
+     * Gets the private '.errored..service_locator.KfwZsne.Symfony\Component\HttpFoundation\Response' shared service.
      *
      * @return \Symfony\Component\HttpFoundation\Response
      */
     public static function do($container, $lazyLoad = true)
     {
-        $container->throw('Cannot autowire service ".service_locator.bRdave9": it references class "Symfony\\Component\\HttpFoundation\\Response" but no such service exists.');
+        $container->throw('Cannot autowire service ".service_locator.KfwZsne": it references class "Symfony\\Component\\HttpFoundation\\Response" but no such service exists.');
     }
 }

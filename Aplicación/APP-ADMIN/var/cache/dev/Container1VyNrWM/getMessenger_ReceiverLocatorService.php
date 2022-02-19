@@ -1,11 +1,6 @@
 <?php
 
-<<<<<<<< HEAD:Aplicación/APP-ADMIN/var/cache/dev/Container1VyNrWM/getMessenger_ReceiverLocatorService.php
 namespace Container1VyNrWM;
-========
-namespace ContainerRPzqUxu;
-
->>>>>>>> main:Aplicación/APP-ADMIN/var/cache/dev/ContainerRPzqUxu/getMessenger_ReceiverLocatorService.php
 
 use Symfony\Component\DependencyInjection\Argument\RewindableGenerator;
 use Symfony\Component\DependencyInjection\Exception\RuntimeException;

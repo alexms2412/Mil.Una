@@ -1,11 +1,6 @@
 <?php
 
-<<<<<<<< HEAD:Aplicación/APP-ADMIN/var/cache/dev/Container1VyNrWM/getSecurity_Logout_Listener_CsrfTokenClearingService.php
 namespace Container1VyNrWM;
-========
-namespace ContainerRPzqUxu;
-
->>>>>>>> main:Aplicación/APP-ADMIN/var/cache/dev/ContainerRPzqUxu/getSecurity_Logout_Listener_CsrfTokenClearingService.php
 
 use Symfony\Component\DependencyInjection\Argument\RewindableGenerator;
 use Symfony\Component\DependencyInjection\Exception\RuntimeException;
@@ -22,7 +17,7 @@ class getSecurity_Logout_Listener_CsrfTokenClearingService extends App_KernelDev
      */
     public static function do($container, $lazyLoad = true)
     {
-        include_once \dirname(__DIR__, 4).''.\DIRECTORY_SEPARATOR.'vendor'.\DIRECTORY_SEPARATOR.'symfony'.\DIRECTORY_SEPARATOR.'security-http'.\DIRECTORY_SEPARATOR.'EventListener'.\DIRECTORY_SEPARATOR.'CsrfTokenClearingLogoutListener.php';
+        include_once \dirname(__DIR__, 4).'/vendor/symfony/security-http/EventListener/CsrfTokenClearingLogoutListener.php';
 
         return $container->privates['security.logout.listener.csrf_token_clearing'] = new \Symfony\Component\Security\Http\EventListener\CsrfTokenClearingLogoutListener(($container->privates['security.csrf.token_storage'] ?? $container->load('getSecurity_Csrf_TokenStorageService')));
     }

@@ -1,11 +1,6 @@
 <?php
 
-<<<<<<<< HEAD:Aplicación/APP-ADMIN/var/cache/dev/Container1VyNrWM/getEventoService.php
 namespace Container1VyNrWM;
-========
-namespace ContainerRPzqUxu;
-
->>>>>>>> main:Aplicación/APP-ADMIN/var/cache/dev/ContainerRPzqUxu/getEventoService.php
 
 use Symfony\Component\DependencyInjection\Argument\RewindableGenerator;
 use Symfony\Component\DependencyInjection\Exception\RuntimeException;
@@ -16,12 +11,12 @@ use Symfony\Component\DependencyInjection\Exception\RuntimeException;
 class getEventoService extends App_KernelDevDebugContainer
 {
     /**
-     * Gets the private '.errored..service_locator.SOWg_70.App\Entity\Evento' shared service.
+     * Gets the private '.errored..service_locator.FudmbnZ.App\Entity\Evento' shared service.
      *
      * @return \App\Entity\Evento
      */
     public static function do($container, $lazyLoad = true)
     {
-        $container->throw('Cannot autowire service ".service_locator.SOWg_70": it references class "App\\Entity\\Evento" but no such service exists.');
+        $container->throw('Cannot autowire service ".service_locator.FudmbnZ": it references class "App\\Entity\\Evento" but no such service exists.');
     }
 }

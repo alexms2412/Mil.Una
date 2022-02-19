@@ -1,11 +1,6 @@
 <?php
 
-<<<<<<<< HEAD:Aplicación/APP-ADMIN/var/cache/dev/Container1VyNrWM/get_Twig_Command_Lint_LazyService.php
 namespace Container1VyNrWM;
-========
-namespace ContainerRPzqUxu;
-
->>>>>>>> main:Aplicación/APP-ADMIN/var/cache/dev/ContainerRPzqUxu/get_Twig_Command_Lint_LazyService.php
 
 use Symfony\Component\DependencyInjection\Argument\RewindableGenerator;
 use Symfony\Component\DependencyInjection\Exception\RuntimeException;
@@ -22,8 +17,8 @@ class get_Twig_Command_Lint_LazyService extends App_KernelDevDebugContainer
      */
     public static function do($container, $lazyLoad = true)
     {
-        include_once \dirname(__DIR__, 4).''.\DIRECTORY_SEPARATOR.'vendor'.\DIRECTORY_SEPARATOR.'symfony'.\DIRECTORY_SEPARATOR.'console'.\DIRECTORY_SEPARATOR.'Command'.\DIRECTORY_SEPARATOR.'Command.php';
-        include_once \dirname(__DIR__, 4).''.\DIRECTORY_SEPARATOR.'vendor'.\DIRECTORY_SEPARATOR.'symfony'.\DIRECTORY_SEPARATOR.'console'.\DIRECTORY_SEPARATOR.'Command'.\DIRECTORY_SEPARATOR.'LazyCommand.php';
+        include_once \dirname(__DIR__, 4).'/vendor/symfony/console/Command/Command.php';
+        include_once \dirname(__DIR__, 4).'/vendor/symfony/console/Command/LazyCommand.php';
 
         return $container->privates['.twig.command.lint.lazy'] = new \Symfony\Component\Console\Command\LazyCommand('lint:twig', [], 'Lint a Twig template and outputs encountered errors', false, function () use ($container): \Symfony\Bundle\TwigBundle\Command\LintCommand {
             return ($container->privates['twig.command.lint'] ?? $container->load('getTwig_Command_LintService'));
