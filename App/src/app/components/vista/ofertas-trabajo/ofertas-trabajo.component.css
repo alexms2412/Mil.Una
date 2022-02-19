@@ -18,3 +18,31 @@ hr {
   margin-top: 70PX;
   size: 20px;
 }
+
+@media only screen and (max-width: 412px) {
+
+  h1 a{
+       text-align: center;
+   }
+   .textos p{
+     text-align: center;
+   }
+
+}
+@media only screen and (max-width: 600px) {
+  .btn-flotante {
+      font-size: 14px;
+      padding: 12px 20px;
+      bottom: 20px;
+      right: 20px;
+  }
+}
+@media only screen and (max-width: 412px) {
+  .sombreadoImagen{
+      width: 360px;
+      height: 400px;
+  }
+  .imagen2contenido img{
+      width: 360px;
+  }
+}

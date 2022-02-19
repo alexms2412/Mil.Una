@@ -340,6 +340,6 @@ span {
 
 </head>
 {% block layout %}
-{% endblock %}", "base.html", "C:\\Users\\joloca03\\Desktop\\MilUna\\Aplicación\\APP-ADMIN\\templates\\base.html");
+{% endblock %}", "base.html", "C:\\Users\\Juan Carlos\\Desktop\\Mil.Una\\Aplicación\\APP-ADMIN\\templates\\base.html");
     }
 }

@@ -67,164 +67,131 @@ class __TwigTemplate_ae6edfcc916be3f88b955807296c1857 extends Template
         // line 3
         echo "
 <body>
-    <!-- Si utilizamos componentes de Bootstrap que requieran Javascript agregar estos tres archivos -->
-    <script src=\"https://code.jquery.com/jquery-3.2.1.slim.min.js\"
-        integrity=\"sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN\" crossorigin=\"anonymous\">
-        </script>
-    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js\"
-        integrity=\"sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q\" crossorigin=\"anonymous\">
-        </script>
-    <script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js\"
-        integrity=\"sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl\" crossorigin=\"anonymous\">
-        </script>
-    <script src=\"https://kit.fontawesome.com/c33acef7c3.js\" crossorigin=\"anonymous\"></script>
-    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js\"
-        integrity=\"sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM\" crossorigin=\"anonymous\">
-        </script>
-    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js\"
-        integrity=\"sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==\"
-        crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\"></script>
+    <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css\"
+        integrity=\"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm\" crossorigin=\"anonymous\">
 
     <style>
-        /* BASIC */
+        @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
-        body {
-            background-image: url(\"src/img/Backgroudns/8.jpg\");
-            background-position: center;
-            backdrop-filter: blur(2px);
-            background-repeat: no-repeat;
-            margin: auto;
-            padding: 0;
-        }
-
-        .navbar-nav {
-            font-size: 20px;
-        }
-
-        li {
+        .txtcolor {
+            color: black;
+            margin-bottom: 30px;
+            font-size: 25px;
             padding-right: 20px;
+            font-family: 'Raleway', sans-serif;
         }
 
-        .img {
-            margin-left: 20px;
+        a {
+            color: red;
+        }
+
+        a:hover {
+            color: red;
+        }
+
+        button {
+            background-color: black;
+            color: white;
+            border-color: black;
+            border-radius: 5px;
         }
 
         .row {
             background: white;
-            width: 900px;
-            height: 700px;
             border-radius: 30px;
             box-shadow: 12px 12px 22px grey;
-            margin: auto;
-            margin-top: 40px;
-            margin-bottom: 50px;
-            padding: 0;
-        }
-
-        img {
-            border-top-left-radius: 30px;
-            border-bottom-left-radius: 30px;
-
-        }
-
-        .btn1 {
-            border: none;
-            outline: none;
-            height: 50px;
-            width: 100%;
-            background-color: black;
-            color: white;
-            border-radius: 4px;
-            font-weight: bold;
-        }
-
-        .btn1:hover {
-            background-color: rgb(127, 240, 255);
-            border: 1px solid;
-            color: black;
-        }
-
-
-
-        /*-----------LOGIN CSS---------------*/
-
-        @media screen and (max-width: 991px) {
-            .img {
-                display: none;
-            }
         }
     </style>
-<body>
-    <nav class=\"navbar navbar-expand-lg navbar-light bg-light\">
-        <div class=\"container-fluid\">
 
-            <a class=\"navbar-brand\" href=\"/landing\">
-                <img src=\"header-logo.png\" class=\"logo\" alt=\"Logo mil.una\" width=\"70\" height=\"70\">
-            </a>
+    <body>
+        <nav class=\"navbar navbar-expand-lg navbar-light bg-light\">
+            <div class=\"container-fluid\">
+
+                <a class=\"navbar-brand\" href=\"/landing\">
+                    <img src=\"header-logo.png\" class=\"logo\" alt=\"Logo mil.una\" width=\"70\" height=\"70\">
+                </a>
 
 
-            <div class=\"collapse navbar-collapse justify-content-center\" id=\"navbar\">
-                <ul class=\"navbar-nav mb-2 mb-lg-0\">
+                <div class=\"collapse navbar-collapse justify-content-center\" id=\"navbar\">
+                    <ul class=\"navbar-nav mb-2 mb-lg-0\">
 
-                    <li class=\"nav-item\">
-                        <a class=\"nav-link\" [routerLink]=\"['/calendario']\">
-                            <span class=\"txtcolor\">Administración</span>
-                        </a>
-                    </li>
-                </ul>
+                        <li class=\"nav-item\">
+                            <a class=\"nav-link\" [routerLink]=\"['/calendario']\">
+                                <span class=\"txtcolor\">Administración</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+        <div class=\"\" style=\"background-color: rgb(178, 217, 232); height: 3px;\"></div>
+
+        <br>
+        <br>
+
+        <div class=\"container\">
+            <div class=\"row\">
+                <div class=\"col col-0 col-lg-5 col-md-5 col-sm-5 col-xs-5 d-none d-sm-block\">
+                    <img src=\"https://capturetheatlas.com/wp-content/uploads/2020/04/long-exposure-and-water-ii.jpg\"
+                        style=\"height: 100%; border-top-left-radius: 20px;
+                            border-bottom-left-radius: 30px; margin-left: -40px;\" alt=\"\" class=\"img-fluid\">
+                </div>
+                <div class=\"col col-12 col-lg-7 col-md-7 col-sm-7 col-xs-7\">
+                    <br>
+                    <br>
+                    <h1 class=\"col-lg-7 col-sm-10 font-weight-bold\">Register</h1>
+                    <br>
+                    <h3 class=\"col-lg-10 col-sm-10\">Esto es un texto de ejemplo</h3>
+                    <br>
+                    <form>
+                        <div class=\"col-lg-7 col-sm-10\">
+                            <input type=\"text\" class=\"form-control form-control-lg\" id=\"colFormLabelLg\"
+                                placeholder=\"Nombre\">
+                        </div>
+                        <br>
+                        <div class=\"col-lg-7 col-sm-10\">
+                            <input type=\"text\" class=\"form-control form-control-lg\" id=\"colFormLabelLg\"
+                                placeholder=\"Usuario\">
+                        </div>
+                        <br>
+                        <div class=\"col-lg-7 col-sm-10\">
+                            <input type=\"password\" class=\"form-control form-control-lg\" id=\"colFormLabelLg\"
+                                placeholder=\"Contraseña\">
+                        </div>
+                        <br>
+                        <div class=\"col-lg-7 col-sm-10\">
+                            <input type=\"text\" class=\"form-control form-control-lg\" id=\"colFormLabelLg\"
+                                placeholder=\"No se que poner en este\">
+                        </div>
+                        <br>
+                        <div class=\"col-lg-7 col-sm-10\">
+                            <button type=\"button\" class=\"btn1 mt-3 mb-5\">Registrarse</button>
+                        </div>
+                        <div class=\"col-sm-10\">
+                            <p>¿Ya tienes cuenta? <a href=\"#\">Ir a login</a></p>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
 
-    </nav>
-    <div class=\"\" style=\"background-color: rgb(178, 217, 232); height: 3px;\">
-    </div>
 
-      
-    <section class=\"form my-4 mx-5\">
-        <div class=\"container\">
-            <div class=\"row no-gutters\">
-                <div class=\"col-lg-5\">
-                    <img src=\"src/img/Backgroudns/9.jpg\" style=\"height: auto;\" alt=\"\" class=\"img-fluid\">
-                    
-         </div>
-         <div class=\"col-lg-7  px-5 pt-5\">
-             <h1 class=\"font-weight-bold py-3\">Register</h1>
-             <h4>Rellene los campos para acceder a tu cuenta</h4>
-             <form action=\"\">
-                 <div class=\"form-row\">
-                     <div class=\"col-lg-7\">
-                         <input type=\"email\" placeholder=\"Email\" class=\"form-control my-3 p-4\">
-                     </div>
-                 </div>
-                 <div class=\"form-row\">
-                    <div class=\"col-lg-7\">
-                        <input type=\"text\" placeholder=\"Nombre usuario\" class=\"form-control my-3 p-4\">
-                    </div>
-                </div>
-                <div class=\"form-row\">
-                    <div class=\"col-lg-7\">
-                        <input type=\"password\" placeholder=\"password\" class=\"form-control my-3 p-4\">
-                    </div>
-                </div>
-                 <div class=\"form-row\">
-                    <div class=\"col-lg-7\">
-                        <input type=\"password\" placeholder=\"confirmar password\" class=\"form-control my-3 p-4\">
-                    </div>
-                </div>
-                <div class=\"form-row\">
-                    <div class=\"col-lg-7\">
-                       <button type=\"button\" class=\"btn1 mt-3 mb-5\">Registrarse</button>
-                    </div>
-                </div>
-                <p>¿Ya tienes cuenta? <a href=\"login.html\">Ir al Login</a></p>
-             </form>
-         </div>
-        </div>
-        </div>
-    </section>
 
-</body>
-";
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+    ";
         
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
 
@@ -254,163 +221,130 @@ class __TwigTemplate_ae6edfcc916be3f88b955807296c1857 extends Template
 {% block layout %}
 
 <body>
-    <!-- Si utilizamos componentes de Bootstrap que requieran Javascript agregar estos tres archivos -->
-    <script src=\"https://code.jquery.com/jquery-3.2.1.slim.min.js\"
-        integrity=\"sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN\" crossorigin=\"anonymous\">
-        </script>
-    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js\"
-        integrity=\"sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q\" crossorigin=\"anonymous\">
-        </script>
-    <script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js\"
-        integrity=\"sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl\" crossorigin=\"anonymous\">
-        </script>
-    <script src=\"https://kit.fontawesome.com/c33acef7c3.js\" crossorigin=\"anonymous\"></script>
-    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js\"
-        integrity=\"sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM\" crossorigin=\"anonymous\">
-        </script>
-    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js\"
-        integrity=\"sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==\"
-        crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\"></script>
+    <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css\"
+        integrity=\"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm\" crossorigin=\"anonymous\">
 
     <style>
-        /* BASIC */
+        @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
-        body {
-            background-image: url(\"src/img/Backgroudns/8.jpg\");
-            background-position: center;
-            backdrop-filter: blur(2px);
-            background-repeat: no-repeat;
-            margin: auto;
-            padding: 0;
-        }
-
-        .navbar-nav {
-            font-size: 20px;
-        }
-
-        li {
+        .txtcolor {
+            color: black;
+            margin-bottom: 30px;
+            font-size: 25px;
             padding-right: 20px;
+            font-family: 'Raleway', sans-serif;
         }
 
-        .img {
-            margin-left: 20px;
+        a {
+            color: red;
+        }
+
+        a:hover {
+            color: red;
+        }
+
+        button {
+            background-color: black;
+            color: white;
+            border-color: black;
+            border-radius: 5px;
         }
 
         .row {
             background: white;
-            width: 900px;
-            height: 700px;
             border-radius: 30px;
             box-shadow: 12px 12px 22px grey;
-            margin: auto;
-            margin-top: 40px;
-            margin-bottom: 50px;
-            padding: 0;
-        }
-
-        img {
-            border-top-left-radius: 30px;
-            border-bottom-left-radius: 30px;
-
-        }
-
-        .btn1 {
-            border: none;
-            outline: none;
-            height: 50px;
-            width: 100%;
-            background-color: black;
-            color: white;
-            border-radius: 4px;
-            font-weight: bold;
-        }
-
-        .btn1:hover {
-            background-color: rgb(127, 240, 255);
-            border: 1px solid;
-            color: black;
-        }
-
-
-
-        /*-----------LOGIN CSS---------------*/
-
-        @media screen and (max-width: 991px) {
-            .img {
-                display: none;
-            }
         }
     </style>
-<body>
-    <nav class=\"navbar navbar-expand-lg navbar-light bg-light\">
-        <div class=\"container-fluid\">
 
-            <a class=\"navbar-brand\" href=\"/landing\">
-                <img src=\"header-logo.png\" class=\"logo\" alt=\"Logo mil.una\" width=\"70\" height=\"70\">
-            </a>
+    <body>
+        <nav class=\"navbar navbar-expand-lg navbar-light bg-light\">
+            <div class=\"container-fluid\">
+
+                <a class=\"navbar-brand\" href=\"/landing\">
+                    <img src=\"header-logo.png\" class=\"logo\" alt=\"Logo mil.una\" width=\"70\" height=\"70\">
+                </a>
 
 
-            <div class=\"collapse navbar-collapse justify-content-center\" id=\"navbar\">
-                <ul class=\"navbar-nav mb-2 mb-lg-0\">
+                <div class=\"collapse navbar-collapse justify-content-center\" id=\"navbar\">
+                    <ul class=\"navbar-nav mb-2 mb-lg-0\">
 
-                    <li class=\"nav-item\">
-                        <a class=\"nav-link\" [routerLink]=\"['/calendario']\">
-                            <span class=\"txtcolor\">Administración</span>
-                        </a>
-                    </li>
-                </ul>
+                        <li class=\"nav-item\">
+                            <a class=\"nav-link\" [routerLink]=\"['/calendario']\">
+                                <span class=\"txtcolor\">Administración</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+        <div class=\"\" style=\"background-color: rgb(178, 217, 232); height: 3px;\"></div>
+
+        <br>
+        <br>
+
+        <div class=\"container\">
+            <div class=\"row\">
+                <div class=\"col col-0 col-lg-5 col-md-5 col-sm-5 col-xs-5 d-none d-sm-block\">
+                    <img src=\"https://capturetheatlas.com/wp-content/uploads/2020/04/long-exposure-and-water-ii.jpg\"
+                        style=\"height: 100%; border-top-left-radius: 20px;
+                            border-bottom-left-radius: 30px; margin-left: -40px;\" alt=\"\" class=\"img-fluid\">
+                </div>
+                <div class=\"col col-12 col-lg-7 col-md-7 col-sm-7 col-xs-7\">
+                    <br>
+                    <br>
+                    <h1 class=\"col-lg-7 col-sm-10 font-weight-bold\">Register</h1>
+                    <br>
+                    <h3 class=\"col-lg-10 col-sm-10\">Esto es un texto de ejemplo</h3>
+                    <br>
+                    <form>
+                        <div class=\"col-lg-7 col-sm-10\">
+                            <input type=\"text\" class=\"form-control form-control-lg\" id=\"colFormLabelLg\"
+                                placeholder=\"Nombre\">
+                        </div>
+                        <br>
+                        <div class=\"col-lg-7 col-sm-10\">
+                            <input type=\"text\" class=\"form-control form-control-lg\" id=\"colFormLabelLg\"
+                                placeholder=\"Usuario\">
+                        </div>
+                        <br>
+                        <div class=\"col-lg-7 col-sm-10\">
+                            <input type=\"password\" class=\"form-control form-control-lg\" id=\"colFormLabelLg\"
+                                placeholder=\"Contraseña\">
+                        </div>
+                        <br>
+                        <div class=\"col-lg-7 col-sm-10\">
+                            <input type=\"text\" class=\"form-control form-control-lg\" id=\"colFormLabelLg\"
+                                placeholder=\"No se que poner en este\">
+                        </div>
+                        <br>
+                        <div class=\"col-lg-7 col-sm-10\">
+                            <button type=\"button\" class=\"btn1 mt-3 mb-5\">Registrarse</button>
+                        </div>
+                        <div class=\"col-sm-10\">
+                            <p>¿Ya tienes cuenta? <a href=\"#\">Ir a login</a></p>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
 
-    </nav>
-    <div class=\"\" style=\"background-color: rgb(178, 217, 232); height: 3px;\">
-    </div>
 
-      
-    <section class=\"form my-4 mx-5\">
-        <div class=\"container\">
-            <div class=\"row no-gutters\">
-                <div class=\"col-lg-5\">
-                    <img src=\"src/img/Backgroudns/9.jpg\" style=\"height: auto;\" alt=\"\" class=\"img-fluid\">
-                    
-         </div>
-         <div class=\"col-lg-7  px-5 pt-5\">
-             <h1 class=\"font-weight-bold py-3\">Register</h1>
-             <h4>Rellene los campos para acceder a tu cuenta</h4>
-             <form action=\"\">
-                 <div class=\"form-row\">
-                     <div class=\"col-lg-7\">
-                         <input type=\"email\" placeholder=\"Email\" class=\"form-control my-3 p-4\">
-                     </div>
-                 </div>
-                 <div class=\"form-row\">
-                    <div class=\"col-lg-7\">
-                        <input type=\"text\" placeholder=\"Nombre usuario\" class=\"form-control my-3 p-4\">
-                    </div>
-                </div>
-                <div class=\"form-row\">
-                    <div class=\"col-lg-7\">
-                        <input type=\"password\" placeholder=\"password\" class=\"form-control my-3 p-4\">
-                    </div>
-                </div>
-                 <div class=\"form-row\">
-                    <div class=\"col-lg-7\">
-                        <input type=\"password\" placeholder=\"confirmar password\" class=\"form-control my-3 p-4\">
-                    </div>
-                </div>
-                <div class=\"form-row\">
-                    <div class=\"col-lg-7\">
-                       <button type=\"button\" class=\"btn1 mt-3 mb-5\">Registrarse</button>
-                    </div>
-                </div>
-                <p>¿Ya tienes cuenta? <a href=\"login.html\">Ir al Login</a></p>
-             </form>
-         </div>
-        </div>
-        </div>
-    </section>
 
-</body>
-{% endblock %}", "sesion.html", "C:\\Users\\joloca03\\Desktop\\MilUna\\Aplicación\\APP-ADMIN\\templates\\sesion.html");
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+    {% endblock %}", "sesion.html", "C:\\Users\\Juan Carlos\\Desktop\\Mil.Una\\Aplicación\\APP-ADMIN\\templates\\sesion.html");
     }
 }
