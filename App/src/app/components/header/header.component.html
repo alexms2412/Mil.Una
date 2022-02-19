@@ -22,7 +22,7 @@
                                         <a class="text-dark home"> <span><i class="fas fa-home"></i> </span> </a>
                                     </div>
                                     <div class="col-md-3">
-                                        <span class="txtcolor">INICIO</span>
+                                        <span [ngClass]="inicio" class="txtcolor" (click)="cambio1()">INICIO</span>
                                     </div>
                                 </div>
                             </a>
@@ -41,7 +41,7 @@
                                         <a class="text-dark home"> <span><i class="fas fa-hiking"></i> </span> </a>
                                     </div>
                                     <div class="col-md-3">
-                                        <span class="txtcolor">ACTIVIDADES</span>
+                                        <span [ngClass]="actividades" class="txtcolor" (click)="cambio2()">ACTIVIDADES</span>
                                     </div>
                                 </div>
                             </a>
@@ -62,7 +62,7 @@
                                         <a class="text-dark home"> <span><i class="fas fa-images"></i> </span> </a>
                                     </div>
                                     <div class="col-md-4">
-                                        <span class="txtcolor">GALERIA</span>
+                                        <span [ngClass]="galeria" class="txtcolor" (click)="cambio3()">GALERIA</span>
                                     </div>
                                 </div>
                             </a>
@@ -85,7 +85,7 @@
                                         <a class="text-dark home"> <span><i class="fas fa-briefcase"></i> </span> </a>
                                     </div>
                                     <div class="col-md-3">
-                                        <span class="txtcolor">EMPLEO</span>
+                                        <span [ngClass]="empleo" class="txtcolor" (click)="cambio4()">EMPLEO</span>
                                     </div>
                                 </div>
                             </a>
@@ -105,7 +105,7 @@
                                         <a class="text-dark home"> <span><i class="fas fa-user"></i> </span> </a>
                                     </div>
                                     <div class="col-md-4">
-                                        <span class="txtcolor">ACCESO</span>
+                                        <span [ngClass]="acceso" class="txtcolor" (click)="cambio5()">ACCESO</span>
                                     </div>
                                 </div>
                             </a>
