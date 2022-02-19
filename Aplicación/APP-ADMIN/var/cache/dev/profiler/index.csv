@@ -4013,6 +4013,31 @@ bad7be,::1,GET,http://localhost:8001/,1645176912,,200
 ddb47b,::1,GET,http://localhost:8001/,1645177434,,200
 3b215e,::1,GET,http://localhost:8001/,1645177575,,200
 <<<<<<< HEAD
+<<<<<<< HEAD
+a2d0d0,127.0.0.1,GET,http://127.0.0.1:8000/,1645181197,,200
+58984a,127.0.0.1,GET,http://127.0.0.1:8000/assets/header-logo.png,1645181201,f3e6c9,404
+f3e6c9,127.0.0.1,GET,http://127.0.0.1:8000/assets/header-logo.png,1645181201,,404
+8ec655,127.0.0.1,GET,http://127.0.0.1:8000/evento/new,1645181250,,200
+1eb24c,127.0.0.1,GET,http://127.0.0.1:8000/evento/new,1645181251,,200
+eb06d8,::1,GET,http://localhost:8000/admin,1645181443,b044df,404
+b044df,::1,GET,http://localhost:8000/admin,1645181443,,404
+2add54,::1,GET,http://localhost:8000/,1645181449,,200
+e34589,::1,GET,http://localhost:8000/assets/header-logo.png,1645181450,2b2cbc,404
+2b2cbc,::1,GET,http://localhost:8000/assets/header-logo.png,1645181450,,404
+=======
+>>>>>>> main
+>>>>>>> 477da2d03e5a4f1bb6508b77c2aa473ff27ca652
+fb4794,::1,GET,http://localhost:8000/,1645186794,,200
+ef0666,::1,GET,http://localhost:8000/contenido/new,1645187019,,200
+b0abf1,::1,POST,http://localhost:8000/contenido/new,1645187029,,303
+976db7,::1,GET,http://localhost:8000/contenido/,1645187030,,200
+0fa7bf,::1,GET,http://localhost:8000/favicon.ico,1645187030,15105c,404
+15105c,::1,GET,http://localhost:8000/favicon.ico,1645187030,,404
+98f505,::1,GET,http://localhost:8000/contenido/1,1645187033,,200
+6f957b,::1,GET,http://localhost:8000/landing,1645187056,f6fee6,404
+f6fee6,::1,GET,http://localhost:8000/landing,1645187056,,404
+b08c55,::1,GET,http://localhost:8000/evento/,1645187090,,200
+=======
 ce1a90,::1,GET,https://localhost:8000/,1645181486,,200
 2cc6be,::1,GET,https://localhost:8000/assets/header-logo.png,1645181492,0117aa,404
 0117aa,::1,GET,https://localhost:8000/assets/header-logo.png,1645181492,,404
@@ -4041,9 +4066,50 @@ d0f982,::1,GET,https://localhost:4200/api/contenido/obtenerTodos,1645186227,,200
 031244,::1,GET,https://localhost:4200/api/contenido/obtenerTodos,1645186355,,200
 75cb0e,::1,GET,https://localhost:4200/api/contenido/obtenerTodos,1645186362,,200
 2ea1b8,::1,GET,https://localhost:4200/api/empleo/obtenerTodos,1645186363,,200
+<<<<<<< HEAD
 a2d338,::1,GET,https://localhost:4200/api/contenido/obtenerTodos,1645186988,,200
 de5b3a,::1,GET,https://localhost:4200/api/contenido/obtenerTodos,1645187047,,200
 322df5,::1,GET,https://localhost:4200/api/contenido/obtenerTodos,1645187049,,200
 1aa47b,::1,GET,https://localhost:4200/api/empleo/obtenerTodos,1645187051,,200
 89e182,::1,GET,https://localhost:4200/api/contenido/obtenerTodos,1645187086,,200
 db096b,::1,GET,https://localhost:4200/api/empleo/obtenerTodos,1645187087,,200
+=======
+>>>>>>> 35d8e8d6c43cb91c2da1943efcc35b099aaf3e45
+>>>>>>> 84f23495ee4ba70865d823baeb999e086dfedd72
+daf094,::1,GET,https://localhost:4200/api/empleo/obtenerTodos,1645187810,,200
+69cb2c,::1,GET,https://localhost:4200/api/contenido/obtenerTodos,1645187813,,200
+3ce3d7,::1,GET,https://localhost:4200/api/empleo/obtenerTodos,1645187816,,200
+71a02c,::1,GET,https://localhost:8000/,1645266579,,200
+e5de6a,::1,GET,https://localhost:8000/assets/header-logo.png,1645266582,d34a1d,404
+d34a1d,::1,GET,https://localhost:8000/assets/header-logo.png,1645266582,,404
+81705d,::1,GET,https://localhost:8000/login,1645266589,197a8f,500
+197a8f,::1,GET,https://localhost:8000/login,1645266589,,500
+5ef275,::1,GET,https://localhost:8000/,1645266596,,200
+33caf2,::1,GET,https://localhost:8000/assets/header-logo.png,1645266597,9f7b29,404
+9f7b29,::1,GET,https://localhost:8000/assets/header-logo.png,1645266597,,404
+5abc02,::1,GET,https://localhost:8000/main,1645266663,,200
+818815,::1,GET,https://localhost:8000/assets/header-logo.png,1645266664,f2ea0a,404
+f2ea0a,::1,GET,https://localhost:8000/assets/header-logo.png,1645266664,,404
+87c6e9,::1,GET,https://localhost:8000/assets/header-traduccioncastellano.png,1645266664,d3096a,404
+d3096a,::1,GET,https://localhost:8000/assets/header-traduccioncastellano.png,1645266664,,404
+e7c9bd,::1,GET,https://localhost:8000/assets/header-traduccionvalenciano.png,1645266665,52f2ac,404
+52f2ac,::1,GET,https://localhost:8000/assets/header-traduccionvalenciano.png,1645266665,,404
+a7dd84,::1,GET,https://localhost:8000/assets/header-idiomas.png,1645266665,75526c,404
+75526c,::1,GET,https://localhost:8000/assets/header-idiomas.png,1645266665,,404
+3f91fe,::1,GET,https://localhost:8000/assets/header-traduccioningles.png,1645266666,00bde8,404
+00bde8,::1,GET,https://localhost:8000/assets/header-traduccioningles.png,1645266666,,404
+1fc30a,::1,GET,https://localhost:8000/assets/rallaLogin4.png,1645266666,49e569,404
+49e569,::1,GET,https://localhost:8000/assets/rallaLogin4.png,1645266666,,404
+dc38a7,::1,GET,https://localhost:8000/main,1645266763,,200
+4484a5,::1,GET,https://localhost:8000/assets/header-logo.png,1645266764,5f726f,404
+5f726f,::1,GET,https://localhost:8000/assets/header-logo.png,1645266764,,404
+f0e09c,::1,GET,https://localhost:8000/assets/header-idiomas.png,1645266764,d0c0a0,404
+d0c0a0,::1,GET,https://localhost:8000/assets/header-idiomas.png,1645266764,,404
+576a93,::1,GET,https://localhost:8000/assets/header-traduccionvalenciano.png,1645266765,a3799a,404
+a3799a,::1,GET,https://localhost:8000/assets/header-traduccionvalenciano.png,1645266765,,404
+714757,::1,GET,https://localhost:8000/assets/header-traduccioncastellano.png,1645266765,6f5384,404
+6f5384,::1,GET,https://localhost:8000/assets/header-traduccioncastellano.png,1645266765,,404
+1ead78,::1,GET,https://localhost:8000/assets/header-traduccioningles.png,1645266765,0f7be4,404
+0f7be4,::1,GET,https://localhost:8000/assets/header-traduccioningles.png,1645266765,,404
+7c86be,::1,GET,https://localhost:8000/assets/rallaLogin4.png,1645266766,7bc4fe,404
+7bc4fe,::1,GET,https://localhost:8000/assets/rallaLogin4.png,1645266766,,404
