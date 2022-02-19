@@ -219,6 +219,6 @@ class __TwigTemplate_cd38327743e963cfc59aa341b78ed4f406f1663d7b2379b18179844bbcf
 
     <a href=\"{{ path('empleo_new') }}\">Create new</a>
 {% endblock %}
-", "empleo/index.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/API/templates/empleo/index.html.twig");
+", "empleo/index.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/templates/empleo/index.html.twig");
     }
 }

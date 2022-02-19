@@ -79,6 +79,6 @@ class __TwigTemplate_cae8786cfb09d606463e31f1e24ea00158796010b055663b5a97cf7b9f5
     <input type=\"hidden\" name=\"_token\" value=\"{{ csrf_token('delete' ~ evento.id) }}\">
     <button class=\"btn\">Delete</button>
 </form>
-", "evento/_delete_form.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/API/templates/evento/_delete_form.html.twig");
+", "evento/_delete_form.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/templates/evento/_delete_form.html.twig");
     }
 }

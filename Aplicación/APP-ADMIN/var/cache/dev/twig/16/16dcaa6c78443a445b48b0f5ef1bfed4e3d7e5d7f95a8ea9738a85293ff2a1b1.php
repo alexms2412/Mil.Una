@@ -86,7 +86,7 @@ class __TwigTemplate_cb61e7c649577f1e3ffd14b0bab2867e7770265f7cdd743effbac7035f7
   <div class=\"container-fluid\">
 
     <a class=\"navbar-brand\" href=\"/landing\">
-      <img src=\"./assets/header-logo.png\" class=\"logo\" alt=\"Logo mil.una\" width=\"70\" height=\"70\">
+      <img src=\"header-logo.png\" class=\"logo\" alt=\"Logo mil.una\" width=\"70\" height=\"70\">
     </a>
 
 
@@ -102,20 +102,7 @@ class __TwigTemplate_cb61e7c649577f1e3ffd14b0bab2867e7770265f7cdd743effbac7035f7
     </div>
 
 
-    <div class=\"dropleft d-none d-xl-block d-lg-block d-xl-none\" style=\"transition-duration: 3s, 5s;\">
-      <a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdownMenuLink\" role=\"button\" data-bs-toggle=\"dropdown\"
-        aria-expanded=\"false\">
-        <img src=\"./assets/header-idiomas.png\" alt=\"Icono Traducción\" width=\"40\" height=\"40\">
-      </a>
-      <div class=\"dropdown-menu dropdown-menu-right\">
-        <li class=\"idioma\" style=\"text-align: center;\"><img src=\"./assets/header-traduccioncastellano.png\" alt=\"Traduccón a valenciano\"
-            width=\"40\" height=\"40\"></li>
-        <li class=\"idioma\" style=\"text-align: center; margin-top: 2%;\"><img src=\"./assets/header-traduccionvalenciano.png\"
-            alt=\"Traduccón a castellano\" width=\"40\" height=\"40\"></li>
-        <li class=\"idioma\" style=\"text-align: center; margin-top: 2%;\"><img src=\"./assets/header-traduccioningles.png\"
-            alt=\"Traduccón a ingles\" width=\"40\" height=\"40\"></li>
-      </div>
-    </div>
+ 
 
     
 
@@ -123,7 +110,7 @@ class __TwigTemplate_cb61e7c649577f1e3ffd14b0bab2867e7770265f7cdd743effbac7035f7
 
 </nav>
 
-<div class=\"\" style=\"background-color: #D13240; height: 3px;\">
+<div class=\"\" style=\"background-color: rgb(178, 217, 232); height: 3px;\">
 
 </div>
 
@@ -132,13 +119,11 @@ class __TwigTemplate_cb61e7c649577f1e3ffd14b0bab2867e7770265f7cdd743effbac7035f7
     <div class=\"col-auto col-md-2 col-xl-2 col-sm-2\" style=\"background-color: rgb(241, 241, 241);\">
       <div style=\"width: 100%;\">
         <br>
-        <img src=\"./assets/admin-avatar.png\" class=\"card-img-top\" alt=\"Tu imagen de perfil\">
+        <img src=\"https://cdn-icons.flaticon.com/png/512/522/premium/522298.png?token=exp=1645175707~hmac=659cf84168cde16dff22ce74f777f4cb\" class=\"card-img-top\" alt=\"Tu imagen de perfil\">
         <br>
         <br>
-        <button type=\"button\" class=\"btn btn-danger btn-sm\" data-bs-toggle=\"modal\" data-bs-target=\"#exampleModal\">Editar
-          Perfil</button>
+        <button type=\"button\" class=\"btn btn-danger btn-sm\" data-bs-toggle=\"modal\" data-bs-target=\"#exampleModal\">Editar Perfil</button>
       </div>
-
 
       <div class=\"modal fade\" id=\"exampleModal\" tabindex=\"-1\" aria-labelledby=\"exampleModalLabel\" aria-hidden=\"true\">
         <div class=\"modal-dialog\">
@@ -149,7 +134,6 @@ class __TwigTemplate_cb61e7c649577f1e3ffd14b0bab2867e7770265f7cdd743effbac7035f7
             </div>
             <div class=\"modal-body\">
               <div class=\"mb-3\">
-
                 <div class=\"row\">
 
                   <div class=\"col-md-6 col-lg-6 col-xl-6 mx-auto \">
@@ -187,7 +171,6 @@ class __TwigTemplate_cb61e7c649577f1e3ffd14b0bab2867e7770265f7cdd743effbac7035f7
                     </form>
                   </div>
                 </div>
-
                 <div class=\"row\">
                   <div class=\"col-md-10 col-lg-10 col-xl-10 mx-auto\">
                     <form>
@@ -196,14 +179,7 @@ class __TwigTemplate_cb61e7c649577f1e3ffd14b0bab2867e7770265f7cdd743effbac7035f7
                     </form>
                   </div>
                 </div>
-
-
               </div>
-
-
-
-
-
             </div>
             <div class=\"modal-footer\">
               <button type=\"button\" class=\"btn btn-outline-danger\">
@@ -240,83 +216,18 @@ class __TwigTemplate_cb61e7c649577f1e3ffd14b0bab2867e7770265f7cdd743effbac7035f7
     <!-- CONTENIDOS -->
     <div class=\"col-sm mt-4\">
         ";
-        // line 176
+        // line 152
         $this->displayBlock('content', $context, $blocks);
-        // line 177
+        // line 153
         echo "    </div>
   </div>
 </div>
 <footer class=\"text-center text-lg-start bg-light text-muted\">
-    <!-- Grid container -->
-    <div style=\"background-color: #d83586;\">
+  
+    <div class=\"text-center p-3\" style=\"background-color: rgb(146, 202, 223);\">
 
-        <div class=\"container p-4 \">
-            <!--Grid row-->
-            <div class=\"row\" id=\"form-group\">
-
-                <!--Grid column-->
-                <div class=\"col-md-4 col-lg-4 col-xl-4 mx-auto mb-4\">
-
-
-                    <ul class=\"list-unstyled\">
-                        <li>
-                            <a href=\"tel:+34648661161 \" class=\"text-dark\"> <span><i class=\"fas fa-phone me-3\"></i> +34 648661161  </span> </a>
-                        </li>
-                        <li>
-                            <a href=\"mailto:miluna.sagunt@gmail.com\" class=\"text-dark\"> <span><i class=\"fas fa-envelope me-3\"></i> miluna.sagunt@gmail.com</span> </a>
-                        </li>
-                        <li>
-                            <a href=\"https://www.google.com/maps/place/C.+Hospital,+9,+46500+Sagunto,+Valencia/@39.6796064,-0.2821193,17z/data=!3m1!4b1!4m5!3m4!1s0xd60151633ea13ff:0xba880a6489da478a!8m2!3d39.6796023!4d-0.2799306?hl=es\" class=\"text-dark\"> <span><i class=\"fas fa-home me-3\"></i> C/ Hospital nº 9   Sagunto (Valencia)  <br> CP: 46500</span> </a>
-                        </li>
-
-                    </ul>
-                    <hr size=\"8px\" color=\"white\" />
-
-                </div>
-                <!--Grid column-->
-
-                <!--Grid column-->
-                <div class=\"col-md-4 col-lg-4 col-xl-4 mx-auto mb-4\">
-
-                    <h2>mil.una</h2>
-
-
-                    <div class=\"col-md-12 text-center\" style=\"margin-top: 20px;\">
-                        <a href=\"\"><i class=\"fab fa-facebook\" style=\"font-size:30px; margin-right: 20px; margin-left: 18px;\"></i></a>
-                        <a href=\"\"><i class=\"fab fa-instagram\" style=\"font-size:30px;margin-right: 20px; \"></i></a>
-                        <a href=\"\"><i class=\"fab fa-google\"style=\"font-size:30px;  margin-right: 20px;\"></i></a>
-
-                    </div>
-
-                    <hr size=\"8px\" color=\"white\" />
-                </div>
-                <!--Grid column-->
-
-
-
-                <!--Grid column-->
-                <div class=\"col-md-4 col-lg-4 col-xl-4 mx-auto mb-4\">
-
-                    <iframe class=\"mapa\" src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d767.6684724345105!2d-0.2800578729669806!3d39.67954976158921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd60151631574c1b%3A0xa3b58c730fabcc24!2sC.%20Hospital%2C%2011%2C%2046500%20Sagunto%2C%20Valencia!5e0!3m2!1ses!2ses!4v1644237970095!5m2!1ses!2ses\"
-                        width=\"230\" height=\"150\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>
-
-
-                </div>
-                <!--Grid column-->
-            </div>
-            <!--Grid row-->
-        </div>
-
+        <a class=\"text-dark\"><span style=\"color: black; font-size: 16px;\">© 2022 Copyright: PowDevs</span></a>
     </div>
-
-    <!-- Grid container -->
-
-    <!-- Copyright -->
-    <div class=\"text-center p-3\" style=\"background-color: #882154;\">
-
-        <a class=\"text-dark\"> <span>© 2022 Copyright: PowDevs</span> </a>
-    </div>
-    <!-- Copyright -->
 </footer>
 
 
@@ -330,7 +241,7 @@ class __TwigTemplate_cb61e7c649577f1e3ffd14b0bab2867e7770265f7cdd743effbac7035f7
 
     }
 
-    // line 176
+    // line 152
     public function block_content($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -360,7 +271,7 @@ class __TwigTemplate_cb61e7c649577f1e3ffd14b0bab2867e7770265f7cdd743effbac7035f7
 
     public function getDebugInfo()
     {
-        return array (  334 => 176,  246 => 177,  244 => 176,  69 => 3,  59 => 2,  36 => 1,);
+        return array (  245 => 152,  222 => 153,  220 => 152,  69 => 3,  59 => 2,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -387,7 +298,7 @@ class __TwigTemplate_cb61e7c649577f1e3ffd14b0bab2867e7770265f7cdd743effbac7035f7
   <div class=\"container-fluid\">
 
     <a class=\"navbar-brand\" href=\"/landing\">
-      <img src=\"./assets/header-logo.png\" class=\"logo\" alt=\"Logo mil.una\" width=\"70\" height=\"70\">
+      <img src=\"header-logo.png\" class=\"logo\" alt=\"Logo mil.una\" width=\"70\" height=\"70\">
     </a>
 
 
@@ -403,20 +314,7 @@ class __TwigTemplate_cb61e7c649577f1e3ffd14b0bab2867e7770265f7cdd743effbac7035f7
     </div>
 
 
-    <div class=\"dropleft d-none d-xl-block d-lg-block d-xl-none\" style=\"transition-duration: 3s, 5s;\">
-      <a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdownMenuLink\" role=\"button\" data-bs-toggle=\"dropdown\"
-        aria-expanded=\"false\">
-        <img src=\"./assets/header-idiomas.png\" alt=\"Icono Traducción\" width=\"40\" height=\"40\">
-      </a>
-      <div class=\"dropdown-menu dropdown-menu-right\">
-        <li class=\"idioma\" style=\"text-align: center;\"><img src=\"./assets/header-traduccioncastellano.png\" alt=\"Traduccón a valenciano\"
-            width=\"40\" height=\"40\"></li>
-        <li class=\"idioma\" style=\"text-align: center; margin-top: 2%;\"><img src=\"./assets/header-traduccionvalenciano.png\"
-            alt=\"Traduccón a castellano\" width=\"40\" height=\"40\"></li>
-        <li class=\"idioma\" style=\"text-align: center; margin-top: 2%;\"><img src=\"./assets/header-traduccioningles.png\"
-            alt=\"Traduccón a ingles\" width=\"40\" height=\"40\"></li>
-      </div>
-    </div>
+ 
 
     
 
@@ -424,7 +322,7 @@ class __TwigTemplate_cb61e7c649577f1e3ffd14b0bab2867e7770265f7cdd743effbac7035f7
 
 </nav>
 
-<div class=\"\" style=\"background-color: #D13240; height: 3px;\">
+<div class=\"\" style=\"background-color: rgb(178, 217, 232); height: 3px;\">
 
 </div>
 
@@ -433,13 +331,11 @@ class __TwigTemplate_cb61e7c649577f1e3ffd14b0bab2867e7770265f7cdd743effbac7035f7
     <div class=\"col-auto col-md-2 col-xl-2 col-sm-2\" style=\"background-color: rgb(241, 241, 241);\">
       <div style=\"width: 100%;\">
         <br>
-        <img src=\"./assets/admin-avatar.png\" class=\"card-img-top\" alt=\"Tu imagen de perfil\">
+        <img src=\"https://cdn-icons.flaticon.com/png/512/522/premium/522298.png?token=exp=1645175707~hmac=659cf84168cde16dff22ce74f777f4cb\" class=\"card-img-top\" alt=\"Tu imagen de perfil\">
         <br>
         <br>
-        <button type=\"button\" class=\"btn btn-danger btn-sm\" data-bs-toggle=\"modal\" data-bs-target=\"#exampleModal\">Editar
-          Perfil</button>
+        <button type=\"button\" class=\"btn btn-danger btn-sm\" data-bs-toggle=\"modal\" data-bs-target=\"#exampleModal\">Editar Perfil</button>
       </div>
-
 
       <div class=\"modal fade\" id=\"exampleModal\" tabindex=\"-1\" aria-labelledby=\"exampleModalLabel\" aria-hidden=\"true\">
         <div class=\"modal-dialog\">
@@ -450,7 +346,6 @@ class __TwigTemplate_cb61e7c649577f1e3ffd14b0bab2867e7770265f7cdd743effbac7035f7
             </div>
             <div class=\"modal-body\">
               <div class=\"mb-3\">
-
                 <div class=\"row\">
 
                   <div class=\"col-md-6 col-lg-6 col-xl-6 mx-auto \">
@@ -488,7 +383,6 @@ class __TwigTemplate_cb61e7c649577f1e3ffd14b0bab2867e7770265f7cdd743effbac7035f7
                     </form>
                   </div>
                 </div>
-
                 <div class=\"row\">
                   <div class=\"col-md-10 col-lg-10 col-xl-10 mx-auto\">
                     <form>
@@ -497,14 +391,7 @@ class __TwigTemplate_cb61e7c649577f1e3ffd14b0bab2867e7770265f7cdd743effbac7035f7
                     </form>
                   </div>
                 </div>
-
-
               </div>
-
-
-
-
-
             </div>
             <div class=\"modal-footer\">
               <button type=\"button\" class=\"btn btn-outline-danger\">
@@ -545,76 +432,11 @@ class __TwigTemplate_cb61e7c649577f1e3ffd14b0bab2867e7770265f7cdd743effbac7035f7
   </div>
 </div>
 <footer class=\"text-center text-lg-start bg-light text-muted\">
-    <!-- Grid container -->
-    <div style=\"background-color: #d83586;\">
+  
+    <div class=\"text-center p-3\" style=\"background-color: rgb(146, 202, 223);\">
 
-        <div class=\"container p-4 \">
-            <!--Grid row-->
-            <div class=\"row\" id=\"form-group\">
-
-                <!--Grid column-->
-                <div class=\"col-md-4 col-lg-4 col-xl-4 mx-auto mb-4\">
-
-
-                    <ul class=\"list-unstyled\">
-                        <li>
-                            <a href=\"tel:+34648661161 \" class=\"text-dark\"> <span><i class=\"fas fa-phone me-3\"></i> +34 648661161  </span> </a>
-                        </li>
-                        <li>
-                            <a href=\"mailto:miluna.sagunt@gmail.com\" class=\"text-dark\"> <span><i class=\"fas fa-envelope me-3\"></i> miluna.sagunt@gmail.com</span> </a>
-                        </li>
-                        <li>
-                            <a href=\"https://www.google.com/maps/place/C.+Hospital,+9,+46500+Sagunto,+Valencia/@39.6796064,-0.2821193,17z/data=!3m1!4b1!4m5!3m4!1s0xd60151633ea13ff:0xba880a6489da478a!8m2!3d39.6796023!4d-0.2799306?hl=es\" class=\"text-dark\"> <span><i class=\"fas fa-home me-3\"></i> C/ Hospital nº 9   Sagunto (Valencia)  <br> CP: 46500</span> </a>
-                        </li>
-
-                    </ul>
-                    <hr size=\"8px\" color=\"white\" />
-
-                </div>
-                <!--Grid column-->
-
-                <!--Grid column-->
-                <div class=\"col-md-4 col-lg-4 col-xl-4 mx-auto mb-4\">
-
-                    <h2>mil.una</h2>
-
-
-                    <div class=\"col-md-12 text-center\" style=\"margin-top: 20px;\">
-                        <a href=\"\"><i class=\"fab fa-facebook\" style=\"font-size:30px; margin-right: 20px; margin-left: 18px;\"></i></a>
-                        <a href=\"\"><i class=\"fab fa-instagram\" style=\"font-size:30px;margin-right: 20px; \"></i></a>
-                        <a href=\"\"><i class=\"fab fa-google\"style=\"font-size:30px;  margin-right: 20px;\"></i></a>
-
-                    </div>
-
-                    <hr size=\"8px\" color=\"white\" />
-                </div>
-                <!--Grid column-->
-
-
-
-                <!--Grid column-->
-                <div class=\"col-md-4 col-lg-4 col-xl-4 mx-auto mb-4\">
-
-                    <iframe class=\"mapa\" src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d767.6684724345105!2d-0.2800578729669806!3d39.67954976158921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd60151631574c1b%3A0xa3b58c730fabcc24!2sC.%20Hospital%2C%2011%2C%2046500%20Sagunto%2C%20Valencia!5e0!3m2!1ses!2ses!4v1644237970095!5m2!1ses!2ses\"
-                        width=\"230\" height=\"150\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>
-
-
-                </div>
-                <!--Grid column-->
-            </div>
-            <!--Grid row-->
-        </div>
-
+        <a class=\"text-dark\"><span style=\"color: black; font-size: 16px;\">© 2022 Copyright: PowDevs</span></a>
     </div>
-
-    <!-- Grid container -->
-
-    <!-- Copyright -->
-    <div class=\"text-center p-3\" style=\"background-color: #882154;\">
-
-        <a class=\"text-dark\"> <span>© 2022 Copyright: PowDevs</span> </a>
-    </div>
-    <!-- Copyright -->
 </footer>
 
 

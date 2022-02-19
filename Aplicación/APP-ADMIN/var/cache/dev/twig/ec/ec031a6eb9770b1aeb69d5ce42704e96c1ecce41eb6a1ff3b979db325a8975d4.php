@@ -129,6 +129,6 @@ class __TwigTemplate_272e29066323ad515e1ebfad709ada02625d281f8952a405b98e8d43439
         <button type=\"submit\" class=\"btn\">Register</button>
     {{ form_end(registrationForm) }}
 {% endblock %}
-", "registration/register.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/API/templates/registration/register.html.twig");
+", "registration/register.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/templates/registration/register.html.twig");
     }
 }

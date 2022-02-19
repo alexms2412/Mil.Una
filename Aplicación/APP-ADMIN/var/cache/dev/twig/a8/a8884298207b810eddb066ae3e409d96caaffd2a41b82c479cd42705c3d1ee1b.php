@@ -113,6 +113,6 @@ class __TwigTemplate_47d9bcf0a3e90e8ad2bb7d835b9798402f42e3d91160c144ae1e773579d
 
     <a href=\"{{ path('evento_index') }}\">back to list</a>
 {% endblock %}
-", "empleo/new.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/API/templates/empleo/new.html.twig");
+", "empleo/new.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/templates/empleo/new.html.twig");
     }
 }
