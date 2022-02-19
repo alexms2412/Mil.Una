@@ -459,9 +459,7 @@ span {
             <br>
             <!-- Login Form -->
             <form>
-                <input type=\"text\" id=\"login\" class=\"fadeIn second\" name=\"login\" placeholder=\"login\">
-                <input type=\"text\" id=\"password\" class=\"fadeIn third\" name=\"login\" placeholder=\"password\">
-                <input type=\"submit\" class=\"fadeIn fourth\" value=\"Log In\">
+                
             </form>
 
             <!-- Remind Passowrd -->
@@ -972,9 +970,7 @@ span {
             <br>
             <!-- Login Form -->
             <form>
-                <input type=\"text\" id=\"login\" class=\"fadeIn second\" name=\"login\" placeholder=\"login\">
-                <input type=\"text\" id=\"password\" class=\"fadeIn third\" name=\"login\" placeholder=\"password\">
-                <input type=\"submit\" class=\"fadeIn fourth\" value=\"Log In\">
+                
             </form>
 
             <!-- Remind Passowrd -->
@@ -1063,6 +1059,6 @@ span {
 
 
 </body>
-{% endblock %}", "sesion.html", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/API/templates/sesion.html");
+{% endblock %}", "sesion.html", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/templates/sesion.html");
     }
 }

@@ -117,6 +117,6 @@ New Evento
 
     <a href=\"{{ path('evento_index') }}\">back to list</a>
 {% endblock %}
-", "evento/new.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/API/templates/evento/new.html.twig");
+", "evento/new.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/templates/evento/new.html.twig");
     }
 }

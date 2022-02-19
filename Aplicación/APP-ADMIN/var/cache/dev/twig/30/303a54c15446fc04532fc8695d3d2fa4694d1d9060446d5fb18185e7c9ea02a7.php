@@ -118,6 +118,6 @@ class __TwigTemplate_a92ba76b1bbe81ab9b36da82a96aee726f9f134ff43ff817cb5a83be06a
 
     {{ include('evento/_delete_form.html.twig') }}
 {% endblock %}
-", "evento/edit.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/API/templates/evento/edit.html.twig");
+", "evento/edit.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/templates/evento/edit.html.twig");
     }
 }

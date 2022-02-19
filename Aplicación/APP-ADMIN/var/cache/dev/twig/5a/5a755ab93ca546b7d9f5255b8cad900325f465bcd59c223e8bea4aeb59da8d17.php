@@ -54,7 +54,7 @@ class __TwigTemplate_9613f4b589e74c7cccf574eed391fe252a912b2e30907e69b0489e0fedc
 
     }
 
-    // line 5
+    // line 2
     public function block_content($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -64,8 +64,11 @@ class __TwigTemplate_9613f4b589e74c7cccf574eed391fe252a912b2e30907e69b0489e0fedc
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "content"));
 
-        // line 6
-        echo "<ul class=\"nav nav-tabs\" id=\"myTab\" role=\"tablist\">
+        // line 3
+        echo "
+<div class=\"container\">
+<div class=\"row\">
+<ul class=\"nav nav-tabs\" id=\"myTab\" role=\"tablist\">
         <li class=\"nav-item\" role=\"presentation\">
           <button class=\"nav-link active\" id=\"home-tab\" data-bs-toggle=\"tab\" data-bs-target=\"#home\" type=\"button\"
             role=\"tab\" aria-controls=\"home\" aria-selected=\"true\">Eventos</button>
@@ -229,11 +232,11 @@ class __TwigTemplate_9613f4b589e74c7cccf574eed391fe252a912b2e30907e69b0489e0fedc
     <table class=\"table\">
         <thead>
             <tr>
-                <th>IdEmpleo</th>
-                <th>NombreEmpleo</th>
-                <th>EmpresaEmpleo</th>
-                <th>EnlaceEmpleo</th>
-                <th>actions</th>
+                <th scope=\"col\">IdEmpleo</th>
+                <th scope=\"col\">NombreEmpleo</th>
+                <th scope=\"col\">EmpresaEmpleo</th>
+                <th scope=\"col\">EnlaceEmpleo</th>
+                <th scope=\"col\">actions</th>
             </tr>
         </thead>
         <tbody>
@@ -295,6 +298,8 @@ class __TwigTemplate_9613f4b589e74c7cccf574eed391fe252a912b2e30907e69b0489e0fedc
         echo "\">Create new</a>
         </div>
       </div>  
+      </div>
+      </div>
 ";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
@@ -316,16 +321,16 @@ class __TwigTemplate_9613f4b589e74c7cccf574eed391fe252a912b2e30907e69b0489e0fedc
 
     public function getDebugInfo()
     {
-        return array (  294 => 122,  289 => 119,  280 => 115,  271 => 111,  267 => 110,  262 => 108,  258 => 107,  254 => 106,  250 => 105,  247 => 104,  242 => 103,  224 => 88,  219 => 85,  210 => 81,  201 => 77,  197 => 76,  192 => 74,  188 => 73,  184 => 72,  180 => 71,  177 => 70,  172 => 69,  154 => 54,  149 => 51,  140 => 47,  131 => 43,  127 => 42,  122 => 40,  118 => 39,  114 => 38,  110 => 37,  106 => 36,  103 => 35,  98 => 34,  68 => 6,  58 => 5,  35 => 1,);
+        return array (  297 => 122,  292 => 119,  283 => 115,  274 => 111,  270 => 110,  265 => 108,  261 => 107,  257 => 106,  253 => 105,  250 => 104,  245 => 103,  227 => 88,  222 => 85,  213 => 81,  204 => 77,  200 => 76,  195 => 74,  191 => 73,  187 => 72,  183 => 71,  180 => 70,  175 => 69,  157 => 54,  152 => 51,  143 => 47,  134 => 43,  130 => 42,  125 => 40,  121 => 39,  117 => 38,  113 => 37,  109 => 36,  106 => 35,  101 => 34,  68 => 3,  58 => 2,  35 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("{% extends \"layout.html\" %}
-
-
-
 {% block content %}
+
+<div class=\"container\">
+<div class=\"row\">
 <ul class=\"nav nav-tabs\" id=\"myTab\" role=\"tablist\">
         <li class=\"nav-item\" role=\"presentation\">
           <button class=\"nav-link active\" id=\"home-tab\" data-bs-toggle=\"tab\" data-bs-target=\"#home\" type=\"button\"
@@ -415,11 +420,11 @@ class __TwigTemplate_9613f4b589e74c7cccf574eed391fe252a912b2e30907e69b0489e0fedc
     <table class=\"table\">
         <thead>
             <tr>
-                <th>IdEmpleo</th>
-                <th>NombreEmpleo</th>
-                <th>EmpresaEmpleo</th>
-                <th>EnlaceEmpleo</th>
-                <th>actions</th>
+                <th scope=\"col\">IdEmpleo</th>
+                <th scope=\"col\">NombreEmpleo</th>
+                <th scope=\"col\">EmpresaEmpleo</th>
+                <th scope=\"col\">EnlaceEmpleo</th>
+                <th scope=\"col\">actions</th>
             </tr>
         </thead>
         <tbody>
@@ -445,6 +450,8 @@ class __TwigTemplate_9613f4b589e74c7cccf574eed391fe252a912b2e30907e69b0489e0fedc
     <a href=\"{{ path('empleo_new') }}\">Create new</a>
         </div>
       </div>  
+      </div>
+      </div>
 {% endblock %}
 ", "evento/index.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/templates/evento/index.html.twig");
     }

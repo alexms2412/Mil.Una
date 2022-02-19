@@ -191,6 +191,6 @@ Evento
 
     {{ include('evento/_delete_form.html.twig') }}
 {% endblock %}
-", "evento/show.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/API/templates/evento/show.html.twig");
+", "evento/show.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/templates/evento/show.html.twig");
     }
 }

@@ -67,22 +67,24 @@ class __TwigTemplate_62bab5262e983206940a57e681bf0956faff7b2d845f6bfe3a19bb63cf3
     <!------ Include the above in your HEAD tag ---------->
 
     <style>
-    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 h2 {
-    color: white;
+    color: black;
     margin-bottom: 30px;
     font-size: 40px;
     font-family: 'Dancing Script', cursive;
 }
 
 footer {
+    color: black;
     position: absolute;
-    width: 100%;
-    color: white;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
 }
 
-span {
-    color: white;
+li a span {
+    color: black;
 }
 
 .mapa {
@@ -99,7 +101,14 @@ span {
 }
 
 .fab {
-    color: white;
+    color: black;
+}
+.fas{
+    margin: 0;
+}
+.fab:hover{
+    transform: scale(1.15);
+    transition: .2s;
 }
 
 #form-group {
@@ -107,8 +116,12 @@ span {
     align-items: center;
 }
 
-li {
-    margin-top: 10px;
+li a{
+    color: black;
+    font-size: 12px;
+}
+li{
+    margin-top:10px;
 }
 
 hr {
@@ -120,23 +133,14 @@ hr {
         display: flex;
     }
 }
-    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&display=swap');
-.txtcolor {
-    color: #D13240;
-    margin-bottom: 30px;
-    font-size: 30px;
-    font-family: 'Dancing Script', cursive;
-    padding-right: 20px;
-}
 
 .logo {
-    margin-left: 10px;
     margin-top: 5px;
 }
 
 a {
     color: #D13240;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Raleway', sans-serif;
 }
 
 .txtcolor:hover {
@@ -157,6 +161,10 @@ span {
 
     .titulo-categoria{
     color: black;
+}
+.text-dark span{
+    color: black;
+    font-family: 'Raleway', sans-serif;
 }
 
 
@@ -423,12 +431,21 @@ span {
     color: #D13240;
 }
 
+.btn-danger{
+    background-color: rgb(146, 202, 223);
+    border: rgb(146, 202, 223);
+}
+
+.btn-danger:hover{
+    background-color: rgb(131, 218, 221);
+}
+
 
     </style>
 
 </head>
 ";
-        // line 387
+        // line 404
         $this->displayBlock('layout', $context, $blocks);
         
         $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->leave($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof);
@@ -462,7 +479,7 @@ span {
 
     public function getDebugInfo()
     {
-        return array (  432 => 387,  44 => 1,);
+        return array (  449 => 404,  44 => 1,);
     }
 
     public function getSourceContext()
@@ -493,22 +510,24 @@ span {
     <!------ Include the above in your HEAD tag ---------->
 
     <style>
-    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 h2 {
-    color: white;
+    color: black;
     margin-bottom: 30px;
     font-size: 40px;
     font-family: 'Dancing Script', cursive;
 }
 
 footer {
+    color: black;
     position: absolute;
-    width: 100%;
-    color: white;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
 }
 
-span {
-    color: white;
+li a span {
+    color: black;
 }
 
 .mapa {
@@ -525,7 +544,14 @@ span {
 }
 
 .fab {
-    color: white;
+    color: black;
+}
+.fas{
+    margin: 0;
+}
+.fab:hover{
+    transform: scale(1.15);
+    transition: .2s;
 }
 
 #form-group {
@@ -533,8 +559,12 @@ span {
     align-items: center;
 }
 
-li {
-    margin-top: 10px;
+li a{
+    color: black;
+    font-size: 12px;
+}
+li{
+    margin-top:10px;
 }
 
 hr {
@@ -546,23 +576,14 @@ hr {
         display: flex;
     }
 }
-    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&display=swap');
-.txtcolor {
-    color: #D13240;
-    margin-bottom: 30px;
-    font-size: 30px;
-    font-family: 'Dancing Script', cursive;
-    padding-right: 20px;
-}
 
 .logo {
-    margin-left: 10px;
     margin-top: 5px;
 }
 
 a {
     color: #D13240;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Raleway', sans-serif;
 }
 
 .txtcolor:hover {
@@ -583,6 +604,10 @@ span {
 
     .titulo-categoria{
     color: black;
+}
+.text-dark span{
+    color: black;
+    font-family: 'Raleway', sans-serif;
 }
 
 
@@ -847,6 +872,15 @@ input[type=text]:placeholder {
 
 span {
     color: #D13240;
+}
+
+.btn-danger{
+    background-color: rgb(146, 202, 223);
+    border: rgb(146, 202, 223);
+}
+
+.btn-danger:hover{
+    background-color: rgb(131, 218, 221);
 }
 
 

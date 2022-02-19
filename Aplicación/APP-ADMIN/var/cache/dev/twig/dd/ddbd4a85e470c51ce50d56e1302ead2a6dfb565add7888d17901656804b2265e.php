@@ -79,6 +79,6 @@ class __TwigTemplate_ed69793296ad63e1b206e6dbf7bca887d0cbf217477b346df9e5dfdd066
     <input type=\"hidden\" name=\"_token\" value=\"{{ csrf_token('delete' ~ empleo.id) }}\">
     <button class=\"btn\">Delete</button>
 </form>
-", "empleo/_delete_form.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/API/templates/empleo/_delete_form.html.twig");
+", "empleo/_delete_form.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/templates/empleo/_delete_form.html.twig");
     }
 }
