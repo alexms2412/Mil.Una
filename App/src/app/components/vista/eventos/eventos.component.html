@@ -1,26 +1,28 @@
 <div class="container">
-  <div style="margin-top: 50px;">
-    <h1>
-      <a class="text-dark home"> <span><i class="fas fa-hiking"></i> </span> </a> Actividades </h1>
-    <p>Acrividades que realizamos en Mil.Una</p>
-  </div>
-</div>
 
-<div class="container">
-  <div class="row justify-content-center" >
-    <div *ngFor="let actividad of actividades">
+    <div style="margin-top: 50px;">
+        <h1>
+            <a class="text-dark home"> <span><i class="fas fa-hiking"></i> </span> </a> Actividades </h1>
+        <p>Actividades que realizamos en Mil.Una</p>
+    </div>
 
 
-        <div class="card col-12 col-sm-3"  style="width: 18rem; margin: 5px 5px 5px 5px;">
-          <div class="card-body">
-            <h5 style="color: black; font-weight: bold;">{{actividad.nombre}}</h5>
-            <h6 style="color: gray;">hola</h6>
-            <p class="card-text">{{actividad.DescripcionEvento}}</p>
-          </div>
+    <!-- CARD 1 -->
+
+    <br>
+    <br>
+
+    <div class="row justify-content-center" *ngFor="let actividad of actividades" style="margin-bottom: 25px;">
+        <div class="card w-75">
+            <div class="card-body">
+                <h5 class="card-title" style="text-decoration: underline black;">{{actividad.nombre}}</h5>
+                <p class="card-text">{{actividad.DescripcionEvento}}</p>
+                <h6 style="color: gray;">- Fecha: {{actividad.Fecha}}</h6>
+            </div>
         </div>
-        </div>
 
 
-  </div>
+    </div>
+
+
 </div>
-<br>
