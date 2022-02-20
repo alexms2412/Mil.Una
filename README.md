@@ -1,7 +1,7 @@
 
  # Integrated Project Mil.Una
 
-<p align="justify">Integrated project developed by 4 students from Florida Universitaria, together with the collaboration of the management team of the non-profit association Mil.Luna and the supervision of our tutor Vicente Monfort. In order to develop a fully functional website adapted to the needs of said association. The main objective of this project is to make use of the tools and programming languages ​​used during the course. Such as Bootstrap, Simfony, Angular...</p>
+<p align="justify">Integrated project developed by 4 students from Florida Universitaria, with the collaboration of the non-profit association Mil.Luna and the supervision of our tutor Vicente Monfort. In order to develop a fully functional website adapted to association requirements. The main objective of this project is to make use of the tools and programming languages ​​used during the course. Such as Bootstrap, Simfony, Angular...</p>
 
 # Project Map
 
