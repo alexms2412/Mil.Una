@@ -65,7 +65,7 @@ class __TwigTemplate_b98befa9ebc7e5e151d8d9ed031ea49145a20356f4b552db21641a614be
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "content"));
 
         // line 4
-        echo "    <h1>Edit User</h1>
+        echo "    <h1>Editar Usuaria</h1>
 
     ";
         // line 6
@@ -110,7 +110,7 @@ class __TwigTemplate_b98befa9ebc7e5e151d8d9ed031ea49145a20356f4b552db21641a614be
         return new Source("{% extends \"layout.html\" %}
 
 {% block content %}
-    <h1>Edit User</h1>
+    <h1>Editar Usuaria</h1>
 
     {{ include('user/_form.html.twig', {'button_label': 'Update'}) }}
 
@@ -118,6 +118,6 @@ class __TwigTemplate_b98befa9ebc7e5e151d8d9ed031ea49145a20356f4b552db21641a614be
 
     {{ include('user/_delete_form.html.twig') }}
 {% endblock %}
-", "user/edit.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/templates/user/edit.html.twig");
+", "user/edit.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/templates/user/edit.html.twig");
     }
 }

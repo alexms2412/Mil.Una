@@ -67,7 +67,7 @@ class __TwigTemplate_a343dd20a28682707bcfc8a591b51b6ef105985a7776eb39fbfd588cd56
         // line 4
         echo "
 
-    <h1>Nuevo Evento</h1>
+    <h1>Crear nuevo Evento</h1>
 
     ";
         // line 8
@@ -109,12 +109,12 @@ class __TwigTemplate_a343dd20a28682707bcfc8a591b51b6ef105985a7776eb39fbfd588cd56
 {% block content %}
 
 
-    <h1>Nuevo Evento</h1>
+    <h1>Crear nuevo Evento</h1>
 
     {{ include('evento/_form.html.twig') }}
 
     <a href=\"{{ path('evento_index') }}\">Volver a la lista</a>
 {% endblock %}
-", "evento/new.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/templates/evento/new.html.twig");
+", "evento/new.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/templates/evento/new.html.twig");
     }
 }

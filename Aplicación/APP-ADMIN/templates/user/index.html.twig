@@ -14,7 +14,7 @@
                 <th>Password</th>
                 <th>Nombre</th>
                 <th>Apellidos</th>
-                <th>CorreoUsuario</th>
+                <th>Correo Usuario</th>
                 <th>actions</th>
             </tr>
         </thead>
@@ -29,17 +29,17 @@
                 <td>{{ user.Apellidos }}</td>
                 <td>{{ user.CorreoUsuario }}</td>
                 <td>
-                    <a href="{{ path('user_show', {'id': user.id}) }}">show</a>
-                    <a href="{{ path('user_edit', {'id': user.id}) }}">edit</a>
+                    <a href="{{ path('user_show', {'id': user.id}) }}">Ver</a>
+                    <a href="{{ path('user_edit', {'id': user.id}) }}">Editar</a>
                 </td>
             </tr>
         {% else %}
             <tr>
-                <td colspan="8">no records found</td>
+                <td colspan="8">No se encontraron registros</td>
             </tr>
         {% endfor %}
         </tbody>
     </table>
 
-    <a href="/register">Create new</a>
+    <a href="/register">Crear Nuevo</a>
 {% endblock %}

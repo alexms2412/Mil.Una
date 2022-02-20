@@ -111,13 +111,13 @@ class __TwigTemplate_4a0b3987d958f5261c6a036ae65050745b1d6e951334a4b242de2680903
         }
         // line 33
         echo "
-    <h1 class=\"h3 mb-3 font-weight-normal\">Please sign in</h1>
+    <h1 class=\"h3 mb-3 font-weight-normal\">Por Favor, Inicia Sesión</h1>
     <label for=\"inputUsername\">Username</label>
     <input type=\"text\" value=\"";
         // line 36
         echo twig_escape_filter($this->env, (isset($context["last_username"]) || array_key_exists("last_username", $context) ? $context["last_username"] : (function () { throw new RuntimeError('Variable "last_username" does not exist.', 36, $this->source); })()), "html", null, true);
         echo "\" name=\"username\" id=\"inputUsername\" class=\"form-control\" autocomplete=\"username\" required autofocus>
-    <label for=\"inputPassword\">Password</label>
+    <label for=\"inputPassword\">Contraseña</label>
     <input type=\"password\" name=\"password\" id=\"inputPassword\" class=\"form-control\" autocomplete=\"current-password\" required>
 
     <input type=\"hidden\" name=\"_csrf_token\"
@@ -130,8 +130,8 @@ class __TwigTemplate_4a0b3987d958f5261c6a036ae65050745b1d6e951334a4b242de2680903
     ";
         // line 54
         echo "
-    <button class=\"btn btn-lg btn-primary\" type=\"submit\">
-        Sign in
+    <button class=\"mt-3 btn btn-lg btn-primary\" type=\"submit\">
+        Entrar
     </button>
 </form>
                 </div>
@@ -195,10 +195,10 @@ class __TwigTemplate_4a0b3987d958f5261c6a036ae65050745b1d6e951334a4b242de2680903
         </div>
     {% endif %}
 
-    <h1 class=\"h3 mb-3 font-weight-normal\">Please sign in</h1>
+    <h1 class=\"h3 mb-3 font-weight-normal\">Por Favor, Inicia Sesión</h1>
     <label for=\"inputUsername\">Username</label>
     <input type=\"text\" value=\"{{ last_username }}\" name=\"username\" id=\"inputUsername\" class=\"form-control\" autocomplete=\"username\" required autofocus>
-    <label for=\"inputPassword\">Password</label>
+    <label for=\"inputPassword\">Contraseña</label>
     <input type=\"password\" name=\"password\" id=\"inputPassword\" class=\"form-control\" autocomplete=\"current-password\" required>
 
     <input type=\"hidden\" name=\"_csrf_token\"
@@ -216,12 +216,12 @@ class __TwigTemplate_4a0b3987d958f5261c6a036ae65050745b1d6e951334a4b242de2680903
         </div>
     #}
 
-    <button class=\"btn btn-lg btn-primary\" type=\"submit\">
-        Sign in
+    <button class=\"mt-3 btn btn-lg btn-primary\" type=\"submit\">
+        Entrar
     </button>
 </form>
                 </div>
             </div>
-{% endblock %}", "security/login.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/templates/security/login.html.twig");
+{% endblock %}", "security/login.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/templates/security/login.html.twig");
     }
 }
