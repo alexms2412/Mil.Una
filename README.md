@@ -1,14 +1,14 @@
 
- # PROYECTO INTEGRADO Mil.Una
+ # Integrated Project Mil.Una
 
-<p align="justify">Proyecto integrado desarrollado por 4 alumnos de Florida Universitaria, junto a la colaboración del equipo directivo de la asociación sin ánimo de lucro Mil.Luna y la supervisión de nuestro tutor Vicente Monfort. Con la finalidad de desarrollar una página web totalmente funcional y adaptada a las necesidades de dicha asociación. El objetivo principal de este proyecto es dar uso a las herramientas y lenguajes de programación usados durante el curso. Tales como Boostrap, Simfony, Angular...</p>
+<p align="justify">Integrated project developed by 4 students from Florida Universitaria, together with the collaboration of the management team of the non-profit association Mil.Luna and the supervision of our tutor Vicente Monfort. In order to develop a fully functional website adapted to the needs of said association. The main objective of this project is to make use of the tools and programming languages ​​used during the course. Such as Bootstrap, Simfony, Angular...</p>
 
-# Mapa de proyecto
+# Project Map
 
 <p align="center"><img src="https://github.com/alexms2412/Mil.Una/blob/main/documentos/powdev/media/Mapa%20Mental.jpeg"></p>
 
 
-# Autores
+# Authors
 
   - Alejandro Moreno
   - Marc García
