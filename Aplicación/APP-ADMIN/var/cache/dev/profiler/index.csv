@@ -6778,3 +6778,8 @@ b927d9,::1,GET,https://localhost:8000/assets/header-logo.png,1645384394,59bf0b,4
 2c1959,::1,GET,https://localhost:8000/evento/,1645384409,,200
 37d778,::1,GET,https://localhost:8000/assets/header-logo.png,1645384410,aa73ef,404
 aa73ef,::1,GET,https://localhost:8000/assets/header-logo.png,1645384411,,404
+087a4f,::1,GET,https://localhost:8000/evento/,1645385121,,200
+373c4c,::1,GET,https://localhost:8000/assets/header-logo.png,1645385122,0199bf,404
+0199bf,::1,GET,https://localhost:8000/assets/header-logo.png,1645385122,,404
+d6b353,::1,GET,https://localhost:8000/assets/header-logo.png,1645385242,694860,404
+694860,::1,GET,https://localhost:8000/assets/header-logo.png,1645385242,,404
