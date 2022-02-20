@@ -39,7 +39,7 @@ class EmpleoController extends AbstractController
             $entityManager->persist($empleo);
             $entityManager->flush();
 
-            return $this->redirectToRoute('empleo_index', [], Response::HTTP_SEE_OTHER);
+            return $this->redirectToRoute('evento_index', [], Response::HTTP_SEE_OTHER);
         }
 
         return $this->renderForm('empleo/new.html.twig', [
@@ -69,7 +69,7 @@ class EmpleoController extends AbstractController
         if ($form->isSubmitted() && $form->isValid()) {
             $entityManager->flush();
 
-            return $this->redirectToRoute('empleo_index', [], Response::HTTP_SEE_OTHER);
+            return $this->redirectToRoute('evento_index', [], Response::HTTP_SEE_OTHER);
         }
 
         return $this->renderForm('empleo/edit.html.twig', [
@@ -88,6 +88,6 @@ class EmpleoController extends AbstractController
             $entityManager->flush();
         }
 
-        return $this->redirectToRoute('empleo_index', [], Response::HTTP_SEE_OTHER);
+        return $this->redirectToRoute('evento_index', [], Response::HTTP_SEE_OTHER);
     }
 }

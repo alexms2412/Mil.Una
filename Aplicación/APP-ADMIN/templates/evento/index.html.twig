@@ -16,6 +16,10 @@
           <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button"
             role="tab" aria-controls="contact" aria-selected="false">Empleos</button>
         </li>
+         <li class="nav-item" role="presentation">
+          <button class="nav-link" id="admin-tab" data-bs-toggle="tab" data-bs-target="#admin" type="button"
+            role="tab" aria-controls="admin" aria-selected="false">Administradoras</button>
+        </li>
       </ul>
       <div class="tab-content" id="myTabContent">
         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
@@ -27,7 +31,7 @@
                 <th>NombreEvento</th>
                 <th>DescripcionEvento</th>
                 <th>FechaEvento</th>
-                <th>actions</th>
+                <th>Opciones</th>
             </tr>
         </thead>
         <tbody>
@@ -39,8 +43,8 @@
                 <td>{{ evento.DescripcionEvento }}</td>
                 <td>{{ evento.FechaEvento ? evento.FechaEvento|date('Y-m-d') : '' }}</td>
                 <td>
-                    <a href="{{ path('evento_show', {'idEvento': evento.id}) }}">show</a>
-                    <a href="{{ path('evento_edit', {'idEvento': evento.id}) }}">edit</a>
+                    <a href="{{ path('evento_show', {'idEvento': evento.id}) }}">Ver</a>
+                    <a href="{{ path('evento_edit', {'idEvento': evento.id}) }}">Editar</a>
                 </td>
             </tr>
         {% else %}
@@ -51,7 +55,7 @@
         </tbody>
     </table>
 
-    <a href="{{ path('evento_new') }}">Create new</a>
+    <a href="{{ path('evento_new') }}">Añadir</a>
         </div>
         <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
 
@@ -62,7 +66,7 @@
                 <th>TipoContenido</th>
                 <th>DescripcionContenido</th>
                 <th>EnlaceContenido</th>
-                <th>actions</th>
+                <th>Opciones</th>
             </tr>
         </thead>
         <tbody>
@@ -73,8 +77,8 @@
                 <td>{{ contenido.DescripcionContenido }}</td>
                 <td><img style="width:50px" src="uploads/contenido/{{ contenido.EnlaceContenido }}"</td>
                 <td>
-                    <a href="{{ path('contenido_show', {'idContenido': contenido.id}) }}">show</a>
-                    <a href="{{ path('contenido_edit', {'idContenido': contenido.id}) }}">edit</a>
+                    <a href="{{ path('contenido_show', {'idContenido': contenido.id}) }}">Ver</a>
+                    <a href="{{ path('contenido_edit', {'idContenido': contenido.id}) }}">Editar</a>
                 </td>
             </tr>
         {% else %}
@@ -85,7 +89,7 @@
         </tbody>
     </table>
 
-    <a href="{{ path('contenido_new') }}">Create new</a>
+    <a href="{{ path('contenido_new') }}">Añadir</a>
         </div>
         <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
 
@@ -96,7 +100,7 @@
                 <th scope="col">NombreEmpleo</th>
                 <th scope="col">EmpresaEmpleo</th>
                 <th scope="col">EnlaceEmpleo</th>
-                <th scope="col">actions</th>
+                <th scope="col">Opciones</th>
             </tr>
         </thead>
         <tbody>
@@ -107,8 +111,8 @@
                 <td>{{ empleo.empresaEmpleo }}</td>
                 <td>{{ empleo.enlaceEmpleo }}</td>
                 <td>
-                    <a href="{{ path('empleo_show', {'idEmpleo': empleo.id}) }}">show</a>
-                    <a href="{{ path('empleo_edit', {'idEmpleo': empleo.id}) }}">edit</a>
+                    <a href="{{ path('empleo_show', {'idEmpleo': empleo.id}) }}">Ver</a>
+                    <a href="{{ path('empleo_edit', {'idEmpleo': empleo.id}) }}">Editar</a>
                 </td>
             </tr>
         {% else %}
@@ -119,8 +123,35 @@
         </tbody>
     </table>
 
-    <a href="{{ path('empleo_new') }}">Create new</a>
+    <a href="{{ path('empleo_new') }}">Añadir</a>
         </div>
+      <div class="tab-pane fade" id="admin" role="tabpanel" aria-labelledby="admin-tab">
+      <table class="table">
+        <thead>
+            <tr>
+                <th>Nombre de Usuaria</th>
+                <th>Opciones</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for user in users %}
+            <tr>
+                <td style="text-align:center">{{ user.username }}</td>
+                <td style="text-align:center">
+                    <a href="{{ path('user_show', {'id': user.id}) }}">Ver</a>
+                    <a href="{{ path('user_edit', {'id': user.id}) }}">Editar</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="8">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ path('user_new') }}">Crear Nueva</a>
+      </div>  
       </div>  
       </div>
       </div>

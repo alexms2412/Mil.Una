@@ -64,7 +64,7 @@ class ContenidoController extends AbstractController
             $entityManager->persist($contenido);
             $entityManager->flush();
 
-            return $this->redirectToRoute('contenido_index', [], Response::HTTP_SEE_OTHER);
+            return $this->redirectToRoute('evento_index', [], Response::HTTP_SEE_OTHER);
         }
 
         return $this->renderForm('contenido/new.html.twig', [
@@ -117,7 +117,7 @@ class ContenidoController extends AbstractController
 
             $entityManager->flush();
 
-            return $this->redirectToRoute('contenido_index', [], Response::HTTP_SEE_OTHER);
+            return $this->redirectToRoute('evento_index', [], Response::HTTP_SEE_OTHER);
         }
 
         return $this->renderForm('contenido/edit.html.twig', [
@@ -136,6 +136,6 @@ class ContenidoController extends AbstractController
             $entityManager->flush();
         }
 
-        return $this->redirectToRoute('contenido_index', [], Response::HTTP_SEE_OTHER);
+        return $this->redirectToRoute('evento_index', [], Response::HTTP_SEE_OTHER);
     }
 }
