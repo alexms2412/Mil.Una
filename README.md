@@ -47,10 +47,10 @@ Only if you want to use the Symfony app
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Example Color | ![#92CADF](https://via.placeholder.com/10/92CADF?text=+) #92CADF |
-| Example Color | ![#b2d9e8](https://via.placeholder.com/10/b2d9e8?text=+) #b2d9e8 |
-| Example Color | ![#ca453e](https://via.placeholder.com/10/ca453e?text=+) #ca453e |
-| Example Color | ![#dc3545](https://via.placeholder.com/10/dc3545?text=+) #dc3545 |
+| Copyright | ![#92CADF](https://via.placeholder.com/10/92CADF?text=+) #92CADF |
+| Footer | ![#b2d9e8](https://via.placeholder.com/10/b2d9e8?text=+) #b2d9e8 |
+| Button | ![#ca453e](https://via.placeholder.com/10/ca453e?text=+) #ca453e |
+| Title | ![#dc3545](https://via.placeholder.com/10/dc3545?text=+) #dc3545 |
 
 
 
