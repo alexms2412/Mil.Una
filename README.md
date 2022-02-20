@@ -47,6 +47,12 @@ Only if you want to use the Symfony app
 
 
 
+## Used By
+
+This project is used by the following company:
+
+- Mil.Una
+
 <p align="right">
  <img src="https://github.com/alexms2412/Mil.Una/blob/main/media/images/logo.jpeg" width="60"
      height="60"></p>
