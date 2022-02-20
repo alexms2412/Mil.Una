@@ -38,7 +38,7 @@ class ApiEventoController extends AbstractController
                 'idEvento' => $evento->getId(),
                 'nombre' => $evento->getNombreEvento(),
                 'DescripcionEvento' => $evento->getDescripcionEvento(),
-                'FechaEvento' => $evento->getFechaEvento(),
+                'FechaEvento' => $evento->getFechaEvento()->format('d-m-y'),
                 'TipoEvento' => $evento->getTipoEvento()
             ];
         }
