@@ -54,6 +54,7 @@ class __TwigTemplate_3c90c5e140c22ce88a2faecc2bd9f1e88736cd064f87a72ee50b463dbbf
         // line 4
         echo         $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->renderBlock((isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new RuntimeError('Variable "form" does not exist.', 4, $this->source); })()), 'form_end');
         echo "
+
 ";
         
         $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->leave($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof);
@@ -84,6 +85,7 @@ class __TwigTemplate_3c90c5e140c22ce88a2faecc2bd9f1e88736cd064f87a72ee50b463dbbf
     {{ form_widget(form) }}
     <button class=\"btn\">{{ button_label|default('Save') }}</button>
 {{ form_end(form) }}
+
 ", "evento/_form.html.twig", "C:\\Users\\aleol\\OneDrive\\Proyectos\\Mil.Una\\Aplicación\\APP-ADMIN\\templates\\evento\\_form.html.twig");
     }
 }

@@ -152,78 +152,7 @@ class __TwigTemplate_f169d147fce55bc13902f1cef27e8a34be4190bffa7adac3f5a14a11299
           <img src=\"icono-mujer-2.png\" class=\"card-img-top\" alt=\"Tu imagen de perfil\">
           <br>
           <br>
-          <button type=\"button\" class=\"btn btn-danger btn-sm\" data-bs-toggle=\"modal\"
-            data-bs-target=\"#exampleModal\">Editar
-            Perfil</button>
-
-          <div class=\"modal fade\" id=\"exampleModal\" tabindex=\"-1\" aria-labelledby=\"exampleModalLabel\"
-            aria-hidden=\"true\">
-            <div class=\"modal-dialog\">
-              <div class=\"modal-content\">
-                <div class=\"modal-header\">
-                  <h5 class=\"modal-title\">Editor de perfil</h5>
-                  <button type=\"button\" class=\"btn btn-secondary\" data-bs-dismiss=\"modal\">X</button>
-                </div>
-                <div class=\"modal-body\">
-                  <div class=\"mb-3\">
-                    <div class=\"row\">
-
-                      <div class=\"col-md-6 col-lg-6 col-xl-6 mx-auto \">
-                        <form>
-                          <input type=\"text\" id=\"Nombre\" class=\"fadeIn second\" name=\"Nombre\" placeholder=\"Nombre\">
-                        </form>
-                      </div>
-
-                      <div class=\"col-md-6 col-lg-6 col-xl-6 mx-auto\">
-                        <form>
-                          <input type=\"text\" id=\"Apellidos\" class=\"fadeIn second\" name=\"Apellidos\"
-                            placeholder=\"Apellidos\">
-                        </form>
-                      </div>
-                    </div>
-
-                    <div class=\"row\">
-                      <div class=\"col-md-6 col-lg-6 col-xl-6 mx-auto \">
-                        <form>
-                          <input type=\"text\" id=\"Correo\" class=\"fadeIn second\" name=\"Correo\" placeholder=\"Correo\">
-                        </form>
-                      </div>
-
-                      <div class=\"col-md-6 col-lg-6 col-xl-6 mx-auto\">
-                        <form>
-                          <input type=\"text\" id=\"Usuario\" class=\"fadeIn third\" name=\"Usuario\" placeholder=\"Usuario\">
-                        </form>
-                      </div>
-                    </div>
-
-                    <div class=\"row\">
-                      <div class=\"col-md-6 col-lg-6 col-xl-6 mx-auto \">
-                        <form>
-                          <input type=\"text\" id=\"Contraseña\" class=\"fadeIn second\" name=\"Contraseña\"
-                            placeholder=\"Contraseña\">
-                        </form>
-                      </div>
-                    </div>
-                    <div class=\"row\">
-                      <div class=\"col-md-10 col-lg-10 col-xl-10 mx-auto\">
-                        <form>
-                          <br>
-                          <input type=\"file\" class=\"fadeIn second\" aria-label=\"Upload\">
-                        </form>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class=\"modal-footer\">
-                  <button type=\"button\" class=\"btn btn-outline-danger\">
-                    Guardar
-                  </button>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <!-- UsuarioFin -->
+          
 
           <hr>
 
@@ -232,18 +161,18 @@ class __TwigTemplate_f169d147fce55bc13902f1cef27e8a34be4190bffa7adac3f5a14a11299
               <span class=\"titulo-categoria\">Nombre</span>
               
               ";
-        // line 160
-        if (twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 160, $this->source); })()), "user", [], "any", false, false, false, 160)) {
-            // line 161
+        // line 89
+        if (twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 89, $this->source); })()), "user", [], "any", false, false, false, 89)) {
+            // line 90
             echo "              <br>
             ";
-            // line 162
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 162, $this->source); })()), "user", [], "any", false, false, false, 162), "username", [], "any", false, false, false, 162), "html", null, true);
+            // line 91
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 91, $this->source); })()), "user", [], "any", false, false, false, 91), "username", [], "any", false, false, false, 91), "html", null, true);
             echo "
 
             ";
         }
-        // line 165
+        // line 94
         echo "            </li>
             <br>
             <li>
@@ -253,18 +182,18 @@ class __TwigTemplate_f169d147fce55bc13902f1cef27e8a34be4190bffa7adac3f5a14a11299
             <li>
               <span class=\"titulo-categoria\">Correo</span>
               ";
-        // line 173
-        if (twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 173, $this->source); })()), "user", [], "any", false, false, false, 173)) {
-            // line 174
+        // line 102
+        if (twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 102, $this->source); })()), "user", [], "any", false, false, false, 102)) {
+            // line 103
             echo "              <br>
             ";
-            // line 175
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 175, $this->source); })()), "user", [], "any", false, false, false, 175), "CorreoUsuario", [], "any", false, false, false, 175), "html", null, true);
+            // line 104
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 104, $this->source); })()), "user", [], "any", false, false, false, 104), "CorreoUsuario", [], "any", false, false, false, 104), "html", null, true);
             echo "
 
             ";
         }
-        // line 178
+        // line 107
         echo "            </li>
             <br>
           </ul>
@@ -278,9 +207,9 @@ class __TwigTemplate_f169d147fce55bc13902f1cef27e8a34be4190bffa7adac3f5a14a11299
       </div>
       <div class=\"col col col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12\">
         ";
-        // line 190
+        // line 119
         $this->displayBlock('content', $context, $blocks);
-        // line 191
+        // line 120
         echo "      </div>
     </div>
   </div>
@@ -305,7 +234,7 @@ class __TwigTemplate_f169d147fce55bc13902f1cef27e8a34be4190bffa7adac3f5a14a11299
 
     }
 
-    // line 190
+    // line 119
     public function block_content($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -335,7 +264,7 @@ class __TwigTemplate_f169d147fce55bc13902f1cef27e8a34be4190bffa7adac3f5a14a11299
 
     public function getDebugInfo()
     {
-        return array (  309 => 190,  284 => 191,  282 => 190,  268 => 178,  262 => 175,  259 => 174,  257 => 173,  247 => 165,  241 => 162,  238 => 161,  236 => 160,  140 => 66,  132 => 61,  129 => 60,  127 => 59,  69 => 3,  59 => 2,  36 => 1,);
+        return array (  238 => 119,  213 => 120,  211 => 119,  197 => 107,  191 => 104,  188 => 103,  186 => 102,  176 => 94,  170 => 91,  167 => 90,  165 => 89,  140 => 66,  132 => 61,  129 => 60,  127 => 59,  69 => 3,  59 => 2,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -420,78 +349,7 @@ class __TwigTemplate_f169d147fce55bc13902f1cef27e8a34be4190bffa7adac3f5a14a11299
           <img src=\"icono-mujer-2.png\" class=\"card-img-top\" alt=\"Tu imagen de perfil\">
           <br>
           <br>
-          <button type=\"button\" class=\"btn btn-danger btn-sm\" data-bs-toggle=\"modal\"
-            data-bs-target=\"#exampleModal\">Editar
-            Perfil</button>
-
-          <div class=\"modal fade\" id=\"exampleModal\" tabindex=\"-1\" aria-labelledby=\"exampleModalLabel\"
-            aria-hidden=\"true\">
-            <div class=\"modal-dialog\">
-              <div class=\"modal-content\">
-                <div class=\"modal-header\">
-                  <h5 class=\"modal-title\">Editor de perfil</h5>
-                  <button type=\"button\" class=\"btn btn-secondary\" data-bs-dismiss=\"modal\">X</button>
-                </div>
-                <div class=\"modal-body\">
-                  <div class=\"mb-3\">
-                    <div class=\"row\">
-
-                      <div class=\"col-md-6 col-lg-6 col-xl-6 mx-auto \">
-                        <form>
-                          <input type=\"text\" id=\"Nombre\" class=\"fadeIn second\" name=\"Nombre\" placeholder=\"Nombre\">
-                        </form>
-                      </div>
-
-                      <div class=\"col-md-6 col-lg-6 col-xl-6 mx-auto\">
-                        <form>
-                          <input type=\"text\" id=\"Apellidos\" class=\"fadeIn second\" name=\"Apellidos\"
-                            placeholder=\"Apellidos\">
-                        </form>
-                      </div>
-                    </div>
-
-                    <div class=\"row\">
-                      <div class=\"col-md-6 col-lg-6 col-xl-6 mx-auto \">
-                        <form>
-                          <input type=\"text\" id=\"Correo\" class=\"fadeIn second\" name=\"Correo\" placeholder=\"Correo\">
-                        </form>
-                      </div>
-
-                      <div class=\"col-md-6 col-lg-6 col-xl-6 mx-auto\">
-                        <form>
-                          <input type=\"text\" id=\"Usuario\" class=\"fadeIn third\" name=\"Usuario\" placeholder=\"Usuario\">
-                        </form>
-                      </div>
-                    </div>
-
-                    <div class=\"row\">
-                      <div class=\"col-md-6 col-lg-6 col-xl-6 mx-auto \">
-                        <form>
-                          <input type=\"text\" id=\"Contraseña\" class=\"fadeIn second\" name=\"Contraseña\"
-                            placeholder=\"Contraseña\">
-                        </form>
-                      </div>
-                    </div>
-                    <div class=\"row\">
-                      <div class=\"col-md-10 col-lg-10 col-xl-10 mx-auto\">
-                        <form>
-                          <br>
-                          <input type=\"file\" class=\"fadeIn second\" aria-label=\"Upload\">
-                        </form>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class=\"modal-footer\">
-                  <button type=\"button\" class=\"btn btn-outline-danger\">
-                    Guardar
-                  </button>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <!-- UsuarioFin -->
+          
 
           <hr>
 

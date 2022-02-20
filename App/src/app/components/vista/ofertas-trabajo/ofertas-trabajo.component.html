@@ -14,7 +14,7 @@
     <!-- CARD 1 -->
 
     <div class="row" *ngFor="let empleo of empleos">
-        <div data-aos="flip-left" class="card w-75">
+        <div data-aos="flip-left" data-aos-once="true" class="card w-75">
             <div class="card-body">
                 <h5 class="card-title">{{empleo.nombre}}</h5>
                 <p class="card-text">- {{empleo.empresaEmpleo}} -</p>
