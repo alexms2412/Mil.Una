@@ -15,6 +15,17 @@
   - Juan Carlos
   - Pepe López </p>
 
+
+## Start Only the Angular Project
+
+Only if you want to use the angular app
+
+```bash
+  cd App
+  ng serve
+```
+    
+
 ## Color Reference
 
 | Color             | Hex                                                                |
