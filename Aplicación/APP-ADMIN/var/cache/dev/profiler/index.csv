@@ -6690,4 +6690,13 @@ f03896,::1,GET,https://localhost:8000/user/3,1645363163,,200
 df0703,::1,POST,https://localhost:8000/user/3,1645363167,,303
 5f8e85,::1,GET,https://localhost:8000/evento/,1645363167,dd54e5,500
 dd54e5,::1,GET,https://localhost:8000/evento/,1645363167,,500
+<<<<<<< HEAD
+e235b9,::1,GET,https://localhost:8000/,1645365987,,302
+08c037,::1,GET,https://localhost:8000/login,1645365989,,200
+6836b4,::1,POST,https://localhost:8000/login,1645365998,,302
+c785e1,::1,GET,https://localhost:8000/evento/,1645365999,,200
+89a69b,127.0.0.1,GET,https://localhost:4200/api/evento/obtenerTodos,1645366083,,200
+8db3aa,127.0.0.1,GET,https://localhost:4200/api/contenido/obtenerTodos,1645366087,,200
+=======
 >>>>>>> b342b7fa94220fbed4b5f058678418c4dde5601f
+>>>>>>> main
