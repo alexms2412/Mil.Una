@@ -67,7 +67,7 @@ class __TwigTemplate_7c45096d0b0c653156163c70b2950483ff21748577e7691e1cc54eb631b
         // line 4
         echo "
 
-    <h1>Nuevo Evento</h1>
+    <h1>Crear nuevo Evento</h1>
 
     ";
         // line 8
@@ -109,7 +109,7 @@ class __TwigTemplate_7c45096d0b0c653156163c70b2950483ff21748577e7691e1cc54eb631b
 {% block content %}
 
 
-    <h1>Nuevo Evento</h1>
+    <h1>Crear nuevo Evento</h1>
 
     {{ include('evento/_form.html.twig') }}
 

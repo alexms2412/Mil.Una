@@ -85,7 +85,8 @@ class __TwigTemplate_f169d147fce55bc13902f1cef27e8a34be4190bffa7adac3f5a14a11299
   <script src=\"https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js\"
     integrity=\"sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==\"
     crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\"></script>
-  <app-root></app-root>
+  <link href=\"https://unpkg.com/aos@2.3.1/dist/aos.css\" rel=\"stylesheet\">
+    <script src=\"https://unpkg.com/aos@2.3.1/dist/aos.js\"></script>
 
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
@@ -99,14 +100,16 @@ class __TwigTemplate_f169d147fce55bc13902f1cef27e8a34be4190bffa7adac3f5a14a11299
     }
   </style>
 
-
+  <script>
+    AOS.init();
+  </script>
 
 
 
   <nav class=\"navbar navbar-expand-lg navbar-light bg-light\">
     <div class=\"container-fluid\">
 
-      <a class=\"navbar-brand\" href=\"/landing\">
+      <a class=\"navbar-brand\">
         <img src=\"header-logo.png\" class=\"logo\" alt=\"Logo mil.una\" width=\"70\" height=\"70\">
       </a>
 
@@ -123,12 +126,12 @@ class __TwigTemplate_f169d147fce55bc13902f1cef27e8a34be4190bffa7adac3f5a14a11299
       </div>
 
       ";
-        // line 59
-        if (twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 59, $this->source); })()), "user", [], "any", false, false, false, 59)) {
-            // line 60
+        // line 62
+        if (twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 62, $this->source); })()), "user", [], "any", false, false, false, 62)) {
+            // line 63
             echo "      <div class=\"form-inline\">
         <a class=\"nav-link\" href=\"";
-            // line 61
+            // line 64
             echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_logout");
             echo "\">
           <img src=\"https://cdn-icons-png.flaticon.com/512/61/61208.png\" alt=\"Icono Traducción\" width=\"40\" height=\"40\">
@@ -136,14 +139,15 @@ class __TwigTemplate_f169d147fce55bc13902f1cef27e8a34be4190bffa7adac3f5a14a11299
       </div>
       ";
         }
-        // line 66
+        // line 69
         echo "
     </div>
     </div>
   </nav>
 
   <div class=\"container-fluid\">
-    <div class=\"row\">
+
+    <div data-aos=\"zoom-out-left\" class=\"row\">
       <div class=\"col col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12\" style=\"background-color: rgb(241, 241, 241);\">
 
 
@@ -152,98 +156,27 @@ class __TwigTemplate_f169d147fce55bc13902f1cef27e8a34be4190bffa7adac3f5a14a11299
           <img src=\"icono-mujer-2.png\" class=\"card-img-top\" alt=\"Tu imagen de perfil\">
           <br>
           <br>
-          <button type=\"button\" class=\"btn btn-danger btn-sm\" data-bs-toggle=\"modal\"
-            data-bs-target=\"#exampleModal\">Editar
-            Perfil</button>
 
-          <div class=\"modal fade\" id=\"exampleModal\" tabindex=\"-1\" aria-labelledby=\"exampleModalLabel\"
-            aria-hidden=\"true\">
-            <div class=\"modal-dialog\">
-              <div class=\"modal-content\">
-                <div class=\"modal-header\">
-                  <h5 class=\"modal-title\">Editor de perfil</h5>
-                  <button type=\"button\" class=\"btn btn-secondary\" data-bs-dismiss=\"modal\">X</button>
-                </div>
-                <div class=\"modal-body\">
-                  <div class=\"mb-3\">
-                    <div class=\"row\">
-
-                      <div class=\"col-md-6 col-lg-6 col-xl-6 mx-auto \">
-                        <form>
-                          <input type=\"text\" id=\"Nombre\" class=\"fadeIn second\" name=\"Nombre\" placeholder=\"Nombre\">
-                        </form>
-                      </div>
-
-                      <div class=\"col-md-6 col-lg-6 col-xl-6 mx-auto\">
-                        <form>
-                          <input type=\"text\" id=\"Apellidos\" class=\"fadeIn second\" name=\"Apellidos\"
-                            placeholder=\"Apellidos\">
-                        </form>
-                      </div>
-                    </div>
-
-                    <div class=\"row\">
-                      <div class=\"col-md-6 col-lg-6 col-xl-6 mx-auto \">
-                        <form>
-                          <input type=\"text\" id=\"Correo\" class=\"fadeIn second\" name=\"Correo\" placeholder=\"Correo\">
-                        </form>
-                      </div>
-
-                      <div class=\"col-md-6 col-lg-6 col-xl-6 mx-auto\">
-                        <form>
-                          <input type=\"text\" id=\"Usuario\" class=\"fadeIn third\" name=\"Usuario\" placeholder=\"Usuario\">
-                        </form>
-                      </div>
-                    </div>
-
-                    <div class=\"row\">
-                      <div class=\"col-md-6 col-lg-6 col-xl-6 mx-auto \">
-                        <form>
-                          <input type=\"text\" id=\"Contraseña\" class=\"fadeIn second\" name=\"Contraseña\"
-                            placeholder=\"Contraseña\">
-                        </form>
-                      </div>
-                    </div>
-                    <div class=\"row\">
-                      <div class=\"col-md-10 col-lg-10 col-xl-10 mx-auto\">
-                        <form>
-                          <br>
-                          <input type=\"file\" class=\"fadeIn second\" aria-label=\"Upload\">
-                        </form>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class=\"modal-footer\">
-                  <button type=\"button\" class=\"btn btn-outline-danger\">
-                    Guardar
-                  </button>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <!-- UsuarioFin -->
 
           <hr>
 
           <ul class=\"nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start\" id=\"menu\">
             <li>
               <span class=\"titulo-categoria\">Nombre</span>
-              
+
               ";
-        // line 160
-        if (twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 160, $this->source); })()), "user", [], "any", false, false, false, 160)) {
-            // line 161
+        // line 93
+        if (twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 93, $this->source); })()), "user", [], "any", false, false, false, 93)) {
+            // line 94
             echo "              <br>
-            ";
-            // line 162
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 162, $this->source); })()), "user", [], "any", false, false, false, 162), "username", [], "any", false, false, false, 162), "html", null, true);
+              ";
+            // line 95
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 95, $this->source); })()), "user", [], "any", false, false, false, 95), "username", [], "any", false, false, false, 95), "html", null, true);
             echo "
 
-            ";
+              ";
         }
-        // line 165
+        // line 98
         echo "            </li>
             <br>
             <li>
@@ -253,18 +186,18 @@ class __TwigTemplate_f169d147fce55bc13902f1cef27e8a34be4190bffa7adac3f5a14a11299
             <li>
               <span class=\"titulo-categoria\">Correo</span>
               ";
-        // line 173
-        if (twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 173, $this->source); })()), "user", [], "any", false, false, false, 173)) {
-            // line 174
+        // line 106
+        if (twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 106, $this->source); })()), "user", [], "any", false, false, false, 106)) {
+            // line 107
             echo "              <br>
-            ";
-            // line 175
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 175, $this->source); })()), "user", [], "any", false, false, false, 175), "CorreoUsuario", [], "any", false, false, false, 175), "html", null, true);
+              ";
+            // line 108
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 108, $this->source); })()), "user", [], "any", false, false, false, 108), "CorreoUsuario", [], "any", false, false, false, 108), "html", null, true);
             echo "
 
-            ";
+              ";
         }
-        // line 178
+        // line 111
         echo "            </li>
             <br>
           </ul>
@@ -278,9 +211,9 @@ class __TwigTemplate_f169d147fce55bc13902f1cef27e8a34be4190bffa7adac3f5a14a11299
       </div>
       <div class=\"col col col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12\">
         ";
-        // line 190
+        // line 123
         $this->displayBlock('content', $context, $blocks);
-        // line 191
+        // line 124
         echo "      </div>
     </div>
   </div>
@@ -305,7 +238,7 @@ class __TwigTemplate_f169d147fce55bc13902f1cef27e8a34be4190bffa7adac3f5a14a11299
 
     }
 
-    // line 190
+    // line 123
     public function block_content($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -335,7 +268,7 @@ class __TwigTemplate_f169d147fce55bc13902f1cef27e8a34be4190bffa7adac3f5a14a11299
 
     public function getDebugInfo()
     {
-        return array (  309 => 190,  284 => 191,  282 => 190,  268 => 178,  262 => 175,  259 => 174,  257 => 173,  247 => 165,  241 => 162,  238 => 161,  236 => 160,  140 => 66,  132 => 61,  129 => 60,  127 => 59,  69 => 3,  59 => 2,  36 => 1,);
+        return array (  242 => 123,  217 => 124,  215 => 123,  201 => 111,  195 => 108,  192 => 107,  190 => 106,  180 => 98,  174 => 95,  171 => 94,  169 => 93,  143 => 69,  135 => 64,  132 => 63,  130 => 62,  69 => 3,  59 => 2,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -361,7 +294,8 @@ class __TwigTemplate_f169d147fce55bc13902f1cef27e8a34be4190bffa7adac3f5a14a11299
   <script src=\"https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js\"
     integrity=\"sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==\"
     crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\"></script>
-  <app-root></app-root>
+  <link href=\"https://unpkg.com/aos@2.3.1/dist/aos.css\" rel=\"stylesheet\">
+    <script src=\"https://unpkg.com/aos@2.3.1/dist/aos.js\"></script>
 
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
@@ -375,14 +309,16 @@ class __TwigTemplate_f169d147fce55bc13902f1cef27e8a34be4190bffa7adac3f5a14a11299
     }
   </style>
 
-
+  <script>
+    AOS.init();
+  </script>
 
 
 
   <nav class=\"navbar navbar-expand-lg navbar-light bg-light\">
     <div class=\"container-fluid\">
 
-      <a class=\"navbar-brand\" href=\"/landing\">
+      <a class=\"navbar-brand\">
         <img src=\"header-logo.png\" class=\"logo\" alt=\"Logo mil.una\" width=\"70\" height=\"70\">
       </a>
 
@@ -411,7 +347,8 @@ class __TwigTemplate_f169d147fce55bc13902f1cef27e8a34be4190bffa7adac3f5a14a11299
   </nav>
 
   <div class=\"container-fluid\">
-    <div class=\"row\">
+
+    <div data-aos=\"zoom-out-left\" class=\"row\">
       <div class=\"col col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12\" style=\"background-color: rgb(241, 241, 241);\">
 
 
@@ -420,90 +357,19 @@ class __TwigTemplate_f169d147fce55bc13902f1cef27e8a34be4190bffa7adac3f5a14a11299
           <img src=\"icono-mujer-2.png\" class=\"card-img-top\" alt=\"Tu imagen de perfil\">
           <br>
           <br>
-          <button type=\"button\" class=\"btn btn-danger btn-sm\" data-bs-toggle=\"modal\"
-            data-bs-target=\"#exampleModal\">Editar
-            Perfil</button>
 
-          <div class=\"modal fade\" id=\"exampleModal\" tabindex=\"-1\" aria-labelledby=\"exampleModalLabel\"
-            aria-hidden=\"true\">
-            <div class=\"modal-dialog\">
-              <div class=\"modal-content\">
-                <div class=\"modal-header\">
-                  <h5 class=\"modal-title\">Editor de perfil</h5>
-                  <button type=\"button\" class=\"btn btn-secondary\" data-bs-dismiss=\"modal\">X</button>
-                </div>
-                <div class=\"modal-body\">
-                  <div class=\"mb-3\">
-                    <div class=\"row\">
-
-                      <div class=\"col-md-6 col-lg-6 col-xl-6 mx-auto \">
-                        <form>
-                          <input type=\"text\" id=\"Nombre\" class=\"fadeIn second\" name=\"Nombre\" placeholder=\"Nombre\">
-                        </form>
-                      </div>
-
-                      <div class=\"col-md-6 col-lg-6 col-xl-6 mx-auto\">
-                        <form>
-                          <input type=\"text\" id=\"Apellidos\" class=\"fadeIn second\" name=\"Apellidos\"
-                            placeholder=\"Apellidos\">
-                        </form>
-                      </div>
-                    </div>
-
-                    <div class=\"row\">
-                      <div class=\"col-md-6 col-lg-6 col-xl-6 mx-auto \">
-                        <form>
-                          <input type=\"text\" id=\"Correo\" class=\"fadeIn second\" name=\"Correo\" placeholder=\"Correo\">
-                        </form>
-                      </div>
-
-                      <div class=\"col-md-6 col-lg-6 col-xl-6 mx-auto\">
-                        <form>
-                          <input type=\"text\" id=\"Usuario\" class=\"fadeIn third\" name=\"Usuario\" placeholder=\"Usuario\">
-                        </form>
-                      </div>
-                    </div>
-
-                    <div class=\"row\">
-                      <div class=\"col-md-6 col-lg-6 col-xl-6 mx-auto \">
-                        <form>
-                          <input type=\"text\" id=\"Contraseña\" class=\"fadeIn second\" name=\"Contraseña\"
-                            placeholder=\"Contraseña\">
-                        </form>
-                      </div>
-                    </div>
-                    <div class=\"row\">
-                      <div class=\"col-md-10 col-lg-10 col-xl-10 mx-auto\">
-                        <form>
-                          <br>
-                          <input type=\"file\" class=\"fadeIn second\" aria-label=\"Upload\">
-                        </form>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class=\"modal-footer\">
-                  <button type=\"button\" class=\"btn btn-outline-danger\">
-                    Guardar
-                  </button>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <!-- UsuarioFin -->
 
           <hr>
 
           <ul class=\"nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start\" id=\"menu\">
             <li>
               <span class=\"titulo-categoria\">Nombre</span>
-              
+
               {% if app.user %}
               <br>
-            {{ app.user.username }}
+              {{ app.user.username }}
 
-            {% endif %}
+              {% endif %}
             </li>
             <br>
             <li>
@@ -514,9 +380,9 @@ class __TwigTemplate_f169d147fce55bc13902f1cef27e8a34be4190bffa7adac3f5a14a11299
               <span class=\"titulo-categoria\">Correo</span>
               {% if app.user %}
               <br>
-            {{ app.user.CorreoUsuario }}
+              {{ app.user.CorreoUsuario }}
 
-            {% endif %}
+              {% endif %}
             </li>
             <br>
           </ul>
