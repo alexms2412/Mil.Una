@@ -15,6 +15,17 @@
   - Juan Carlos
   - Pepe López </p>
 
+## Color Reference
+
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Example Color | ![#92CADF](https://via.placeholder.com/10/92CADF?text=+) #92CADF |
+| Example Color | ![#b2d9e8](https://via.placeholder.com/10/b2d9e8?text=+) #b2d9e8 |
+| Example Color | ![#ca453e](https://via.placeholder.com/10/ca453e?text=+) #ca453e |
+| Example Color | ![#dc3545](https://via.placeholder.com/10/dc3545?text=+) #dc3545 |
+
+
+
 <p align="right">
  <img src="https://github.com/alexms2412/Mil.Una/blob/main/media/images/logo.jpeg" width="60"
      height="60"></p>
