@@ -65,7 +65,7 @@ class __TwigTemplate_c9a5ccd218b8d50574b5db91b847497fa2be32c601c26c748aba80de2c6
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "content"));
 
         // line 4
-        echo "    <h1>Create new Contenido</h1>
+        echo "    <h1>Crear nuevo Contenido</h1>
 
     ";
         // line 6
@@ -75,7 +75,7 @@ class __TwigTemplate_c9a5ccd218b8d50574b5db91b847497fa2be32c601c26c748aba80de2c6
     <a href=\"";
         // line 8
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("evento_index");
-        echo "\">back to list</a>
+        echo "\">Volver a la lista</a>
 ";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
@@ -105,12 +105,12 @@ class __TwigTemplate_c9a5ccd218b8d50574b5db91b847497fa2be32c601c26c748aba80de2c6
         return new Source("{% extends \"layout.html\" %}
 
 {% block content %}
-    <h1>Create new Contenido</h1>
+    <h1>Crear nuevo Contenido</h1>
 
     {{ include('contenido/_form.html.twig') }}
 
-    <a href=\"{{ path('evento_index') }}\">back to list</a>
+    <a href=\"{{ path('evento_index') }}\">Volver a la lista</a>
 {% endblock %}
-", "contenido/new.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/templates/contenido/new.html.twig");
+", "contenido/new.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/templates/contenido/new.html.twig");
     }
 }
