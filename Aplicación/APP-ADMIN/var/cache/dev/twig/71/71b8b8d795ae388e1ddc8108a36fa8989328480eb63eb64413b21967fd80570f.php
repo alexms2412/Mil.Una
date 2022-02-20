@@ -108,7 +108,7 @@ class __TwigTemplate_5a957b73f1d7865ffbbe3213592ba979824831d4af468dc46beffd60b88
         <nav class=\"navbar navbar-expand-lg navbar-light bg-light\">
             <div class=\"container-fluid\">
                 
-                <a class=\"navbar-brand\"  href=\"https://localhost:4200/landing\">
+                <a class=\"navbar-brand\"  >
                     <img src=\"header-logo.png\" class=\"logo\" alt=\"Logo mil.una\" width=\"70\" height=\"70\">
                 </a>
 
@@ -242,7 +242,7 @@ class __TwigTemplate_5a957b73f1d7865ffbbe3213592ba979824831d4af468dc46beffd60b88
         <nav class=\"navbar navbar-expand-lg navbar-light bg-light\">
             <div class=\"container-fluid\">
                 
-                <a class=\"navbar-brand\"  href=\"https://localhost:4200/landing\">
+                <a class=\"navbar-brand\"  >
                     <img src=\"header-logo.png\" class=\"logo\" alt=\"Logo mil.una\" width=\"70\" height=\"70\">
                 </a>
 

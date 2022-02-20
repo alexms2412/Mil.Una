@@ -24,9 +24,9 @@
         </tbody>
     </table>
 
-    <a href="{{ path('evento_index') }}">back to list</a>
+    <a href="{{ path('evento_index') }}">Volver a la lista / </a>
 
-    <a href="{{ path('empleo_edit', {'idEmpleo': empleo.id}) }}">edit</a>
+    <a href="{{ path('empleo_edit', {'idEmpleo': empleo.id}) }}"> Editar</a>
 
     {{ include('empleo/_delete_form.html.twig') }}
 {% endblock %}

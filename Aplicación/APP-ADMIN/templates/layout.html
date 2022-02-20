@@ -19,7 +19,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"
     integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <app-root></app-root>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
@@ -33,14 +34,16 @@
     }
   </style>
 
-
+  <script>
+    AOS.init();
+  </script>
 
 
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
 
-      <a class="navbar-brand" href="/landing">
+      <a class="navbar-brand">
         <img src="header-logo.png" class="logo" alt="Logo mil.una" width="70" height="70">
       </a>
 
@@ -69,7 +72,8 @@
   </nav>
 
   <div class="container-fluid">
-    <div class="row">
+
+    <div data-aos="zoom-out-left" class="row">
       <div class="col col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12" style="background-color: rgb(241, 241, 241);">
 
 
@@ -78,19 +82,19 @@
           <img src="icono-mujer-2.png" class="card-img-top" alt="Tu imagen de perfil">
           <br>
           <br>
-          
+
 
           <hr>
 
           <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
             <li>
               <span class="titulo-categoria">Nombre</span>
-              
+
               {% if app.user %}
               <br>
-            {{ app.user.username }}
+              {{ app.user.username }}
 
-            {% endif %}
+              {% endif %}
             </li>
             <br>
             <li>
@@ -101,9 +105,9 @@
               <span class="titulo-categoria">Correo</span>
               {% if app.user %}
               <br>
-            {{ app.user.CorreoUsuario }}
+              {{ app.user.CorreoUsuario }}
 
-            {% endif %}
+              {% endif %}
             </li>
             <br>
           </ul>

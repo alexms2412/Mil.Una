@@ -85,7 +85,8 @@ class __TwigTemplate_cb61e7c649577f1e3ffd14b0bab2867e7770265f7cdd743effbac7035f7
   <script src=\"https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js\"
     integrity=\"sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==\"
     crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\"></script>
-  <app-root></app-root>
+  <link href=\"https://unpkg.com/aos@2.3.1/dist/aos.css\" rel=\"stylesheet\">
+    <script src=\"https://unpkg.com/aos@2.3.1/dist/aos.js\"></script>
 
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
@@ -99,14 +100,16 @@ class __TwigTemplate_cb61e7c649577f1e3ffd14b0bab2867e7770265f7cdd743effbac7035f7
     }
   </style>
 
-
+  <script>
+    AOS.init();
+  </script>
 
 
 
   <nav class=\"navbar navbar-expand-lg navbar-light bg-light\">
     <div class=\"container-fluid\">
 
-      <a class=\"navbar-brand\" href=\"/landing\">
+      <a class=\"navbar-brand\">
         <img src=\"header-logo.png\" class=\"logo\" alt=\"Logo mil.una\" width=\"70\" height=\"70\">
       </a>
 
@@ -123,12 +126,12 @@ class __TwigTemplate_cb61e7c649577f1e3ffd14b0bab2867e7770265f7cdd743effbac7035f7
       </div>
 
       ";
-        // line 59
-        if (twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 59, $this->source); })()), "user", [], "any", false, false, false, 59)) {
-            // line 60
+        // line 62
+        if (twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 62, $this->source); })()), "user", [], "any", false, false, false, 62)) {
+            // line 63
             echo "      <div class=\"form-inline\">
         <a class=\"nav-link\" href=\"";
-            // line 61
+            // line 64
             echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_logout");
             echo "\">
           <img src=\"https://cdn-icons-png.flaticon.com/512/61/61208.png\" alt=\"Icono Traducción\" width=\"40\" height=\"40\">
@@ -136,14 +139,15 @@ class __TwigTemplate_cb61e7c649577f1e3ffd14b0bab2867e7770265f7cdd743effbac7035f7
       </div>
       ";
         }
-        // line 66
+        // line 69
         echo "
     </div>
     </div>
   </nav>
 
   <div class=\"container-fluid\">
-    <div class=\"row\">
+
+    <div data-aos=\"zoom-out-left\" class=\"row\">
       <div class=\"col col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12\" style=\"background-color: rgb(241, 241, 241);\">
 
 
@@ -152,27 +156,27 @@ class __TwigTemplate_cb61e7c649577f1e3ffd14b0bab2867e7770265f7cdd743effbac7035f7
           <img src=\"icono-mujer-2.png\" class=\"card-img-top\" alt=\"Tu imagen de perfil\">
           <br>
           <br>
-          
+
 
           <hr>
 
           <ul class=\"nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start\" id=\"menu\">
             <li>
               <span class=\"titulo-categoria\">Nombre</span>
-              
+
               ";
-        // line 89
-        if (twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 89, $this->source); })()), "user", [], "any", false, false, false, 89)) {
-            // line 90
+        // line 93
+        if (twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 93, $this->source); })()), "user", [], "any", false, false, false, 93)) {
+            // line 94
             echo "              <br>
-            ";
-            // line 91
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 91, $this->source); })()), "user", [], "any", false, false, false, 91), "username", [], "any", false, false, false, 91), "html", null, true);
+              ";
+            // line 95
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 95, $this->source); })()), "user", [], "any", false, false, false, 95), "username", [], "any", false, false, false, 95), "html", null, true);
             echo "
 
-            ";
+              ";
         }
-        // line 94
+        // line 98
         echo "            </li>
             <br>
             <li>
@@ -182,18 +186,18 @@ class __TwigTemplate_cb61e7c649577f1e3ffd14b0bab2867e7770265f7cdd743effbac7035f7
             <li>
               <span class=\"titulo-categoria\">Correo</span>
               ";
-        // line 102
-        if (twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 102, $this->source); })()), "user", [], "any", false, false, false, 102)) {
-            // line 103
+        // line 106
+        if (twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 106, $this->source); })()), "user", [], "any", false, false, false, 106)) {
+            // line 107
             echo "              <br>
-            ";
-            // line 104
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 104, $this->source); })()), "user", [], "any", false, false, false, 104), "CorreoUsuario", [], "any", false, false, false, 104), "html", null, true);
+              ";
+            // line 108
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 108, $this->source); })()), "user", [], "any", false, false, false, 108), "CorreoUsuario", [], "any", false, false, false, 108), "html", null, true);
             echo "
 
-            ";
+              ";
         }
-        // line 107
+        // line 111
         echo "            </li>
             <br>
           </ul>
@@ -207,9 +211,9 @@ class __TwigTemplate_cb61e7c649577f1e3ffd14b0bab2867e7770265f7cdd743effbac7035f7
       </div>
       <div class=\"col col col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12\">
         ";
-        // line 119
+        // line 123
         $this->displayBlock('content', $context, $blocks);
-        // line 120
+        // line 124
         echo "      </div>
     </div>
   </div>
@@ -234,7 +238,7 @@ class __TwigTemplate_cb61e7c649577f1e3ffd14b0bab2867e7770265f7cdd743effbac7035f7
 
     }
 
-    // line 119
+    // line 123
     public function block_content($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -264,7 +268,7 @@ class __TwigTemplate_cb61e7c649577f1e3ffd14b0bab2867e7770265f7cdd743effbac7035f7
 
     public function getDebugInfo()
     {
-        return array (  238 => 119,  213 => 120,  211 => 119,  197 => 107,  191 => 104,  188 => 103,  186 => 102,  176 => 94,  170 => 91,  167 => 90,  165 => 89,  140 => 66,  132 => 61,  129 => 60,  127 => 59,  69 => 3,  59 => 2,  36 => 1,);
+        return array (  242 => 123,  217 => 124,  215 => 123,  201 => 111,  195 => 108,  192 => 107,  190 => 106,  180 => 98,  174 => 95,  171 => 94,  169 => 93,  143 => 69,  135 => 64,  132 => 63,  130 => 62,  69 => 3,  59 => 2,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -290,7 +294,8 @@ class __TwigTemplate_cb61e7c649577f1e3ffd14b0bab2867e7770265f7cdd743effbac7035f7
   <script src=\"https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js\"
     integrity=\"sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==\"
     crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\"></script>
-  <app-root></app-root>
+  <link href=\"https://unpkg.com/aos@2.3.1/dist/aos.css\" rel=\"stylesheet\">
+    <script src=\"https://unpkg.com/aos@2.3.1/dist/aos.js\"></script>
 
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
@@ -304,14 +309,16 @@ class __TwigTemplate_cb61e7c649577f1e3ffd14b0bab2867e7770265f7cdd743effbac7035f7
     }
   </style>
 
-
+  <script>
+    AOS.init();
+  </script>
 
 
 
   <nav class=\"navbar navbar-expand-lg navbar-light bg-light\">
     <div class=\"container-fluid\">
 
-      <a class=\"navbar-brand\" href=\"/landing\">
+      <a class=\"navbar-brand\">
         <img src=\"header-logo.png\" class=\"logo\" alt=\"Logo mil.una\" width=\"70\" height=\"70\">
       </a>
 
@@ -340,7 +347,8 @@ class __TwigTemplate_cb61e7c649577f1e3ffd14b0bab2867e7770265f7cdd743effbac7035f7
   </nav>
 
   <div class=\"container-fluid\">
-    <div class=\"row\">
+
+    <div data-aos=\"zoom-out-left\" class=\"row\">
       <div class=\"col col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12\" style=\"background-color: rgb(241, 241, 241);\">
 
 
@@ -349,19 +357,19 @@ class __TwigTemplate_cb61e7c649577f1e3ffd14b0bab2867e7770265f7cdd743effbac7035f7
           <img src=\"icono-mujer-2.png\" class=\"card-img-top\" alt=\"Tu imagen de perfil\">
           <br>
           <br>
-          
+
 
           <hr>
 
           <ul class=\"nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start\" id=\"menu\">
             <li>
               <span class=\"titulo-categoria\">Nombre</span>
-              
+
               {% if app.user %}
               <br>
-            {{ app.user.username }}
+              {{ app.user.username }}
 
-            {% endif %}
+              {% endif %}
             </li>
             <br>
             <li>
@@ -372,9 +380,9 @@ class __TwigTemplate_cb61e7c649577f1e3ffd14b0bab2867e7770265f7cdd743effbac7035f7
               <span class=\"titulo-categoria\">Correo</span>
               {% if app.user %}
               <br>
-            {{ app.user.CorreoUsuario }}
+              {{ app.user.CorreoUsuario }}
 
-            {% endif %}
+              {% endif %}
             </li>
             <br>
           </ul>
@@ -403,6 +411,6 @@ class __TwigTemplate_cb61e7c649577f1e3ffd14b0bab2867e7770265f7cdd743effbac7035f7
 
 
 </body>
-{% endblock %}", "layout.html", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/templates/layout.html");
+{% endblock %}", "layout.html", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/templates/layout.html");
     }
 }

@@ -108,7 +108,7 @@ class __TwigTemplate_68735f6b7d4a8d024904c14ac7b6bd431cf7ed5c4c6c9b9bbce1f7c50b4
         <nav class=\"navbar navbar-expand-lg navbar-light bg-light\">
             <div class=\"container-fluid\">
                 
-                <a class=\"navbar-brand\"  href=\"https://localhost:4200/landing\">
+                <a class=\"navbar-brand\"  >
                     <img src=\"header-logo.png\" class=\"logo\" alt=\"Logo mil.una\" width=\"70\" height=\"70\">
                 </a>
 
@@ -242,7 +242,7 @@ class __TwigTemplate_68735f6b7d4a8d024904c14ac7b6bd431cf7ed5c4c6c9b9bbce1f7c50b4
         <nav class=\"navbar navbar-expand-lg navbar-light bg-light\">
             <div class=\"container-fluid\">
                 
-                <a class=\"navbar-brand\"  href=\"https://localhost:4200/landing\">
+                <a class=\"navbar-brand\"  >
                     <img src=\"header-logo.png\" class=\"logo\" alt=\"Logo mil.una\" width=\"70\" height=\"70\">
                 </a>
 
@@ -284,6 +284,6 @@ class __TwigTemplate_68735f6b7d4a8d024904c14ac7b6bd431cf7ed5c4c6c9b9bbce1f7c50b4
 
 
     </body>
-    {% endblock %}", "inicio.html", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/templates/inicio.html");
+    {% endblock %}", "inicio.html", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/templates/inicio.html");
     }
 }

@@ -70,7 +70,7 @@ class __TwigTemplate_e80055d7acf73bd862a920b3e2adfbd6665ecc42ffb66fc750f66199063
 
     ";
         // line 7
-        echo twig_include($this->env, $context, "empleo/_form.html.twig", ["button_label" => "Update"]);
+        echo twig_include($this->env, $context, "empleo/_form.html.twig", ["button_label" => "Actualizar"]);
         echo "
 
     <a href=\"";
@@ -114,7 +114,7 @@ class __TwigTemplate_e80055d7acf73bd862a920b3e2adfbd6665ecc42ffb66fc750f66199063
 
     <h1>Editar Empleo</h1>
 
-    {{ include('empleo/_form.html.twig', {'button_label': 'Update'}) }}
+    {{ include('empleo/_form.html.twig', {'button_label': 'Actualizar'}) }}
 
     <a href=\"{{ path('evento_index') }}\">Volver a la lista</a>
 
