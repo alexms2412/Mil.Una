@@ -47,7 +47,7 @@ Only if you want to use the Symfony app
 
 #### How can I get a container of the Angular Project?
 
-You can get a docker container on your local machine if you go to the /App directory and you use the following command: docker build -t nameDockerhub/nameImage:latest .
+You can get a docker container on your local machine if you go to the /App directory and you use the following command: <br> docker build -t nameDockerhub/nameImage:latest .
 
 
     
