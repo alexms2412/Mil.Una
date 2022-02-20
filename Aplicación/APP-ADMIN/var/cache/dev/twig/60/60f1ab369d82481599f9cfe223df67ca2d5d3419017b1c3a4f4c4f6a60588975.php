@@ -47,7 +47,7 @@ class __TwigTemplate_54729a60059da86f99161a3cafb1f6c067b76e676bc20d376895bf685b6
         // line 2
         echo twig_escape_filter($this->env, $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->renderCsrfToken(("delete" . twig_get_attribute($this->env, $this->source, (isset($context["user"]) || array_key_exists("user", $context) ? $context["user"] : (function () { throw new RuntimeError('Variable "user" does not exist.', 2, $this->source); })()), "id", [], "any", false, false, false, 2))), "html", null, true);
         echo "\">
-    <button class=\"btn\">Delete</button>
+    <button class=\"btn\">Eliminar</button>
 </form>
 ";
         
@@ -77,7 +77,7 @@ class __TwigTemplate_54729a60059da86f99161a3cafb1f6c067b76e676bc20d376895bf685b6
     {
         return new Source("<form method=\"post\" action=\"{{ path('user_delete', {'id': user.id}) }}\" onsubmit=\"return confirm('Are you sure you want to delete this item?');\">
     <input type=\"hidden\" name=\"_token\" value=\"{{ csrf_token('delete' ~ user.id) }}\">
-    <button class=\"btn\">Delete</button>
+    <button class=\"btn\">Eliminar</button>
 </form>
 ", "user/_delete_form.html.twig", "/Applications/MAMP/htdocs/proyectoIntegrado/Mil.Una/Aplicación/APP-ADMIN/templates/user/_delete_form.html.twig");
     }

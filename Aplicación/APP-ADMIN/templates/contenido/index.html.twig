@@ -23,8 +23,8 @@
                 <td>{{ contenido.DescripcionContenido }}</td>
                 <td>{{ contenido.EnlaceContenido }}</td>
                 <td>
-                    <a href="{{ path('contenido_show', {'idContenido': contenido.id}) }}">show</a>
-                    <a href="{{ path('contenido_edit', {'idContenido': contenido.id}) }}">edit</a>
+                    <a href="{{ path('contenido_show', {'idContenido': contenido.id}) }}">Ver</a>
+                    <a href="{{ path('contenido_edit', {'idContenido': contenido.id}) }}">Editar</a>
                 </td>
             </tr>
         {% else %}
@@ -35,5 +35,5 @@
         </tbody>
     </table>
 
-    <a href="{{ path('contenido_new') }}">Create new</a>
+    <a href="{{ path('contenido_new') }}">Añadir</a>
 {% endblock %}
