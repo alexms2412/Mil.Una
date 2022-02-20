@@ -1,7 +1,8 @@
+
 {% extends "layout.html" %}
 
 {% block content %}
-    <h1>Register</h1>
+   <h1>Register</h1>
 
     {{ form_start(registrationForm) }}
         {{ form_row(registrationForm.username) }}
@@ -13,3 +14,5 @@
         <button type="submit" class="btn">Register</button>
     {{ form_end(registrationForm) }}
 {% endblock %}
+
+

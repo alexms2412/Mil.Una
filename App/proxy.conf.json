@@ -1,6 +1,14 @@
 {
+<<<<<<< HEAD
+    "/api/*": {
+        "target": "http://127.0.0.1:8000/",
+        "secure": false
+    }
+}
+=======
         "/api/*": {
            "target": "https://localhost:8000",
            "secure": false
         }
 }
+>>>>>>> b342b7fa94220fbed4b5f058678418c4dde5601f
