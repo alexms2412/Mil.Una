@@ -24,6 +24,16 @@ Only if you want to use the angular app
   cd App
   ng serve
 ```
+
+## Start Only the Symfony Project
+
+Only if you want to use the Symfony app
+
+```bash
+  cd Aplicación
+  cd APP-ADMIN
+  symfony server:start
+```
     
 
 ## Color Reference
