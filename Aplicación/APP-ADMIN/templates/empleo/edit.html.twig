@@ -2,11 +2,11 @@
 
 {% block content %}
 
-    <h1>Edit Empleo</h1>
+    <h1>Editar Empleo</h1>
 
     {{ include('empleo/_form.html.twig', {'button_label': 'Update'}) }}
 
-    <a href="{{ path('evento_index') }}">back to list</a>
+    <a href="{{ path('evento_index') }}">Volver a la lista</a>
 
     {{ include('empleo/_delete_form.html.twig') }}
 {% endblock %}

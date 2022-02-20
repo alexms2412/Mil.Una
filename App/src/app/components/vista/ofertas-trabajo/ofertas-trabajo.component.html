@@ -16,10 +16,10 @@
     <div class="row" *ngFor="let empleo of empleos">
         <div data-aos="flip-left" class="card w-75">
             <div class="card-body">
-              <h5 class="card-title">{{empleo.nombre}}</h5>
-              <p class="card-text">{{empleo.empresaEmpleo}}</p>
-              <a href="#" class="btn btn-outline-danger">{{empleo.enlaceEmpleo}}</a>
+                <h5 class="card-title">{{empleo.nombre}}</h5>
+                <p class="card-text">- {{empleo.empresaEmpleo}} -</p>
+                <a href="{{empleo.enlaceEmpleo}}" class="btn btn-outline-danger">Oferta</a>
             </div>
-          </div>
+        </div>
     </div>
 </div>

@@ -1,9 +1,26 @@
-{% extends 'base.html' %}
+{% extends "inicio.html" %}
 
-{% block title %}Log in!{% endblock %}
 
-{% block body %}
-<form method="post">
+ {% block panelSesion %}  
+
+
+
+
+
+<div class="row">
+                <div class="col col-0 col-lg-5 col-md-5 col-sm-5 col-xs-5 d-none d-sm-block">
+                    <img src="https://scontent.fvlc4-1.fna.fbcdn.net/v/t1.6435-9/37380454_239260766898592_1157842991667216384_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=e3f864&_nc_ohc=HT0m-Xa5p9AAX_dtpb_&_nc_ht=scontent.fvlc4-1.fna&oh=00_AT8wHD7U_dVSbQegVb-m9UlByT6WXBzVLPLbpobTMC-VZA&oe=6236242C"
+                        style="height: 100%; border-top-left-radius: 20px;
+                            border-bottom-left-radius: 30px; margin-left: -40px;" alt="" class="img-fluid">
+                </div>
+                <div class="col col-12 col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                    <br>
+                    <br>
+                    <h1 class="col-lg-7 col-sm-10 font-weight-bold">Login</h1>
+                    <br>
+                    <h3 class="col-lg-10 col-sm-10">Inicia sesion en Mil.Una</h3>
+                    <br>
+                    <form method="post">
     {% if error %}
         <div class="alert alert-danger">{{ error.messageKey|trans(error.messageData, 'security') }}</div>
     {% endif %}
@@ -39,4 +56,6 @@
         Sign in
     </button>
 </form>
+                </div>
+            </div>
 {% endblock %}

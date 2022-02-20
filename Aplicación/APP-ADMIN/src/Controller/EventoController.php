@@ -11,6 +11,9 @@ use App\Repository\EmpleoRepository;
 use App\Entity\Contenido;
 use App\Form\ContenidoType;
 use App\Repository\ContenidoRepository;
+use App\Entity\User;
+use App\Form\UserType;
+use App\Repository\UserRepository;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
@@ -25,12 +28,13 @@ class EventoController extends AbstractController
     /**
      * @Route("/", name="evento_index", methods={"GET"})
      */
-    public function index(EventoRepository $eventoRepository, EmpleoRepository $empleoRepository, ContenidoRepository $contenidoRepository): Response
+    public function index(EventoRepository $eventoRepository, EmpleoRepository $empleoRepository, ContenidoRepository $contenidoRepository, UserRepository $userRepository): Response
     {
         return $this->render('evento/index.html.twig', [
             'eventos' => $eventoRepository->findAll(),
             'empleos' => $empleoRepository->findAll(),
-            'contenidos' => $contenidoRepository->findAll()
+            'contenidos' => $contenidoRepository->findAll(),
+            'users' => $userRepository->findAll()
         ]);
     }
 

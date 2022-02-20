@@ -68,167 +68,160 @@ class __TwigTemplate_cb61e7c649577f1e3ffd14b0bab2867e7770265f7cdd743effbac7035f7
         // line 3
         echo "
 <body>
-    <!-- Si utilizamos componentes de Bootstrap que requieran Javascript agregar estos tres archivos -->
-    <script src=\"https://code.jquery.com/jquery-3.2.1.slim.min.js\" integrity=\"sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN\" crossorigin=\"anonymous\">
-    </script>
-    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js\" integrity=\"sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q\" crossorigin=\"anonymous\">
-    </script>
-    <script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js\" integrity=\"sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl\" crossorigin=\"anonymous\">
-    </script>
-    <script src=\"https://kit.fontawesome.com/c33acef7c3.js\" crossorigin=\"anonymous\"></script>
-    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM\" crossorigin=\"anonymous\">
-    </script>
-    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js\" integrity=\"sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\"></script>
-    <app-root></app-root>
+  <!-- Si utilizamos componentes de Bootstrap que requieran Javascript agregar estos tres archivos -->
+  <script src=\"https://code.jquery.com/jquery-3.2.1.slim.min.js\"
+    integrity=\"sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN\" crossorigin=\"anonymous\">
+  </script>
+  <script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js\"
+    integrity=\"sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q\" crossorigin=\"anonymous\">
+  </script>
+  <script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js\"
+    integrity=\"sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl\" crossorigin=\"anonymous\">
+  </script>
+  <script src=\"https://kit.fontawesome.com/c33acef7c3.js\" crossorigin=\"anonymous\"></script>
+  <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js\"
+    integrity=\"sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM\" crossorigin=\"anonymous\">
+  </script>
+  <script src=\"https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js\"
+    integrity=\"sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==\"
+    crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\"></script>
+  <app-root></app-root>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+    .txtcolor {
+      color: black;
+      margin-bottom: 30px;
+      font-size: 25px;
+      padding-right: 20px;
+      font-family: 'Raleway', sans-serif;
+    }
+  </style>
 
 
-<nav class=\"navbar navbar-expand-lg navbar-light bg-light\">
+
+
+
+  <nav class=\"navbar navbar-expand-lg navbar-light bg-light\">
+    <div class=\"container-fluid\">
+
+      <a class=\"navbar-brand\" href=\"/landing\">
+        <img src=\"header-logo.png\" class=\"logo\" alt=\"Logo mil.una\" width=\"70\" height=\"70\">
+      </a>
+
+
+      <div class=\"collapse navbar-collapse justify-content-center\" id=\"navbar\">
+        <ul class=\"navbar-nav mb-2 mb-lg-0\">
+
+          <li class=\"nav-item\">
+            <a class=\"nav-link\" [routerLink]=\"['/calendario']\">
+              <span class=\"txtcolor\">Administración</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      ";
+        // line 59
+        if (twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 59, $this->source); })()), "user", [], "any", false, false, false, 59)) {
+            // line 60
+            echo "      <div class=\"form-inline\">
+        <a class=\"nav-link\" href=\"";
+            // line 61
+            echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_logout");
+            echo "\">
+          <img src=\"https://cdn-icons-png.flaticon.com/512/61/61208.png\" alt=\"Icono Traducción\" width=\"40\" height=\"40\">
+        </a>
+      </div>
+      ";
+        }
+        // line 66
+        echo "
+    </div>
+    </div>
+  </nav>
+
   <div class=\"container-fluid\">
-
-    <a class=\"navbar-brand\" href=\"/landing\">
-      <img src=\"header-logo.png\" class=\"logo\" alt=\"Logo mil.una\" width=\"70\" height=\"70\">
-    </a>
+    <div class=\"row\">
+      <div class=\"col col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12\" style=\"background-color: rgb(241, 241, 241);\">
 
 
-    <div class=\"collapse navbar-collapse justify-content-center\" id=\"navbar\">
-      <ul class=\"navbar-nav mb-2 mb-lg-0\">
-
-        <li class=\"nav-item\">
-          <a class=\"nav-link\" [routerLink]=\"['/calendario']\">
-            <span class=\"txtcolor\">Administración</span>
-          </a>
-        </li>
-      </ul>
-    </div>
-
-
- 
-
-    
-
-  </div>
-
-</nav>
-
-<div class=\"\" style=\"background-color: rgb(178, 217, 232); height: 3px;\">
-
-</div>
-
-<div class=\"container-fluid\">
-  <div class=\"row flex-nowrap\">
-    <div class=\"col-auto col-md-2 col-xl-2 col-sm-2\" style=\"background-color: rgb(241, 241, 241);\">
-      <div style=\"width: 100%;\">
         <br>
-        <img src=\"https://cdn-icons.flaticon.com/png/512/522/premium/522298.png?token=exp=1645175707~hmac=659cf84168cde16dff22ce74f777f4cb\" class=\"card-img-top\" alt=\"Tu imagen de perfil\">
-        <br>
-        <br>
-        <button type=\"button\" class=\"btn btn-danger btn-sm\" data-bs-toggle=\"modal\" data-bs-target=\"#exampleModal\">Editar Perfil</button>
-      </div>
+        <div style=\"height: 100%;\">
+          <img src=\"icono-mujer-2.png\" class=\"card-img-top\" alt=\"Tu imagen de perfil\">
+          <br>
+          <br>
+          
 
-      <div class=\"modal fade\" id=\"exampleModal\" tabindex=\"-1\" aria-labelledby=\"exampleModalLabel\" aria-hidden=\"true\">
-        <div class=\"modal-dialog\">
-          <div class=\"modal-content\">
-            <div class=\"modal-header\">
-              <h5 class=\"modal-title\">Editor de perfil</h5>
-              <button type=\"button\" class=\"btn btn-secondary\" data-bs-dismiss=\"modal\">X</button>
-            </div>
-            <div class=\"modal-body\">
-              <div class=\"mb-3\">
-                <div class=\"row\">
+          <hr>
 
-                  <div class=\"col-md-6 col-lg-6 col-xl-6 mx-auto \">
-                    <form>
-                      <input type=\"text\" id=\"Nombre\" class=\"fadeIn second\" name=\"Nombre\" placeholder=\"Nombre\">
-                    </form>
-                  </div>
+          <ul class=\"nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start\" id=\"menu\">
+            <li>
+              <span class=\"titulo-categoria\">Nombre</span>
+              
+              ";
+        // line 89
+        if (twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 89, $this->source); })()), "user", [], "any", false, false, false, 89)) {
+            // line 90
+            echo "              <br>
+            ";
+            // line 91
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 91, $this->source); })()), "user", [], "any", false, false, false, 91), "username", [], "any", false, false, false, 91), "html", null, true);
+            echo "
 
-                  <div class=\"col-md-6 col-lg-6 col-xl-6 mx-auto\">
-                    <form>
-                      <input type=\"text\" id=\"Apellidos\" class=\"fadeIn second\" name=\"Apellidos\" placeholder=\"Apellidos\">
-                    </form>
-                  </div>
-                </div>
+            ";
+        }
+        // line 94
+        echo "            </li>
+            <br>
+            <li>
+              <span class=\"titulo-categoria\">Usuario</span>
+            </li>
+            <br>
+            <li>
+              <span class=\"titulo-categoria\">Correo</span>
+              ";
+        // line 102
+        if (twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 102, $this->source); })()), "user", [], "any", false, false, false, 102)) {
+            // line 103
+            echo "              <br>
+            ";
+            // line 104
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 104, $this->source); })()), "user", [], "any", false, false, false, 104), "CorreoUsuario", [], "any", false, false, false, 104), "html", null, true);
+            echo "
 
-                <div class=\"row\">
-                  <div class=\"col-md-6 col-lg-6 col-xl-6 mx-auto \">
-                    <form>
-                      <input type=\"text\" id=\"Correo\" class=\"fadeIn second\" name=\"Correo\" placeholder=\"Correo\">
-                    </form>
-                  </div>
-
-                  <div class=\"col-md-6 col-lg-6 col-xl-6 mx-auto\">
-                    <form>
-                      <input type=\"text\" id=\"Usuario\" class=\"fadeIn third\" name=\"Usuario\" placeholder=\"Usuario\">
-                    </form>
-                  </div>
-                </div>
-
-                <div class=\"row\">
-                  <div class=\"col-md-6 col-lg-6 col-xl-6 mx-auto \">
-                    <form>
-                      <input type=\"text\" id=\"Contraseña\" class=\"fadeIn second\" name=\"Contraseña\"
-                        placeholder=\"Contraseña\">
-                    </form>
-                  </div>
-                </div>
-                <div class=\"row\">
-                  <div class=\"col-md-10 col-lg-10 col-xl-10 mx-auto\">
-                    <form>
-                      <br>
-                      <input type=\"file\" class=\"fadeIn second\" aria-label=\"Upload\">
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class=\"modal-footer\">
-              <button type=\"button\" class=\"btn btn-outline-danger\">
-                Guardar
-              </button>
-            </div>
-          </div>
-
+            ";
+        }
+        // line 107
+        echo "            </li>
+            <br>
+          </ul>
         </div>
+
+
+
+
+
+
       </div>
-      <!-- UsuarioFin -->
-
-      <hr>
-
-      <ul class=\"nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start\" id=\"menu\">
-        <li>
-          <span class=\"titulo-categoria\">Nombre</span>
-        </li>
-        <br>
-        <li>
-          <span class=\"titulo-categoria\">Usuario</span>
-        </li>
-        <br>
-        <li>
-          <span class=\"titulo-categoria\">Correo</span>
-        </li>
-        <br>
-      </ul>
-    </div>
-
-
-
-
-    <!-- CONTENIDOS -->
-    <div class=\"col-sm mt-4\">
+      <div class=\"col col col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12\">
         ";
-        // line 152
+        // line 119
         $this->displayBlock('content', $context, $blocks);
-        // line 153
-        echo "    </div>
-  </div>
-</div>
-<footer class=\"text-center text-lg-start bg-light text-muted\">
-  
-    <div class=\"text-center p-3\" style=\"background-color: rgb(146, 202, 223);\">
-
-        <a class=\"text-dark\"><span style=\"color: black; font-size: 16px;\">© 2022 Copyright: PowDevs</span></a>
+        // line 120
+        echo "      </div>
     </div>
-</footer>
+  </div>
+
+
+
+
+
+
+
+
+
 
 
 </body>
@@ -241,7 +234,7 @@ class __TwigTemplate_cb61e7c649577f1e3ffd14b0bab2867e7770265f7cdd743effbac7035f7
 
     }
 
-    // line 152
+    // line 119
     public function block_content($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -271,7 +264,7 @@ class __TwigTemplate_cb61e7c649577f1e3ffd14b0bab2867e7770265f7cdd743effbac7035f7
 
     public function getDebugInfo()
     {
-        return array (  245 => 152,  222 => 153,  220 => 152,  69 => 3,  59 => 2,  36 => 1,);
+        return array (  238 => 119,  213 => 120,  211 => 119,  197 => 107,  191 => 104,  188 => 103,  186 => 102,  176 => 94,  170 => 91,  167 => 90,  165 => 89,  140 => 66,  132 => 61,  129 => 60,  127 => 59,  69 => 3,  59 => 2,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -280,164 +273,133 @@ class __TwigTemplate_cb61e7c649577f1e3ffd14b0bab2867e7770265f7cdd743effbac7035f7
 {% block layout %}
 
 <body>
-    <!-- Si utilizamos componentes de Bootstrap que requieran Javascript agregar estos tres archivos -->
-    <script src=\"https://code.jquery.com/jquery-3.2.1.slim.min.js\" integrity=\"sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN\" crossorigin=\"anonymous\">
-    </script>
-    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js\" integrity=\"sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q\" crossorigin=\"anonymous\">
-    </script>
-    <script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js\" integrity=\"sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl\" crossorigin=\"anonymous\">
-    </script>
-    <script src=\"https://kit.fontawesome.com/c33acef7c3.js\" crossorigin=\"anonymous\"></script>
-    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM\" crossorigin=\"anonymous\">
-    </script>
-    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js\" integrity=\"sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\"></script>
-    <app-root></app-root>
+  <!-- Si utilizamos componentes de Bootstrap que requieran Javascript agregar estos tres archivos -->
+  <script src=\"https://code.jquery.com/jquery-3.2.1.slim.min.js\"
+    integrity=\"sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN\" crossorigin=\"anonymous\">
+  </script>
+  <script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js\"
+    integrity=\"sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q\" crossorigin=\"anonymous\">
+  </script>
+  <script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js\"
+    integrity=\"sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl\" crossorigin=\"anonymous\">
+  </script>
+  <script src=\"https://kit.fontawesome.com/c33acef7c3.js\" crossorigin=\"anonymous\"></script>
+  <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js\"
+    integrity=\"sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM\" crossorigin=\"anonymous\">
+  </script>
+  <script src=\"https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js\"
+    integrity=\"sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==\"
+    crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\"></script>
+  <app-root></app-root>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+    .txtcolor {
+      color: black;
+      margin-bottom: 30px;
+      font-size: 25px;
+      padding-right: 20px;
+      font-family: 'Raleway', sans-serif;
+    }
+  </style>
 
 
-<nav class=\"navbar navbar-expand-lg navbar-light bg-light\">
+
+
+
+  <nav class=\"navbar navbar-expand-lg navbar-light bg-light\">
+    <div class=\"container-fluid\">
+
+      <a class=\"navbar-brand\" href=\"/landing\">
+        <img src=\"header-logo.png\" class=\"logo\" alt=\"Logo mil.una\" width=\"70\" height=\"70\">
+      </a>
+
+
+      <div class=\"collapse navbar-collapse justify-content-center\" id=\"navbar\">
+        <ul class=\"navbar-nav mb-2 mb-lg-0\">
+
+          <li class=\"nav-item\">
+            <a class=\"nav-link\" [routerLink]=\"['/calendario']\">
+              <span class=\"txtcolor\">Administración</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      {% if app.user %}
+      <div class=\"form-inline\">
+        <a class=\"nav-link\" href=\"{{ path('app_logout') }}\">
+          <img src=\"https://cdn-icons-png.flaticon.com/512/61/61208.png\" alt=\"Icono Traducción\" width=\"40\" height=\"40\">
+        </a>
+      </div>
+      {% endif %}
+
+    </div>
+    </div>
+  </nav>
+
   <div class=\"container-fluid\">
-
-    <a class=\"navbar-brand\" href=\"/landing\">
-      <img src=\"header-logo.png\" class=\"logo\" alt=\"Logo mil.una\" width=\"70\" height=\"70\">
-    </a>
+    <div class=\"row\">
+      <div class=\"col col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12\" style=\"background-color: rgb(241, 241, 241);\">
 
 
-    <div class=\"collapse navbar-collapse justify-content-center\" id=\"navbar\">
-      <ul class=\"navbar-nav mb-2 mb-lg-0\">
-
-        <li class=\"nav-item\">
-          <a class=\"nav-link\" [routerLink]=\"['/calendario']\">
-            <span class=\"txtcolor\">Administración</span>
-          </a>
-        </li>
-      </ul>
-    </div>
-
-
- 
-
-    
-
-  </div>
-
-</nav>
-
-<div class=\"\" style=\"background-color: rgb(178, 217, 232); height: 3px;\">
-
-</div>
-
-<div class=\"container-fluid\">
-  <div class=\"row flex-nowrap\">
-    <div class=\"col-auto col-md-2 col-xl-2 col-sm-2\" style=\"background-color: rgb(241, 241, 241);\">
-      <div style=\"width: 100%;\">
         <br>
-        <img src=\"https://cdn-icons.flaticon.com/png/512/522/premium/522298.png?token=exp=1645175707~hmac=659cf84168cde16dff22ce74f777f4cb\" class=\"card-img-top\" alt=\"Tu imagen de perfil\">
-        <br>
-        <br>
-        <button type=\"button\" class=\"btn btn-danger btn-sm\" data-bs-toggle=\"modal\" data-bs-target=\"#exampleModal\">Editar Perfil</button>
-      </div>
+        <div style=\"height: 100%;\">
+          <img src=\"icono-mujer-2.png\" class=\"card-img-top\" alt=\"Tu imagen de perfil\">
+          <br>
+          <br>
+          
 
-      <div class=\"modal fade\" id=\"exampleModal\" tabindex=\"-1\" aria-labelledby=\"exampleModalLabel\" aria-hidden=\"true\">
-        <div class=\"modal-dialog\">
-          <div class=\"modal-content\">
-            <div class=\"modal-header\">
-              <h5 class=\"modal-title\">Editor de perfil</h5>
-              <button type=\"button\" class=\"btn btn-secondary\" data-bs-dismiss=\"modal\">X</button>
-            </div>
-            <div class=\"modal-body\">
-              <div class=\"mb-3\">
-                <div class=\"row\">
+          <hr>
 
-                  <div class=\"col-md-6 col-lg-6 col-xl-6 mx-auto \">
-                    <form>
-                      <input type=\"text\" id=\"Nombre\" class=\"fadeIn second\" name=\"Nombre\" placeholder=\"Nombre\">
-                    </form>
-                  </div>
+          <ul class=\"nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start\" id=\"menu\">
+            <li>
+              <span class=\"titulo-categoria\">Nombre</span>
+              
+              {% if app.user %}
+              <br>
+            {{ app.user.username }}
 
-                  <div class=\"col-md-6 col-lg-6 col-xl-6 mx-auto\">
-                    <form>
-                      <input type=\"text\" id=\"Apellidos\" class=\"fadeIn second\" name=\"Apellidos\" placeholder=\"Apellidos\">
-                    </form>
-                  </div>
-                </div>
+            {% endif %}
+            </li>
+            <br>
+            <li>
+              <span class=\"titulo-categoria\">Usuario</span>
+            </li>
+            <br>
+            <li>
+              <span class=\"titulo-categoria\">Correo</span>
+              {% if app.user %}
+              <br>
+            {{ app.user.CorreoUsuario }}
 
-                <div class=\"row\">
-                  <div class=\"col-md-6 col-lg-6 col-xl-6 mx-auto \">
-                    <form>
-                      <input type=\"text\" id=\"Correo\" class=\"fadeIn second\" name=\"Correo\" placeholder=\"Correo\">
-                    </form>
-                  </div>
-
-                  <div class=\"col-md-6 col-lg-6 col-xl-6 mx-auto\">
-                    <form>
-                      <input type=\"text\" id=\"Usuario\" class=\"fadeIn third\" name=\"Usuario\" placeholder=\"Usuario\">
-                    </form>
-                  </div>
-                </div>
-
-                <div class=\"row\">
-                  <div class=\"col-md-6 col-lg-6 col-xl-6 mx-auto \">
-                    <form>
-                      <input type=\"text\" id=\"Contraseña\" class=\"fadeIn second\" name=\"Contraseña\"
-                        placeholder=\"Contraseña\">
-                    </form>
-                  </div>
-                </div>
-                <div class=\"row\">
-                  <div class=\"col-md-10 col-lg-10 col-xl-10 mx-auto\">
-                    <form>
-                      <br>
-                      <input type=\"file\" class=\"fadeIn second\" aria-label=\"Upload\">
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class=\"modal-footer\">
-              <button type=\"button\" class=\"btn btn-outline-danger\">
-                Guardar
-              </button>
-            </div>
-          </div>
-
+            {% endif %}
+            </li>
+            <br>
+          </ul>
         </div>
+
+
+
+
+
+
       </div>
-      <!-- UsuarioFin -->
-
-      <hr>
-
-      <ul class=\"nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start\" id=\"menu\">
-        <li>
-          <span class=\"titulo-categoria\">Nombre</span>
-        </li>
-        <br>
-        <li>
-          <span class=\"titulo-categoria\">Usuario</span>
-        </li>
-        <br>
-        <li>
-          <span class=\"titulo-categoria\">Correo</span>
-        </li>
-        <br>
-      </ul>
-    </div>
-
-
-
-
-    <!-- CONTENIDOS -->
-    <div class=\"col-sm mt-4\">
+      <div class=\"col col col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12\">
         {% block content %}{% endblock %}
+      </div>
     </div>
   </div>
-</div>
-<footer class=\"text-center text-lg-start bg-light text-muted\">
-  
-    <div class=\"text-center p-3\" style=\"background-color: rgb(146, 202, 223);\">
 
-        <a class=\"text-dark\"><span style=\"color: black; font-size: 16px;\">© 2022 Copyright: PowDevs</span></a>
-    </div>
-</footer>
+
+
+
+
+
+
+
+
 
 
 </body>

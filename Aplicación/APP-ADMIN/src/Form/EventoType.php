@@ -6,6 +6,7 @@ use App\Entity\Evento;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
+use Symfony\Component\Form\Extension\Core\Type\{TextareaType,DateType};
 
 class EventoType extends AbstractType
 {
@@ -14,8 +15,14 @@ class EventoType extends AbstractType
         $builder
             ->add('TipoEvento')
             ->add('NombreEvento')
-            ->add('DescripcionEvento')
-            ->add('FechaEvento')
+            ->add('DescripcionEvento', TextareaType::class,[
+                'label' => 'Description Evento'
+            ])
+            ->add('FechaEvento',DateType::class,[
+                'label' => 'Fecha Evento ',
+                'widget' => 'single_text'
+            ])
+            ;
         ;
     }
 
