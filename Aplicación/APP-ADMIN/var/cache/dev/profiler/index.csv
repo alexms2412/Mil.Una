@@ -6817,3 +6817,4 @@ b08aa0,::1,GET,https://localhost:8000/apple-touch-icon-precomposed.png,164538211
 c21682,::1,GET,https://localhost:8000/apple-touch-icon.png,1645382116,,404
 ebef72,::1,GET,https://localhost:8000/logout,1645382117,,302
 0eea52,::1,GET,https://localhost:8000/login,1645382117,,200
+647d60,127.0.0.1,GET,https://localhost:4200/api/empleo/obtenerTodos,1645385391,,200
