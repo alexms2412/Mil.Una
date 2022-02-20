@@ -156,6 +156,12 @@
           <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
             <li>
               <span class="titulo-categoria">Nombre</span>
+              
+              {% if app.user %}
+              <br>
+            {{ app.user.username }}
+
+            {% endif %}
             </li>
             <br>
             <li>
@@ -164,6 +170,11 @@
             <br>
             <li>
               <span class="titulo-categoria">Correo</span>
+              {% if app.user %}
+              <br>
+            {{ app.user.CorreoUsuario }}
+
+            {% endif %}
             </li>
             <br>
           </ul>

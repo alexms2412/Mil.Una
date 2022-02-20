@@ -13,8 +13,6 @@ class MainController extends AbstractController
      */
     public function index(): Response
     {
-        return $this->render('iniciologin.html', [
-            'controller_name' => 'MainController',
-        ]);
+        return $this->redirect('/login');
     }
 }

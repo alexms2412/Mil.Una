@@ -81,6 +81,10 @@ class __TwigTemplate_9613f4b589e74c7cccf574eed391fe252a912b2e30907e69b0489e0fedc
           <button class=\"nav-link\" id=\"contact-tab\" data-bs-toggle=\"tab\" data-bs-target=\"#contact\" type=\"button\"
             role=\"tab\" aria-controls=\"contact\" aria-selected=\"false\">Empleos</button>
         </li>
+         <li class=\"nav-item\" role=\"presentation\">
+          <button class=\"nav-link\" id=\"admin-tab\" data-bs-toggle=\"tab\" data-bs-target=\"#admin\" type=\"button\"
+            role=\"tab\" aria-controls=\"admin\" aria-selected=\"false\">Administradoras</button>
+        </li>
       </ul>
       <div class=\"tab-content\" id=\"myTabContent\">
         <div class=\"tab-pane fade show active\" id=\"home\" role=\"tabpanel\" aria-labelledby=\"home-tab\">
@@ -92,54 +96,54 @@ class __TwigTemplate_9613f4b589e74c7cccf574eed391fe252a912b2e30907e69b0489e0fedc
                 <th>NombreEvento</th>
                 <th>DescripcionEvento</th>
                 <th>FechaEvento</th>
-                <th>actions</th>
+                <th>Opciones</th>
             </tr>
         </thead>
         <tbody>
         ";
-        // line 34
+        // line 38
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["eventos"]) || array_key_exists("eventos", $context) ? $context["eventos"] : (function () { throw new RuntimeError('Variable "eventos" does not exist.', 34, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["eventos"]) || array_key_exists("eventos", $context) ? $context["eventos"] : (function () { throw new RuntimeError('Variable "eventos" does not exist.', 38, $this->source); })()));
         $context['_iterated'] = false;
         foreach ($context['_seq'] as $context["_key"] => $context["evento"]) {
-            // line 35
+            // line 39
             echo "            <tr>
                 <td>";
-            // line 36
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["evento"], "id", [], "any", false, false, false, 36), "html", null, true);
-            echo "</td>
-                <td>";
-            // line 37
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["evento"], "TipoEvento", [], "any", false, false, false, 37), "html", null, true);
-            echo "</td>
-                <td>";
-            // line 38
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["evento"], "NombreEvento", [], "any", false, false, false, 38), "html", null, true);
-            echo "</td>
-                <td>";
-            // line 39
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["evento"], "DescripcionEvento", [], "any", false, false, false, 39), "html", null, true);
-            echo "</td>
-                <td>";
             // line 40
-            ((twig_get_attribute($this->env, $this->source, $context["evento"], "FechaEvento", [], "any", false, false, false, 40)) ? (print (twig_escape_filter($this->env, twig_date_format_filter($this->env, twig_get_attribute($this->env, $this->source, $context["evento"], "FechaEvento", [], "any", false, false, false, 40), "Y-m-d"), "html", null, true))) : (print ("")));
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["evento"], "id", [], "any", false, false, false, 40), "html", null, true);
+            echo "</td>
+                <td>";
+            // line 41
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["evento"], "TipoEvento", [], "any", false, false, false, 41), "html", null, true);
+            echo "</td>
+                <td>";
+            // line 42
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["evento"], "NombreEvento", [], "any", false, false, false, 42), "html", null, true);
+            echo "</td>
+                <td>";
+            // line 43
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["evento"], "DescripcionEvento", [], "any", false, false, false, 43), "html", null, true);
+            echo "</td>
+                <td>";
+            // line 44
+            ((twig_get_attribute($this->env, $this->source, $context["evento"], "FechaEvento", [], "any", false, false, false, 44)) ? (print (twig_escape_filter($this->env, twig_date_format_filter($this->env, twig_get_attribute($this->env, $this->source, $context["evento"], "FechaEvento", [], "any", false, false, false, 44), "Y-m-d"), "html", null, true))) : (print ("")));
             echo "</td>
                 <td>
                     <a href=\"";
-            // line 42
-            echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("evento_show", ["idEvento" => twig_get_attribute($this->env, $this->source, $context["evento"], "id", [], "any", false, false, false, 42)]), "html", null, true);
-            echo "\">show</a>
+            // line 46
+            echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("evento_show", ["idEvento" => twig_get_attribute($this->env, $this->source, $context["evento"], "id", [], "any", false, false, false, 46)]), "html", null, true);
+            echo "\">Ver</a>
                     <a href=\"";
-            // line 43
-            echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("evento_edit", ["idEvento" => twig_get_attribute($this->env, $this->source, $context["evento"], "id", [], "any", false, false, false, 43)]), "html", null, true);
-            echo "\">edit</a>
+            // line 47
+            echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("evento_edit", ["idEvento" => twig_get_attribute($this->env, $this->source, $context["evento"], "id", [], "any", false, false, false, 47)]), "html", null, true);
+            echo "\">Editar</a>
                 </td>
             </tr>
         ";
             $context['_iterated'] = true;
         }
         if (!$context['_iterated']) {
-            // line 47
+            // line 51
             echo "            <tr>
                 <td colspan=\"6\">no records found</td>
             </tr>
@@ -148,14 +152,14 @@ class __TwigTemplate_9613f4b589e74c7cccf574eed391fe252a912b2e30907e69b0489e0fedc
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['evento'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 51
+        // line 55
         echo "        </tbody>
     </table>
 
     <a href=\"";
-        // line 54
+        // line 58
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("evento_new");
-        echo "\">Create new</a>
+        echo "\">Añadir</a>
         </div>
         <div class=\"tab-pane fade\" id=\"profile\" role=\"tabpanel\" aria-labelledby=\"profile-tab\">
 
@@ -166,50 +170,50 @@ class __TwigTemplate_9613f4b589e74c7cccf574eed391fe252a912b2e30907e69b0489e0fedc
                 <th>TipoContenido</th>
                 <th>DescripcionContenido</th>
                 <th>EnlaceContenido</th>
-                <th>actions</th>
+                <th>Opciones</th>
             </tr>
         </thead>
         <tbody>
         ";
-        // line 69
+        // line 73
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["contenidos"]) || array_key_exists("contenidos", $context) ? $context["contenidos"] : (function () { throw new RuntimeError('Variable "contenidos" does not exist.', 69, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["contenidos"]) || array_key_exists("contenidos", $context) ? $context["contenidos"] : (function () { throw new RuntimeError('Variable "contenidos" does not exist.', 73, $this->source); })()));
         $context['_iterated'] = false;
         foreach ($context['_seq'] as $context["_key"] => $context["contenido"]) {
-            // line 70
+            // line 74
             echo "            <tr>
                 <td>";
-            // line 71
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["contenido"], "id", [], "any", false, false, false, 71), "html", null, true);
+            // line 75
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["contenido"], "id", [], "any", false, false, false, 75), "html", null, true);
             echo "</td>
                 <td>";
-            // line 72
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["contenido"], "TipoContenido", [], "any", false, false, false, 72), "html", null, true);
+            // line 76
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["contenido"], "TipoContenido", [], "any", false, false, false, 76), "html", null, true);
             echo "</td>
                 <td>";
-            // line 73
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["contenido"], "DescripcionContenido", [], "any", false, false, false, 73), "html", null, true);
+            // line 77
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["contenido"], "DescripcionContenido", [], "any", false, false, false, 77), "html", null, true);
             echo "</td>
                 <td><img style=\"width:50px\" src=\"uploads/contenido/";
-            // line 74
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["contenido"], "EnlaceContenido", [], "any", false, false, false, 74), "html", null, true);
+            // line 78
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["contenido"], "EnlaceContenido", [], "any", false, false, false, 78), "html", null, true);
             echo "\"</td>
                 <td>
                     <a href=\"";
-            // line 76
-            echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("contenido_show", ["idContenido" => twig_get_attribute($this->env, $this->source, $context["contenido"], "id", [], "any", false, false, false, 76)]), "html", null, true);
-            echo "\">show</a>
+            // line 80
+            echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("contenido_show", ["idContenido" => twig_get_attribute($this->env, $this->source, $context["contenido"], "id", [], "any", false, false, false, 80)]), "html", null, true);
+            echo "\">Ver</a>
                     <a href=\"";
-            // line 77
-            echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("contenido_edit", ["idContenido" => twig_get_attribute($this->env, $this->source, $context["contenido"], "id", [], "any", false, false, false, 77)]), "html", null, true);
-            echo "\">edit</a>
+            // line 81
+            echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("contenido_edit", ["idContenido" => twig_get_attribute($this->env, $this->source, $context["contenido"], "id", [], "any", false, false, false, 81)]), "html", null, true);
+            echo "\">Editar</a>
                 </td>
             </tr>
         ";
             $context['_iterated'] = true;
         }
         if (!$context['_iterated']) {
-            // line 81
+            // line 85
             echo "            <tr>
                 <td colspan=\"5\">no records found</td>
             </tr>
@@ -218,14 +222,14 @@ class __TwigTemplate_9613f4b589e74c7cccf574eed391fe252a912b2e30907e69b0489e0fedc
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['contenido'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 85
+        // line 89
         echo "        </tbody>
     </table>
 
     <a href=\"";
-        // line 88
+        // line 92
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("contenido_new");
-        echo "\">Create new</a>
+        echo "\">Añadir</a>
         </div>
         <div class=\"tab-pane fade\" id=\"contact\" role=\"tabpanel\" aria-labelledby=\"contact-tab\">
 
@@ -236,50 +240,50 @@ class __TwigTemplate_9613f4b589e74c7cccf574eed391fe252a912b2e30907e69b0489e0fedc
                 <th scope=\"col\">NombreEmpleo</th>
                 <th scope=\"col\">EmpresaEmpleo</th>
                 <th scope=\"col\">EnlaceEmpleo</th>
-                <th scope=\"col\">actions</th>
+                <th scope=\"col\">Opciones</th>
             </tr>
         </thead>
         <tbody>
         ";
-        // line 103
+        // line 107
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["empleos"]) || array_key_exists("empleos", $context) ? $context["empleos"] : (function () { throw new RuntimeError('Variable "empleos" does not exist.', 103, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["empleos"]) || array_key_exists("empleos", $context) ? $context["empleos"] : (function () { throw new RuntimeError('Variable "empleos" does not exist.', 107, $this->source); })()));
         $context['_iterated'] = false;
         foreach ($context['_seq'] as $context["_key"] => $context["empleo"]) {
-            // line 104
+            // line 108
             echo "            <tr>
                 <td>";
-            // line 105
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["empleo"], "id", [], "any", false, false, false, 105), "html", null, true);
+            // line 109
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["empleo"], "id", [], "any", false, false, false, 109), "html", null, true);
             echo "</td>
                 <td>";
-            // line 106
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["empleo"], "nombreEmpleo", [], "any", false, false, false, 106), "html", null, true);
+            // line 110
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["empleo"], "nombreEmpleo", [], "any", false, false, false, 110), "html", null, true);
             echo "</td>
                 <td>";
-            // line 107
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["empleo"], "empresaEmpleo", [], "any", false, false, false, 107), "html", null, true);
+            // line 111
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["empleo"], "empresaEmpleo", [], "any", false, false, false, 111), "html", null, true);
             echo "</td>
                 <td>";
-            // line 108
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["empleo"], "enlaceEmpleo", [], "any", false, false, false, 108), "html", null, true);
+            // line 112
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["empleo"], "enlaceEmpleo", [], "any", false, false, false, 112), "html", null, true);
             echo "</td>
                 <td>
                     <a href=\"";
-            // line 110
-            echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("empleo_show", ["idEmpleo" => twig_get_attribute($this->env, $this->source, $context["empleo"], "id", [], "any", false, false, false, 110)]), "html", null, true);
-            echo "\">show</a>
+            // line 114
+            echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("empleo_show", ["idEmpleo" => twig_get_attribute($this->env, $this->source, $context["empleo"], "id", [], "any", false, false, false, 114)]), "html", null, true);
+            echo "\">Ver</a>
                     <a href=\"";
-            // line 111
-            echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("empleo_edit", ["idEmpleo" => twig_get_attribute($this->env, $this->source, $context["empleo"], "id", [], "any", false, false, false, 111)]), "html", null, true);
-            echo "\">edit</a>
+            // line 115
+            echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("empleo_edit", ["idEmpleo" => twig_get_attribute($this->env, $this->source, $context["empleo"], "id", [], "any", false, false, false, 115)]), "html", null, true);
+            echo "\">Editar</a>
                 </td>
             </tr>
         ";
             $context['_iterated'] = true;
         }
         if (!$context['_iterated']) {
-            // line 115
+            // line 119
             echo "            <tr>
                 <td colspan=\"5\">no records found</td>
             </tr>
@@ -288,15 +292,69 @@ class __TwigTemplate_9613f4b589e74c7cccf574eed391fe252a912b2e30907e69b0489e0fedc
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['empleo'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 119
+        // line 123
         echo "        </tbody>
     </table>
 
     <a href=\"";
-        // line 122
+        // line 126
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("empleo_new");
-        echo "\">Create new</a>
+        echo "\">Añadir</a>
         </div>
+      <div class=\"tab-pane fade\" id=\"admin\" role=\"tabpanel\" aria-labelledby=\"admin-tab\">
+      <table class=\"table\">
+        <thead>
+            <tr>
+                <th>Nombre de Usuaria</th>
+                <th>Opciones</th>
+            </tr>
+        </thead>
+        <tbody>
+        ";
+        // line 137
+        $context['_parent'] = $context;
+        $context['_seq'] = twig_ensure_traversable((isset($context["users"]) || array_key_exists("users", $context) ? $context["users"] : (function () { throw new RuntimeError('Variable "users" does not exist.', 137, $this->source); })()));
+        $context['_iterated'] = false;
+        foreach ($context['_seq'] as $context["_key"] => $context["user"]) {
+            // line 138
+            echo "            <tr>
+                <td style=\"text-align:center\">";
+            // line 139
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["user"], "username", [], "any", false, false, false, 139), "html", null, true);
+            echo "</td>
+                <td style=\"text-align:center\">
+                    <a href=\"";
+            // line 141
+            echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("user_show", ["id" => twig_get_attribute($this->env, $this->source, $context["user"], "id", [], "any", false, false, false, 141)]), "html", null, true);
+            echo "\">Ver</a>
+                    <a href=\"";
+            // line 142
+            echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("user_edit", ["id" => twig_get_attribute($this->env, $this->source, $context["user"], "id", [], "any", false, false, false, 142)]), "html", null, true);
+            echo "\">Editar</a>
+                </td>
+            </tr>
+        ";
+            $context['_iterated'] = true;
+        }
+        if (!$context['_iterated']) {
+            // line 146
+            echo "            <tr>
+                <td colspan=\"8\">no records found</td>
+            </tr>
+        ";
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['user'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 150
+        echo "        </tbody>
+    </table>
+
+    <a href=\"";
+        // line 153
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("user_new");
+        echo "\">Crear Nueva</a>
+      </div>  
       </div>  
       </div>
       </div>
@@ -321,7 +379,7 @@ class __TwigTemplate_9613f4b589e74c7cccf574eed391fe252a912b2e30907e69b0489e0fedc
 
     public function getDebugInfo()
     {
-        return array (  297 => 122,  292 => 119,  283 => 115,  274 => 111,  270 => 110,  265 => 108,  261 => 107,  257 => 106,  253 => 105,  250 => 104,  245 => 103,  227 => 88,  222 => 85,  213 => 81,  204 => 77,  200 => 76,  195 => 74,  191 => 73,  187 => 72,  183 => 71,  180 => 70,  175 => 69,  157 => 54,  152 => 51,  143 => 47,  134 => 43,  130 => 42,  125 => 40,  121 => 39,  117 => 38,  113 => 37,  109 => 36,  106 => 35,  101 => 34,  68 => 3,  58 => 2,  35 => 1,);
+        return array (  355 => 153,  350 => 150,  341 => 146,  332 => 142,  328 => 141,  323 => 139,  320 => 138,  315 => 137,  301 => 126,  296 => 123,  287 => 119,  278 => 115,  274 => 114,  269 => 112,  265 => 111,  261 => 110,  257 => 109,  254 => 108,  249 => 107,  231 => 92,  226 => 89,  217 => 85,  208 => 81,  204 => 80,  199 => 78,  195 => 77,  191 => 76,  187 => 75,  184 => 74,  179 => 73,  161 => 58,  156 => 55,  147 => 51,  138 => 47,  134 => 46,  129 => 44,  125 => 43,  121 => 42,  117 => 41,  113 => 40,  110 => 39,  105 => 38,  68 => 3,  58 => 2,  35 => 1,);
     }
 
     public function getSourceContext()
@@ -344,6 +402,10 @@ class __TwigTemplate_9613f4b589e74c7cccf574eed391fe252a912b2e30907e69b0489e0fedc
           <button class=\"nav-link\" id=\"contact-tab\" data-bs-toggle=\"tab\" data-bs-target=\"#contact\" type=\"button\"
             role=\"tab\" aria-controls=\"contact\" aria-selected=\"false\">Empleos</button>
         </li>
+         <li class=\"nav-item\" role=\"presentation\">
+          <button class=\"nav-link\" id=\"admin-tab\" data-bs-toggle=\"tab\" data-bs-target=\"#admin\" type=\"button\"
+            role=\"tab\" aria-controls=\"admin\" aria-selected=\"false\">Administradoras</button>
+        </li>
       </ul>
       <div class=\"tab-content\" id=\"myTabContent\">
         <div class=\"tab-pane fade show active\" id=\"home\" role=\"tabpanel\" aria-labelledby=\"home-tab\">
@@ -355,7 +417,7 @@ class __TwigTemplate_9613f4b589e74c7cccf574eed391fe252a912b2e30907e69b0489e0fedc
                 <th>NombreEvento</th>
                 <th>DescripcionEvento</th>
                 <th>FechaEvento</th>
-                <th>actions</th>
+                <th>Opciones</th>
             </tr>
         </thead>
         <tbody>
@@ -367,8 +429,8 @@ class __TwigTemplate_9613f4b589e74c7cccf574eed391fe252a912b2e30907e69b0489e0fedc
                 <td>{{ evento.DescripcionEvento }}</td>
                 <td>{{ evento.FechaEvento ? evento.FechaEvento|date('Y-m-d') : '' }}</td>
                 <td>
-                    <a href=\"{{ path('evento_show', {'idEvento': evento.id}) }}\">show</a>
-                    <a href=\"{{ path('evento_edit', {'idEvento': evento.id}) }}\">edit</a>
+                    <a href=\"{{ path('evento_show', {'idEvento': evento.id}) }}\">Ver</a>
+                    <a href=\"{{ path('evento_edit', {'idEvento': evento.id}) }}\">Editar</a>
                 </td>
             </tr>
         {% else %}
@@ -379,7 +441,7 @@ class __TwigTemplate_9613f4b589e74c7cccf574eed391fe252a912b2e30907e69b0489e0fedc
         </tbody>
     </table>
 
-    <a href=\"{{ path('evento_new') }}\">Create new</a>
+    <a href=\"{{ path('evento_new') }}\">Añadir</a>
         </div>
         <div class=\"tab-pane fade\" id=\"profile\" role=\"tabpanel\" aria-labelledby=\"profile-tab\">
 
@@ -390,7 +452,7 @@ class __TwigTemplate_9613f4b589e74c7cccf574eed391fe252a912b2e30907e69b0489e0fedc
                 <th>TipoContenido</th>
                 <th>DescripcionContenido</th>
                 <th>EnlaceContenido</th>
-                <th>actions</th>
+                <th>Opciones</th>
             </tr>
         </thead>
         <tbody>
@@ -401,8 +463,8 @@ class __TwigTemplate_9613f4b589e74c7cccf574eed391fe252a912b2e30907e69b0489e0fedc
                 <td>{{ contenido.DescripcionContenido }}</td>
                 <td><img style=\"width:50px\" src=\"uploads/contenido/{{ contenido.EnlaceContenido }}\"</td>
                 <td>
-                    <a href=\"{{ path('contenido_show', {'idContenido': contenido.id}) }}\">show</a>
-                    <a href=\"{{ path('contenido_edit', {'idContenido': contenido.id}) }}\">edit</a>
+                    <a href=\"{{ path('contenido_show', {'idContenido': contenido.id}) }}\">Ver</a>
+                    <a href=\"{{ path('contenido_edit', {'idContenido': contenido.id}) }}\">Editar</a>
                 </td>
             </tr>
         {% else %}
@@ -413,7 +475,7 @@ class __TwigTemplate_9613f4b589e74c7cccf574eed391fe252a912b2e30907e69b0489e0fedc
         </tbody>
     </table>
 
-    <a href=\"{{ path('contenido_new') }}\">Create new</a>
+    <a href=\"{{ path('contenido_new') }}\">Añadir</a>
         </div>
         <div class=\"tab-pane fade\" id=\"contact\" role=\"tabpanel\" aria-labelledby=\"contact-tab\">
 
@@ -424,7 +486,7 @@ class __TwigTemplate_9613f4b589e74c7cccf574eed391fe252a912b2e30907e69b0489e0fedc
                 <th scope=\"col\">NombreEmpleo</th>
                 <th scope=\"col\">EmpresaEmpleo</th>
                 <th scope=\"col\">EnlaceEmpleo</th>
-                <th scope=\"col\">actions</th>
+                <th scope=\"col\">Opciones</th>
             </tr>
         </thead>
         <tbody>
@@ -435,8 +497,8 @@ class __TwigTemplate_9613f4b589e74c7cccf574eed391fe252a912b2e30907e69b0489e0fedc
                 <td>{{ empleo.empresaEmpleo }}</td>
                 <td>{{ empleo.enlaceEmpleo }}</td>
                 <td>
-                    <a href=\"{{ path('empleo_show', {'idEmpleo': empleo.id}) }}\">show</a>
-                    <a href=\"{{ path('empleo_edit', {'idEmpleo': empleo.id}) }}\">edit</a>
+                    <a href=\"{{ path('empleo_show', {'idEmpleo': empleo.id}) }}\">Ver</a>
+                    <a href=\"{{ path('empleo_edit', {'idEmpleo': empleo.id}) }}\">Editar</a>
                 </td>
             </tr>
         {% else %}
@@ -447,8 +509,35 @@ class __TwigTemplate_9613f4b589e74c7cccf574eed391fe252a912b2e30907e69b0489e0fedc
         </tbody>
     </table>
 
-    <a href=\"{{ path('empleo_new') }}\">Create new</a>
+    <a href=\"{{ path('empleo_new') }}\">Añadir</a>
         </div>
+      <div class=\"tab-pane fade\" id=\"admin\" role=\"tabpanel\" aria-labelledby=\"admin-tab\">
+      <table class=\"table\">
+        <thead>
+            <tr>
+                <th>Nombre de Usuaria</th>
+                <th>Opciones</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for user in users %}
+            <tr>
+                <td style=\"text-align:center\">{{ user.username }}</td>
+                <td style=\"text-align:center\">
+                    <a href=\"{{ path('user_show', {'id': user.id}) }}\">Ver</a>
+                    <a href=\"{{ path('user_edit', {'id': user.id}) }}\">Editar</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan=\"8\">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a href=\"{{ path('user_new') }}\">Crear Nueva</a>
+      </div>  
       </div>  
       </div>
       </div>
