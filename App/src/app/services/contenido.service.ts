@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class ContenidoService {
-  private urlApi = '/api/contenido/obtenerTodos'
+  private urlApi = 'http://localhost:8000/api/contenido/obtenerTodos'
   constructor(private http: HttpClient) { }
 
   getAllContenido():Observable<any>{

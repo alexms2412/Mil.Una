@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class ActividadesService {
-  private urlApi = '/api/evento/obtenerTodos'
+  private urlApi = 'http://localhost:8000/api/evento/obtenerTodos'
   constructor(private http: HttpClient) { }
 
   getAllActividades():Observable<any>{

@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class OfertasTrabajoService {
-  private urlApi = '/api/empleo/obtenerTodos'
+  private urlApi = 'http://localhost:8000/api/empleo/obtenerTodos'
   constructor(private http: HttpClient) { }
 
   getAllOfertasTrabajo():Observable<any>{
